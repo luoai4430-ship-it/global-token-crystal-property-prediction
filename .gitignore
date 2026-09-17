@@ -17,3 +17,13 @@ data/
 # OS/editor metadata
 .DS_Store
 Thumbs.db
+
+# LaTeX build products
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.log
+paper/*.out
+paper/*.abs
+paper/.verify_render/
+.verify_render/

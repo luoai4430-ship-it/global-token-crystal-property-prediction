@@ -16,15 +16,18 @@
 \begin{document}
 \let\WriteBookmarks\relax
 \shorttitle{全局与词元级图文学习}
-\shortauthors{Zang and Peng}
+\shortauthors{Zang et al.}
 \title[mode=title]{晶体性质预测中的全局与词元级晶体学文本：互补性与预测级平均}
-\author[1]{Huaijuan Zang}\cormark[1]
-\credit{Conceptualization, Methodology, Software, Validation, Formal analysis, Writing -- original draft}
-\affiliation[1]{organization={Institutional affiliation}}
-\author[2]{Yunfan Peng}
-\credit{Supervision, Methodology, Writing -- review and editing}
-\affiliation[1]{organization={Institutional affiliation}}
-\cortext[1]{通讯作者}
+\author[1]{臧怀娟}\ead{zanghj@hfut.edu.cn}
+\author[1]{彭云帆}\cormark[1]
+\author[2]{赵冲}\ead{zhaochong@hfut.edu.cn}
+\author[1]{杨帆}\ead{2021800201@hfut.edu.cn}
+\author[3]{洪峰}\ead{hongfeng@czu.edu.cn}
+\author[1]{许良凤}\ead{xulfcjn@hfut.edu.cn}
+\affiliation[1]{organization={合肥工业大学计算机与信息学院}, city={合肥}, country={中国}}
+\affiliation[2]{organization={合肥工业大学工程素质教育中心}, city={合肥}, country={中国}}
+\affiliation[3]{organization={池州学院}, city={池州}, country={中国}}
+\cortext[1]{通讯作者：彭云帆}
 
 \begin{abstract}
 晶体性质预测可以结合周期晶体图与由同一结构生成的晶体学文本。在这一设定下，晶体图编码数值几何与局部连接关系，文本则提供文档级 CLS 表示和上下文词元表示，从不同抽象层级描述结构信息。本文研究图条件余弦归一化词元注意力，并在六项 JARVIS 与四项 Materials Project 任务上独立训练全局和词元级预测器。在固定数据划分、两次独立运行和固定 0.5/0.5 预测级平均下，组合预测相对 Global 基线的宏平均 MAE 降幅约为 5.9\%；每次运行均在全部十项任务上优于 Global，并在十项任务中的九项上优于两个组成预测器。同路径对照表明，普通预测平均解释了相当一部分增益；现有证据不能证明其优于 Token-only 集成。验证集上的消息级、潜空间级和共享骨干交互研究呈现性质依赖性，因此仅作为诊断性探针，而非融合位置的受控排名。结果支持：在给定协议下，样本对齐的预测互补性是一项可复现的经验发现。
@@ -263,7 +266,7 @@ JARVIS-MBJ&0.240074&0.247644&0.244046&0.241591&-0.632\\JARVIS-Formation&0.028966
 \section*{致谢}
 作者感谢课题组成员的讨论，并感谢 JARVIS、Materials Project、Robocrystallographer 和 MatBERT。
 \section*{资助声明}
-本研究未获得公共、商业或非营利机构的专项资助。
+本研究得到教育部产学合作协同育人项目（No.~250603873093026）、中央高校基本科研业务费专项资金（Grant No.~PA2025GDSK0036）以及电子信息科学与技术专业课程思政示范教学团队项目（No.~2025XKSTD01）的支持。
 \section*{数据可用性}
 本文使用的源数据可从 JARVIS 和 Materials Project 公开获取；支持本文结论的衍生描述和预测文件将在最终发布时提供。
 \section*{代码可用性}

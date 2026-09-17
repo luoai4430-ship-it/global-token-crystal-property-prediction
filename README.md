@@ -18,6 +18,24 @@ The main protocol uses ten tasks, two independent training runs (seeds 42 and
 The matched text-representation and interaction-location studies are
 validation-only diagnostics; they are not additional main test models.
 
+## Authors
+
+- Huaijuan Zang, School of Computer and Information, Hefei University of Technology, zanghj@hfut.edu.cn
+- Yunfan Peng, School of Computer and Information, Hefei University of Technology (corresponding author)
+- Chong Zhao, Engineering Quality Education Center, Hefei University of Technology, zhaochong@hfut.edu.cn
+- Fan Yang, School of Computer and Information, Hefei University of Technology, 2021800201@hfut.edu.cn
+- Feng Hong, Chizhou University, hongfeng@czu.edu.cn
+- Liangfeng Xu, School of Computer and Information, Hefei University of Technology, xulfcjn@hfut.edu.cn
+
+## Funding
+
+This work was supported by the Industry--University Cooperation Collaborative
+Education Project of the Ministry of Education (No. 250603873093026), the
+Fundamental Research Funds for the Central Universities of China (Grant No.
+PA2025GDSK0036), and the Innovative Teaching Team for Ideological and
+Political Education in Electronic Information Science and Technology
+(No. 2025XKSTD01).
+
 ## Repository layout
 
 | Path | Contents |

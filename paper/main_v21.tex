@@ -8,15 +8,18 @@
 
 \begin{document}
 \shorttitle{Global and Token-Level Graph--Text Learning}
-\shortauthors{Zang and Peng}
+\shortauthors{Zang et al.}
 \title[mode=title]{Global and Token-Level Crystallographic Text for Crystal Property Prediction: Complementarity and Prediction Averaging}
-\author[1]{Huaijuan Zang}\cormark[1]
-\credit{Conceptualization, Methodology, Software, Validation, Formal analysis, Writing -- original draft}
-\affiliation[1]{organization={Institutional affiliation}}
-\author[2]{Yunfan Peng}
-\credit{Supervision, Methodology, Writing -- review and editing}
-\affiliation[2]{organization={Institutional affiliation}}
-\cortext[1]{Corresponding author}
+\author[1]{Huaijuan Zang}\ead{zanghj@hfut.edu.cn}
+\author[1]{Yunfan Peng}\cormark[1]
+\author[2]{Chong Zhao}\ead{zhaochong@hfut.edu.cn}
+\author[1]{Fan Yang}\ead{2021800201@hfut.edu.cn}
+\author[3]{Feng Hong}\ead{hongfeng@czu.edu.cn}
+\author[1]{Liangfeng Xu}\ead{xulfcjn@hfut.edu.cn}
+\affiliation[1]{organization={School of Computer and Information, Hefei University of Technology}, city={Hefei}, country={China}}
+\affiliation[2]{organization={Engineering Quality Education Center, Hefei University of Technology}, city={Hefei}, country={China}}
+\affiliation[3]{organization={Chizhou University}, city={Chizhou}, country={China}}
+\cortext[1]{Corresponding author: Yunfan Peng}
 
 \begin{abstract}
 Crystal property prediction can combine periodic crystal graphs with crystallographic text generated from the same structure. In this setting, the graph captures numerical geometry and local connectivity, while the text provides a document-level CLS representation and contextual token representations that expose different structural abstractions. We study graph-conditioned cosine-normalized token attention together with independently trained global and token-level predictors on six JARVIS and four Materials Project tasks. Under fixed splits, two independent runs, and a fixed 0.5/0.5 prediction-level mean, the combined predictor reduces macro MAE by approximately 5.9\% relative to the Global baseline; it improves over Global on all ten tasks in each run and over both constituent predictors on nine of ten tasks in each run. Same-view controls show that ordinary prediction averaging accounts for a substantial fraction of the gain, and the present evidence does not establish superiority over token-only ensembling. Validation-only message-, latent-, and shared-backbone interaction studies show property-dependent behavior and are treated as diagnostic probes rather than as a controlled ranking of fusion locations. The results support sample-aligned prediction complementarity as a reproducible empirical finding under the stated protocol.
@@ -396,7 +399,7 @@ Macro gain&&&&&+1.898\\
 \section*{Acknowledgements}
 The authors thank the members of their research group for helpful discussions and acknowledge JARVIS, Materials Project, Robocrystallographer, and MatBERT.
 \section*{Funding}
-This research received no specific grant from funding agencies in the public, commercial, or not-for-profit sectors.
+This work was supported by the Industry--University Cooperation Collaborative Education Project of the Ministry of Education (No.~250603873093026), the Fundamental Research Funds for the Central Universities of China (Grant No.~PA2025GDSK0036), and the Innovative Teaching Team for Ideological and Political Education in Electronic Information Science and Technology (No.~2025XKSTD01).
 \section*{Data availability}
 The source data used in this study are publicly available from JARVIS and Materials Project. Derived descriptions and prediction files supporting the findings will be made available with the final release.
 \section*{Code availability}

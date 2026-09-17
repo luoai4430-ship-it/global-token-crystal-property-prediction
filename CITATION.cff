@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this code or the released results, please cite the accompanying manuscript."
+title: "Global and Token-Level Crystallographic Text for Crystal Property Prediction: Complementarity and Prediction Averaging"
+type: software
+version: "main_v21"
+date-released: 2026-09-17
+repository-code: "https://github.com/luoai4430-ship-it/global-token-crystal-property-prediction"
+license: Apache-2.0
+authors:
+  - family-names: Zang
+    given-names: Huaijuan
+    email: zanghj@hfut.edu.cn
+  - family-names: Peng
+    given-names: Yunfan
+    affiliation: "School of Computer and Information, Hefei University of Technology"
+  - family-names: Zhao
+    given-names: Chong
+    email: zhaochong@hfut.edu.cn
+    affiliation: "Engineering Quality Education Center, Hefei University of Technology"
+  - family-names: Yang
+    given-names: Fan
+    email: 2021800201@hfut.edu.cn
+  - family-names: Hong
+    given-names: Feng
+    email: hongfeng@czu.edu.cn
+    affiliation: "Chizhou University"
+  - family-names: Xu
+    given-names: Liangfeng
+    email: xulfcjn@hfut.edu.cn
+keywords:
+  - crystal property prediction
+  - graph-text learning
+  - materials informatics
+  - JARVIS
+  - Materials Project
