@@ -21,7 +21,7 @@ validation-only diagnostics; they are not additional main test models.
 ## Authors
 
 - Huaijuan Zang, School of Computer and Information, Hefei University of Technology, zanghj@hfut.edu.cn
-- Yunfan Peng, School of Computer and Information, Hefei University of Technology (corresponding author)
+- Yunfan Peng, School of Computer and Information, Hefei University of Technology, luoai4430@gmail.com (corresponding author)
 - Chong Zhao, Engineering Quality Education Center, Hefei University of Technology, zhaochong@hfut.edu.cn
 - Fan Yang, School of Computer and Information, Hefei University of Technology, 2021800201@hfut.edu.cn
 - Feng Hong, Chizhou University, hongfeng@czu.edu.cn
@@ -35,6 +35,12 @@ Fundamental Research Funds for the Central Universities of China (Grant No.
 PA2025GDSK0036), and the Innovative Teaching Team for Ideological and
 Political Education in Electronic Information Science and Technology
 (No. 2025XKSTD01).
+
+## AI-assisted development
+
+OpenAI Codex was used to assist with writing and organizing code files. The
+authors reviewed and verified the code and remain responsible for the research
+design, experiments, analyses, and manuscript content.
 
 ## Repository layout
 
