@@ -1,0 +1,55 @@
+{
+  "baseline_csv": "/root/final_10task_ours_seed42_20260810_tau05_gpu4090d/original_sftmat_frozen_baseline.csv",
+  "baseline_csv_sha256": "9b7f20203391b18bbdab7c7364f9fe3af9678f5e227a9dc569a2dd1af893e05a",
+  "comparison_scope": "Ours seed42 versus frozen Original SFTMAT seed42 paper results",
+  "improved_seeds_by_task": {
+    "Jarvis-Bandgap_MBJ": 0,
+    "Jarvis-Bandgap_OPT": 0,
+    "Jarvis-BulkModulusKv": 1,
+    "Jarvis-FormationEnergy": 1,
+    "Jarvis-ShearModulusGv": 1,
+    "Jarvis-TotalEnergy": 0,
+    "MP-Bandgap": 1,
+    "MP-BulkModuli": 0,
+    "MP-FormationEnergy": 0,
+    "MP-ShearModuli": 0
+  },
+  "jarvis_macro_relative_improvement_percent": 1.2827632805374538,
+  "jarvis_wins": 3,
+  "mp_macro_relative_improvement_percent": -0.9101700736793393,
+  "mp_wins": 1,
+  "new_ours_test_forward_count": 10,
+  "status": "NO_SFTMAT_IMPROVEMENT",
+  "tasks_degraded_by_more_than_1_percent": [
+    "Jarvis-Bandgap_MBJ",
+    "Jarvis-Bandgap_OPT",
+    "Jarvis-TotalEnergy",
+    "MP-FormationEnergy",
+    "MP-BulkModuli"
+  ],
+  "tasks_improved_in_seed42": [
+    "Jarvis-FormationEnergy",
+    "Jarvis-BulkModulusKv",
+    "Jarvis-ShearModulusGv",
+    "MP-Bandgap"
+  ],
+  "ten_task_macro_relative_improvement_percent": 0.4055899388507366,
+  "ten_task_wins": 4,
+  "test_relative_improvement_percent_by_task": {
+    "Jarvis-Bandgap_MBJ": -1.0348264097306494,
+    "Jarvis-Bandgap_OPT": -1.2793397307810241,
+    "Jarvis-BulkModulusKv": 9.611824450243134,
+    "Jarvis-FormationEnergy": 0.0967525739607493,
+    "Jarvis-ShearModulusGv": 3.5897980025207734,
+    "Jarvis-TotalEnergy": -3.287629202988259,
+    "MP-Bandgap": 0.5107091037999426,
+    "MP-BulkModuli": -1.0698684744037794,
+    "MP-FormationEnergy": -3.0731847872469604,
+    "MP-ShearModuli": -0.008336136866560092
+  },
+  "valid_relative_improvement_percent_by_task": {
+    "Jarvis-Bandgap_MBJ": 1.8223181886737536
+  },
+  "worst_task": "Jarvis-TotalEnergy",
+  "worst_task_improvement_percent": -3.287629202988259
+}

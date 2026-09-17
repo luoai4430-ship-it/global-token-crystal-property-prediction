@@ -1,0 +1,2 @@
+# Exact conda executable was not present in the non-interactive server shell.
+# Recreate the named environment from environment.yml; installed Python packages are recorded in pip-freeze.txt.

@@ -1,0 +1,41 @@
+{
+  "release_id": "TextResidualSHFMat-FAIR-20260915",
+  "title": "FAIR staging release for the TextResidualSHFMat crystal graph-text study",
+  "created_utc": "2026-09-15",
+  "release_status": "server_staging_not_yet_doi_deposited",
+  "license": {
+    "code": "Apache-2.0",
+    "data": "retain upstream provider terms"
+  },
+  "canonical_root": "/root/autodl-tmp/TextResidualSHFMat",
+  "split_protocol": {
+    "split_seed": 123,
+    "training_seeds": [
+      42,
+      43
+    ],
+    "test_ids_are_sample_aligned": true
+  },
+  "data_policy": "Large data and model objects are exposed through relative links to the canonical server copy and are not duplicated.",
+  "fair_dimensions": {
+    "findable": true,
+    "accessible": "server_accessible_pending_public_repository_and_data_doi",
+    "interoperable": true,
+    "reusable": "code_and_metadata_ready; upstream_data_terms_and_author_metadata_require_final_deposit"
+  },
+  "objects": {
+    "raw_dataset": "data/Dataset/raw",
+    "processed_dataset": "data/Dataset/processed",
+    "code": "code",
+    "results": "results",
+    "models": "models",
+    "metadata": "metadata",
+    "provenance": "provenance",
+    "ongoing_experiments": "experiments/matched_ablation_runs",
+    "paper": "paper"
+  },
+  "integrity": {
+    "manifest": "metadata/critical_checksums.sha256",
+    "hash": "SHA-256"
+  }
+}

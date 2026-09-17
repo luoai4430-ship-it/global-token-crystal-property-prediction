@@ -1,0 +1,4 @@
+scope,source,split,training_seeds,split_seed,evaluation,model_description
+main_test,main_v21.tex,official task partitions,"42;43",123,test,"independent Global and Token predictors with fixed 0.5/0.5 sample-aligned mean"
+matched_ablation,main_v21.tex,balanced six-task validation subset,42,123,validation,"common head and objective; CLS vs masked mean vs cosine attention"
+interaction_diagnostics,main_v21.tex,declared validation subsets,42,123,validation,"message-, latent-, and shared-backbone probes"

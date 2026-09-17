@@ -1,0 +1,19 @@
+# Local transfer artifact
+fair_v21_release_git.tar.gz
+
+# Python and editor caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Local datasets and model weights are intentionally excluded from this release
+data/
+*.pt
+*.pth
+*.ckpt
+*.bin
+
+# OS/editor metadata
+.DS_Store
+Thumbs.db

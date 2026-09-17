@@ -1,0 +1,97 @@
+{
+  "archive_sha256": "a4c9c208d368b1adce186c70877a5af92c6b3f5e3bfdc1077b1d804ec39e4441",
+  "freeze_manifest_entries": 20,
+  "paired_checks": [
+    {
+      "max_recomputed_mae_delta": 0.0,
+      "rows": 1818,
+      "target_max_abs_delta": 0.0,
+      "task": "Jarvis-Bandgap_MBJ",
+      "unique_sample_ids": 1818
+    },
+    {
+      "max_recomputed_mae_delta": 0.0,
+      "rows": 5573,
+      "target_max_abs_delta": 0.0,
+      "task": "Jarvis-Bandgap_OPT",
+      "unique_sample_ids": 5573
+    },
+    {
+      "max_recomputed_mae_delta": 0.0,
+      "rows": 1968,
+      "target_max_abs_delta": 0.0,
+      "task": "Jarvis-BulkModulusKv",
+      "unique_sample_ids": 1968
+    },
+    {
+      "max_recomputed_mae_delta": 0.0,
+      "rows": 5573,
+      "target_max_abs_delta": 0.0,
+      "task": "Jarvis-FormationEnergy",
+      "unique_sample_ids": 5573
+    },
+    {
+      "max_recomputed_mae_delta": 0.0,
+      "rows": 1968,
+      "target_max_abs_delta": 0.0,
+      "task": "Jarvis-ShearModulusGv",
+      "unique_sample_ids": 1968
+    },
+    {
+      "max_recomputed_mae_delta": 0.0,
+      "rows": 5573,
+      "target_max_abs_delta": 0.0,
+      "task": "Jarvis-TotalEnergy",
+      "unique_sample_ids": 5573
+    },
+    {
+      "max_recomputed_mae_delta": 0.0,
+      "rows": 516,
+      "target_max_abs_delta": 0.0,
+      "task": "MP-Bandgap",
+      "unique_sample_ids": 516
+    },
+    {
+      "max_recomputed_mae_delta": 6.938893903907228e-18,
+      "rows": 583,
+      "target_max_abs_delta": 0.0,
+      "task": "MP-BulkModuli",
+      "unique_sample_ids": 583
+    },
+    {
+      "max_recomputed_mae_delta": 3.469446951953614e-18,
+      "rows": 516,
+      "target_max_abs_delta": 0.0,
+      "task": "MP-FormationEnergy",
+      "unique_sample_ids": 516
+    },
+    {
+      "max_recomputed_mae_delta": 0.0,
+      "rows": 583,
+      "target_max_abs_delta": 0.0,
+      "task": "MP-ShearModuli",
+      "unique_sample_ids": 583
+    }
+  ],
+  "paired_prediction_file_count": 10,
+  "required_outputs_present": [
+    "seed43_per_run_results.csv",
+    "seed43_dualview_results.csv",
+    "seed43_selection.json",
+    "seed43_report.md",
+    "queue_state.json",
+    "valid_freeze_manifest.json"
+  ],
+  "runtime": {
+    "recorded_recoverable_failures": 3,
+    "seed43_queue_wall_hours_including_failures_and_recovery": 50.59919421507253,
+    "seed43_queue_wall_seconds_including_failures_and_recovery": 182157.0991742611,
+    "seed43_sum_of_20_training_times_hours": 85.23378789712675,
+    "seed43_sum_of_20_training_times_seconds": 306841.6364296563
+  },
+  "status": "VERIFIED",
+  "test_forward_count_sum": 20,
+  "test_summary_count": 20,
+  "valid_summary_count": 20,
+  "valid_test_forward_count_sum": 0
+}

@@ -1,0 +1,6 @@
+object_id,relative_path,role,status,size_bytes,file_count,notes
+dataset_raw,../data/Dataset/raw,raw_structure_and_target_objects,available,11110880730,7,Canonical server copy; not duplicated in release staging
+dataset_processed,../data/Dataset/processed,processed_graph_text_objects,available,20011770657,50,Canonical server copy; splitSeed123 objects
+matched_inputs,../data/matched_ablation_inputs,validation_only_inputs,in_progress,549566226,7,Six-task matched text representation ablation inputs
+matched_graph_cache,../data/matched_graph_cache,derived_graph_cache,available,153130196,1,Derived cache; regenerate from code if needed
+matched_token_cache,../data/matched_token_cache,derived_token_cache,in_progress,35,1,Shared token cache for current validation queue

@@ -1,0 +1,249 @@
+{
+  "entries": [
+    {
+      "best_valid_epoch": 297,
+      "checkpoint": "/root/dualview_seed43_20260830/runs/Jarvis-Bandgap_MBJ/original_sftmat/seed_43/best_valid.pt",
+      "checkpoint_sha256": "d7a0a2a6b4afde2368592b63ce9582275a558f665bec87522b6957894ab6a343",
+      "model_name": "original_sftmat",
+      "seed": 43,
+      "task": "Jarvis-Bandgap_MBJ",
+      "token_cache_sha256": "0caf4b99a950f281a2632fb36d1939bf311e88ea8c4934a951f4d1d0fc5270a6",
+      "valid_mae": 0.23770956974732857
+    },
+    {
+      "best_valid_epoch": 174,
+      "checkpoint": "/root/dualview_seed43_20260830/runs/Jarvis-Bandgap_MBJ/ours/seed_43/best_valid.pt",
+      "checkpoint_sha256": "2ed88f2942406e3e1930f2cccc4247b82cc083f34c5fa662467f9edef22c29ce",
+      "model_name": "ours",
+      "seed": 43,
+      "task": "Jarvis-Bandgap_MBJ",
+      "token_cache_sha256": "0caf4b99a950f281a2632fb36d1939bf311e88ea8c4934a951f4d1d0fc5270a6",
+      "valid_mae": 0.24789867246288746
+    },
+    {
+      "best_valid_epoch": 275,
+      "checkpoint": "/root/dualview_seed43_20260830/runs/Jarvis-Bandgap_OPT/original_sftmat/seed_43/best_valid.pt",
+      "checkpoint_sha256": "7ec65f0d4ce8007e65b70112cf9e171a39fc8c879f68e53d9424675ebb1f4e15",
+      "model_name": "original_sftmat",
+      "seed": 43,
+      "task": "Jarvis-Bandgap_OPT",
+      "token_cache_sha256": "ebbed3aaa94fd2bfba0327cf3976f1d44ce1b3255d27e738e863565c5dd76be6",
+      "valid_mae": 0.12093770628085003
+    },
+    {
+      "best_valid_epoch": 290,
+      "checkpoint": "/root/dualview_seed43_20260830/runs/Jarvis-Bandgap_OPT/ours/seed_43/best_valid.pt",
+      "checkpoint_sha256": "2ff0797fd4bace76f10610510725b0f77d59a2833bf7ae2f88ef0b55f4b5dfce",
+      "model_name": "ours",
+      "seed": 43,
+      "task": "Jarvis-Bandgap_OPT",
+      "token_cache_sha256": "ebbed3aaa94fd2bfba0327cf3976f1d44ce1b3255d27e738e863565c5dd76be6",
+      "valid_mae": 0.12394888903370711
+    },
+    {
+      "best_valid_epoch": 225,
+      "checkpoint": "/root/dualview_seed43_20260830/runs/Jarvis-BulkModulusKv/original_sftmat/seed_43/best_valid.pt",
+      "checkpoint_sha256": "68e41b7d47b3afc1ee73c745ae41d8c87b2b05f2c1a0c58d4f4941c4a13019bf",
+      "model_name": "original_sftmat",
+      "seed": 43,
+      "task": "Jarvis-BulkModulusKv",
+      "token_cache_sha256": "e3899bff12e8aabbd7d8f13535268f6d502ed84a68fe4d8714a75e47a88764a1",
+      "valid_mae": 9.013061740534093
+    },
+    {
+      "best_valid_epoch": 211,
+      "checkpoint": "/root/dualview_seed43_20260830/runs/Jarvis-BulkModulusKv/ours/seed_43/best_valid.pt",
+      "checkpoint_sha256": "9b0b9ac6ebd498336173a8f9956dc72e2bba451bf5689e3fcd45e96dbca3a718",
+      "model_name": "ours",
+      "seed": 43,
+      "task": "Jarvis-BulkModulusKv",
+      "token_cache_sha256": "e3899bff12e8aabbd7d8f13535268f6d502ed84a68fe4d8714a75e47a88764a1",
+      "valid_mae": 9.185918358283315
+    },
+    {
+      "best_valid_epoch": 279,
+      "checkpoint": "/root/dualview_seed43_20260830/runs/Jarvis-FormationEnergy/original_sftmat/seed_43/best_valid.pt",
+      "checkpoint_sha256": "02a48990a25d712ffbf5cfd59a62355e4454170b72d366ca2bc84681ebbe8051",
+      "model_name": "original_sftmat",
+      "seed": 43,
+      "task": "Jarvis-FormationEnergy",
+      "token_cache_sha256": "ad6d565e1270c8ec8dc5a8068249195b2307de7570fc1cf493b1d5438e288d26",
+      "valid_mae": 0.02969611392805068
+    },
+    {
+      "best_valid_epoch": 279,
+      "checkpoint": "/root/dualview_seed43_20260830/runs/Jarvis-FormationEnergy/ours/seed_43/best_valid.pt",
+      "checkpoint_sha256": "e46c4834d6f5af41218e48528f92d0706ca494a80a94cb32dfe1539e0d79c708",
+      "model_name": "ours",
+      "seed": 43,
+      "task": "Jarvis-FormationEnergy",
+      "token_cache_sha256": "ad6d565e1270c8ec8dc5a8068249195b2307de7570fc1cf493b1d5438e288d26",
+      "valid_mae": 0.029251425035634833
+    },
+    {
+      "best_valid_epoch": 274,
+      "checkpoint": "/root/dualview_seed43_20260830/runs/Jarvis-ShearModulusGv/original_sftmat/seed_43/best_valid.pt",
+      "checkpoint_sha256": "2b7bd345372b05d6c2a86297470cc41cb584e2338ac5538e01bec20a5c2a2c0e",
+      "model_name": "original_sftmat",
+      "seed": 43,
+      "task": "Jarvis-ShearModulusGv",
+      "token_cache_sha256": "85f6c76085c0266256f0dae617c29f9a8d469f80cfa7e5fa288f154f4b2c939a",
+      "valid_mae": 8.620151984982375
+    },
+    {
+      "best_valid_epoch": 274,
+      "checkpoint": "/root/dualview_seed43_20260830/runs/Jarvis-ShearModulusGv/ours/seed_43/best_valid.pt",
+      "checkpoint_sha256": "b9e6de484cbbc0f3321ce147fc86436a159f9c19ace8c6b1cdefa786115223e8",
+      "model_name": "ours",
+      "seed": 43,
+      "task": "Jarvis-ShearModulusGv",
+      "token_cache_sha256": "85f6c76085c0266256f0dae617c29f9a8d469f80cfa7e5fa288f154f4b2c939a",
+      "valid_mae": 8.533361993184904
+    },
+    {
+      "best_valid_epoch": 285,
+      "checkpoint": "/root/dualview_seed43_20260830/runs/Jarvis-TotalEnergy/original_sftmat/seed_43/best_valid.pt",
+      "checkpoint_sha256": "3b09ebf19d192e667c10f9ffaeadb71a3421c5590661f1814bf04180e43ec3d6",
+      "model_name": "original_sftmat",
+      "seed": 43,
+      "task": "Jarvis-TotalEnergy",
+      "token_cache_sha256": "74c804c038fc081aafba6f47ef2d9f91a6ee8ba295f55d18ebf1695ea47120a5",
+      "valid_mae": 0.031262843132190195
+    },
+    {
+      "best_valid_epoch": 287,
+      "checkpoint": "/root/dualview_seed43_20260830/runs/Jarvis-TotalEnergy/ours/seed_43/best_valid.pt",
+      "checkpoint_sha256": "1dd3f9641cc886f8852eb74f7f7811601ba9be2cc5d79ae2a7f700885d1b6f30",
+      "model_name": "ours",
+      "seed": 43,
+      "task": "Jarvis-TotalEnergy",
+      "token_cache_sha256": "74c804c038fc081aafba6f47ef2d9f91a6ee8ba295f55d18ebf1695ea47120a5",
+      "valid_mae": 0.0307532494562783
+    },
+    {
+      "best_valid_epoch": 220,
+      "checkpoint": "/root/dualview_seed43_20260830/runs/MP-Bandgap/original_sftmat/seed_43/best_valid.pt",
+      "checkpoint_sha256": "9427e4f511b71279bcebb9ca38e8579a1748caaaae9e11574ea397b267012e00",
+      "model_name": "original_sftmat",
+      "seed": 43,
+      "task": "MP-Bandgap",
+      "token_cache_sha256": "ee701e2c5c105c14feed7af9dfc7a5e2a6dbf11f473fd84b6364c64fb9048fc3",
+      "valid_mae": 0.2134970676422119
+    },
+    {
+      "best_valid_epoch": 228,
+      "checkpoint": "/root/dualview_seed43_20260830/runs/MP-Bandgap/ours/seed_43/best_valid.pt",
+      "checkpoint_sha256": "a476ddc5cde48b668ddb5cbd86bf02b4342b6ea7df8b5332c97e7a6f2a80b540",
+      "model_name": "ours",
+      "seed": 43,
+      "task": "MP-Bandgap",
+      "token_cache_sha256": "ee701e2c5c105c14feed7af9dfc7a5e2a6dbf11f473fd84b6364c64fb9048fc3",
+      "valid_mae": 0.20839119374752044
+    },
+    {
+      "best_valid_epoch": 231,
+      "checkpoint": "/root/dualview_seed43_20260830/runs/MP-BulkModuli/original_sftmat/seed_43/best_valid.pt",
+      "checkpoint_sha256": "c5d6958ccf7caed6f551bd50396d3089f2b242a7061da862c098b2c4a8d907a1",
+      "model_name": "original_sftmat",
+      "seed": 43,
+      "task": "MP-BulkModuli",
+      "token_cache_sha256": "23a4dd3ae30d0d0fe9ec817980b5a07fa70d7d57f92e0371193f873c75b39459",
+      "valid_mae": 0.03787937581436916
+    },
+    {
+      "best_valid_epoch": 246,
+      "checkpoint": "/root/dualview_seed43_20260830/runs/MP-BulkModuli/ours/seed_43/best_valid.pt",
+      "checkpoint_sha256": "cf980c0cf2e570b24beae0676fe9cdfda33a5f3e2b5ccc99ccce64382a60bd53",
+      "model_name": "ours",
+      "seed": 43,
+      "task": "MP-BulkModuli",
+      "token_cache_sha256": "23a4dd3ae30d0d0fe9ec817980b5a07fa70d7d57f92e0371193f873c75b39459",
+      "valid_mae": 0.037664006750129715
+    },
+    {
+      "best_valid_epoch": 276,
+      "checkpoint": "/root/dualview_seed43_20260830/runs/MP-FormationEnergy/original_sftmat/seed_43/best_valid.pt",
+      "checkpoint_sha256": "1d54a8235f1ff1207514ac5eafed1f36bf4aae5f84d3e3ed72f2f108395fb469",
+      "model_name": "original_sftmat",
+      "seed": 43,
+      "task": "MP-FormationEnergy",
+      "token_cache_sha256": "ee701e2c5c105c14feed7af9dfc7a5e2a6dbf11f473fd84b6364c64fb9048fc3",
+      "valid_mae": 0.020583225536346436
+    },
+    {
+      "best_valid_epoch": 300,
+      "checkpoint": "/root/dualview_seed43_20260830/runs/MP-FormationEnergy/ours/seed_43/best_valid.pt",
+      "checkpoint_sha256": "f2c9b044ecb1b4e114d3c1fa3cc5df6a8b2b01ee7658c1638873a4235ababdd8",
+      "model_name": "ours",
+      "seed": 43,
+      "task": "MP-FormationEnergy",
+      "token_cache_sha256": "ee701e2c5c105c14feed7af9dfc7a5e2a6dbf11f473fd84b6364c64fb9048fc3",
+      "valid_mae": 0.019984183633327483
+    },
+    {
+      "best_valid_epoch": 164,
+      "checkpoint": "/root/dualview_seed43_20260830/runs/MP-ShearModuli/original_sftmat/seed_43/best_valid.pt",
+      "checkpoint_sha256": "2b5377d593cac7b4ae520daae1cf8dbfb4428440bb9b60518955437d0adc987b",
+      "model_name": "original_sftmat",
+      "seed": 43,
+      "task": "MP-ShearModuli",
+      "token_cache_sha256": "23a4dd3ae30d0d0fe9ec817980b5a07fa70d7d57f92e0371193f873c75b39459",
+      "valid_mae": 0.06710007076197995
+    },
+    {
+      "best_valid_epoch": 234,
+      "checkpoint": "/root/dualview_seed43_20260830/runs/MP-ShearModuli/ours/seed_43/best_valid.pt",
+      "checkpoint_sha256": "80c196347fa0caabb5411cb38f0e930468726ac523ac596529c46773a8cbc530",
+      "model_name": "ours",
+      "seed": 43,
+      "task": "MP-ShearModuli",
+      "token_cache_sha256": "23a4dd3ae30d0d0fe9ec817980b5a07fa70d7d57f92e0371193f873c75b39459",
+      "valid_mae": 0.06568430218443044
+    }
+  ],
+  "entry_count": 20,
+  "protocol": {
+    "bandgap_nonnegative_clipping": true,
+    "batch_size": 32,
+    "checkpoint_selection": "best Valid MAE only",
+    "data_loader_workers": 2,
+    "drop_last": false,
+    "epochs": 300,
+    "eval_batch_size": 64,
+    "lr": 0.001,
+    "matbert_max_length": 128,
+    "max_lr": 0.001,
+    "models": [
+      "original_sftmat",
+      "ours"
+    ],
+    "optimizer": "AdamW",
+    "original_loss": "MAE(property,target)",
+    "ours_loss": "MAE(final,target)+0.2*MAE(graph,target)",
+    "ours_temperature": 0.5,
+    "pin_memory": false,
+    "prefetch_factor": 1,
+    "scheduler": "OneCycleLR",
+    "seeds": [
+      43
+    ],
+    "tasks": [
+      "Jarvis-Bandgap_MBJ",
+      "Jarvis-Bandgap_OPT",
+      "Jarvis-FormationEnergy",
+      "Jarvis-TotalEnergy",
+      "Jarvis-BulkModulusKv",
+      "Jarvis-ShearModulusGv",
+      "MP-Bandgap",
+      "MP-FormationEnergy",
+      "MP-BulkModuli",
+      "MP-ShearModuli"
+    ],
+    "torch_multiprocessing_sharing_strategy": "file_system",
+    "training_dtype": "bfloat16",
+    "weight_decay": 0.0001
+  },
+  "protocol_sha256": "adae888170a616d63ca455803e3c186d270cb62ae5bbd3ed70b55835dc8c674d",
+  "status": "valid_selection_frozen",
+  "test_forward_count": 0
+}

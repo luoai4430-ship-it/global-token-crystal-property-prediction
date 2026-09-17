@@ -1,0 +1,6 @@
+release_path,canonical_source,scope,status
+code/scripts/run_final_10task_benchmark.py,/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py,main benchmark,ready
+code/scripts/run_seed43_benchmark.py,/root/autodl-tmp/TextResidualSHFMat/scripts/run_seed43_benchmark.py,seed43 main benchmark,ready
+code/scripts/summarize_seed43_dualview.py,/root/autodl-tmp/TextResidualSHFMat/scripts/summarize_seed43_dualview.py,paired prediction summary,ready
+results/main_test,/root/final_10task_ours_seed42_20260810_tau05,seed42 main artifacts,server snapshot
+results/seed43,/root/autodl-tmp/TextResidualSHFMat/FAIR_RELEASE_main_v21_20260916/results/seed43,seed43 dual-view summary copied from the verified local audit bundle,summary copied

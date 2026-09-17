@@ -1,0 +1,19 @@
+{
+  "baseline_retrained": false,
+  "checkpoints_frozen_before_test": true,
+  "checks": {
+    "at_least_6_of_10_wins": false,
+    "at_least_8_of_10_wins": false,
+    "at_most_1_task_degraded_gt_1pct": false,
+    "jarvis_macro_positive": true,
+    "mp_macro_positive": false
+  },
+  "hyperparameters_frozen_before_test": true,
+  "models_frozen_before_test": true,
+  "new_ours_run_count": 10,
+  "scope": "one formal Ours run per task at seed42; Original SFTMAT reused",
+  "selected_by": "Valid only",
+  "status": "NO_SFTMAT_IMPROVEMENT",
+  "test_forward_count_per_run": 1,
+  "test_used_for_retraining_or_selection": false
+}

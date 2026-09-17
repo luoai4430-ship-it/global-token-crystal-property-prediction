@@ -1,0 +1,5 @@
+experiment_id,status,evaluation_scope,training_seeds,split_seed,model_scope,notes
+main_global_token,completed,validation_and_test,"42;43",123,"Global;Token;fixed Global+Token mean","Primary manuscript protocol; checkpoint selected by validation MAE; test evaluated once per selected predictor"
+matched_text_representation,completed,validation_only,42,123,"CLS;Masked Mean;Cosine Attention","Balanced six-task controlled representation ablation; not a main test result"
+interaction_diagnostics,completed,validation_only,42,123,"message;latent;shared-backbone variants","Exploratory diagnostics with non-uniform task coverage; not a controlled ranking"
+historical_text_residual,archived,validation_and_test,"various",various,"TextResidualSHFMat","Legacy model line retained for traceability; excluded from main_v21 method"

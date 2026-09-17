@@ -1,0 +1,30 @@
+{
+  "global_test_source": "new one-time Test inference on frozen best-valid checkpoints",
+  "macro": {
+    "JARVIS": {
+      "dual_wins_vs_global": 6,
+      "macro_dual_gain_vs_global_percent": 5.79584427178337,
+      "macro_token_gain_vs_global_percent": 1.7087093325144418,
+      "task_count": 6
+    },
+    "MP": {
+      "dual_wins_vs_global": 4,
+      "macro_dual_gain_vs_global_percent": 5.931566066785223,
+      "macro_token_gain_vs_global_percent": 2.09411084654657,
+      "task_count": 4
+    },
+    "all": {
+      "dual_wins_vs_global": 10,
+      "macro_dual_gain_vs_global_percent": 5.85013298978411,
+      "macro_token_gain_vs_global_percent": 1.862869938127293,
+      "task_count": 10
+    }
+  },
+  "seed": 42,
+  "selected_by": "Valid only",
+  "status": "TEST_COMPLETE",
+  "test_used_for_training_or_selection": false,
+  "token_test_source": "audited pre-existing one-time formal Test outputs",
+  "weight_global": 0.5,
+  "weight_token": 0.5
+}
