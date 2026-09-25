@@ -18,24 +18,6 @@ The main protocol uses ten tasks, two independent training runs (seeds 42 and
 The matched text-representation and interaction-location studies are
 validation-only diagnostics; they are not additional main test models.
 
-## Authors
-
-- Huaijuan Zang, School of Computer and Information, Hefei University of Technology, zanghj@hfut.edu.cn
-- Yunfan Peng, School of Computer and Information, Hefei University of Technology (corresponding author)
-- Chong Zhao, Engineering Quality Education Center, Hefei University of Technology, zhaochong@hfut.edu.cn
-- Fan Yang, School of Computer and Information, Hefei University of Technology, 2021800201@hfut.edu.cn
-- Feng Hong, Chizhou University, hongfeng@czu.edu.cn
-- Liangfeng Xu, School of Computer and Information, Hefei University of Technology, xulfcjn@hfut.edu.cn
-
-## Funding
-
-This work was supported by the Industry--University Cooperation Collaborative
-Education Project of the Ministry of Education (No. 250603873093026), the
-Fundamental Research Funds for the Central Universities of China (Grant No.
-PA2025GDSK0036), and the Innovative Teaching Team for Ideological and
-Political Education in Electronic Information Science and Technology
-(No. 2025XKSTD01).
-
 ## Repository layout
 
 | Path | Contents |
@@ -109,17 +91,26 @@ PY
 
 ### 2. Prepare data and caches
 
-Prepare the upstream JARVIS and Materials Project structures, task targets,
-fixed `splitSeed123` partitions, graph caches, and the length-128 MatBERT
-token cache. Keep the sample-ID columns intact. The task locations used by the
-benchmark scripts are declared near `TASKS` in
-`code/main_method/scripts/run_final_10task_benchmark.py`; update those local
-paths for your machine rather than changing the task definitions or split.
+The experiments use the task-specific JARVIS and Materials Project
+benchmark data released or prepared with CrysMMNet [cite CrysMMNet],
+including crystal structures, target values, material descriptions, and
+the associated preprocessing conventions. Obtain the corresponding
+CrysMMNet dataset snapshot before running the benchmark, and preserve all
+sample identifiers and task-specific target files.
 
-The token cache must contain the union of the train, validation, and test IDs
-for the task. Before training, verify that graph-cache IDs and token-cache IDs
-match exactly. The corresponding cache metadata and checksums should be saved
-with the run output.
+The local task directories used by the benchmark scripts are declared near
+`TASKS` in
+`code/main_method/scripts/run_final_10task_benchmark.py`. Update only these
+local paths to match the downloaded CrysMMNet dataset layout; do not modify
+the task definitions, target transformations, or fixed `splitSeed123`
+partition.
+
+For each task, the graph cache and the length-128 MatBERT token cache must
+cover the complete union of the training, validation, and test samples.
+Before training, verify that the sample IDs in the graph cache, token cache,
+and split files match exactly in both membership and ordering. Save the
+dataset version, split metadata, cache metadata, and file checksums with the
+corresponding experiment output.
 
 ### 3. Run one validation training
 
