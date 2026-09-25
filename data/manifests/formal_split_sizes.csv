@@ -1,0 +1,11 @@
+task,dataset,split_seed,train,valid,test,split_scope,notes
+Jarvis-Bandgap_MBJ,JARVIS,123,14537,1817,1818,formal_processed_cache,Main benchmark size recorded in results/main_test/final_10task_per_seed.csv
+Jarvis-Bandgap_OPT,JARVIS,123,44578,5572,5573,formal_processed_cache,Main benchmark size recorded in results/main_test/final_10task_per_seed.csv
+Jarvis-FormationEnergy,JARVIS,123,44578,5572,5573,formal_processed_cache,Main benchmark size recorded in results/main_test/final_10task_per_seed.csv
+Jarvis-TotalEnergy,JARVIS,123,44578,5572,5573,formal_processed_cache,Main benchmark size recorded in results/main_test/final_10task_per_seed.csv
+Jarvis-BulkModulusKv,JARVIS,123,15744,1968,1968,formal_processed_cache,Main benchmark size recorded in results/main_test/final_10task_per_seed.csv
+Jarvis-ShearModulusGv,JARVIS,123,15744,1968,1968,formal_processed_cache,Main benchmark size recorded in results/main_test/final_10task_per_seed.csv
+MP-Bandgap,Materials Project,123,60000,5000,516,formal_processed_cache,Main benchmark size recorded in results/main_test/final_10task_per_seed.csv
+MP-FormationEnergy,Materials Project,123,60000,5000,516,formal_processed_cache,Main benchmark size recorded in results/main_test/final_10task_per_seed.csv
+MP-BulkModuli,Materials Project,123,4664,583,583,formal_processed_cache,Main benchmark size recorded in results/main_test/final_10task_per_seed.csv
+MP-ShearModuli,Materials Project,123,4664,583,583,formal_processed_cache,Main benchmark size recorded in results/main_test/final_10task_per_seed.csv

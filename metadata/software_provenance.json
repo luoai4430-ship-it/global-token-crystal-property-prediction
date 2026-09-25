@@ -1,1 +1,8 @@
-../../metadata/software_provenance.json
+{
+  "release": "main_v21",
+  "python": "See software/environment.yml and software/requirements.txt",
+  "dataset_validator": "data/scripts/validate_dataset_layout.py",
+  "data_policy": "Raw upstream structures, targets, graph caches, token caches, and checkpoints remain server-only.",
+  "split_seed": 123,
+  "training_seeds": [42, 43]
+}

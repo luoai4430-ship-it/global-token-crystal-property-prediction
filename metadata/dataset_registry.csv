@@ -1,6 +1,7 @@
 object_id,relative_path,role,status,size_bytes,file_count,notes
-dataset_raw,../data/Dataset/raw,raw_structure_and_target_objects,available,11110880730,7,Canonical server copy; not duplicated in release staging
-dataset_processed,../data/Dataset/processed,processed_graph_text_objects,available,20011770657,50,Canonical server copy; splitSeed123 objects
-matched_inputs,../data/matched_ablation_inputs,validation_only_inputs,in_progress,549566226,7,Six-task matched text representation ablation inputs
-matched_graph_cache,../data/matched_graph_cache,derived_graph_cache,available,153130196,1,Derived cache; regenerate from code if needed
-matched_token_cache,../data/matched_token_cache,derived_token_cache,in_progress,35,1,Shared token cache for current validation queue
+dataset_raw,/root/autodl-tmp/dataset1/dataset/*/cif,raw_structure_and_target_objects,server_snapshot_not_redistributed,NA,10,Canonical server snapshot; upstream data are not copied to GitHub
+dataset_processed,/root/autodl-tmp/TextResidualSHFMat/Dataset/processed,processed_graph_text_objects,server_snapshot_not_redistributed,NA,NA,Processed graph/text caches remain on the server and are regenerated or mounted for reproduction
+dataset_manifests,data/manifests,ID_keyed_source_and_split_manifests,tracked,NA,13,Text-only manifests and formal split sizes included in this release
+matched_inputs,/root/autodl-tmp/TextResidualSHFMat/matched_ablation_inputs,validation_only_inputs,server_snapshot_not_redistributed,NA,NA,Validation-only matched representation inputs remain on the server
+matched_graph_cache,/root/autodl-tmp/TextResidualSHFMat/matched_graph_cache,derived_graph_cache,server_snapshot_not_redistributed,NA,NA,Derived cache; regenerate from code if needed
+matched_token_cache,/root/autodl-tmp/TextResidualSHFMat/matched_token_cache,derived_token_cache,server_snapshot_not_redistributed,NA,NA,Derived token cache; regenerate from code if needed

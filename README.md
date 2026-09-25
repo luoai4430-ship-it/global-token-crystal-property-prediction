@@ -53,6 +53,7 @@ design, experiments, analyses, and manuscript content.
 | `results/seed43/` | Seed-43 paired results and two-run summaries |
 | `results/diagnostics/` | Declared validation-only diagnostic reports |
 | `metadata/` | Dataset/task registry, split information, schemas, and checksums |
+| `data/` | Text-only source manifests, formal split sizes, and a layout validator |
 | `docs/` | Data card, model card, reproducibility notes, and provenance notes |
 | `software/` | Environment and software records |
 
@@ -61,6 +62,15 @@ duplicated in this repository. They must be obtained under the terms of the
 upstream dataset providers and placed at paths configured for the local
 machine. The release intentionally does not publish the earlier
 `TextResidualSHFMat` residual-fusion model as the current method.
+
+The tracked dataset package is intentionally small. `data/manifests/` contains
+ID-keyed source-snapshot manifests and the formal processed split sizes, while
+`data/scripts/validate_dataset_layout.py` checks a mounted server snapshot.
+The canonical source files are the task-specific `cif/id_prop.csv` files,
+not the description row counts. For MP-Bandgap and MP-FormationEnergy, the
+source snapshot contains 65,516 rows but the formal processed benchmark uses
+60,000/5,000/516; this distinction is recorded explicitly in the data
+manifest and must be preserved when reproducing the paper.
 
 ## Main protocol
 
@@ -115,12 +125,21 @@ PY
 
 ### 2. Prepare data and caches
 
-Prepare the upstream JARVIS and Materials Project structures, task targets,
-fixed `splitSeed123` partitions, graph caches, and the length-128 MatBERT
-token cache. Keep the sample-ID columns intact. The task locations used by the
+Prepare or mount the upstream JARVIS and Materials Project structures, task
+targets, fixed `splitSeed123` partitions, graph caches, and the length-128
+MatBERT token cache. Keep the sample-ID columns intact. The task locations used by the
 benchmark scripts are declared near `TASKS` in
 `code/main_method/scripts/run_final_10task_benchmark.py`; update those local
 paths for your machine rather than changing the task definitions or split.
+
+Before training, validate the mounted source layout and the tracked source
+manifests:
+
+```bash
+python data/scripts/validate_dataset_layout.py \
+  --root /root/autodl-tmp/dataset1/dataset \
+  --manifest data/manifests/task_dataset_manifest.csv
+```
 
 The token cache must contain the union of the train, validation, and test IDs
 for the task. Before training, verify that graph-cache IDs and token-cache IDs

@@ -1,1 +1,15 @@
-../../metadata/split_manifest.schema.json
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ID-keyed split manifest",
+  "type": "object",
+  "required": ["sample_id", "split", "split_seed"],
+  "properties": {
+    "sample_id": {"type": "string"},
+    "target": {},
+    "source_index": {"type": "integer"},
+    "shuffled_index": {"type": "integer"},
+    "split": {"enum": ["train", "valid", "test"]},
+    "split_seed": {"const": 123}
+  },
+  "additionalProperties": true
+}

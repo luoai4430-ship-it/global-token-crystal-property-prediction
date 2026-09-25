@@ -1,1 +1,7 @@
-../../metadata/inventory.csv
+path,kind,status,notes
+data/manifests/task_dataset_manifest.csv,manifest,tracked,Source file paths and SHA-256 values from the restored server snapshot
+data/manifests/formal_split_sizes.csv,manifest,tracked,Formal processed split sizes used by the main benchmark
+data/manifests/splits/,split_reference,tracked,ID-keyed source-snapshot references generated with splitSeed123
+data/scripts/validate_dataset_layout.py,validator,tracked,Checks mounted task layout without training or test inference
+/root/autodl-tmp/dataset1/dataset,upstream_snapshot,server_only,Mount or retrieve under upstream provider terms
+/root/autodl-tmp/TextResidualSHFMat/Dataset/processed,derived_cache,server_only,Not redistributed; regenerate or mount for reproduction

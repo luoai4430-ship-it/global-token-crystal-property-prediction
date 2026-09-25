@@ -1,1 +1,12 @@
-../../metadata/prediction_table.schema.json
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Sample-aligned prediction table",
+  "type": "object",
+  "required": ["sample_id", "target", "prediction"],
+  "properties": {
+    "sample_id": {"type": "string"},
+    "target": {"type": "number"},
+    "prediction": {"type": "number"}
+  },
+  "additionalProperties": true
+}

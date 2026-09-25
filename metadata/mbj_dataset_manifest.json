@@ -1,1 +1,11 @@
-../../metadata/mbj_dataset_manifest.json
+{
+  "task": "Jarvis-Bandgap_MBJ",
+  "dataset": "JARVIS",
+  "source_relative_path": "jarvis/mbj_bandgap",
+  "id_prop_file": "cif/id_prop.csv",
+  "description_file": "description.csv",
+  "split_seed": 123,
+  "source_snapshot_rows": 18172,
+  "formal_processed_split": {"train": 14537, "valid": 1817, "test": 1818},
+  "notes": "See data/manifests/task_dataset_manifest.csv for source hashes and the ID-keyed reference split."
+}

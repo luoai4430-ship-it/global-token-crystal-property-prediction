@@ -6,9 +6,21 @@ encoded by a frozen MatBERT cache. The exact task-specific processed objects,
 ID-keyed split manifests, target transforms, and cache provenance are kept at
 the canonical server locations listed in the release metadata.
 
+The tracked `data/` package contains only text manifests and a layout
+validator. The canonical source inputs on the restored server are the
+task-specific `cif/id_prop.csv` files under
+`/root/autodl-tmp/dataset1/dataset`; structures, targets, graph caches,
+token embeddings, and checkpoints are not redistributed in this repository.
+`data/manifests/task_dataset_manifest.csv` records source file hashes and
+source-snapshot row counts, while `data/manifests/formal_split_sizes.csv`
+records the processed benchmark sizes used by the main results.
+
 The official partition is generated with `splitSeed123`; this is independent
 of the model-training seeds 42 and 43. The main evaluation uses the saved
 validation-selected checkpoints and sample-aligned test predictions. The
 repository does not redistribute upstream data without the applicable dataset
 terms; users should retrieve or mount the canonical snapshots before running
-the code.
+the code. In particular, the MP Bandgap and MP Formation Energy source
+snapshot has 65,516 rows, whereas the formal processed benchmark is
+60,000/5,000/516; the source reference manifests must not be treated as a
+replacement for the formal processed split.

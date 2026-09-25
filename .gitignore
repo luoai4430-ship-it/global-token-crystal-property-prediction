@@ -7,8 +7,14 @@ __pycache__/
 .ipynb_checkpoints/
 .pytest_cache/
 
-# Local datasets and model weights are intentionally excluded from this release
-data/
+# Local datasets and model weights are intentionally excluded from this release.
+# The small, text-only data package below is tracked for reproducibility.
+data/*
+!data/README.md
+!data/manifests/
+!data/manifests/**
+!data/scripts/
+!data/scripts/**
 *.pt
 *.pth
 *.ckpt

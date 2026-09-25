@@ -1,1 +1,12 @@
-../../metadata/datapackage.json
+{
+  "name": "global-token-crystal-property-prediction",
+  "title": "Global and Token-Level Text Representations for Crystal Property Prediction",
+  "description": "Text-only FAIR metadata for the main_v21 release. Upstream structures and derived caches are not redistributed.",
+  "split_seed": 123,
+  "training_seeds": [42, 43],
+  "resources": [
+    {"path": "data/manifests/task_dataset_manifest.csv", "role": "source_snapshot_manifest"},
+    {"path": "data/manifests/formal_split_sizes.csv", "role": "formal_processed_split_sizes"},
+    {"path": "data/scripts/validate_dataset_layout.py", "role": "layout_validator"}
+  ]
+}
