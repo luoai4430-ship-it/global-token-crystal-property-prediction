@@ -1,255 +1,307 @@
-# Global--Token crystal property prediction
+# Global and Token-Level Crystal Property Prediction
 
-This repository accompanies the `main_v21` English and Chinese manuscripts.
-The primary study compares two independently trained graph--text prediction
-pathways and combines their **sample-aligned predictions** with a fixed
-0.5/0.5 mean:
+Code accompanying the final manuscript
+[main_v24.pdf](paper/main_v24.pdf):
+**Global and Token-Level Crystallographic Text for Crystal Property
+Prediction: Complementarity and Prediction Averaging**.
 
-1. **Global pathway:** SFTGNN graph encoding with projected MatBERT CLS text
-   features and a scalar regression head.
-2. **Token pathway:** the same SFTGNN backbone with graph-conditioned,
-   cosine-normalized attention over frozen MatBERT contextual token features,
-   followed by the token-level predictor described in the paper.
-3. **Global+Token:** the fixed prediction mean after each pathway has selected
-   its checkpoint using validation MAE only.
+## Model implemented here
 
-The main protocol uses ten tasks, two independent training runs (seeds 42 and
-43), and one final test evaluation for each validation-selected checkpoint.
-The matched text-representation and interaction-location studies are
-validation-only diagnostics; they are not additional main test models.
+The main experiment trains two independent predictors. Each has its own
+five-layer SFTGNN with 92-dimensional CGCNN atom features, 128-dimensional
+node states, 64 radial features, 64 spherical-harmonic features, and mean
+graph pooling. Parameters are not shared between predictors.
 
-## Authors
-
-- Huaijuan Zang, School of Computer and Information, Hefei University of Technology, zanghj@hfut.edu.cn
-- Yunfan Peng, School of Computer and Information, Hefei University of Technology, luoai4430@gmail.com (corresponding author)
-- Chong Zhao, Engineering Quality Education Center, Hefei University of Technology, zhaochong@hfut.edu.cn
-- Fan Yang, School of Computer and Information, Hefei University of Technology, 2021800201@hfut.edu.cn
-- Feng Hong, Chizhou University, hongfeng@czu.edu.cn
-- Liangfeng Xu, School of Computer and Information, Hefei University of Technology, xulfcjn@hfut.edu.cn
-
-## Funding
-
-This work was supported by the Industry--University Cooperation Collaborative
-Education Project of the Ministry of Education (No. 250603873093026), the
-Fundamental Research Funds for the Central Universities of China (Grant No.
-PA2025GDSK0036), and the Innovative Teaching Team for Ideological and
-Political Education in Electronic Information Science and Technology
-(No. 2025XKSTD01).
-
-## AI-assisted development
-
-OpenAI Codex was used to assist with writing and organizing code files. The
-authors reviewed and verified the code and remain responsible for the research
-design, experiments, analyses, and manuscript content.
-
-## Repository layout
-
-| Path | Contents |
+| Component | Implementation |
 | --- | --- |
-| `paper/` | English and Chinese manuscripts, bibliography, and figures |
-| `code/main_method/` | Current data loaders, models, benchmark runners, and summarizers |
-| `results/main_test/` | Main ten-task test tables and selection metadata |
-| `results/seed42/` | Seed-42 paired results |
-| `results/seed43/` | Seed-43 paired results and two-run summaries |
-| `results/diagnostics/` | Declared validation-only diagnostic reports |
-| `metadata/` | Dataset/task registry, split information, schemas, and checksums |
-| `data/` | Text-only source manifests, formal split sizes, and a layout validator |
-| `docs/` | Data card, model card, reproducibility notes, and provenance notes |
-| `software/` | Environment and software records |
+| SFTConv | Per-edge sigmoid gate times message MLP, then neighbor sum, batch normalization, residual addition, SiLU |
+| Global | MatBERT CLS: 768 -> 128 -> 64 with ReLU; concatenate graph 128 + CLS 64; head 192 -> 256 -> 1 with SiLU |
+| Token | Bias-free query/key/value projections to 128; L2-normalized query and keys; masked cosine softmax at tau=0.5; weighted values followed by LayerNorm |
+| Token prediction | Graph head 128 -> 128 -> 1 plus residual head 256 -> 256 -> 1 |
+| Final prediction | Exactly 0.5 * Global prediction + 0.5 * Token prediction, aligned by sample ID |
+| Global objective | MAE(final, target) |
+| Token objective | MAE(final, target) + 0.2 * MAE(graph, target) |
 
-Raw datasets, graph caches, MatBERT caches, and model checkpoints are not
-duplicated in this repository. They must be obtained under the terms of the
-upstream dataset providers and placed at paths configured for the local
-machine. The release intentionally does not publish the earlier
-`TextResidualSHFMat` residual-fusion model as the current method.
+The model definitions are
+[net.py](code/main_method/model/net.py),
+[sublayer.py](code/main_method/model/sublayer.py), and
+[true_token_text_residual.py](code/main_method/model/true_token_text_residual.py).
+The benchmark explicitly chooses control `C1` and temperature `0.5`;
+the generic class defaults are not the final paper configuration.
 
-The tracked dataset package is intentionally small. `data/manifests/` contains
-ID-keyed source-snapshot manifests and the formal processed split sizes, while
-`data/scripts/validate_dataset_layout.py` checks a mounted server snapshot.
-The canonical source files are the task-specific `cif/id_prop.csv` files,
-not the description row counts. For MP-Bandgap and MP-FormationEnergy, the
-source snapshot contains 65,516 rows but the formal processed benchmark uses
-60,000/5,000/516; this distinction is recorded explicitly in the data
-manifest and must be preserved when reproducing the paper.
+The MatBERT sequence cache has shape [N, 128, 768]. On disk it uses
+**float16**, with input IDs and attention masks stored separately. PAD,
+CLS, and SEP are excluded from Token attention using IDs read from the
+checkpoint tokenizer. BF16 autocast is used during property-model training.
+The manuscript's description of BF16 cache storage differs from this
+implementation; see [the code review](docs/PAPER_V24_CODE_AUDIT.md).
 
-## Main protocol
+## Repository contents
 
-The following values are locked for the main benchmark:
-
-| Setting | Value |
+| Directory | Contents |
 | --- | --- |
-| Tasks | 6 JARVIS properties and 4 Materials Project properties; see `metadata/dataset_registry.csv` |
-| Data partition | fixed `splitSeed123` |
-| Training seeds | `42` and `43` |
-| Epochs | `300` |
-| Batch size | `32` |
-| Precision | bfloat16 |
-| Optimizer | AdamW, learning rate `1e-3`, weight decay `1e-4` |
-| Scheduler | OneCycleLR, maximum learning rate `1e-3` |
-| Token sequence length | `128` |
-| Token attention temperature | `0.5` |
-| Checkpoint selection | minimum validation MAE |
-| Test evaluation | once per validation-selected checkpoint, after validation freeze |
+| `paper/` | Final manuscript, bibliography, and figures |
+| `code/main_method/model/` | Paper graph, Global, and Token model definitions |
+| `code/main_method/data/` | Server data loading, graph construction, split rules, and token-cache reader |
+| `code/main_method/scripts/` | Cache preparation, paired training, selection freeze, and saved-prediction summaries |
+| `data/manifests/` | Source-snapshot references and formal processed split sizes |
+| `results/` | Published main results and validation diagnostics |
+| `metadata/` | Registries and server/local source comparison |
+| `software/` | Environment specifications and recorded package versions |
+| `docs/` | Model/data cards, reproducibility notes, and code review |
 
-The partition seed is a data-splitting parameter. It is distinct from the
-model-training seeds. Do not substitute seed 42 or 43 for `splitSeed123`.
+Large upstream datasets, MatBERT weights, graph caches, token caches, and
+trained checkpoints are not included. Reproduction requires the matching
+data snapshot and local MatBERT checkpoint. The stored result tables can be
+read without retraining. Recreating an exact historical prediction file
+also requires its original cache and checkpoint.
 
-## Reproduce the main benchmark
+## 1. Install the environment
 
-### 1. Create the environment
-
-Use Python 3.10 or a compatible PyTorch/torch-geometric environment. The
-recorded environments are in `software/environment.yml`,
-`software/requirements.txt`, and `software/pip-freeze.txt`.
+The reference software uses Python 3.10, PyTorch 2.2.2, CUDA 12.1,
+torch-geometric 2.5.2, torch-scatter 2.1.2, SciPy 1.15.2, and
+Transformers 4.38.2. Use a CUDA GPU with BF16 support for the formal runner.
 
 ```bash
 git clone https://github.com/luoai4430-ship-it/global-token-crystal-property-prediction.git
 cd global-token-crystal-property-prediction
-
-# Example conda setup; adapt the CUDA channel to the installed driver.
 conda env create -f software/environment.yml
-conda activate <environment-name>
+conda activate global-token-crystal
+
+python -c "import torch, torch_geometric, torch_scatter, transformers; print(torch.__version__, torch.cuda.is_available(), torch.cuda.is_bf16_supported())"
 ```
 
-Verify the installation before a long run:
+The conda file installs the PyTorch and PyG stack together. The accompanying
+`requirements.txt` lists dependencies but is not a replacement for
+installing CUDA-compatible PyG extension wheels. Saved PyG caches must be
+loaded in a compatible trusted environment; the reference uses PyTorch
+2.2.2 rather than a newer release with different `torch.load` defaults.
+
+## 2. Obtain the CrysMMNet-derived data snapshot
+
+The task-specific data used by this work come from the benchmark package
+used by [CrysMMNet (Das et al., UAI 2023)](https://proceedings.mlr.press/v216/das23a.html).
+The underlying structures and targets originate from JARVIS and Materials
+Project. Preserve the snapshot's structures, targets, descriptions, and IDs;
+independent current downloads of those databases need not produce the same
+samples.
+
+Set `DATA_ROOT` to the snapshot directory and `MATBERT` to the local
+MatBERT checkpoint, containing model weights, configuration, and tokenizer.
 
 ```bash
-python - <<'PY'
-import torch
-print("PyTorch:", torch.__version__)
-print("CUDA available:", torch.cuda.is_available())
-if torch.cuda.is_available():
-    print("GPU:", torch.cuda.get_device_name(0))
-PY
+export DATA_ROOT=/path/to/crysmmnet-derived/dataset
+export MATBERT=/path/to/matbert-base-cased
+export WORK=/absolute/path/to/paper_replication
+mkdir -p "$WORK"
 ```
 
-### 2. Prepare data and caches
+Each task directory must contain `cif/id_prop.csv` (headerless ID and raw
+target), the corresponding CIF files, and `description.csv`.
 
-Prepare or mount the upstream JARVIS and Materials Project structures, task
-targets, fixed `splitSeed123` partitions, graph caches, and the length-128
-MatBERT token cache. Keep the sample-ID columns intact. The task locations used by the
-benchmark scripts are declared near `TASKS` in
-`code/main_method/scripts/run_final_10task_benchmark.py`; update those local
-paths for your machine rather than changing the task definitions or split.
+| Task | Directory under DATA_ROOT | Description ID/text columns |
+| --- | --- | --- |
+| Jarvis-Bandgap_MBJ | jarvis/mbj_bandgap | Id / Description |
+| Jarvis-Bandgap_OPT | jarvis/optb88vdw_bandgap | Id / Description |
+| Jarvis-FormationEnergy | jarvis/formation_energy_peratom | Id / Description |
+| Jarvis-TotalEnergy | jarvis/optb88vdw_total_energy | Id / Description |
+| Jarvis-BulkModulusKv | jarvis/bulk_modulus_kv | Id / Description |
+| Jarvis-ShearModulusGv | jarvis/shear_modulus_gv | Id / Description |
+| MP-Bandgap | mp_2018/MP-bandgap | id / text |
+| MP-FormationEnergy | mp_2018/MP-formation | id / text |
+| MP-BulkModuli | mp_2018_small/bulk | Id / Description |
+| MP-ShearModuli | mp_2018_small/shear | Id / Description |
 
-Before training, validate the mounted source layout and the tracked source
-manifests:
+The restored server stores the snapshot under
+`/root/autodl-tmp/dataset1/dataset`. Adapt paths for your machine.
 
-```bash
-python data/scripts/validate_dataset_layout.py \
-  --root /root/autodl-tmp/dataset1/dataset \
-  --manifest data/manifests/task_dataset_manifest.csv
-```
+## 3. Prepare graph splits and the token cache
 
-The token cache must contain the union of the train, validation, and test IDs
-for the task. Before training, verify that graph-cache IDs and token-cache IDs
-match exactly. The corresponding cache metadata and checksums should be saved
-with the run output.
-
-### 3. Run one validation training
-
-The formal benchmark runner is:
+Run all model commands from `code/main_method`. The data loader uses fixed
+**split seed 123**, distinct from training seeds 42/43. JARVIS uses
+80%/10%/remainder. Large MP tasks use 60,000/5,000/remainder; the smaller
+elastic datasets use 80%/10%/remainder. MP elastic targets are transformed to
+log10(GPa); JARVIS elastic targets remain in GPa. Targets are standardized
+using the training mean and standard deviation, then predictions are mapped
+back to the benchmark target space for loss and evaluation.
 
 ```bash
 cd code/main_method
-python scripts/run_final_10task_benchmark.py train \
-  --task Jarvis-Bandgap_MBJ \
-  --model_name ours \
-  --seed 42 \
-  --token_cache /path/to/matbert_token_cache.pt \
-  --output_dir /path/to/output/runs/Jarvis-Bandgap_MBJ/ours/seed_42 \
-  --model_checkpoint /path/to/matbert-checkpoint \
-  --device cuda \
-  --num_workers 0 \
-  --epochs 300 \
-  --batch_size 32
+mkdir -p Dataset/raw Dataset/processed
+
+TASKS=(
+  Jarvis-Bandgap_MBJ Jarvis-Bandgap_OPT Jarvis-FormationEnergy
+  Jarvis-TotalEnergy Jarvis-BulkModulusKv Jarvis-ShearModulusGv
+  MP-Bandgap MP-FormationEnergy MP-BulkModuli MP-ShearModuli
+)
+
+for task in "${TASKS[@]}"; do
+  python scripts/prepare_paper_inputs.py \
+    --task "$task" --data_root "$DATA_ROOT" \
+    --output_csv "$WORK/inputs/$task.csv"
+
+  python scripts/cache_matbert_token_features.py \
+    --input "$WORK/inputs/$task.csv" \
+    --id_column sample_id --text_column text \
+    --model_name "$MATBERT" --max_length 128 --batch_size 32 \
+    --output_dir "$WORK/token_cache/$task" --device cuda
+done
 ```
 
-Repeat this command for every task and for both training seeds. The runner
-records validation predictions, the selected checkpoint, protocol metadata,
-and `summary.json`. It refuses to overwrite a completed run.
+The first command builds or loads graph caches and exports descriptions in
+processed split-ID order. Missing descriptions cause an error; obtain the
+matching snapshot rather than dropping samples. The second command writes a
+cache directory, **not a .pt file**, containing `token_features.npy`,
+`attention_mask.npy`, `input_ids.npy`, `sample_ids.json`, and
+`metadata.json`. Global reads token position zero from this same cache.
 
-The repository names the current token model `ours` in the benchmark code.
-This is the TrueToken pathway in the manuscript. The independent Global
-baseline and its frozen reference results are recorded in the result and
-provenance files; they must be evaluated with the same split, seed, and
-checkpoint-selection rule before forming the fixed prediction mean.
+Check the emitted `*.split.json` counts against
+`data/manifests/formal_split_sizes.csv` (relative to the repository root).
+In particular, MP-Bandgap and MP-FormationEnergy have 60,000/5,000/516
+samples in the paper. The MP 80/10/10 source-reference files in
+`data/manifests/splits/` are not the formal benchmark partition.
+Do not regenerate paper results from those reference assignments.
 
-### 4. Freeze validation selection
+## 4. Train both predictors for each seed
 
-After all 20 model/seed/task validation runs finish, freeze the validation
-selection before any test forward pass:
+A fresh paired replication has **40 training runs**:
+10 tasks x 2 predictors x 2 training seeds. Keep a separate output root for
+each seed. The wrapper below delegates to the unchanged server paired
+runner, adapting only the allowed seed and dataset path.
 
 ```bash
-python scripts/run_final_10task_benchmark.py freeze \
-  --output_root /path/to/output
+for seed in 42 43; do
+  ROOT="$WORK/seed$seed"
+  for task in "${TASKS[@]}"; do
+    python scripts/run_paper_benchmark.py \
+      --training_seed "$seed" --data_root "$DATA_ROOT" preflight \
+      --task "$task" --token_cache "$WORK/token_cache/$task" \
+      --scratch "$WORK/scratch/$task" --output_root "$ROOT" \
+      --model_checkpoint "$MATBERT"
+
+    for model in original_sftmat ours; do
+      python scripts/run_paper_benchmark.py \
+        --training_seed "$seed" --data_root "$DATA_ROOT" train \
+        --task "$task" --model_name "$model" --seed "$seed" \
+        --token_cache "$WORK/token_cache/$task" \
+        --output_dir "$ROOT/runs/$task/$model/seed_$seed" \
+        --model_checkpoint "$MATBERT" --device cuda \
+        --num_workers 2 --epochs 300 --batch_size 32
+    done
+  done
+done
 ```
 
-Check that the freeze manifest contains exactly 20 entries, all selected by
-validation MAE, and that every pre-test `test_forward_count` is zero.
+`original_sftmat` names the Global model; `ours` names the Token model.
+The fresh paired runner uses AdamW, lr/max_lr 1e-3, weight decay 1e-4,
+OneCycleLR (`pct_start=0.3`), BF16 autocast, two loader workers,
+`drop_last=False`, training batch 32, and evaluation batch 64. It selects
+the minimum validation-MAE checkpoint and refuses to overwrite completed
+runs. Bandgap predictions are clipped to nonnegative values.
 
-### 5. Evaluate the selected checkpoints once on test
+Preflight evaluates a few validation samples and checks parameter counts,
+attention masks, cache coverage, and numerical finiteness. It does not run
+test inference. Per seed, expect 20 validation summaries and checkpoints,
+with `test_forward_count=0` before selection freeze.
 
-Only after the freeze, run one test evaluation per selected checkpoint:
+The historical `run_final_10task_benchmark.py` trains Token for seed 42
+against frozen Global references. It does not train both main predictors.
+`run.py` and `train_and_test.py` are historical entry points with imports
+from excluded experimental models; use the paired wrapper above for the
+paper architecture. Historical seed42 references may have their original
+loader settings; a fresh paired replication does not retroactively change
+those published results.
+
+## 5. Freeze validation selection and evaluate test once
+
+After both seed roots contain all 20 completed validation runs:
 
 ```bash
-python scripts/run_final_10task_benchmark.py test \
-  --task Jarvis-Bandgap_MBJ \
-  --model_name ours \
-  --seed 42 \
-  --token_cache /path/to/matbert_token_cache.pt \
-  --output_root /path/to/output \
-  --model_checkpoint /path/to/matbert-checkpoint \
-  --device cuda \
-  --num_workers 0
+for seed in 42 43; do
+  python scripts/run_paper_benchmark.py --training_seed "$seed" freeze \
+    --output_root "$WORK/seed$seed"
+done
 ```
 
-Repeat for all frozen entries. Do not use test labels for model selection,
-early stopping, hyperparameter tuning, or deciding which checkpoint to keep.
+Each freeze manifest must contain exactly the ten tasks and two predictors
+for its seed. The runner verifies protocol and checkpoint hashes. Keep
+output paths stable after freezing because the manifest records checkpoint
+paths.
 
-### 6. Summarize the paired predictions
-
-After the 20 test summaries are present, summarize the fixed Global+Token
-prediction mean:
+Then evaluate each frozen checkpoint once:
 
 ```bash
-python scripts/run_final_10task_benchmark.py summarize \
-  --output_root /path/to/output \
-  --baseline_csv /path/to/matched/original_baseline.csv
+for seed in 42 43; do
+  for task in "${TASKS[@]}"; do
+    for model in original_sftmat ours; do
+      python scripts/run_paper_benchmark.py \
+        --training_seed "$seed" --data_root "$DATA_ROOT" test \
+        --task "$task" --model_name "$model" --seed "$seed" \
+        --token_cache "$WORK/token_cache/$task" \
+        --output_root "$WORK/seed$seed" \
+        --model_checkpoint "$MATBERT" --device cuda --num_workers 2
+    done
+  done
+done
 ```
 
-The output should include the per-task table, per-seed summaries, paired
-sample-aligned predictions, macro statistics, and the final selection record.
-Use `results/main_test/` and `results/seed43/` as format references. The
-standalone helper
-`code/main_method/scripts/summarize_seed43_dualview.py` checks paired seed-43
-IDs and computes the Global, Token, and fixed-mean summaries for an already
-completed seed-43 output root.
+The runner refuses test evaluation before freeze or after test has already
+started for that checkpoint. The counter denotes one full test evaluation,
+not one mini-batch. Test labels are excluded from checkpoint selection and
+weight fitting.
 
-## Validation-only diagnostic studies
+## 6. Recompute the prediction mean from saved files
 
-The matched CLS/masked-mean/cosine comparison and the message-, latent-, and
-shared-backbone interaction studies are exploratory validation experiments.
-Their coverage and seeds are declared in `metadata/experiment_registry.csv`.
-Do not merge their metrics into the main ten-task test table, and do not call
-them two-run test evidence unless the corresponding protocol was actually
-repeated.
+```bash
+python scripts/summarize_paper_predictions.py \
+  --run "42=$WORK/seed42" --run "43=$WORK/seed43" \
+  --split test --output_dir "$WORK/summary_test"
 
-## Reproducibility checks
+python scripts/summarize_paper_predictions.py \
+  --run "42=$WORK/seed42" --run "43=$WORK/seed43" \
+  --split valid --output_dir "$WORK/summary_valid"
+```
 
-Before reporting a run, confirm:
+These commands load saved CSVs only. They align predictions by ID, reject
+duplicate IDs, different sample sets or targets, calculate the fixed
+0.5/0.5 mean, and emit paired CSVs, per-seed task results, two-run mean/sample
+standard deviation, macro gains, and win counts. Macro gains average
+task-wise relative MAE reductions; raw MAEs with different units are not
+averaged. The manuscript reports about 5.9% macro gain over Global, 10/10
+wins over Global and 9/10 wins over both constituents per run. Exact replay
+needs the historical checkpoint/cache snapshots as well as these sources.
 
-1. `splitSeed123` is unchanged and is distinct from the training seed.
-2. Graph, target, and token-cache sample IDs match within every split.
-3. The selected checkpoint has the minimum validation MAE.
-4. No test forward occurred before validation freeze.
-5. Global and Token predictions are aligned by sample ID before averaging.
-6. The fixed fusion weight is exactly `0.5/0.5`; no router, gate, or
-   sample-wise weight is introduced.
-7. The reported protocol and file hashes agree with `metadata/`.
+## Validation-only studies
 
-## Citation and license
+The matched CLS/mean/cosine ablation and interaction studies have their own
+task coverage and budgets. Their results are in `results/diagnostics/`;
+they are not additional two-seed test models. The main code is intended for
+the independent Global and Token predictors. The release does not claim to
+include a runnable implementation for every exploratory appendix variant.
 
-See `paper/cas-refs.bib`, `software/CITATION.cff`, `LICENSE`, and `NOTICE`.
-Raw data remain subject to the licenses and access conditions of JARVIS and
-Materials Project.
+## Source consistency and remaining limitations
+
+The model files and archived benchmark runners were compared with
+`/root/autodl-tmp/TextResidualSHFMat` on
+`connect.westb.seetacloud.com:36397`. Results and file hashes are recorded
+in `metadata/paper_v24_server_code_comparison.json` and
+`docs/PAPER_V24_CODE_AUDIT.md`. New reproduction wrappers are separate
+from the unchanged historical server code. The restored container currently
+lacks `torch_geometric` and has no GPU, so this review did not perform
+training or test inference.
+
+## Authors and citation
+
+Huaijuan Zang; Yunfan Peng (corresponding author, luoai4430@gmail.com);
+Chong Zhao; Fan Yang; Feng Hong; Liangfeng Xu.
+See the manuscript for affiliations and funding, and `CITATION.cff` for
+repository citation. Dataset attribution follows CrysMMNet:
+
+> Kishalay Das, Pawan Goyal, Seung-Cheol Lee, Satadeep Bhattacharjee, and
+> Niloy Ganguly. CrysMMNet: Multimodal Representation for Crystal Property
+> Prediction. Proceedings of UAI, PMLR 216:507-517, 2023.
+
+OpenAI Codex assisted with code preparation and organization. The authors
+reviewed the code and remain responsible for the research and results.
+See `LICENSE` and `NOTICE`; upstream datasets and pretrained weights
+retain their own terms.

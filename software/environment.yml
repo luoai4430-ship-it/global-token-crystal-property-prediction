@@ -1,1 +1,26 @@
-../../environment.yml
+name: global-token-crystal
+channels:
+  - pytorch
+  - nvidia
+  - pyg
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pytorch=2.2.2
+  - pytorch-cuda=12.1
+  - pyg=2.5.2
+  - pytorch-scatter=2.1.2
+  - numpy=1.24.3
+  - pandas=2.2.3
+  - scipy=1.15.2
+  - tqdm=4.66.2
+  - tensorboard
+  - pip
+  - pip:
+      - jarvis-tools==2022.9.16
+      - dgl==1.1.3
+      - pandarallel==1.6.5
+      - pymatgen
+      - robocrys
+      - transformers==4.38.2
+      - pytest

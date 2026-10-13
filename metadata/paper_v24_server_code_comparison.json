@@ -1,0 +1,272 @@
+{
+  "paper": "paper/main_v24.pdf",
+  "server": "connect.westb.seetacloud.com:36397",
+  "server_root": "/root/autodl-tmp/TextResidualSHFMat",
+  "checked_date": "2026-10-13",
+  "comparisons": [
+    {
+      "path": "model/__init__.py",
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "server_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_equal": true,
+      "normalized_text_equal": true,
+      "python_ast_equal": true
+    },
+    {
+      "path": "model/config.py",
+      "local_sha256": "86a79fdfbb3aa7aaaef7635a09f9049e7b0272a5f0576a4572824e1539935905",
+      "server_sha256": "86a79fdfbb3aa7aaaef7635a09f9049e7b0272a5f0576a4572824e1539935905",
+      "byte_equal": true,
+      "normalized_text_equal": true,
+      "python_ast_equal": true
+    },
+    {
+      "path": "model/net.py",
+      "local_sha256": "f12f128a5af96f13cd5726421fbfe41220452360b27c1bd0c52f049444ea20ff",
+      "server_sha256": "f12f128a5af96f13cd5726421fbfe41220452360b27c1bd0c52f049444ea20ff",
+      "byte_equal": true,
+      "normalized_text_equal": true,
+      "python_ast_equal": true
+    },
+    {
+      "path": "model/sublayer.py",
+      "local_sha256": "9f3bc498bc68c2e3b29fe5f47878a2a3b1cb01b8e24309cb1b20ecd5cb0a61a5",
+      "server_sha256": "9f3bc498bc68c2e3b29fe5f47878a2a3b1cb01b8e24309cb1b20ecd5cb0a61a5",
+      "byte_equal": true,
+      "normalized_text_equal": true,
+      "python_ast_equal": true
+    },
+    {
+      "path": "model/true_token_text_residual.py",
+      "local_sha256": "832a79b44a71489147fa3fca8346aeb06a1efd5c7ec25dd6453c5a5c22b067a4",
+      "server_sha256": "832a79b44a71489147fa3fca8346aeb06a1efd5c7ec25dd6453c5a5c22b067a4",
+      "byte_equal": true,
+      "normalized_text_equal": true,
+      "python_ast_equal": true
+    },
+    {
+      "path": "data/__init__.py",
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "server_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "byte_equal": true,
+      "normalized_text_equal": true,
+      "python_ast_equal": true
+    },
+    {
+      "path": "data/config.py",
+      "local_sha256": "a1830d9d47fb19a6e4ea927ecff72dd3942043b71fd675c85e036b021abdb5ec",
+      "server_sha256": "a1830d9d47fb19a6e4ea927ecff72dd3942043b71fd675c85e036b021abdb5ec",
+      "byte_equal": true,
+      "normalized_text_equal": true,
+      "python_ast_equal": true
+    },
+    {
+      "path": "data/dataset.py",
+      "local_sha256": "49df3b7cda0a55881c02266542eda9c3bba71ad83d64fcf8333b8ba8b08764db",
+      "server_sha256": "49df3b7cda0a55881c02266542eda9c3bba71ad83d64fcf8333b8ba8b08764db",
+      "byte_equal": true,
+      "normalized_text_equal": true,
+      "python_ast_equal": true
+    },
+    {
+      "path": "data/graph.py",
+      "local_sha256": "c04eef27e3c630ed3dc06ccd3624802ec537408c691af1df5e8a9837caa3d071",
+      "server_sha256": "c04eef27e3c630ed3dc06ccd3624802ec537408c691af1df5e8a9837caa3d071",
+      "byte_equal": true,
+      "normalized_text_equal": true,
+      "python_ast_equal": true
+    },
+    {
+      "path": "data/token_sequence.py",
+      "local_sha256": "d65c2eb7edc925f7abcff0e383057eb1bc14a0af491809c792edcbe06efe4207",
+      "server_sha256": "d65c2eb7edc925f7abcff0e383057eb1bc14a0af491809c792edcbe06efe4207",
+      "byte_equal": true,
+      "normalized_text_equal": true,
+      "python_ast_equal": true
+    },
+    {
+      "path": "data/utils.py",
+      "local_sha256": "8ebe19dbade916100d3c1c62065b58fc1a3c7865a6c708ba00cf0237edff6c7a",
+      "server_sha256": "8ebe19dbade916100d3c1c62065b58fc1a3c7865a6c708ba00cf0237edff6c7a",
+      "byte_equal": true,
+      "normalized_text_equal": true,
+      "python_ast_equal": true
+    },
+    {
+      "path": "scripts/cache_matbert_token_features.py",
+      "local_sha256": "ba2c6db682cdbdc904212f86390d8bf4bc34ab392449d78fea1eea75d56f6060",
+      "server_sha256": "ba2c6db682cdbdc904212f86390d8bf4bc34ab392449d78fea1eea75d56f6060",
+      "byte_equal": true,
+      "normalized_text_equal": true,
+      "python_ast_equal": true
+    },
+    {
+      "path": "scripts/run_seed43_benchmark.py",
+      "local_sha256": "93e284ab4e0c49e63e0e3da22c257a79df2c61a5f5fb76606aa0d954bc99eff0",
+      "server_sha256": "93e284ab4e0c49e63e0e3da22c257a79df2c61a5f5fb76606aa0d954bc99eff0",
+      "byte_equal": true,
+      "normalized_text_equal": true,
+      "python_ast_equal": true
+    },
+    {
+      "path": "scripts/summarize_seed43_dualview.py",
+      "local_sha256": "9fef663ce3daf47c5a20b8b4f747362b306c999c8fe7b9c4fc0ffb886f8a4d3d",
+      "server_sha256": "9fef663ce3daf47c5a20b8b4f747362b306c999c8fe7b9c4fc0ffb886f8a4d3d",
+      "byte_equal": true,
+      "normalized_text_equal": true,
+      "python_ast_equal": true
+    },
+    {
+      "path": "scripts/run_final_10task_benchmark.py",
+      "local_sha256": "aaae208a9c7fb75c5b8a67efc070dabd3da2ab3eb4abebd6f99d494ec9c47b08",
+      "server_sha256": "aaae208a9c7fb75c5b8a67efc070dabd3da2ab3eb4abebd6f99d494ec9c47b08",
+      "byte_equal": true,
+      "normalized_text_equal": true,
+      "python_ast_equal": true
+    },
+    {
+      "path": "scripts/run_final_10task_queue.py",
+      "local_sha256": "81b86421d90ccf43ca9f945d226e2db97a26899915d9823f1f263adaf5e72dd2",
+      "server_sha256": "81b86421d90ccf43ca9f945d226e2db97a26899915d9823f1f263adaf5e72dd2",
+      "byte_equal": true,
+      "normalized_text_equal": true,
+      "python_ast_equal": true
+    },
+    {
+      "path": "run.py",
+      "local_sha256": "f14a5f8e442cf68d3e2c01dc0d578e2516960a865986a70c7fd3a19aa02e7223",
+      "server_sha256": "f14a5f8e442cf68d3e2c01dc0d578e2516960a865986a70c7fd3a19aa02e7223",
+      "byte_equal": true,
+      "normalized_text_equal": true,
+      "python_ast_equal": true
+    },
+    {
+      "path": "train_and_test.py",
+      "local_sha256": "464ab0ed2f03cd11d70bf43b9cef6cf81b781055b604c53512b39a6f401827ae",
+      "server_sha256": "464ab0ed2f03cd11d70bf43b9cef6cf81b781055b604c53512b39a6f401827ae",
+      "byte_equal": true,
+      "normalized_text_equal": true,
+      "python_ast_equal": true
+    }
+  ],
+  "new_replication_adapters": [
+    "scripts/run_paper_benchmark.py",
+    "scripts/prepare_paper_inputs.py",
+    "scripts/summarize_paper_predictions.py",
+    "scripts/audit_paper_sources.py"
+  ],
+  "runtime_validation": "Not run: restored server lacks torch_geometric and a CUDA GPU",
+  "training_runs_started": 0,
+  "test_evaluations_started": 0,
+  "github_fetched_commit": "dc0c42d8a9a7d7b5e6745d6d2efa7b38502ebe56",
+  "github_comparisons": [
+    {
+      "path": "model/__init__.py",
+      "status": "available",
+      "github_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "github_server_byte_equal": true
+    },
+    {
+      "path": "model/config.py",
+      "status": "available",
+      "github_sha256": "86a79fdfbb3aa7aaaef7635a09f9049e7b0272a5f0576a4572824e1539935905",
+      "github_server_byte_equal": true
+    },
+    {
+      "path": "model/net.py",
+      "status": "available",
+      "github_sha256": "f12f128a5af96f13cd5726421fbfe41220452360b27c1bd0c52f049444ea20ff",
+      "github_server_byte_equal": true
+    },
+    {
+      "path": "model/sublayer.py",
+      "status": "available",
+      "github_sha256": "9f3bc498bc68c2e3b29fe5f47878a2a3b1cb01b8e24309cb1b20ecd5cb0a61a5",
+      "github_server_byte_equal": true
+    },
+    {
+      "path": "model/true_token_text_residual.py",
+      "status": "available",
+      "github_sha256": "832a79b44a71489147fa3fca8346aeb06a1efd5c7ec25dd6453c5a5c22b067a4",
+      "github_server_byte_equal": true
+    },
+    {
+      "path": "data/__init__.py",
+      "status": "not_in_fetched_commit",
+      "github_sha256": null,
+      "github_server_byte_equal": null
+    },
+    {
+      "path": "data/config.py",
+      "status": "not_in_fetched_commit",
+      "github_sha256": null,
+      "github_server_byte_equal": null
+    },
+    {
+      "path": "data/dataset.py",
+      "status": "not_in_fetched_commit",
+      "github_sha256": null,
+      "github_server_byte_equal": null
+    },
+    {
+      "path": "data/graph.py",
+      "status": "not_in_fetched_commit",
+      "github_sha256": null,
+      "github_server_byte_equal": null
+    },
+    {
+      "path": "data/token_sequence.py",
+      "status": "not_in_fetched_commit",
+      "github_sha256": null,
+      "github_server_byte_equal": null
+    },
+    {
+      "path": "data/utils.py",
+      "status": "not_in_fetched_commit",
+      "github_sha256": null,
+      "github_server_byte_equal": null
+    },
+    {
+      "path": "scripts/cache_matbert_token_features.py",
+      "status": "not_in_fetched_commit",
+      "github_sha256": null,
+      "github_server_byte_equal": null
+    },
+    {
+      "path": "scripts/run_seed43_benchmark.py",
+      "status": "available",
+      "github_sha256": "93e284ab4e0c49e63e0e3da22c257a79df2c61a5f5fb76606aa0d954bc99eff0",
+      "github_server_byte_equal": true
+    },
+    {
+      "path": "scripts/summarize_seed43_dualview.py",
+      "status": "available",
+      "github_sha256": "9fef663ce3daf47c5a20b8b4f747362b306c999c8fe7b9c4fc0ffb886f8a4d3d",
+      "github_server_byte_equal": true
+    },
+    {
+      "path": "scripts/run_final_10task_benchmark.py",
+      "status": "available",
+      "github_sha256": "aaae208a9c7fb75c5b8a67efc070dabd3da2ab3eb4abebd6f99d494ec9c47b08",
+      "github_server_byte_equal": true
+    },
+    {
+      "path": "scripts/run_final_10task_queue.py",
+      "status": "available",
+      "github_sha256": "81b86421d90ccf43ca9f945d226e2db97a26899915d9823f1f263adaf5e72dd2",
+      "github_server_byte_equal": true
+    },
+    {
+      "path": "run.py",
+      "status": "available",
+      "github_sha256": "f14a5f8e442cf68d3e2c01dc0d578e2516960a865986a70c7fd3a19aa02e7223",
+      "github_server_byte_equal": true
+    },
+    {
+      "path": "train_and_test.py",
+      "status": "available",
+      "github_sha256": "464ab0ed2f03cd11d70bf43b9cef6cf81b781055b604c53512b39a6f401827ae",
+      "github_server_byte_equal": true
+    }
+  ]
+}

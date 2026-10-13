@@ -2,8 +2,7 @@ cff-version: 1.2.0
 message: "If you use this code or the released results, please cite the accompanying manuscript."
 title: "Global and Token-Level Crystallographic Text for Crystal Property Prediction: Complementarity and Prediction Averaging"
 type: software
-version: "main_v21"
-date-released: 2026-09-17
+version: "main_v24"
 repository-code: "https://github.com/luoai4430-ship-it/global-token-crystal-property-prediction"
 license: Apache-2.0
 authors:
