@@ -301,7 +301,3 @@ repository citation. Dataset attribution follows CrysMMNet:
 > Niloy Ganguly. CrysMMNet: Multimodal Representation for Crystal Property
 > Prediction. Proceedings of UAI, PMLR 216:507-517, 2023.
 
-OpenAI Codex assisted with code preparation and organization. The authors
-reviewed the code and remain responsible for the research and results.
-See `LICENSE` and `NOTICE`; upstream datasets and pretrained weights
-retain their own terms.
