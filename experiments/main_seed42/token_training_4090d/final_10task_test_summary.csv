@@ -1,0 +1,21 @@
+task,dataset,property,unit,model_name,seed,test_mae,source
+Jarvis-Bandgap_MBJ,JARVIS,Bandgap_MBJ,eV,original_sftmat,42,0.25798455,frozen paper result
+Jarvis-Bandgap_MBJ,JARVIS,Bandgap_MBJ,eV,ours,42,0.26065424225642475,new formal run
+Jarvis-Bandgap_OPT,JARVIS,Bandgap_OPT,eV,original_sftmat,42,0.12061202,frozen paper result
+Jarvis-Bandgap_OPT,JARVIS,Bandgap_OPT,eV,ours,42,0.12215505749195756,new formal run
+Jarvis-FormationEnergy,JARVIS,FormationEnergy,eV/atom,original_sftmat,42,0.02872501,frozen paper result
+Jarvis-FormationEnergy,JARVIS,FormationEnergy,eV/atom,ours,42,0.028697217813454516,new formal run
+Jarvis-TotalEnergy,JARVIS,TotalEnergy,eV/atom,original_sftmat,42,0.030428,frozen paper result
+Jarvis-TotalEnergy,JARVIS,TotalEnergy,eV/atom,ours,42,0.03142835981388527,new formal run
+Jarvis-BulkModulusKv,JARVIS,BulkModulusKv,GPa,original_sftmat,42,10.33671581,frozen paper result
+Jarvis-BulkModulusKv,JARVIS,BulkModulusKv,GPa,ours,42,9.343168832422272,new formal run
+Jarvis-ShearModulusGv,JARVIS,ShearModulusGv,GPa,original_sftmat,42,8.9595579,frozen paper result
+Jarvis-ShearModulusGv,JARVIS,ShearModulusGv,GPa,ours,42,8.637927869471108,new formal run
+MP-Bandgap,MP,Bandgap,eV,original_sftmat,42,0.19873843,frozen paper result
+MP-Bandgap,MP,Bandgap,eV,ours,42,0.19772345474524092,new formal run
+MP-FormationEnergy,MP,FormationEnergy,eV/atom,original_sftmat,42,0.02388391,frozen paper result
+MP-FormationEnergy,MP,FormationEnergy,eV/atom,ours,42,0.024617906688719757,new formal run
+MP-BulkModuli,MP,BulkModuli,log10(GPa),original_sftmat,42,0.03549224,frozen paper result
+MP-BulkModuli,MP,BulkModuli,log10(GPa),ours,42,0.03587196028661973,new formal run
+MP-ShearModuli,MP,ShearModuli,log10(GPa),original_sftmat,42,0.07115724,frozen paper result
+MP-ShearModuli,MP,ShearModuli,log10(GPa),ours,42,0.07116317176491686,new formal run

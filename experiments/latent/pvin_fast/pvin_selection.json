@@ -1,0 +1,16 @@
+{
+  "decision": "STRONG_PVIN_SIGNAL",
+  "full_better_than_zero_all_interactions": true,
+  "gradients_active": true,
+  "interaction_active": true,
+  "jarvis_macro_gain_vs_b1_pct": 6.0504958651652725,
+  "macro_gain_vs_b1_pct": 6.623751147763343,
+  "macro_gain_vs_p0_pct": 1.6589424502847812,
+  "macro_gain_vs_token_only_pct": 5.049994730796123,
+  "mp_macro_gain_vs_b1_pct": 7.197006430361413,
+  "parameter_gate": true,
+  "test_forward_count": 0,
+  "wins_vs_b1": 4,
+  "wins_vs_p0": 4,
+  "wins_vs_token_only": 4
+}

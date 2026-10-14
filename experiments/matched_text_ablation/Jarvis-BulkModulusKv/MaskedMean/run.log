@@ -1,0 +1,58 @@
+Jarvis-BulkModulusKv MaskedMean epoch=1/300 valid_mae=18.74473428 best=18.74473428
+Jarvis-BulkModulusKv MaskedMean epoch=10/300 valid_mae=13.71134567 best=13.49742680
+Jarvis-BulkModulusKv MaskedMean epoch=20/300 valid_mae=12.69426634 best=12.00711645
+Jarvis-BulkModulusKv MaskedMean epoch=30/300 valid_mae=11.49825192 best=11.28099900
+Jarvis-BulkModulusKv MaskedMean epoch=40/300 valid_mae=11.69619169 best=10.60066967
+Jarvis-BulkModulusKv MaskedMean epoch=50/300 valid_mae=10.90558240 best=10.21515242
+Jarvis-BulkModulusKv MaskedMean epoch=60/300 valid_mae=11.38384118 best=10.21515242
+Jarvis-BulkModulusKv MaskedMean epoch=70/300 valid_mae=11.29186058 best=10.21515242
+Jarvis-BulkModulusKv MaskedMean epoch=80/300 valid_mae=11.32165444 best=10.08546162
+Jarvis-BulkModulusKv MaskedMean epoch=90/300 valid_mae=10.24656673 best=9.71414036
+Jarvis-BulkModulusKv MaskedMean epoch=100/300 valid_mae=10.29696456 best=9.71414036
+Jarvis-BulkModulusKv MaskedMean epoch=110/300 valid_mae=9.93687095 best=9.71414036
+Jarvis-BulkModulusKv MaskedMean epoch=120/300 valid_mae=9.97532647 best=9.71414036
+Jarvis-BulkModulusKv MaskedMean epoch=130/300 valid_mae=9.87883151 best=9.63511617
+Jarvis-BulkModulusKv MaskedMean epoch=140/300 valid_mae=9.98865186 best=9.54592186
+Jarvis-BulkModulusKv MaskedMean epoch=150/300 valid_mae=9.56697298 best=9.54592186
+Jarvis-BulkModulusKv MaskedMean epoch=160/300 valid_mae=10.09081717 best=9.51334015
+Jarvis-BulkModulusKv MaskedMean epoch=170/300 valid_mae=9.93320819 best=9.51334015
+Jarvis-BulkModulusKv MaskedMean epoch=180/300 valid_mae=9.70452888 best=9.51334015
+Jarvis-BulkModulusKv MaskedMean epoch=190/300 valid_mae=9.92927894 best=9.36147442
+Jarvis-BulkModulusKv MaskedMean epoch=200/300 valid_mae=9.60655850 best=9.36147442
+Jarvis-BulkModulusKv MaskedMean epoch=210/300 valid_mae=9.89361578 best=9.36147442
+Jarvis-BulkModulusKv MaskedMean epoch=220/300 valid_mae=9.77028902 best=9.36147442
+Jarvis-BulkModulusKv MaskedMean epoch=230/300 valid_mae=9.68408735 best=9.36147442
+Jarvis-BulkModulusKv MaskedMean epoch=240/300 valid_mae=9.77646924 best=9.36147442
+Jarvis-BulkModulusKv MaskedMean epoch=250/300 valid_mae=9.63621962 best=9.36147442
+Jarvis-BulkModulusKv MaskedMean epoch=260/300 valid_mae=9.71203815 best=9.36147442
+Jarvis-BulkModulusKv MaskedMean epoch=270/300 valid_mae=9.69037004 best=9.36147442
+Jarvis-BulkModulusKv MaskedMean epoch=280/300 valid_mae=9.61154399 best=9.36147442
+Jarvis-BulkModulusKv MaskedMean epoch=290/300 valid_mae=9.58125355 best=9.36147442
+Jarvis-BulkModulusKv MaskedMean epoch=300/300 valid_mae=9.66252752 best=9.36147442
+{
+  "task": "Jarvis-BulkModulusKv",
+  "dataset": "JARVIS",
+  "property_family": "Mechanical",
+  "variant": "MaskedMean",
+  "seed": 42,
+  "best_epoch": 188,
+  "best_valid_mae": 9.361474419842715,
+  "final_valid_mae": 9.662527520595637,
+  "mean": 84.35909870426829,
+  "std": 66.33599313040396,
+  "trainable_params": 2636514,
+  "checkpoint_path": "/root/autodl-tmp/TextResidualSHFMat/matched_ablation_runs/Jarvis-BulkModulusKv/MaskedMean/best_valid.pt",
+  "test_forward_count": 0,
+  "runtime_sec": 3900.8830859661102,
+  "train_samples": 15744,
+  "valid_samples": 1968,
+  "mean_eligible_token_count": 120.1869918699187,
+  "median_eligible_token_count": 126.0,
+  "attention_entropy_mean": null,
+  "attention_entropy_median": null,
+  "attention_effective_token_count_mean": null,
+  "attention_effective_token_count_median": null,
+  "attention_mean_max": null,
+  "zero_text_fallback_count": 0,
+  "zero_text_fallback_ids": []
+}

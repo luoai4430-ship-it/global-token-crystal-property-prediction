@@ -1,0 +1,10 @@
+{
+  "P0_AuxConcat": 2932196,
+  "P1_Full_PVIN": 2981540,
+  "P2_GT_PVIN": 2956900,
+  "P2_vs_P0_increase": 24704,
+  "P2_vs_P0_increase_pct": 0.8425084816976764,
+  "P2_vs_P1_reduction": 24640,
+  "P2_vs_P1_reduction_pct": 0.8264185622195241,
+  "test_forward_count": 0
+}

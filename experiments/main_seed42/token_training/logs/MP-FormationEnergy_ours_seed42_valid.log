@@ -1,0 +1,30 @@
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py train --task MP-FormationEnergy --model_name ours --seed 42 --token_cache /dev/shm/final_10task_ours_seed42_current/MP-FormationEnergy/token_cache --output_dir /root/final_10task_ours_seed42_20260810_tau05/runs/MP-FormationEnergy/ours/seed_42 --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda --num_workers 2 --epochs 300 --batch_size 32
+dataset split: total=65516, train=60000, valid=5000, test=516
+train range:(-4.522498607635498,4.390343189239502)
+valid range:(-4.438785552978516,4.213304042816162)
+test range:(-4.011949062347412,2.410712957382202)
+mean:-1.6532751321792603
+std:1.072024941444397
+[MP-FormationEnergy:ours:seed42] epoch=1/300 loss=0.26804712 valid_mae=0.13759764 best=0.13759764 best_epoch=1
+[MP-FormationEnergy:ours:seed42] epoch=2/300 loss=0.16355697 valid_mae=0.11680323 best=0.11680323 best_epoch=2
+[MP-FormationEnergy:ours:seed42] epoch=3/300 loss=0.13757996 valid_mae=0.10762735 best=0.10762735 best_epoch=3
+[MP-FormationEnergy:ours:seed42] epoch=4/300 loss=0.12475680 valid_mae=0.09448089 best=0.09448089 best_epoch=4
+[MP-FormationEnergy:ours:seed42] epoch=5/300 loss=0.11617896 valid_mae=0.08968008 best=0.08968008 best_epoch=5
+[MP-FormationEnergy:ours:seed42] epoch=6/300 loss=0.10970030 valid_mae=0.08244391 best=0.08244391 best_epoch=6
+[MP-FormationEnergy:ours:seed42] epoch=7/300 loss=0.10224673 valid_mae=0.08167466 best=0.08167466 best_epoch=7
+[MP-FormationEnergy:ours:seed42] epoch=8/300 loss=0.09801707 valid_mae=0.08166148 best=0.08166148 best_epoch=8
+[MP-FormationEnergy:ours:seed42] epoch=9/300 loss=0.09497912 valid_mae=0.07492668 best=0.07492668 best_epoch=9
+[MP-FormationEnergy:ours:seed42] epoch=10/300 loss=0.09101113 valid_mae=0.07187127 best=0.07187127 best_epoch=10
+[MP-FormationEnergy:ours:seed42] epoch=11/300 loss=0.08780375 valid_mae=0.07467412 best=0.07187127 best_epoch=10
+[MP-FormationEnergy:ours:seed42] epoch=12/300 loss=0.08512890 valid_mae=0.07238435 best=0.07187127 best_epoch=10
+[MP-FormationEnergy:ours:seed42] epoch=13/300 loss=0.08288261 valid_mae=0.06598539 best=0.06598539 best_epoch=13
+[MP-FormationEnergy:ours:seed42] epoch=14/300 loss=0.08119188 valid_mae=0.06372883 best=0.06372883 best_epoch=14
+[MP-FormationEnergy:ours:seed42] epoch=15/300 loss=0.07922624 valid_mae=0.06436662 best=0.06372883 best_epoch=14
+[MP-FormationEnergy:ours:seed42] epoch=16/300 loss=0.07800770 valid_mae=0.05864407 best=0.05864407 best_epoch=16
+[MP-FormationEnergy:ours:seed42] epoch=17/300 loss=0.07581959 valid_mae=0.05789112 best=0.05789112 best_epoch=17
+[MP-FormationEnergy:ours:seed42] epoch=18/300 loss=0.07437568 valid_mae=0.05814340 best=0.05789112 best_epoch=17
+[MP-FormationEnergy:ours:seed42] epoch=19/300 loss=0.07375033 valid_mae=0.06529912 best=0.05789112 best_epoch=17
+[MP-FormationEnergy:ours:seed42] epoch=20/300 loss=0.07252825 valid_mae=0.05319704 best=0.05319704 best_epoch=20
+[MP-FormationEnergy:ours:seed42] epoch=21/300 loss=0.07121983 valid_mae=0.05535086 best=0.05319704 best_epoch=20
+[MP-FormationEnergy:ours:seed42] epoch=22/300 loss=0.07007401 valid_mae=0.05299855 best=0.05299855 best_epoch=22
+[MP-FormationEnergy:ours:seed42] epoch=23/300 loss=0.06820247 valid_mae=0.05520058 best=0.05299855 best_epoch=22

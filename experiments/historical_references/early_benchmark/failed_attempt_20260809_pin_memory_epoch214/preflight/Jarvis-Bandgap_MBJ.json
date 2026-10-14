@@ -1,0 +1,105 @@
+{
+  "aliases": {
+    "aliases": [
+      {
+        "path": "/root/autodl-tmp/TextResidualSHFMat/Dataset/processed/Jarvis-Bandgap_MBJ-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-train-CGCNN.pt",
+        "source": "/root/autodl-tmp/TextResidualSHFMat/Dataset/processed/Jarvis-Bandgap_MBJ-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-train-CGCNN-multimodal-MatBert_embeddings.pt"
+      },
+      {
+        "path": "/root/autodl-tmp/TextResidualSHFMat/Dataset/processed/Jarvis-Bandgap_MBJ-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-valid-CGCNN.pt",
+        "source": "/root/autodl-tmp/TextResidualSHFMat/Dataset/processed/Jarvis-Bandgap_MBJ-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-valid-CGCNN-multimodal-MatBert_embeddings.pt"
+      },
+      {
+        "path": "/root/autodl-tmp/TextResidualSHFMat/Dataset/processed/Jarvis-Bandgap_MBJ-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-test-CGCNN.pt",
+        "source": "/root/autodl-tmp/TextResidualSHFMat/Dataset/processed/Jarvis-Bandgap_MBJ-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-test-CGCNN-multimodal-MatBert_embeddings.pt"
+      }
+    ],
+    "task": "Jarvis-Bandgap_MBJ"
+  },
+  "dataset": "JARVIS",
+  "drop_last": false,
+  "graph_target_mean": 1.4889696836471558,
+  "graph_target_std": 2.3161327838897705,
+  "graph_total": 18172,
+  "model_checks": {
+    "original_sftmat": {
+      "autocast_dtype": "bfloat16",
+      "parameter_count": 2661154,
+      "prediction_finite": true,
+      "prediction_shape": [
+        4
+      ]
+    },
+    "ours": {
+      "autocast_dtype": "bfloat16",
+      "effective_token_count_min": 114.52359771728516,
+      "k_norm_after_max_deviation": 1.1920928955078125e-07,
+      "padding_attention_max": 0.0,
+      "parameter_count": 2800739,
+      "prediction_finite": true,
+      "prediction_shape": [
+        4
+      ],
+      "q_norm_after_max_deviation": 0.0,
+      "special_token_attention_max": 0.0,
+      "temperature": 0.5
+    }
+  },
+  "property": "Bandgap_MBJ",
+  "protocol": {
+    "bandgap_nonnegative_clipping": true,
+    "batch_size": 32,
+    "checkpoint_selection": "best Valid MAE only",
+    "drop_last": false,
+    "epochs": 300,
+    "eval_batch_size": 64,
+    "lr": 0.001,
+    "matbert_max_length": 128,
+    "max_lr": 0.001,
+    "models": [
+      "original_sftmat",
+      "ours"
+    ],
+    "optimizer": "AdamW",
+    "original_loss": "MAE(property,target)",
+    "ours_loss": "MAE(final,target)+0.2*MAE(graph,target)",
+    "ours_temperature": 0.5,
+    "scheduler": "OneCycleLR",
+    "seeds": [
+      42,
+      7,
+      1234,
+      2025,
+      2026
+    ],
+    "tasks": [
+      "Jarvis-Bandgap_MBJ",
+      "Jarvis-Bandgap_OPT",
+      "Jarvis-FormationEnergy",
+      "Jarvis-TotalEnergy",
+      "Jarvis-BulkModulusKv",
+      "Jarvis-ShearModulusGv",
+      "MP-Bandgap",
+      "MP-FormationEnergy",
+      "MP-BulkModuli",
+      "MP-ShearModuli"
+    ],
+    "training_dtype": "bfloat16",
+    "weight_decay": 0.0001
+  },
+  "protocol_sha256": "1e6ff9e4e89d9b9339f4041dd3f42b902919d197d30fcfeb37b8100b0077e568",
+  "split_sizes": {
+    "test": 1818,
+    "train": 14537,
+    "valid": 1817
+  },
+  "status": "passed",
+  "task": "Jarvis-Bandgap_MBJ",
+  "token_cache_rows": 18172,
+  "token_cache_sha256": "0caf4b99a950f281a2632fb36d1939bf311e88ea8c4934a951f4d1d0fc5270a6",
+  "token_cache_shape": [
+    18172,
+    128,
+    768
+  ]
+}

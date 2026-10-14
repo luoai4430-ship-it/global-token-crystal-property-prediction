@@ -1,0 +1,173 @@
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_gcta_fast_screen.py train --task Jarvis-Bandgap_MBJ --variant P2_GCTA --seed 42 --token_cache /dev/shm/gcta_fast_screen_seed42_20260902/Jarvis-Bandgap_MBJ/token_cache --output_dir /root/gcta_fast_screen_seed42_20260902/runs/Jarvis-Bandgap_MBJ/P2_GCTA/seed_42 --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda --num_workers 2 --epochs 100 --patience 20
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+dataset split: total=18172, train=14537, valid=1817, test=1818
+train range:(0.0,27.500999450683594)
+valid range:(0.0,23.900999069213867)
+test range:(0.0,14.498000144958496)
+mean:1.4889696836471558
+std:2.3161327838897705
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=1/100 loss=0.91885866 valid_mae=0.66857122 best=0.66857122 best_epoch=1 stale=0/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=2/100 loss=0.70695589 valid_mae=0.59502521 best=0.59502521 best_epoch=2 stale=0/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=3/100 loss=0.61732854 valid_mae=0.57559122 best=0.57559122 best_epoch=3 stale=0/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=4/100 loss=0.57903909 valid_mae=0.51182777 best=0.51182777 best_epoch=4 stale=0/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=5/100 loss=0.55657213 valid_mae=0.54654024 best=0.51182777 best_epoch=4 stale=1/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=6/100 loss=0.53597307 valid_mae=0.51717540 best=0.51182777 best_epoch=4 stale=2/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=7/100 loss=0.51739985 valid_mae=0.55200066 best=0.51182777 best_epoch=4 stale=3/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=8/100 loss=0.50204293 valid_mae=0.46545490 best=0.46545490 best_epoch=8 stale=0/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=9/100 loss=0.50128631 valid_mae=0.47402958 best=0.46545490 best_epoch=8 stale=1/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=10/100 loss=0.50227655 valid_mae=0.48051586 best=0.46545490 best_epoch=8 stale=2/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=11/100 loss=0.48626227 valid_mae=0.45123918 best=0.45123918 best_epoch=11 stale=0/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=12/100 loss=0.47819425 valid_mae=0.55674045 best=0.45123918 best_epoch=11 stale=1/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=13/100 loss=0.46833651 valid_mae=0.50495497 best=0.45123918 best_epoch=11 stale=2/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=14/100 loss=0.45814118 valid_mae=0.49434044 best=0.45123918 best_epoch=11 stale=3/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=15/100 loss=0.47344843 valid_mae=0.45256916 best=0.45123918 best_epoch=11 stale=4/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=16/100 loss=0.47157825 valid_mae=0.47781736 best=0.45123918 best_epoch=11 stale=5/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=17/100 loss=0.45743041 valid_mae=0.43892566 best=0.43892566 best_epoch=17 stale=0/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=18/100 loss=0.43557591 valid_mae=0.43948590 best=0.43892566 best_epoch=17 stale=1/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=19/100 loss=0.43787627 valid_mae=0.44857672 best=0.43892566 best_epoch=17 stale=2/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=20/100 loss=0.43337103 valid_mae=0.47842368 best=0.43892566 best_epoch=17 stale=3/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=21/100 loss=0.42394452 valid_mae=0.52230471 best=0.43892566 best_epoch=17 stale=4/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=22/100 loss=0.41288927 valid_mae=0.47259673 best=0.43892566 best_epoch=17 stale=5/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=23/100 loss=0.41352893 valid_mae=0.45839262 best=0.43892566 best_epoch=17 stale=6/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=24/100 loss=0.40963501 valid_mae=0.41728991 best=0.41728991 best_epoch=24 stale=0/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=25/100 loss=0.39111122 valid_mae=0.42514834 best=0.41728991 best_epoch=24 stale=1/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=26/100 loss=0.38584978 valid_mae=0.41083526 best=0.41083526 best_epoch=26 stale=0/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=27/100 loss=0.37571147 valid_mae=0.43631930 best=0.41083526 best_epoch=26 stale=1/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=28/100 loss=0.37035759 valid_mae=0.43981384 best=0.41083526 best_epoch=26 stale=2/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=29/100 loss=0.37289078 valid_mae=0.38877488 best=0.38877488 best_epoch=29 stale=0/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=30/100 loss=0.35762720 valid_mae=0.42219056 best=0.38877488 best_epoch=29 stale=1/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=31/100 loss=0.35093708 valid_mae=0.41601309 best=0.38877488 best_epoch=29 stale=2/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=32/100 loss=0.34845525 valid_mae=0.41288317 best=0.38877488 best_epoch=29 stale=3/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=33/100 loss=0.33811619 valid_mae=0.40734920 best=0.38877488 best_epoch=29 stale=4/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=34/100 loss=0.32726455 valid_mae=0.41032949 best=0.38877488 best_epoch=29 stale=5/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=35/100 loss=0.32371005 valid_mae=0.37486187 best=0.37486187 best_epoch=35 stale=0/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=36/100 loss=0.31464543 valid_mae=0.38067939 best=0.37486187 best_epoch=35 stale=1/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=37/100 loss=0.30320862 valid_mae=0.38508530 best=0.37486187 best_epoch=35 stale=2/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=38/100 loss=0.29647196 valid_mae=0.36316434 best=0.36316434 best_epoch=38 stale=0/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=39/100 loss=0.28509633 valid_mae=0.36181952 best=0.36181952 best_epoch=39 stale=0/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=40/100 loss=0.28393330 valid_mae=0.34954625 best=0.34954625 best_epoch=40 stale=0/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=41/100 loss=0.27161041 valid_mae=0.35875250 best=0.34954625 best_epoch=40 stale=1/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=42/100 loss=0.27008309 valid_mae=0.38090782 best=0.34954625 best_epoch=40 stale=2/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=43/100 loss=0.26196938 valid_mae=0.34178676 best=0.34178676 best_epoch=43 stale=0/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=44/100 loss=0.25519339 valid_mae=0.35117733 best=0.34178676 best_epoch=43 stale=1/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=45/100 loss=0.24969250 valid_mae=0.33617872 best=0.33617872 best_epoch=45 stale=0/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=46/100 loss=0.24430976 valid_mae=0.36213140 best=0.33617872 best_epoch=45 stale=1/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=47/100 loss=0.24647173 valid_mae=0.33862842 best=0.33617872 best_epoch=45 stale=2/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=48/100 loss=0.23273023 valid_mae=0.36176066 best=0.33617872 best_epoch=45 stale=3/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=49/100 loss=0.22619781 valid_mae=0.35635155 best=0.33617872 best_epoch=45 stale=4/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=50/100 loss=0.22394245 valid_mae=0.33492773 best=0.33492773 best_epoch=50 stale=0/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=51/100 loss=0.21968070 valid_mae=0.32612756 best=0.32612756 best_epoch=51 stale=0/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=52/100 loss=0.20901604 valid_mae=0.32533285 best=0.32533285 best_epoch=52 stale=0/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=53/100 loss=0.20958559 valid_mae=0.32080694 best=0.32080694 best_epoch=53 stale=0/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=54/100 loss=0.19877489 valid_mae=0.32684094 best=0.32080694 best_epoch=53 stale=1/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=55/100 loss=0.19790008 valid_mae=0.32191961 best=0.32080694 best_epoch=53 stale=2/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=56/100 loss=0.19370035 valid_mae=0.33011100 best=0.32080694 best_epoch=53 stale=3/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=57/100 loss=0.18818171 valid_mae=0.32319221 best=0.32080694 best_epoch=53 stale=4/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=58/100 loss=0.18439585 valid_mae=0.34071539 best=0.32080694 best_epoch=53 stale=5/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=59/100 loss=0.17594833 valid_mae=0.32950523 best=0.32080694 best_epoch=53 stale=6/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=60/100 loss=0.17625549 valid_mae=0.33075970 best=0.32080694 best_epoch=53 stale=7/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=61/100 loss=0.17048562 valid_mae=0.32776052 best=0.32080694 best_epoch=53 stale=8/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=62/100 loss=0.16602095 valid_mae=0.31508065 best=0.31508065 best_epoch=62 stale=0/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=63/100 loss=0.16161809 valid_mae=0.31252139 best=0.31252139 best_epoch=63 stale=0/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=64/100 loss=0.15900846 valid_mae=0.30757875 best=0.30757875 best_epoch=64 stale=0/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=65/100 loss=0.15190823 valid_mae=0.30575003 best=0.30575003 best_epoch=65 stale=0/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=66/100 loss=0.14820599 valid_mae=0.30822879 best=0.30575003 best_epoch=65 stale=1/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=67/100 loss=0.14292639 valid_mae=0.30541697 best=0.30541697 best_epoch=67 stale=0/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=68/100 loss=0.14152844 valid_mae=0.30705789 best=0.30541697 best_epoch=67 stale=1/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=69/100 loss=0.13799094 valid_mae=0.29667257 best=0.29667257 best_epoch=69 stale=0/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=70/100 loss=0.13295850 valid_mae=0.30127248 best=0.29667257 best_epoch=69 stale=1/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=71/100 loss=0.13310470 valid_mae=0.30093412 best=0.29667257 best_epoch=69 stale=2/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=72/100 loss=0.12737363 valid_mae=0.29696825 best=0.29667257 best_epoch=69 stale=3/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=73/100 loss=0.12371716 valid_mae=0.30049948 best=0.29667257 best_epoch=69 stale=4/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=74/100 loss=0.11999701 valid_mae=0.29352473 best=0.29352473 best_epoch=74 stale=0/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=75/100 loss=0.11803632 valid_mae=0.30066781 best=0.29352473 best_epoch=74 stale=1/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=76/100 loss=0.11490501 valid_mae=0.29048339 best=0.29048339 best_epoch=76 stale=0/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=77/100 loss=0.11126391 valid_mae=0.29359281 best=0.29048339 best_epoch=76 stale=1/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=78/100 loss=0.10880239 valid_mae=0.28801735 best=0.28801735 best_epoch=78 stale=0/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=79/100 loss=0.10583878 valid_mae=0.28709571 best=0.28709571 best_epoch=79 stale=0/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=80/100 loss=0.10335963 valid_mae=0.28805066 best=0.28709571 best_epoch=79 stale=1/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=81/100 loss=0.10127080 valid_mae=0.29096538 best=0.28709571 best_epoch=79 stale=2/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=82/100 loss=0.09855400 valid_mae=0.29033166 best=0.28709571 best_epoch=79 stale=3/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=83/100 loss=0.09584872 valid_mae=0.28712917 best=0.28709571 best_epoch=79 stale=4/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=84/100 loss=0.09341905 valid_mae=0.28801277 best=0.28709571 best_epoch=79 stale=5/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=85/100 loss=0.09182349 valid_mae=0.28783439 best=0.28709571 best_epoch=79 stale=6/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=86/100 loss=0.08938577 valid_mae=0.28866572 best=0.28709571 best_epoch=79 stale=7/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=87/100 loss=0.08853296 valid_mae=0.28709317 best=0.28709317 best_epoch=87 stale=0/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=88/100 loss=0.08658436 valid_mae=0.28654281 best=0.28654281 best_epoch=88 stale=0/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=89/100 loss=0.08545850 valid_mae=0.28784305 best=0.28654281 best_epoch=88 stale=1/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=90/100 loss=0.08433540 valid_mae=0.28662481 best=0.28654281 best_epoch=88 stale=2/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=91/100 loss=0.08330480 valid_mae=0.28541723 best=0.28541723 best_epoch=91 stale=0/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=92/100 loss=0.08173551 valid_mae=0.28694908 best=0.28541723 best_epoch=91 stale=1/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=93/100 loss=0.08129976 valid_mae=0.28692350 best=0.28541723 best_epoch=91 stale=2/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=94/100 loss=0.08055489 valid_mae=0.28620035 best=0.28541723 best_epoch=91 stale=3/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=95/100 loss=0.08001549 valid_mae=0.28586040 best=0.28541723 best_epoch=91 stale=4/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=96/100 loss=0.07940182 valid_mae=0.28559061 best=0.28541723 best_epoch=91 stale=5/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=97/100 loss=0.07964531 valid_mae=0.28578615 best=0.28541723 best_epoch=91 stale=6/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=98/100 loss=0.07889126 valid_mae=0.28668672 best=0.28541723 best_epoch=91 stale=7/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=99/100 loss=0.07872230 valid_mae=0.28631475 best=0.28541723 best_epoch=91 stale=8/20
+[Jarvis-Bandgap_MBJ:P2_GCTA:seed42] epoch=100/100 loss=0.07893256 valid_mae=0.28594245 best=0.28541723 best_epoch=91 stale=9/20
+{
+  "attention_entropy_mean": 4.347969410244947,
+  "best_valid_epoch": 91,
+  "checkpoint_reload_state_exact": true,
+  "checkpoint_reselection": 0,
+  "checkpoint_sha256": "7bb9d3f7387fa75936e2e743d05e81e4f1fec607df11cc139eb491648fab988d",
+  "cos_qc_qg_mean": 0.38191436764096814,
+  "cos_qc_qg_median": 0.39844340085983276,
+  "cos_qc_qg_std": 0.23457666255917461,
+  "data_loader_workers": 2,
+  "dataset": "JARVIS",
+  "drop_last": false,
+  "early_stopped": false,
+  "effective_token_count_mean": 80.06701834830335,
+  "gradient_definition": "L2 norm of full-validation raw-MAE gradient",
+  "gradient_norm_Wc": 0.010740161421719864,
+  "gradient_norm_Wqc": 0.0033246246597793973,
+  "loss_weight_search": 0,
+  "max_epochs": 100,
+  "mean_max_attention": 0.0671925915699364,
+  "median_max_attention": 0.06346768885850906,
+  "padding_attention_max": 0.0,
+  "parameter_count": 2899042,
+  "patience": 20,
+  "property": "Bandgap_MBJ",
+  "protocol_sha256": "919c84390774abec61ac52edabac1eb581f72bb05e9d21d02e93e03f3434be98",
+  "qc_qg_ratio_mean": 0.43983981418425916,
+  "qc_qg_ratio_median": 0.385822057723999,
+  "qc_qg_ratio_std": 0.2574216778521417,
+  "query_controls": {
+    "mapping_kind": "seeded cyclic derangement",
+    "mapping_sha256": "8e408f75afb126b9d54802c923b0852d38c7eb60d9cffc208e9a8d06807ecd7a",
+    "normal_better_than_shuffled": true,
+    "normal_better_than_zero": true,
+    "normal_mae": 0.28542868580605607,
+    "query_cls_shuffled_mae": 0.2921830333716015,
+    "query_cls_zero_mae": 0.2860282917369114,
+    "selection_use": false,
+    "test_forward_count": 0
+  },
+  "seed": 42,
+  "special_token_attention_max": 0.0,
+  "status": "valid_complete",
+  "stopped_epoch": 100,
+  "target_mean": 1.4889696836471558,
+  "target_std": 2.3161327838897705,
+  "task": "Jarvis-Bandgap_MBJ",
+  "tau_search": 0,
+  "temperature": 0.5,
+  "test_forward_count": 0,
+  "token_cache_sha256": "0caf4b99a950f281a2632fb36d1939bf311e88ea8c4934a951f4d1d0fc5270a6",
+  "train_size": 14537,
+  "training_autocast_dtype": "bfloat16",
+  "training_runs": 1,
+  "training_time_seconds": 2361.2885919678956,
+  "unit": "eV",
+  "valid_mae": 0.28542868580605607,
+  "valid_size": 1817,
+  "variant": "P2_GCTA"
+}

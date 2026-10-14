@@ -1,0 +1,58 @@
+Jarvis-Bandgap_MBJ MaskedMean epoch=1/300 valid_mae=0.74564982 best=0.74564982
+Jarvis-Bandgap_MBJ MaskedMean epoch=10/300 valid_mae=0.48226732 best=0.48226732
+Jarvis-Bandgap_MBJ MaskedMean epoch=20/300 valid_mae=0.45443814 best=0.44813055
+Jarvis-Bandgap_MBJ MaskedMean epoch=30/300 valid_mae=0.44979022 best=0.41974957
+Jarvis-Bandgap_MBJ MaskedMean epoch=40/300 valid_mae=0.41193595 best=0.40507279
+Jarvis-Bandgap_MBJ MaskedMean epoch=50/300 valid_mae=0.36915251 best=0.36915251
+Jarvis-Bandgap_MBJ MaskedMean epoch=60/300 valid_mae=0.37111393 best=0.35682363
+Jarvis-Bandgap_MBJ MaskedMean epoch=70/300 valid_mae=0.35732691 best=0.32488042
+Jarvis-Bandgap_MBJ MaskedMean epoch=80/300 valid_mae=0.35624364 best=0.29782593
+Jarvis-Bandgap_MBJ MaskedMean epoch=90/300 valid_mae=0.48022385 best=0.29782593
+Jarvis-Bandgap_MBJ MaskedMean epoch=100/300 valid_mae=0.30018224 best=0.29782593
+Jarvis-Bandgap_MBJ MaskedMean epoch=110/300 valid_mae=0.32667273 best=0.29782593
+Jarvis-Bandgap_MBJ MaskedMean epoch=120/300 valid_mae=0.28013672 best=0.28013672
+Jarvis-Bandgap_MBJ MaskedMean epoch=130/300 valid_mae=0.27385221 best=0.27050990
+Jarvis-Bandgap_MBJ MaskedMean epoch=140/300 valid_mae=0.26196411 best=0.26196411
+Jarvis-Bandgap_MBJ MaskedMean epoch=150/300 valid_mae=0.32353780 best=0.25701427
+Jarvis-Bandgap_MBJ MaskedMean epoch=160/300 valid_mae=0.26876151 best=0.25701427
+Jarvis-Bandgap_MBJ MaskedMean epoch=170/300 valid_mae=0.26982736 best=0.25148000
+Jarvis-Bandgap_MBJ MaskedMean epoch=180/300 valid_mae=0.24954405 best=0.24954405
+Jarvis-Bandgap_MBJ MaskedMean epoch=190/300 valid_mae=0.25374052 best=0.24689017
+Jarvis-Bandgap_MBJ MaskedMean epoch=200/300 valid_mae=0.25598883 best=0.24680740
+Jarvis-Bandgap_MBJ MaskedMean epoch=210/300 valid_mae=0.24735247 best=0.24142480
+Jarvis-Bandgap_MBJ MaskedMean epoch=220/300 valid_mae=0.25355306 best=0.23991810
+Jarvis-Bandgap_MBJ MaskedMean epoch=230/300 valid_mae=0.23921489 best=0.23636448
+Jarvis-Bandgap_MBJ MaskedMean epoch=240/300 valid_mae=0.24349518 best=0.23636448
+Jarvis-Bandgap_MBJ MaskedMean epoch=250/300 valid_mae=0.24477121 best=0.23636448
+Jarvis-Bandgap_MBJ MaskedMean epoch=260/300 valid_mae=0.24038924 best=0.23636448
+Jarvis-Bandgap_MBJ MaskedMean epoch=270/300 valid_mae=0.24016740 best=0.23636448
+Jarvis-Bandgap_MBJ MaskedMean epoch=280/300 valid_mae=0.24031556 best=0.23636448
+Jarvis-Bandgap_MBJ MaskedMean epoch=290/300 valid_mae=0.23916682 best=0.23636448
+Jarvis-Bandgap_MBJ MaskedMean epoch=300/300 valid_mae=0.24128104 best=0.23636448
+{
+  "task": "Jarvis-Bandgap_MBJ",
+  "dataset": "JARVIS",
+  "property_family": "Electronic",
+  "variant": "MaskedMean",
+  "seed": 42,
+  "best_epoch": 228,
+  "best_valid_mae": 0.2363644775719851,
+  "final_valid_mae": 0.241281042687268,
+  "mean": 1.4889696636169774,
+  "std": 2.3161328992268473,
+  "trainable_params": 2636514,
+  "checkpoint_path": "/root/autodl-tmp/TextResidualSHFMat/matched_ablation_runs/Jarvis-Bandgap_MBJ/MaskedMean/best_valid.pt",
+  "test_forward_count": 0,
+  "runtime_sec": 3556.2468304634094,
+  "train_samples": 14537,
+  "valid_samples": 1817,
+  "mean_eligible_token_count": 121.43973582828839,
+  "median_eligible_token_count": 126.0,
+  "attention_entropy_mean": null,
+  "attention_entropy_median": null,
+  "attention_effective_token_count_mean": null,
+  "attention_effective_token_count_median": null,
+  "attention_mean_max": null,
+  "zero_text_fallback_count": 0,
+  "zero_text_fallback_ids": []
+}

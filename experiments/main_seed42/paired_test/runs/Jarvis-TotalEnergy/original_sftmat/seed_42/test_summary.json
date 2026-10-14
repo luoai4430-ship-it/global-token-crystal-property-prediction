@@ -1,0 +1,21 @@
+{
+  "best_valid_epoch": 294,
+  "checkpoint": "/root/g1_geometric_residual_seed42_20260812/baselines/Jarvis-TotalEnergy/original_sftmat/seed_42/best_valid.pt",
+  "checkpoint_sha256": "d4ddfdf7695b71ec1ca53378480dddc5231dbdf18bda1e43b93685555b16175b",
+  "input": "exact-source regenerated MatBERT token cache",
+  "model_name": "original_sftmat",
+  "seed": 42,
+  "selected_by": "Valid only",
+  "status": "test_complete",
+  "task": "Jarvis-TotalEnergy",
+  "test_forward_count": 1,
+  "test_mae": 0.03200948242650904,
+  "test_size": 5573,
+  "test_used_for_selection": false,
+  "token_cache_exact_source_manifest": true,
+  "token_cache_sha256_expected": "ff954528fa76b37446eddf571ac8ea3c480788d2e90d1927882be4e0e43f578b",
+  "token_cache_sha256_regenerated": "74c804c038fc081aafba6f47ef2d9f91a6ee8ba295f55d18ebf1695ea47120a5",
+  "valid_mae_replayed": 0.03048152110170993,
+  "valid_mae_saved": 0.03044482684785825,
+  "valid_replay_tolerance": 0.001
+}

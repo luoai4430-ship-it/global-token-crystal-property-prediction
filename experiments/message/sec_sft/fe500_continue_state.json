@@ -1,0 +1,12 @@
+{
+  "best_epoch": 295,
+  "best_valid_mae": 0.02929061027584706,
+  "current_epoch": 398,
+  "model": "sec_sft",
+  "status": "RUNNING",
+  "target_epoch": 500,
+  "task": "Jarvis-FormationEnergy",
+  "test_forward_count": 0,
+  "test_loader_call_count": 0,
+  "updated_at_unix": 1789144049.7274275
+}

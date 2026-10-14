@@ -1,0 +1,15 @@
+{
+  "best_valid_epoch": 299,
+  "checkpoint_sha256": "590551d3c0264c6d41e43ec7b715beced084effc2fe88fed9eed56a6d10048fd",
+  "epochs": 300,
+  "mean": -0.831722617149353,
+  "model_name": "original_sftmat",
+  "seed": 42,
+  "status": "valid_complete",
+  "std": 1.0806602239608765,
+  "task": "Jarvis-FormationEnergy",
+  "test_forward_count": 0,
+  "token_cache_sha256": "ad6d565e1270c8ec8dc5a8068249195b2307de7570fc1cf493b1d5438e288d26",
+  "training_time_seconds": 20075.124390447978,
+  "valid_mae": 0.028965817260297184
+}

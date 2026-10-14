@@ -1,0 +1,13 @@
+{
+  "p1_added_params_vs_token_only": 131778,
+  "p1_added_params_vs_token_only_pct": 4.624175632912503,
+  "parameter_counts": {
+    "B0_TokenOnly": 2849762,
+    "B1_NaiveConcat": 2866146,
+    "P0_AuxConcat": 2932196,
+    "P1_PVIN": 2981540
+  },
+  "protocol_sha256": "1b9ff5eabf855245f3bc8af637d668bc5292ad76ffdb661f14dc91bc81a88f69",
+  "test_forward_count": 0,
+  "under_10_percent": true
+}

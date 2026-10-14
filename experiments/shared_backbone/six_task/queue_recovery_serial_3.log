@@ -1,0 +1,7 @@
+skip completed Jarvis-Bandgap_MBJ
+skip completed Jarvis-FormationEnergy
+skip completed Jarvis-BulkModulusKv
+skip completed MP-Bandgap
+skip completed MP-FormationEnergy
+launch MP-ShearModuli
+COMPLETE

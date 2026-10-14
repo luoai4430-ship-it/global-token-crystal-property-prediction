@@ -1,0 +1,7 @@
+task,status,checkpoint_path,seed,model_name,best_valid_epoch,valid_mae,test_forward_count,sha256,note
+Jarvis-Bandgap_OPT,NOT_FOUND,,,,,,,,Only old periodic TextResidualSHFMat checkpoints and formal TrueToken checkpoint found; no auditable seed42 best-valid Original checkpoint.
+Jarvis-FormationEnergy,NOT_FOUND,,,,,,,,Formal TrueToken checkpoint exists; no auditable seed42 best-valid Original checkpoint found.
+Jarvis-TotalEnergy,FOUND,/root/g1_geometric_residual_seed42_20260812/baselines/Jarvis-TotalEnergy/original_sftmat/seed_42/best_valid.pt,42,original_sftmat,294,0.03044482684785825,0,d4ddfdf7695b71ec1ca53378480dddc5231dbdf18bda1e43b93685555b16175b,summary.json confirms valid_complete and protocol identity.
+Jarvis-ShearModulusGv,NOT_FOUND,,,,,,,,Old top1 checkpoint includes Test in filename and has no seed42 audit; excluded. Formal TrueToken checkpoint exists.
+MP-FormationEnergy,FOUND,/root/g1_geometric_residual_seed42_20260812/baselines/MP-FormationEnergy/original_sftmat/seed_42/best_valid.pt,42,original_sftmat,293,0.02048783425092697,0,0b65237026671f92ed15b83e4ee080c7fd615cc8797fd8db499181d96e4c8768,summary.json confirms valid_complete and protocol identity.
+MP-ShearModuli,NOT_FOUND,,,,,,,,Formal TrueToken checkpoint exists; no auditable seed42 best-valid Original checkpoint found.

@@ -1,0 +1,13 @@
+{
+  "decision": "NO_TAGIF_GAIN",
+  "innovation_noncollapsed": true,
+  "interaction_active": true,
+  "macro_gain_vs_b0_pct": -0.9750399345535454,
+  "macro_gain_vs_b1_pct": -5.580773563471064,
+  "parameter_gate": true,
+  "semantic_both_tasks": true,
+  "test_forward_count": 0,
+  "wins_vs_b0": 0,
+  "wins_vs_b1": 0
+}
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_tagif_fast_screen.py summarize --output_root /root/tagif_fast_screen_seed42_20260902

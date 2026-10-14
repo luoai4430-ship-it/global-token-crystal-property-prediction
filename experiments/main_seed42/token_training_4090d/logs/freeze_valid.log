@@ -1,0 +1,149 @@
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py freeze --output_root /root/final_10task_ours_seed42_20260810_tau05_gpu4090d
+{
+  "entries": [
+    {
+      "best_valid_epoch": 219,
+      "checkpoint": "/root/final_10task_ours_seed42_20260810_tau05_gpu4090d/runs/Jarvis-Bandgap_MBJ/ours/seed_42/best_valid.pt",
+      "checkpoint_sha256": "e4ae3cf4992eed99025bf0d8134409b58a37ee57984ffc0b881f2ad30b93c772",
+      "model_name": "ours",
+      "seed": 42,
+      "task": "Jarvis-Bandgap_MBJ",
+      "token_cache_sha256": "d5b10c5de3c2bb9a520638f53c9c9624a1c0df0de9f403ee9390f71792803422",
+      "valid_mae": 0.24693807613475677
+    },
+    {
+      "best_valid_epoch": 232,
+      "checkpoint": "/root/final_10task_ours_seed42_20260810_tau05_gpu4090d/runs/Jarvis-Bandgap_OPT/ours/seed_42/best_valid.pt",
+      "checkpoint_sha256": "cc2f5523136be702c744f1435585204b839e50ecd7043611fa341f5df8690516",
+      "model_name": "ours",
+      "seed": 42,
+      "task": "Jarvis-Bandgap_OPT",
+      "token_cache_sha256": "141c1587f083d59b4b33cae8efac9915d9c04746ac3aaa8f18156ab551dce551",
+      "valid_mae": 0.12205912638121343
+    },
+    {
+      "best_valid_epoch": 211,
+      "checkpoint": "/root/final_10task_ours_seed42_20260810_tau05_gpu4090d/runs/Jarvis-BulkModulusKv/ours/seed_42/best_valid.pt",
+      "checkpoint_sha256": "f4c65cdf79340805e318ebc7f14116c29eeafb6c857507bbf478ccc04110c82e",
+      "model_name": "ours",
+      "seed": 42,
+      "task": "Jarvis-BulkModulusKv",
+      "token_cache_sha256": "671cb514f92bc3c4c438cf86a76c3a08269495b6de67cc7150cf01b0aac40513",
+      "valid_mae": 9.070806968502882
+    },
+    {
+      "best_valid_epoch": 298,
+      "checkpoint": "/root/final_10task_ours_seed42_20260810_tau05_gpu4090d/runs/Jarvis-FormationEnergy/ours/seed_42/best_valid.pt",
+      "checkpoint_sha256": "d53c61666b330d5aae03f859f24ab891a93fa202cdba58b0096bac766add5072",
+      "model_name": "ours",
+      "seed": 42,
+      "task": "Jarvis-FormationEnergy",
+      "token_cache_sha256": "8de93a4917ae19e44101be14e40566533124da95a6810ecc8e2ae2b5ed507d6f",
+      "valid_mae": 0.028669798665139114
+    },
+    {
+      "best_valid_epoch": 282,
+      "checkpoint": "/root/final_10task_ours_seed42_20260810_tau05_gpu4090d/runs/Jarvis-ShearModulusGv/ours/seed_42/best_valid.pt",
+      "checkpoint_sha256": "c4c8775f115809793245a2517a796c77acad360cb215d9da1946182e0329c1cd",
+      "model_name": "ours",
+      "seed": 42,
+      "task": "Jarvis-ShearModulusGv",
+      "token_cache_sha256": "beb013e08b44d3db7719164bcf91fb0c0df62ef59455878b8345435fdacd6539",
+      "valid_mae": 8.622445936125468
+    },
+    {
+      "best_valid_epoch": 298,
+      "checkpoint": "/root/final_10task_ours_seed42_20260810_tau05_gpu4090d/runs/Jarvis-TotalEnergy/ours/seed_42/best_valid.pt",
+      "checkpoint_sha256": "45baf09066e150bdcccaa4b270461139fd7c2e7f432b21adb8b6a89df60d9f94",
+      "model_name": "ours",
+      "seed": 42,
+      "task": "Jarvis-TotalEnergy",
+      "token_cache_sha256": "ff954528fa76b37446eddf571ac8ea3c480788d2e90d1927882be4e0e43f578b",
+      "valid_mae": 0.030174894398780325
+    },
+    {
+      "best_valid_epoch": 242,
+      "checkpoint": "/root/final_10task_ours_seed42_20260810_tau05_gpu4090d/runs/MP-Bandgap/ours/seed_42/best_valid.pt",
+      "checkpoint_sha256": "6a4d96e1e32f3579895b7d8ed83d84810e520d38dbb2a713c49e57c0d028c675",
+      "model_name": "ours",
+      "seed": 42,
+      "task": "MP-Bandgap",
+      "token_cache_sha256": "b2e30983c19309606a70bb17a4b8c47fe644d0afa00a5027b650403d8bf7aee7",
+      "valid_mae": 0.2101495097875595
+    },
+    {
+      "best_valid_epoch": 218,
+      "checkpoint": "/root/final_10task_ours_seed42_20260810_tau05_gpu4090d/runs/MP-BulkModuli/ours/seed_42/best_valid.pt",
+      "checkpoint_sha256": "b018e587e4207a54d11c6d88fc6118c6cce7f2670ea5d5c7e5d8d84a9cd22838",
+      "model_name": "ours",
+      "seed": 42,
+      "task": "MP-BulkModuli",
+      "token_cache_sha256": "0663a554cd7601a38b088486ab866dd0e0258d117754eb69ff7234937b89b6a3",
+      "valid_mae": 0.0349640228736053
+    },
+    {
+      "best_valid_epoch": 281,
+      "checkpoint": "/root/final_10task_ours_seed42_20260810_tau05_gpu4090d/runs/MP-FormationEnergy/ours/seed_42/best_valid.pt",
+      "checkpoint_sha256": "5f07c0d78a6a7f1c92a8a999f950209c9bcc8900eab19e3059cf3f3025210ad8",
+      "model_name": "ours",
+      "seed": 42,
+      "task": "MP-FormationEnergy",
+      "token_cache_sha256": "b2e30983c19309606a70bb17a4b8c47fe644d0afa00a5027b650403d8bf7aee7",
+      "valid_mae": 0.019961497473716734
+    },
+    {
+      "best_valid_epoch": 246,
+      "checkpoint": "/root/final_10task_ours_seed42_20260810_tau05_gpu4090d/runs/MP-ShearModuli/ours/seed_42/best_valid.pt",
+      "checkpoint_sha256": "6095b966a2e61bdd013da2644864896c3234ae0b23e269cc3eb86009a0af876f",
+      "model_name": "ours",
+      "seed": 42,
+      "task": "MP-ShearModuli",
+      "token_cache_sha256": "0663a554cd7601a38b088486ab866dd0e0258d117754eb69ff7234937b89b6a3",
+      "valid_mae": 0.06410893036202746
+    }
+  ],
+  "entry_count": 10,
+  "protocol": {
+    "bandgap_nonnegative_clipping": true,
+    "batch_size": 32,
+    "checkpoint_selection": "best Valid MAE only",
+    "data_loader_workers": 2,
+    "drop_last": false,
+    "epochs": 300,
+    "eval_batch_size": 64,
+    "lr": 0.001,
+    "matbert_max_length": 128,
+    "max_lr": 0.001,
+    "models": [
+      "ours"
+    ],
+    "optimizer": "AdamW",
+    "original_loss": "MAE(property,target)",
+    "ours_loss": "MAE(final,target)+0.2*MAE(graph,target)",
+    "ours_temperature": 0.5,
+    "pin_memory": false,
+    "prefetch_factor": 1,
+    "scheduler": "OneCycleLR",
+    "seeds": [
+      42
+    ],
+    "tasks": [
+      "Jarvis-Bandgap_MBJ",
+      "Jarvis-Bandgap_OPT",
+      "Jarvis-FormationEnergy",
+      "Jarvis-TotalEnergy",
+      "Jarvis-BulkModulusKv",
+      "Jarvis-ShearModulusGv",
+      "MP-Bandgap",
+      "MP-FormationEnergy",
+      "MP-BulkModuli",
+      "MP-ShearModuli"
+    ],
+    "torch_multiprocessing_sharing_strategy": "file_system",
+    "training_dtype": "bfloat16",
+    "weight_decay": 0.0001
+  },
+  "protocol_sha256": "1c0de7770307b627f62cf48e28cd65816b801b11574153f29af71667151fcb5f",
+  "status": "valid_selection_frozen",
+  "test_forward_count": 0
+}

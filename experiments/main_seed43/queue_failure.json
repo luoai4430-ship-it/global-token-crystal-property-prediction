@@ -1,0 +1,6 @@
+{
+  "error": "MP-Bandgap/ours/valid exited with 1; see /root/dualview_seed43_20260830/logs/MP-Bandgap_ours_seed43_valid.log",
+  "error_type": "RuntimeError",
+  "failed_at_unix": 1788205654.3646982,
+  "traceback": "Traceback (most recent call last):\n  File \"/root/run_seed43_dualview_queue_parallel.py\", line 285, in main\n    run_phase(\"valid\")\n  File \"/root/run_seed43_dualview_queue_parallel.py\", line 271, in run_phase\n    execute_pair(task, token_cache, phase)\n  File \"/root/run_seed43_dualview_queue_parallel.py\", line 238, in execute_pair\n    raise RuntimeError(\nRuntimeError: MP-Bandgap/ours/valid exited with 1; see /root/dualview_seed43_20260830/logs/MP-Bandgap_ours_seed43_valid.log\n"
+}

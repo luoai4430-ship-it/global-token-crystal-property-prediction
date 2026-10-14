@@ -1,0 +1,130 @@
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_seed43_benchmark.py preflight --task Jarvis-ShearModulusGv --token_cache /dev/shm/dualview_seed43_20260830/Jarvis-ShearModulusGv/token_cache --scratch /dev/shm/dualview_seed43_20260830/Jarvis-ShearModulusGv --output_root /root/dualview_seed43_20260830 --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda
+Graph construction workers: 8
+Building graphs (parallel)...
+Processing...
+Merging results from workers...
+
+Time consumption for constructing graph data: 86.68711161613464s
+dataset split: total=19680, train=15744, valid=1968, test=1968
+train range:(-24.959999084472656,529.2999877929688)
+valid range:(-24.739999771118164,529.2999877929688)
+test range:(-24.540000915527344,266.6000061035156)
+mean:37.37079620361328
+std:39.461280822753906
+processing train data:   0%|          | 0/15744 [00:00<?, ?it/s]processing train data:   6%|▋         | 988/15744 [00:00<00:02, 5961.88it/s]processing train data:  12%|█▏        | 1824/15744 [00:00<00:01, 7069.35it/s]processing train data:  16%|█▋        | 2561/15744 [00:00<00:02, 6300.36it/s]processing train data:  26%|██▋       | 4148/15744 [00:00<00:01, 9482.52it/s]processing train data:  33%|███▎      | 5168/15744 [00:00<00:01, 7810.12it/s]processing train data:  38%|███▊      | 6030/15744 [00:00<00:01, 7419.21it/s]processing train data:  43%|████▎     | 6823/15744 [00:00<00:01, 6324.76it/s]processing train data:  48%|████▊     | 7603/15744 [00:01<00:01, 6676.94it/s]processing train data:  53%|█████▎    | 8317/15744 [00:01<00:01, 6344.25it/s]processing train data:  58%|█████▊    | 9081/15744 [00:01<00:00, 6672.51it/s]processing train data:  63%|██████▎   | 9958/15744 [00:01<00:00, 6289.14it/s]processing train data:  67%|██████▋   | 10613/15744 [00:01<00:00, 5799.71it/s]processing train data:  73%|███████▎  | 11501/15744 [00:01<00:00, 6552.90it/s]processing train data:  77%|███████▋  | 12188/15744 [00:01<00:00, 6618.13it/s]processing train data:  85%|████████▌ | 13385/15744 [00:01<00:00, 8060.45it/s]processing train data: 100%|██████████| 15744/15744 [00:01<00:00, 7946.74it/s]
+Done!
+Processing...
+processing valid data:   0%|          | 0/1968 [00:00<?, ?it/s]processing valid data:  34%|███▍      | 671/1968 [00:00<00:00, 6706.28it/s]processing valid data: 100%|██████████| 1968/1968 [00:00<00:00, 11708.84it/s]
+Done!
+Processing...
+processing test data:   0%|          | 0/1968 [00:00<?, ?it/s]processing test data:  60%|██████    | 1181/1968 [00:00<00:00, 11807.87it/s]processing test data: 100%|██████████| 1968/1968 [00:00<00:00, 6442.98it/s] 
+Done!
+{
+  "aliases": {
+    "aliases": [
+      {
+        "path": "/root/autodl-tmp/TextResidualSHFMat/Dataset/processed/Jarvis-ShearModulusGv-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-train-CGCNN.pt",
+        "source": "existing_plain"
+      },
+      {
+        "path": "/root/autodl-tmp/TextResidualSHFMat/Dataset/processed/Jarvis-ShearModulusGv-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-valid-CGCNN.pt",
+        "source": "existing_plain"
+      },
+      {
+        "path": "/root/autodl-tmp/TextResidualSHFMat/Dataset/processed/Jarvis-ShearModulusGv-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-test-CGCNN.pt",
+        "source": "existing_plain"
+      }
+    ],
+    "retargeted": null,
+    "task": "Jarvis-ShearModulusGv"
+  },
+  "data_loader_workers": 2,
+  "dataset": "JARVIS",
+  "drop_last": false,
+  "graph_target_mean": 37.37079620361328,
+  "graph_target_std": 39.461280822753906,
+  "graph_total": 19680,
+  "model_checks": {
+    "original_sftmat": {
+      "autocast_dtype": "bfloat16",
+      "parameter_count": 2661154,
+      "prediction_finite": true,
+      "prediction_shape": [
+        4
+      ]
+    },
+    "ours": {
+      "autocast_dtype": "bfloat16",
+      "effective_token_count_min": 124.73981475830078,
+      "k_norm_after_max_deviation": 1.1920928955078125e-07,
+      "padding_attention_max": 0.0,
+      "parameter_count": 2800739,
+      "prediction_finite": true,
+      "prediction_shape": [
+        4
+      ],
+      "q_norm_after_max_deviation": 5.960464477539063e-08,
+      "special_token_attention_max": 0.0,
+      "temperature": 0.5
+    }
+  },
+  "pin_memory": false,
+  "property": "ShearModulusGv",
+  "protocol": {
+    "bandgap_nonnegative_clipping": true,
+    "batch_size": 32,
+    "checkpoint_selection": "best Valid MAE only",
+    "data_loader_workers": 2,
+    "drop_last": false,
+    "epochs": 300,
+    "eval_batch_size": 64,
+    "lr": 0.001,
+    "matbert_max_length": 128,
+    "max_lr": 0.001,
+    "models": [
+      "original_sftmat",
+      "ours"
+    ],
+    "optimizer": "AdamW",
+    "original_loss": "MAE(property,target)",
+    "ours_loss": "MAE(final,target)+0.2*MAE(graph,target)",
+    "ours_temperature": 0.5,
+    "pin_memory": false,
+    "prefetch_factor": 1,
+    "scheduler": "OneCycleLR",
+    "seeds": [
+      43
+    ],
+    "tasks": [
+      "Jarvis-Bandgap_MBJ",
+      "Jarvis-Bandgap_OPT",
+      "Jarvis-FormationEnergy",
+      "Jarvis-TotalEnergy",
+      "Jarvis-BulkModulusKv",
+      "Jarvis-ShearModulusGv",
+      "MP-Bandgap",
+      "MP-FormationEnergy",
+      "MP-BulkModuli",
+      "MP-ShearModuli"
+    ],
+    "torch_multiprocessing_sharing_strategy": "file_system",
+    "training_dtype": "bfloat16",
+    "weight_decay": 0.0001
+  },
+  "protocol_sha256": "adae888170a616d63ca455803e3c186d270cb62ae5bbd3ed70b55835dc8c674d",
+  "split_sizes": {
+    "test": 1968,
+    "train": 15744,
+    "valid": 1968
+  },
+  "status": "passed",
+  "task": "Jarvis-ShearModulusGv",
+  "token_cache_rows": 19680,
+  "token_cache_sha256": "85f6c76085c0266256f0dae617c29f9a8d469f80cfa7e5fa288f154f4b2c939a",
+  "token_cache_shape": [
+    19680,
+    128,
+    768
+  ],
+  "torch_multiprocessing_sharing_strategy": "file_system"
+}

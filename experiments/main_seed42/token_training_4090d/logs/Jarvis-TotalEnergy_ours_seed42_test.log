@@ -1,0 +1,22 @@
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py test --task Jarvis-TotalEnergy --model_name ours --seed 42 --token_cache /dev/shm/final_10task_ours_seed42_gpu4090d/Jarvis-TotalEnergy/token_cache --output_root /root/final_10task_ours_seed42_20260810_tau05_gpu4090d --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda --num_workers 2
+dataset split: total=55723, train=44578, valid=5572, test=5573
+train range:(-10.500269889831543,3.3935000896453857)
+valid range:(-10.327210426330566,2.532370090484619)
+test range:(-10.498250007629395,2.5189900398254395)
+mean:-3.214447259902954
+std:2.1312344074249268
+{
+  "best_valid_epoch": 298,
+  "checkpoint_sha256": "45baf09066e150bdcccaa4b270461139fd7c2e7f432b21adb8b6a89df60d9f94",
+  "model_name": "ours",
+  "protocol_sha256": "1c0de7770307b627f62cf48e28cd65816b801b11574153f29af71667151fcb5f",
+  "seed": 42,
+  "selected_by": "Valid only",
+  "status": "test_complete",
+  "task": "Jarvis-TotalEnergy",
+  "test_forward_count": 1,
+  "test_mae": 0.03142835981388527,
+  "test_size": 5573,
+  "token_cache_sha256": "ff954528fa76b37446eddf571ac8ea3c480788d2e90d1927882be4e0e43f578b",
+  "valid_mae": 0.030174894398780325
+}

@@ -1,0 +1,58 @@
+MP-ShearModuli CosineAttention epoch=1/300 valid_mae=0.15996421 best=0.15996421
+MP-ShearModuli CosineAttention epoch=10/300 valid_mae=0.09811042 best=0.09811042
+MP-ShearModuli CosineAttention epoch=20/300 valid_mae=0.10154984 best=0.09342114
+MP-ShearModuli CosineAttention epoch=30/300 valid_mae=0.09896787 best=0.09053884
+MP-ShearModuli CosineAttention epoch=40/300 valid_mae=0.09679356 best=0.08954127
+MP-ShearModuli CosineAttention epoch=50/300 valid_mae=0.09886935 best=0.08782919
+MP-ShearModuli CosineAttention epoch=60/300 valid_mae=0.08648747 best=0.08255396
+MP-ShearModuli CosineAttention epoch=70/300 valid_mae=0.08777929 best=0.08255396
+MP-ShearModuli CosineAttention epoch=80/300 valid_mae=0.08258392 best=0.08231423
+MP-ShearModuli CosineAttention epoch=90/300 valid_mae=0.08572158 best=0.08147879
+MP-ShearModuli CosineAttention epoch=100/300 valid_mae=0.07722600 best=0.07722600
+MP-ShearModuli CosineAttention epoch=110/300 valid_mae=0.08236018 best=0.07722600
+MP-ShearModuli CosineAttention epoch=120/300 valid_mae=0.07996919 best=0.07722600
+MP-ShearModuli CosineAttention epoch=130/300 valid_mae=0.07892507 best=0.07708539
+MP-ShearModuli CosineAttention epoch=140/300 valid_mae=0.08016898 best=0.07708539
+MP-ShearModuli CosineAttention epoch=150/300 valid_mae=0.07885828 best=0.07579240
+MP-ShearModuli CosineAttention epoch=160/300 valid_mae=0.07904816 best=0.07579240
+MP-ShearModuli CosineAttention epoch=170/300 valid_mae=0.07815818 best=0.07579240
+MP-ShearModuli CosineAttention epoch=180/300 valid_mae=0.07765674 best=0.07579240
+MP-ShearModuli CosineAttention epoch=190/300 valid_mae=0.07614719 best=0.07579240
+MP-ShearModuli CosineAttention epoch=200/300 valid_mae=0.07819237 best=0.07579240
+MP-ShearModuli CosineAttention epoch=210/300 valid_mae=0.07621298 best=0.07579240
+MP-ShearModuli CosineAttention epoch=220/300 valid_mae=0.07651457 best=0.07579240
+MP-ShearModuli CosineAttention epoch=230/300 valid_mae=0.07681262 best=0.07579240
+MP-ShearModuli CosineAttention epoch=240/300 valid_mae=0.07664532 best=0.07579240
+MP-ShearModuli CosineAttention epoch=250/300 valid_mae=0.07634207 best=0.07579240
+MP-ShearModuli CosineAttention epoch=260/300 valid_mae=0.07633441 best=0.07579240
+MP-ShearModuli CosineAttention epoch=270/300 valid_mae=0.07639497 best=0.07579240
+MP-ShearModuli CosineAttention epoch=280/300 valid_mae=0.07631117 best=0.07579240
+MP-ShearModuli CosineAttention epoch=290/300 valid_mae=0.07639452 best=0.07579240
+MP-ShearModuli CosineAttention epoch=300/300 valid_mae=0.07641244 best=0.07579240
+{
+  "task": "MP-ShearModuli",
+  "dataset": "MP",
+  "property_family": "Mechanical",
+  "variant": "CosineAttention",
+  "seed": 42,
+  "best_epoch": 147,
+  "best_valid_mae": 0.07579240157333793,
+  "final_valid_mae": 0.07641244201127327,
+  "mean": 1.6156670881204251,
+  "std": 0.36739313734078166,
+  "trainable_params": 2768098,
+  "checkpoint_path": "/root/autodl-tmp/TextResidualSHFMat/matched_ablation_runs/MP-ShearModuli/CosineAttention/best_valid.pt",
+  "test_forward_count": 0,
+  "runtime_sec": 1188.7956943511963,
+  "train_samples": 4659,
+  "valid_samples": 582,
+  "mean_eligible_token_count": 120.73539518900344,
+  "median_eligible_token_count": 126.0,
+  "attention_entropy_mean": 4.036222042906325,
+  "attention_entropy_median": 4.010869264602661,
+  "attention_effective_token_count_mean": 58.525731483117205,
+  "attention_effective_token_count_median": 55.1948311692706,
+  "attention_mean_max": null,
+  "zero_text_fallback_count": 0,
+  "zero_text_fallback_ids": []
+}

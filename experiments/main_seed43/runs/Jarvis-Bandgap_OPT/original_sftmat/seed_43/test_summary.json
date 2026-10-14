@@ -1,0 +1,15 @@
+{
+  "best_valid_epoch": 275,
+  "checkpoint_sha256": "7ec65f0d4ce8007e65b70112cf9e171a39fc8c879f68e53d9424675ebb1f4e15",
+  "model_name": "original_sftmat",
+  "protocol_sha256": "adae888170a616d63ca455803e3c186d270cb62ae5bbd3ed70b55835dc8c674d",
+  "seed": 43,
+  "selected_by": "Valid only",
+  "status": "test_complete",
+  "task": "Jarvis-Bandgap_OPT",
+  "test_forward_count": 1,
+  "test_mae": 0.12717070588940632,
+  "test_size": 5573,
+  "token_cache_sha256": "ebbed3aaa94fd2bfba0327cf3976f1d44ce1b3255d27e738e863565c5dd76be6",
+  "valid_mae": 0.12093770628085003
+}

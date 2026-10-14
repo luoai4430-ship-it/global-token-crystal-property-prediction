@@ -1,0 +1,22 @@
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_seed43_benchmark.py test --task Jarvis-ShearModulusGv --model_name original_sftmat --seed 43 --token_cache /dev/shm/dualview_seed43_20260830/Jarvis-ShearModulusGv/token_cache --output_root /root/dualview_seed43_20260830 --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda --num_workers 2
+dataset split: total=19680, train=15744, valid=1968, test=1968
+train range:(-24.959999084472656,529.2999877929688)
+valid range:(-24.739999771118164,529.2999877929688)
+test range:(-24.540000915527344,266.6000061035156)
+mean:37.37079620361328
+std:39.461280822753906
+{
+  "best_valid_epoch": 274,
+  "checkpoint_sha256": "2b7bd345372b05d6c2a86297470cc41cb584e2338ac5538e01bec20a5c2a2c0e",
+  "model_name": "original_sftmat",
+  "protocol_sha256": "adae888170a616d63ca455803e3c186d270cb62ae5bbd3ed70b55835dc8c674d",
+  "seed": 43,
+  "selected_by": "Valid only",
+  "status": "test_complete",
+  "task": "Jarvis-ShearModulusGv",
+  "test_forward_count": 1,
+  "test_mae": 8.99067522064457,
+  "test_size": 1968,
+  "token_cache_sha256": "85f6c76085c0266256f0dae617c29f9a8d469f80cfa7e5fa288f154f4b2c939a",
+  "valid_mae": 8.620151984982375
+}

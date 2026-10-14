@@ -1,0 +1,24 @@
+{
+  "complete_sha256": "2a498ae6586d8889d0f960d4052554ace644c9552d49e448df032fb1a64731a4",
+  "complete_unique_coverage": true,
+  "description_generator": "original source plus deterministic CIF fallback only for missing rows",
+  "dropped_source_count": 0,
+  "expected_samples": 19680,
+  "generated_missing_count": 8,
+  "generated_missing_ids": [
+    "4999",
+    "9999",
+    "13252",
+    "14305",
+    "14306",
+    "14701",
+    "14702",
+    "14999"
+  ],
+  "id_column": "Id",
+  "source_csv": "/root/autodl-tmp/dataset1/dataset/jarvis/shear_modulus_gv/description.csv",
+  "source_samples": 19672,
+  "source_sha256": "5cd2f9ea548b9033ec810e5b51ad9e80c7b2ce5b2c42017686c7a83d193664ad",
+  "task": "Jarvis-ShearModulusGv",
+  "text_column": "Description"
+}

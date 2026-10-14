@@ -1,0 +1,60 @@
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/cache_matbert_token_features.py --input /dev/shm/gt_pvin_stage_e3_seed42_20260910/Jarvis-ShearModulusGv/description_complete.csv --output_dir /dev/shm/gt_pvin_stage_e3_seed42_20260910/Jarvis-ShearModulusGv/token_cache --model_name /root/autodl-tmp/matbert-base-cased --id_column Id --text_column Description --max_length 128 --batch_size 64 --device cuda --progress_every 1024 --overwrite
+cached 1024/19680 token sequences
+cached 2048/19680 token sequences
+cached 3072/19680 token sequences
+cached 4096/19680 token sequences
+cached 5120/19680 token sequences
+cached 6144/19680 token sequences
+cached 7168/19680 token sequences
+cached 8192/19680 token sequences
+cached 9216/19680 token sequences
+cached 10240/19680 token sequences
+cached 11264/19680 token sequences
+cached 12288/19680 token sequences
+cached 13312/19680 token sequences
+cached 14336/19680 token sequences
+cached 15360/19680 token sequences
+cached 16384/19680 token sequences
+cached 17408/19680 token sequences
+cached 18432/19680 token sequences
+cached 19456/19680 token sequences
+cached 19680/19680 token sequences
+{
+  "attention_mask_dtype": "uint8",
+  "cache_sha256": "85f6c76085c0266256f0dae617c29f9a8d469f80cfa7e5fa288f154f4b2c939a",
+  "completed_rows": 19680,
+  "feature_dtype": "float16",
+  "feature_shape": [
+    19680,
+    128,
+    768
+  ],
+  "forbidden_global_pooling_used": false,
+  "format": "dense_memmap_v1",
+  "hidden_dim": 768,
+  "hidden_size": 768,
+  "id_column": "Id",
+  "input_ids_dtype": "int32",
+  "input_ids_shape": [
+    19680,
+    128
+  ],
+  "mask_shape": [
+    19680,
+    128
+  ],
+  "max_length": 128,
+  "model_checkpoint": "/root/autodl-tmp/matbert-base-cased",
+  "model_name": "/root/autodl-tmp/matbert-base-cased",
+  "num_samples": 19680,
+  "padding": "max_length",
+  "source_csv": "/dev/shm/gt_pvin_stage_e3_seed42_20260910/Jarvis-ShearModulusGv/description_complete.csv",
+  "source_sha256": "2a498ae6586d8889d0f960d4052554ace644c9552d49e448df032fb1a64731a4",
+  "special_tokens_excluded": false,
+  "status": "complete",
+  "text_column": "Description",
+  "tokenizer_class": "BertTokenizerFast",
+  "tokenizer_version": "4.38.2",
+  "truncation": true,
+  "uses_last_hidden_state": true
+}

@@ -1,0 +1,6 @@
+{
+  "error": "valid failed for MP-ShearModuli with exit 1; see /root/final_10task_ours_seed42_20260810_tau05/logs/MP-ShearModuli_ours_seed42_valid.log",
+  "error_type": "RuntimeError",
+  "failed_at_unix": 1786348455.2497275,
+  "traceback": "Traceback (most recent call last):\n  File \"/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_ours_seed42_queue.py\", line 212, in main\n    execute_wave(index, wave, \"valid\")\n  File \"/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_ours_seed42_queue.py\", line 177, in execute_wave\n    raise RuntimeError(\nRuntimeError: valid failed for MP-ShearModuli with exit 1; see /root/final_10task_ours_seed42_20260810_tau05/logs/MP-ShearModuli_ours_seed42_valid.log\n"
+}

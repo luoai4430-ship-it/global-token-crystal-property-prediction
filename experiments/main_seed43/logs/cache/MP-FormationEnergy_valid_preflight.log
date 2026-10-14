@@ -1,0 +1,133 @@
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_seed43_benchmark.py preflight --task MP-FormationEnergy --token_cache /dev/shm/dualview_seed43_20260830/MP-FormationEnergy/token_cache --scratch /dev/shm/dualview_seed43_20260830/MP-FormationEnergy --output_root /root/dualview_seed43_20260830 --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda
+dataset split: total=65516, train=60000, valid=5000, test=516
+train range:(-4.522498607635498,4.390343189239502)
+valid range:(-4.438785552978516,4.213304042816162)
+test range:(-4.011949062347412,2.410712957382202)
+mean:-1.6532751321792603
+std:1.072024941444397
+{
+  "aliases": {
+    "aliases": [
+      {
+        "path": "/root/autodl-tmp/TextResidualSHFMat/Dataset/processed/MP-FormationEnergy-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-train-CGCNN.pt",
+        "source": "/dev/shm/dualview_seed43_20260830/MP-FormationEnergy/graph/MP-FormationEnergy-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-train-CGCNN.pt"
+      },
+      {
+        "path": "/root/autodl-tmp/TextResidualSHFMat/Dataset/processed/MP-FormationEnergy-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-valid-CGCNN.pt",
+        "source": "/dev/shm/dualview_seed43_20260830/MP-FormationEnergy/graph/MP-FormationEnergy-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-valid-CGCNN.pt"
+      },
+      {
+        "path": "/root/autodl-tmp/TextResidualSHFMat/Dataset/processed/MP-FormationEnergy-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-test-CGCNN.pt",
+        "source": "/dev/shm/dualview_seed43_20260830/MP-FormationEnergy/graph/MP-FormationEnergy-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-test-CGCNN.pt"
+      },
+      {
+        "path": "/root/autodl-tmp/TextResidualSHFMat/Dataset/raw/MP-FormationEnergy-cutoff4.0-maxNeibNum16-spheHarmL4-CIF_CSV-rawData.pt",
+        "source": "/dev/shm/dualview_seed43_20260830/MP-FormationEnergy/graph/MP-FormationEnergy-cutoff4.0-maxNeibNum16-spheHarmL4-CIF_CSV-rawData.pt"
+      }
+    ],
+    "retargeted": {
+      "ordered_id_match": true,
+      "processed_caches": [
+        "/dev/shm/dualview_seed43_20260830/MP-FormationEnergy/graph/MP-FormationEnergy-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-train-CGCNN.pt",
+        "/dev/shm/dualview_seed43_20260830/MP-FormationEnergy/graph/MP-FormationEnergy-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-valid-CGCNN.pt",
+        "/dev/shm/dualview_seed43_20260830/MP-FormationEnergy/graph/MP-FormationEnergy-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-test-CGCNN.pt"
+      ],
+      "raw_cache": "/dev/shm/dualview_seed43_20260830/MP-FormationEnergy/graph/MP-FormationEnergy-cutoff4.0-maxNeibNum16-spheHarmL4-CIF_CSV-rawData.pt",
+      "source_task": "MP-Bandgap",
+      "split_id_match": true,
+      "target_mean": -1.6532751321792603,
+      "target_std": 1.072024941444397,
+      "target_task": "MP-FormationEnergy"
+    },
+    "task": "MP-FormationEnergy"
+  },
+  "data_loader_workers": 2,
+  "dataset": "MP",
+  "drop_last": false,
+  "graph_target_mean": -1.6532751321792603,
+  "graph_target_std": 1.072024941444397,
+  "graph_total": 65516,
+  "model_checks": {
+    "original_sftmat": {
+      "autocast_dtype": "bfloat16",
+      "parameter_count": 2661154,
+      "prediction_finite": true,
+      "prediction_shape": [
+        4
+      ]
+    },
+    "ours": {
+      "autocast_dtype": "bfloat16",
+      "effective_token_count_min": 124.61614990234375,
+      "k_norm_after_max_deviation": 1.1920928955078125e-07,
+      "padding_attention_max": 0.0,
+      "parameter_count": 2800739,
+      "prediction_finite": true,
+      "prediction_shape": [
+        4
+      ],
+      "q_norm_after_max_deviation": 5.960464477539063e-08,
+      "special_token_attention_max": 0.0,
+      "temperature": 0.5
+    }
+  },
+  "pin_memory": false,
+  "property": "FormationEnergy",
+  "protocol": {
+    "bandgap_nonnegative_clipping": true,
+    "batch_size": 32,
+    "checkpoint_selection": "best Valid MAE only",
+    "data_loader_workers": 2,
+    "drop_last": false,
+    "epochs": 300,
+    "eval_batch_size": 64,
+    "lr": 0.001,
+    "matbert_max_length": 128,
+    "max_lr": 0.001,
+    "models": [
+      "original_sftmat",
+      "ours"
+    ],
+    "optimizer": "AdamW",
+    "original_loss": "MAE(property,target)",
+    "ours_loss": "MAE(final,target)+0.2*MAE(graph,target)",
+    "ours_temperature": 0.5,
+    "pin_memory": false,
+    "prefetch_factor": 1,
+    "scheduler": "OneCycleLR",
+    "seeds": [
+      43
+    ],
+    "tasks": [
+      "Jarvis-Bandgap_MBJ",
+      "Jarvis-Bandgap_OPT",
+      "Jarvis-FormationEnergy",
+      "Jarvis-TotalEnergy",
+      "Jarvis-BulkModulusKv",
+      "Jarvis-ShearModulusGv",
+      "MP-Bandgap",
+      "MP-FormationEnergy",
+      "MP-BulkModuli",
+      "MP-ShearModuli"
+    ],
+    "torch_multiprocessing_sharing_strategy": "file_system",
+    "training_dtype": "bfloat16",
+    "weight_decay": 0.0001
+  },
+  "protocol_sha256": "adae888170a616d63ca455803e3c186d270cb62ae5bbd3ed70b55835dc8c674d",
+  "split_sizes": {
+    "test": 516,
+    "train": 60000,
+    "valid": 5000
+  },
+  "status": "passed",
+  "task": "MP-FormationEnergy",
+  "token_cache_rows": 65516,
+  "token_cache_sha256": "ee701e2c5c105c14feed7af9dfc7a5e2a6dbf11f473fd84b6364c64fb9048fc3",
+  "token_cache_shape": [
+    65516,
+    128,
+    768
+  ],
+  "torch_multiprocessing_sharing_strategy": "file_system"
+}

@@ -1,0 +1,22 @@
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_seed43_benchmark.py test --task Jarvis-FormationEnergy --model_name original_sftmat --seed 43 --token_cache /dev/shm/dualview_seed43_20260830/Jarvis-FormationEnergy/token_cache --output_root /root/dualview_seed43_20260830 --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda --num_workers 2
+dataset split: total=55723, train=44578, valid=5572, test=5573
+train range:(-4.3855299949646,4.985750198364258)
+valid range:(-4.379370212554932,3.785399913787842)
+test range:(-4.42303991317749,3.307389974594116)
+mean:-0.831722617149353
+std:1.0806602239608765
+{
+  "best_valid_epoch": 279,
+  "checkpoint_sha256": "02a48990a25d712ffbf5cfd59a62355e4454170b72d366ca2bc84681ebbe8051",
+  "model_name": "original_sftmat",
+  "protocol_sha256": "adae888170a616d63ca455803e3c186d270cb62ae5bbd3ed70b55835dc8c674d",
+  "seed": 43,
+  "selected_by": "Valid only",
+  "status": "test_complete",
+  "task": "Jarvis-FormationEnergy",
+  "test_forward_count": 1,
+  "test_mae": 0.0299423333132436,
+  "test_size": 5573,
+  "token_cache_sha256": "ad6d565e1270c8ec8dc5a8068249195b2307de7570fc1cf493b1d5438e288d26",
+  "valid_mae": 0.02969611392805068
+}

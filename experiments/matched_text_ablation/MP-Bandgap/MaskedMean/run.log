@@ -1,0 +1,58 @@
+MP-Bandgap MaskedMean epoch=1/300 valid_mae=0.63912560 best=0.63912560
+MP-Bandgap MaskedMean epoch=10/300 valid_mae=0.39010915 best=0.39010915
+MP-Bandgap MaskedMean epoch=20/300 valid_mae=0.36169232 best=0.34654157
+MP-Bandgap MaskedMean epoch=30/300 valid_mae=0.33024951 best=0.32852887
+MP-Bandgap MaskedMean epoch=40/300 valid_mae=0.32216696 best=0.31368254
+MP-Bandgap MaskedMean epoch=50/300 valid_mae=0.30902664 best=0.28912512
+MP-Bandgap MaskedMean epoch=60/300 valid_mae=0.28495391 best=0.28208225
+MP-Bandgap MaskedMean epoch=70/300 valid_mae=0.31418401 best=0.27139610
+MP-Bandgap MaskedMean epoch=80/300 valid_mae=0.28669767 best=0.26792480
+MP-Bandgap MaskedMean epoch=90/300 valid_mae=0.26728270 best=0.26297899
+MP-Bandgap MaskedMean epoch=100/300 valid_mae=0.27015313 best=0.25438758
+MP-Bandgap MaskedMean epoch=110/300 valid_mae=0.25876757 best=0.24819483
+MP-Bandgap MaskedMean epoch=120/300 valid_mae=0.24669592 best=0.24450363
+MP-Bandgap MaskedMean epoch=130/300 valid_mae=0.23737418 best=0.23737418
+MP-Bandgap MaskedMean epoch=140/300 valid_mae=0.23849524 best=0.23278702
+MP-Bandgap MaskedMean epoch=150/300 valid_mae=0.23726485 best=0.22882034
+MP-Bandgap MaskedMean epoch=160/300 valid_mae=0.23574266 best=0.22882034
+MP-Bandgap MaskedMean epoch=170/300 valid_mae=0.23388015 best=0.22653142
+MP-Bandgap MaskedMean epoch=180/300 valid_mae=0.22864142 best=0.22352262
+MP-Bandgap MaskedMean epoch=190/300 valid_mae=0.22199031 best=0.22159585
+MP-Bandgap MaskedMean epoch=200/300 valid_mae=0.22097382 best=0.22064898
+MP-Bandgap MaskedMean epoch=210/300 valid_mae=0.22259848 best=0.21676021
+MP-Bandgap MaskedMean epoch=220/300 valid_mae=0.21933767 best=0.21676021
+MP-Bandgap MaskedMean epoch=230/300 valid_mae=0.22035518 best=0.21676021
+MP-Bandgap MaskedMean epoch=240/300 valid_mae=0.21699416 best=0.21676021
+MP-Bandgap MaskedMean epoch=250/300 valid_mae=0.21956205 best=0.21676021
+MP-Bandgap MaskedMean epoch=260/300 valid_mae=0.22005110 best=0.21647373
+MP-Bandgap MaskedMean epoch=270/300 valid_mae=0.21734656 best=0.21647373
+MP-Bandgap MaskedMean epoch=280/300 valid_mae=0.21825200 best=0.21647373
+MP-Bandgap MaskedMean epoch=290/300 valid_mae=0.21866968 best=0.21647373
+MP-Bandgap MaskedMean epoch=300/300 valid_mae=0.21812487 best=0.21647373
+{
+  "task": "MP-Bandgap",
+  "dataset": "MP",
+  "property_family": "Electronic",
+  "variant": "MaskedMean",
+  "seed": 42,
+  "best_epoch": 254,
+  "best_valid_mae": 0.21647372691030223,
+  "final_valid_mae": 0.21812486782236254,
+  "mean": 1.3502678866666666,
+  "std": 1.6265326250106609,
+  "trainable_params": 2636514,
+  "checkpoint_path": "/root/autodl-tmp/TextResidualSHFMat/matched_ablation_runs/MP-Bandgap/MaskedMean/best_valid.pt",
+  "test_forward_count": 0,
+  "runtime_sec": 29514.530718564987,
+  "train_samples": 60000,
+  "valid_samples": 5000,
+  "mean_eligible_token_count": 124.4382,
+  "median_eligible_token_count": 126.0,
+  "attention_entropy_mean": null,
+  "attention_entropy_median": null,
+  "attention_effective_token_count_mean": null,
+  "attention_effective_token_count_median": null,
+  "attention_mean_max": null,
+  "zero_text_fallback_count": 0,
+  "zero_text_fallback_ids": []
+}

@@ -1,0 +1,58 @@
+MP-ShearModuli MaskedMean epoch=1/300 valid_mae=0.15608954 best=0.15608954
+MP-ShearModuli MaskedMean epoch=10/300 valid_mae=0.10643804 best=0.10643804
+MP-ShearModuli MaskedMean epoch=20/300 valid_mae=0.09972499 best=0.09584597
+MP-ShearModuli MaskedMean epoch=30/300 valid_mae=0.09760684 best=0.09055021
+MP-ShearModuli MaskedMean epoch=40/300 valid_mae=0.09144216 best=0.09055021
+MP-ShearModuli MaskedMean epoch=50/300 valid_mae=0.08656062 best=0.08308275
+MP-ShearModuli MaskedMean epoch=60/300 valid_mae=0.08298740 best=0.08298740
+MP-ShearModuli MaskedMean epoch=70/300 valid_mae=0.08301240 best=0.07994522
+MP-ShearModuli MaskedMean epoch=80/300 valid_mae=0.08272299 best=0.07825225
+MP-ShearModuli MaskedMean epoch=90/300 valid_mae=0.07948039 best=0.07825225
+MP-ShearModuli MaskedMean epoch=100/300 valid_mae=0.07507822 best=0.07413684
+MP-ShearModuli MaskedMean epoch=110/300 valid_mae=0.07603365 best=0.07413684
+MP-ShearModuli MaskedMean epoch=120/300 valid_mae=0.07691033 best=0.07413684
+MP-ShearModuli MaskedMean epoch=130/300 valid_mae=0.07358442 best=0.07281346
+MP-ShearModuli MaskedMean epoch=140/300 valid_mae=0.07755002 best=0.07281346
+MP-ShearModuli MaskedMean epoch=150/300 valid_mae=0.07442126 best=0.07185416
+MP-ShearModuli MaskedMean epoch=160/300 valid_mae=0.07457119 best=0.07185416
+MP-ShearModuli MaskedMean epoch=170/300 valid_mae=0.07329450 best=0.07185416
+MP-ShearModuli MaskedMean epoch=180/300 valid_mae=0.07178320 best=0.07178320
+MP-ShearModuli MaskedMean epoch=190/300 valid_mae=0.07129507 best=0.07129507
+MP-ShearModuli MaskedMean epoch=200/300 valid_mae=0.07181087 best=0.07088055
+MP-ShearModuli MaskedMean epoch=210/300 valid_mae=0.07214648 best=0.07085922
+MP-ShearModuli MaskedMean epoch=220/300 valid_mae=0.07117443 best=0.07028018
+MP-ShearModuli MaskedMean epoch=230/300 valid_mae=0.07093114 best=0.07028018
+MP-ShearModuli MaskedMean epoch=240/300 valid_mae=0.07055341 best=0.06975220
+MP-ShearModuli MaskedMean epoch=250/300 valid_mae=0.07000047 best=0.06948777
+MP-ShearModuli MaskedMean epoch=260/300 valid_mae=0.07004907 best=0.06948777
+MP-ShearModuli MaskedMean epoch=270/300 valid_mae=0.07029053 best=0.06948777
+MP-ShearModuli MaskedMean epoch=280/300 valid_mae=0.06987817 best=0.06948777
+MP-ShearModuli MaskedMean epoch=290/300 valid_mae=0.06984955 best=0.06948777
+MP-ShearModuli MaskedMean epoch=300/300 valid_mae=0.06972354 best=0.06948777
+{
+  "task": "MP-ShearModuli",
+  "dataset": "MP",
+  "property_family": "Mechanical",
+  "variant": "MaskedMean",
+  "seed": 42,
+  "best_epoch": 246,
+  "best_valid_mae": 0.0694877696112286,
+  "final_valid_mae": 0.06972353602951616,
+  "mean": 1.6156670881204251,
+  "std": 0.36739313734078166,
+  "trainable_params": 2653154,
+  "checkpoint_path": "/root/autodl-tmp/TextResidualSHFMat/matched_ablation_runs/MP-ShearModuli/MaskedMean/best_valid.pt",
+  "test_forward_count": 0,
+  "runtime_sec": 1173.2194743156433,
+  "train_samples": 4659,
+  "valid_samples": 582,
+  "mean_eligible_token_count": 120.73539518900344,
+  "median_eligible_token_count": 126.0,
+  "attention_entropy_mean": null,
+  "attention_entropy_median": null,
+  "attention_effective_token_count_mean": null,
+  "attention_effective_token_count_median": null,
+  "attention_mean_max": null,
+  "zero_text_fallback_count": 0,
+  "zero_text_fallback_ids": []
+}

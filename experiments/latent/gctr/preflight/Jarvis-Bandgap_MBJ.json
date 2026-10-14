@@ -1,0 +1,122 @@
+{
+  "aliases": {
+    "aliases": [
+      {
+        "path": "/root/autodl-tmp/TextResidualSHFMat/Dataset/processed/Jarvis-Bandgap_MBJ-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-train-CGCNN.pt",
+        "source": "existing_plain"
+      },
+      {
+        "path": "/root/autodl-tmp/TextResidualSHFMat/Dataset/processed/Jarvis-Bandgap_MBJ-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-valid-CGCNN.pt",
+        "source": "existing_plain"
+      },
+      {
+        "path": "/root/autodl-tmp/TextResidualSHFMat/Dataset/processed/Jarvis-Bandgap_MBJ-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-test-CGCNN.pt",
+        "source": "existing_plain"
+      }
+    ],
+    "retargeted": null,
+    "task": "Jarvis-Bandgap_MBJ"
+  },
+  "model_checks": {
+    "B1_NaiveConcat": {
+      "effective_token_count_min": 114.94300079345703,
+      "film_modules_present": false,
+      "forbidden_modules_absent": true,
+      "padding_attention_max": 0.0,
+      "parameter_count": 2882658,
+      "prediction_shape": [
+        4
+      ],
+      "single_prediction_head": true,
+      "single_sftgnn": true,
+      "special_token_attention_max": 0.0,
+      "temperature": 0.5
+    },
+    "P3_GCTR": {
+      "effective_token_count_min": 114.94660949707031,
+      "film_modules_present": true,
+      "forbidden_modules_absent": true,
+      "padding_attention_max": 0.0,
+      "parameter_count": 2915938,
+      "prediction_shape": [
+        4
+      ],
+      "single_prediction_head": true,
+      "single_sftgnn": true,
+      "special_token_attention_max": 0.0,
+      "temperature": 0.5
+    }
+  },
+  "p3_added_params_vs_b1_pct": 1.1544900574400432,
+  "protocol": {
+    "bandgap_nonnegative_clipping": true,
+    "batch_size": 32,
+    "checkpoint_selection": "minimum validation MAE only",
+    "early_stopping_patience": 20,
+    "epochs_max": 100,
+    "eval_batch_size": 64,
+    "film_control_selection_use": false,
+    "film_controls": [
+      "normal",
+      "film_cls_shuffled",
+      "film_cls_zero"
+    ],
+    "forbidden": [
+      "dual-model prediction ensemble",
+      "prediction averaging",
+      "router",
+      "sample-wise alpha",
+      "property-specific gate",
+      "dataset-specific gate",
+      "tau search",
+      "loss-weight search",
+      "TAGIF tuning",
+      "GCTA tuning",
+      "test evaluation"
+    ],
+    "learning_rate": 0.001,
+    "loss": "single final-head raw-unit MAE",
+    "max_learning_rate": 0.001,
+    "mechanism_thresholds": {
+      "cos_token_refined_max": 0.99,
+      "film_gradient_norm_min": 1e-08,
+      "mean_abs_gamma_minus_one_or_mean_abs_beta_min": 0.01
+    },
+    "optimizer": "AdamW",
+    "scheduler": "OneCycleLR",
+    "seed": 42,
+    "split_seed": 123,
+    "stage": "GCTR_fast_screen",
+    "target_normalization": "task train-only mean/std from graph cache",
+    "tasks": [
+      "Jarvis-Bandgap_MBJ",
+      "MP-Bandgap"
+    ],
+    "temperature": 0.5,
+    "test_forward_count": 0,
+    "training_dtype": "bfloat16",
+    "variants": [
+      "B1_NaiveConcat",
+      "P3_GCTR"
+    ],
+    "weight_decay": 0.0001
+  },
+  "protocol_sha256": "ad0eb26ebe3ec10f94c8b275163587975ee6b1bea797ae75fd9d6904d6f89cf3",
+  "shared_initialization_equal": true,
+  "split_sizes": {
+    "train": 14537,
+    "valid": 1817
+  },
+  "status": "passed",
+  "target_mean": 1.4889696836471558,
+  "target_std": 2.3161327838897705,
+  "task": "Jarvis-Bandgap_MBJ",
+  "test_forward_count": 0,
+  "token_cache_rows": 18172,
+  "token_cache_sha256": "0caf4b99a950f281a2632fb36d1939bf311e88ea8c4934a951f4d1d0fc5270a6",
+  "token_cache_shape": [
+    18172,
+    128,
+    768
+  ]
+}

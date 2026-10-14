@@ -1,0 +1,86 @@
+dataset split: total=19680, train=15744, valid=1968, test=1968
+train range:(-22.709999084472656,470.80999755859375)
+valid range:(-10.170000076293945,437.6000061035156)
+test range:(-17.100000381469727,339.55999755859375)
+mean:84.35910034179688
+std:66.33599090576172
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=1/100 loss=24.51259330 valid_mae=16.63343138 best=16.63343138 best_epoch=1 stale=0/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=2/100 loss=18.65666179 valid_mae=15.59886849 best=15.59886849 best_epoch=2 stale=0/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=3/100 loss=17.63598700 valid_mae=15.44696873 best=15.44696873 best_epoch=3 stale=0/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=4/100 loss=16.95962394 valid_mae=15.32714766 best=15.32714766 best_epoch=4 stale=0/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=5/100 loss=16.20644371 valid_mae=13.72231020 best=13.72231020 best_epoch=5 stale=0/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=6/100 loss=15.60878684 valid_mae=14.28129122 best=13.72231020 best_epoch=5 stale=1/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=7/100 loss=15.16630144 valid_mae=14.45951176 best=13.72231020 best_epoch=5 stale=2/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=8/100 loss=15.31761344 valid_mae=13.68695834 best=13.68695834 best_epoch=8 stale=0/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=9/100 loss=14.75521863 valid_mae=18.38425129 best=13.68695834 best_epoch=8 stale=1/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=10/100 loss=14.58333060 valid_mae=13.85441552 best=13.68695834 best_epoch=8 stale=2/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=11/100 loss=14.25386906 valid_mae=14.32737129 best=13.68695834 best_epoch=8 stale=3/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=12/100 loss=14.10623097 valid_mae=13.95992602 best=13.68695834 best_epoch=8 stale=4/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=13/100 loss=13.72555843 valid_mae=12.65609487 best=12.65609487 best_epoch=13 stale=0/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=14/100 loss=13.58652958 valid_mae=13.41395439 best=12.65609487 best_epoch=13 stale=1/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=15/100 loss=13.33010597 valid_mae=12.61122227 best=12.61122227 best_epoch=15 stale=0/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=16/100 loss=13.36235922 valid_mae=13.36493554 best=12.61122227 best_epoch=15 stale=1/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=17/100 loss=13.21168923 valid_mae=12.19952213 best=12.19952213 best_epoch=17 stale=0/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=18/100 loss=12.98919405 valid_mae=12.49767418 best=12.19952213 best_epoch=17 stale=1/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=19/100 loss=12.95070894 valid_mae=12.55526014 best=12.19952213 best_epoch=17 stale=2/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=20/100 loss=12.50421080 valid_mae=13.01327862 best=12.19952213 best_epoch=17 stale=3/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=21/100 loss=12.59553820 valid_mae=11.99677866 best=11.99677866 best_epoch=21 stale=0/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=22/100 loss=12.36085228 valid_mae=12.13178031 best=11.99677866 best_epoch=21 stale=1/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=23/100 loss=12.10973566 valid_mae=11.66305312 best=11.66305312 best_epoch=23 stale=0/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=24/100 loss=11.99768419 valid_mae=15.12273305 best=11.66305312 best_epoch=23 stale=1/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=25/100 loss=11.84959481 valid_mae=11.53325945 best=11.53325945 best_epoch=25 stale=0/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=26/100 loss=11.54054940 valid_mae=10.87451547 best=10.87451547 best_epoch=26 stale=0/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=27/100 loss=11.38740143 valid_mae=12.11513578 best=10.87451547 best_epoch=26 stale=1/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=28/100 loss=11.28761755 valid_mae=11.73735453 best=10.87451547 best_epoch=26 stale=2/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=29/100 loss=10.90544467 valid_mae=11.27700804 best=10.87451547 best_epoch=26 stale=3/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=30/100 loss=10.78335899 valid_mae=10.89514914 best=10.87451547 best_epoch=26 stale=4/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=31/100 loss=10.67081726 valid_mae=10.93814293 best=10.87451547 best_epoch=26 stale=5/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=32/100 loss=10.51520268 valid_mae=10.78230405 best=10.78230405 best_epoch=32 stale=0/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=33/100 loss=10.24164209 valid_mae=10.64462697 best=10.64462697 best_epoch=33 stale=0/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=34/100 loss=10.13516760 valid_mae=11.61156581 best=10.64462697 best_epoch=33 stale=1/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=35/100 loss=9.87296498 valid_mae=9.97520127 best=9.97520127 best_epoch=35 stale=0/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=36/100 loss=9.72810054 valid_mae=10.45691014 best=9.97520127 best_epoch=35 stale=1/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=37/100 loss=9.59159492 valid_mae=10.60030021 best=9.97520127 best_epoch=35 stale=2/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=38/100 loss=9.44972029 valid_mae=9.96659063 best=9.96659063 best_epoch=38 stale=0/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=39/100 loss=9.13579634 valid_mae=10.17460341 best=9.96659063 best_epoch=38 stale=1/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=40/100 loss=9.13728150 valid_mae=10.30868411 best=9.96659063 best_epoch=38 stale=2/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=41/100 loss=8.89457442 valid_mae=10.79091331 best=9.96659063 best_epoch=38 stale=3/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=42/100 loss=8.84588159 valid_mae=10.31847639 best=9.96659063 best_epoch=38 stale=4/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=43/100 loss=8.56181151 valid_mae=11.36055697 best=9.96659063 best_epoch=38 stale=5/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=44/100 loss=8.43968417 valid_mae=10.03159405 best=9.96659063 best_epoch=38 stale=6/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=45/100 loss=8.27814066 valid_mae=10.62113681 best=9.96659063 best_epoch=38 stale=7/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=46/100 loss=8.07957058 valid_mae=10.05602401 best=9.96659063 best_epoch=38 stale=8/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=47/100 loss=8.05504642 valid_mae=9.91532720 best=9.91532720 best_epoch=47 stale=0/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=48/100 loss=7.90741862 valid_mae=9.26647588 best=9.26647588 best_epoch=48 stale=0/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=49/100 loss=7.65109540 valid_mae=9.87354232 best=9.26647588 best_epoch=48 stale=1/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=50/100 loss=7.62483538 valid_mae=9.91429309 best=9.26647588 best_epoch=48 stale=2/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=51/100 loss=7.42877702 valid_mae=9.55387129 best=9.26647588 best_epoch=48 stale=3/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=52/100 loss=7.28938015 valid_mae=10.21094086 best=9.26647588 best_epoch=48 stale=4/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=53/100 loss=7.19441043 valid_mae=9.77412585 best=9.26647588 best_epoch=48 stale=5/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=54/100 loss=6.94834074 valid_mae=9.43417774 best=9.26647588 best_epoch=48 stale=6/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=55/100 loss=6.83154113 valid_mae=9.36221720 best=9.26647588 best_epoch=48 stale=7/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=56/100 loss=6.68374131 valid_mae=9.37644887 best=9.26647588 best_epoch=48 stale=8/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=57/100 loss=6.46640762 valid_mae=9.50329542 best=9.26647588 best_epoch=48 stale=9/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=58/100 loss=6.31869585 valid_mae=9.17930938 best=9.17930938 best_epoch=58 stale=0/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=59/100 loss=6.16332150 valid_mae=8.98584718 best=8.98584718 best_epoch=59 stale=0/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=60/100 loss=6.06070403 valid_mae=9.58343317 best=8.98584718 best_epoch=59 stale=1/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=61/100 loss=5.82988088 valid_mae=9.28141200 best=8.98584718 best_epoch=59 stale=2/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=62/100 loss=5.72795562 valid_mae=9.29482627 best=8.98584718 best_epoch=59 stale=3/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=63/100 loss=5.53360838 valid_mae=9.49624749 best=8.98584718 best_epoch=59 stale=4/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=64/100 loss=5.47478789 valid_mae=9.26442135 best=8.98584718 best_epoch=59 stale=5/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=65/100 loss=5.35569730 valid_mae=9.58960744 best=8.98584718 best_epoch=59 stale=6/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=66/100 loss=5.19040950 valid_mae=9.25305714 best=8.98584718 best_epoch=59 stale=7/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=67/100 loss=5.08592091 valid_mae=9.31684951 best=8.98584718 best_epoch=59 stale=8/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=68/100 loss=4.90827675 valid_mae=10.04375475 best=8.98584718 best_epoch=59 stale=9/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=69/100 loss=4.79675537 valid_mae=9.37327794 best=8.98584718 best_epoch=59 stale=10/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=70/100 loss=4.61519613 valid_mae=9.27712354 best=8.98584718 best_epoch=59 stale=11/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=71/100 loss=4.53767960 valid_mae=9.16189709 best=8.98584718 best_epoch=59 stale=12/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=72/100 loss=4.42976694 valid_mae=9.32980896 best=8.98584718 best_epoch=59 stale=13/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=73/100 loss=4.33334605 valid_mae=9.37509951 best=8.98584718 best_epoch=59 stale=14/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=74/100 loss=4.12540778 valid_mae=9.16115052 best=8.98584718 best_epoch=59 stale=15/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=75/100 loss=4.03545012 valid_mae=9.27961923 best=8.98584718 best_epoch=59 stale=16/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=76/100 loss=3.90757536 valid_mae=9.17000544 best=8.98584718 best_epoch=59 stale=17/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=77/100 loss=3.85886614 valid_mae=9.16194221 best=8.98584718 best_epoch=59 stale=18/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=78/100 loss=3.70497160 valid_mae=9.10720922 best=8.98584718 best_epoch=59 stale=19/20
+[Jarvis-BulkModulusKv:B1_NaiveConcat:seed42] epoch=79/100 loss=3.64697947 valid_mae=9.24957144 best=8.98584718 best_epoch=59 stale=20/20
+[warning] best-state validation MAE changed after reload: tracked=8.98584718 reloaded=8.99130992 delta=0.00546274; using reloaded selected-checkpoint MAE

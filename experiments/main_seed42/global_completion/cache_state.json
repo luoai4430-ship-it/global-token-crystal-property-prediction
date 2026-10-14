@@ -1,0 +1,13 @@
+{
+  "active": [],
+  "completed_test": 0,
+  "completed_valid": 0,
+  "current_task": "Jarvis-FormationEnergy",
+  "expected_test": 100,
+  "expected_valid": 100,
+  "failed": [],
+  "phase": "valid_only_preparing",
+  "started_at_unix": 1787380320.8791084,
+  "status": "RUNNING",
+  "updated_at_unix": 1787462340.1263256
+}

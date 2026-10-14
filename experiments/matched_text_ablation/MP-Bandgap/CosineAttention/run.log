@@ -1,0 +1,58 @@
+MP-Bandgap CosineAttention epoch=1/300 valid_mae=0.60901569 best=0.60901569
+MP-Bandgap CosineAttention epoch=10/300 valid_mae=0.38661923 best=0.37115199
+MP-Bandgap CosineAttention epoch=20/300 valid_mae=0.34825470 best=0.34825470
+MP-Bandgap CosineAttention epoch=30/300 valid_mae=0.32941133 best=0.31571988
+MP-Bandgap CosineAttention epoch=40/300 valid_mae=0.28957045 best=0.28957045
+MP-Bandgap CosineAttention epoch=50/300 valid_mae=0.28070484 best=0.27969471
+MP-Bandgap CosineAttention epoch=60/300 valid_mae=0.27462471 best=0.27462471
+MP-Bandgap CosineAttention epoch=70/300 valid_mae=0.26752616 best=0.26332667
+MP-Bandgap CosineAttention epoch=80/300 valid_mae=0.27339271 best=0.25380931
+MP-Bandgap CosineAttention epoch=90/300 valid_mae=0.25135860 best=0.24929387
+MP-Bandgap CosineAttention epoch=100/300 valid_mae=0.24708557 best=0.24708557
+MP-Bandgap CosineAttention epoch=110/300 valid_mae=0.25433981 best=0.24335767
+MP-Bandgap CosineAttention epoch=120/300 valid_mae=0.24552744 best=0.23665023
+MP-Bandgap CosineAttention epoch=130/300 valid_mae=0.23191780 best=0.23191780
+MP-Bandgap CosineAttention epoch=140/300 valid_mae=0.22892530 best=0.22892530
+MP-Bandgap CosineAttention epoch=150/300 valid_mae=0.22805054 best=0.22741650
+MP-Bandgap CosineAttention epoch=160/300 valid_mae=0.24746444 best=0.22408487
+MP-Bandgap CosineAttention epoch=170/300 valid_mae=0.22748039 best=0.22284487
+MP-Bandgap CosineAttention epoch=180/300 valid_mae=0.22299796 best=0.22167906
+MP-Bandgap CosineAttention epoch=190/300 valid_mae=0.21964146 best=0.21912582
+MP-Bandgap CosineAttention epoch=200/300 valid_mae=0.21942054 best=0.21503386
+MP-Bandgap CosineAttention epoch=210/300 valid_mae=0.21727745 best=0.21503386
+MP-Bandgap CosineAttention epoch=220/300 valid_mae=0.21824540 best=0.21503386
+MP-Bandgap CosineAttention epoch=230/300 valid_mae=0.21798097 best=0.21422244
+MP-Bandgap CosineAttention epoch=240/300 valid_mae=0.21556894 best=0.21422244
+MP-Bandgap CosineAttention epoch=250/300 valid_mae=0.21592969 best=0.21422244
+MP-Bandgap CosineAttention epoch=260/300 valid_mae=0.21804926 best=0.21422244
+MP-Bandgap CosineAttention epoch=270/300 valid_mae=0.21655313 best=0.21422244
+MP-Bandgap CosineAttention epoch=280/300 valid_mae=0.21743780 best=0.21422244
+MP-Bandgap CosineAttention epoch=290/300 valid_mae=0.21706906 best=0.21422244
+MP-Bandgap CosineAttention epoch=300/300 valid_mae=0.21623788 best=0.21422244
+{
+  "task": "MP-Bandgap",
+  "dataset": "MP",
+  "property_family": "Electronic",
+  "variant": "CosineAttention",
+  "seed": 42,
+  "best_epoch": 226,
+  "best_valid_mae": 0.21422244248991187,
+  "final_valid_mae": 0.21623788327841884,
+  "mean": 1.3502678866666666,
+  "std": 1.6265326250106609,
+  "trainable_params": 2751458,
+  "checkpoint_path": "/root/autodl-tmp/TextResidualSHFMat/matched_ablation_runs/MP-Bandgap/CosineAttention/best_valid.pt",
+  "test_forward_count": 0,
+  "runtime_sec": 30022.017685890198,
+  "train_samples": 60000,
+  "valid_samples": 5000,
+  "mean_eligible_token_count": 124.4382,
+  "median_eligible_token_count": 126.0,
+  "attention_entropy_mean": 4.503555531263351,
+  "attention_entropy_median": 4.511080741882324,
+  "attention_effective_token_count_mean": 90.95589763420163,
+  "attention_effective_token_count_median": 91.02013469049882,
+  "attention_mean_max": null,
+  "zero_text_fallback_count": 0,
+  "zero_text_fallback_ids": []
+}

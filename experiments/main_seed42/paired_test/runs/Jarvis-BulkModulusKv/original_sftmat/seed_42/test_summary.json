@@ -1,0 +1,21 @@
+{
+  "best_valid_epoch": 272,
+  "checkpoint": "/root/fast_feature_refine_seed42_20260811/runs/Jarvis-BulkModulusKv/original_sftmat/seed_42/best_valid.pt",
+  "checkpoint_sha256": "21c193a6926885974d5e38435f2c7004034ad97e7a1893802d188d8b7897218f",
+  "input": "exact-source regenerated MatBERT token cache",
+  "model_name": "original_sftmat",
+  "seed": 42,
+  "selected_by": "Valid only",
+  "status": "test_complete",
+  "task": "Jarvis-BulkModulusKv",
+  "test_forward_count": 1,
+  "test_mae": 9.704562258914235,
+  "test_size": 1968,
+  "test_used_for_selection": false,
+  "token_cache_exact_source_manifest": true,
+  "token_cache_sha256_expected": "671cb514f92bc3c4c438cf86a76c3a08269495b6de67cc7150cf01b0aac40513",
+  "token_cache_sha256_regenerated": "e3899bff12e8aabbd7d8f13535268f6d502ed84a68fe4d8714a75e47a88764a1",
+  "valid_mae_replayed": 9.207328517262528,
+  "valid_mae_saved": 9.214838027954102,
+  "valid_replay_tolerance": 0.09214838027954102
+}

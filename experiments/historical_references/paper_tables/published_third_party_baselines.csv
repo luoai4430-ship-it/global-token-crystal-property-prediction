@@ -1,0 +1,59 @@
+benchmark,method,modality,task,value,uncertainty,unit,source,protocol_note
+JARVIS,ALIGNN,graph,FormationEnergy,0.033,,eV/atom,CrysMMNet Table 1,Published 80/10/10 benchmark result
+JARVIS,ALIGNN,graph,Bandgap_OPT,0.142,,eV,CrysMMNet Table 1,Published 80/10/10 benchmark result
+JARVIS,ALIGNN,graph,Bandgap_MBJ,0.310,,eV,CrysMMNet Table 1,Published 80/10/10 benchmark result
+JARVIS,ALIGNN,graph,TotalEnergy,0.037,,eV/atom,CrysMMNet Table 1,Published 80/10/10 benchmark result
+JARVIS,ALIGNN,graph,BulkModulusKv,10.40,,GPa,CrysMMNet Table 1,Published 80/10/10 benchmark result
+JARVIS,ALIGNN,graph,ShearModulusGv,9.481,,GPa,CrysMMNet Table 1,Published 80/10/10 benchmark result
+JARVIS,Matformer,graph,FormationEnergy,0.033,,eV/atom,CrysMMNet Table 1,Published benchmark result
+JARVIS,Matformer,graph,Bandgap_OPT,0.137,,eV,CrysMMNet Table 1,Published benchmark result
+JARVIS,Matformer,graph,Bandgap_MBJ,0.302,,eV,CrysMMNet Table 1,Published benchmark result
+JARVIS,Matformer,graph,TotalEnergy,0.035,,eV/atom,CrysMMNet Table 1,Published benchmark result
+JARVIS,Matformer,graph,BulkModulusKv,11.21,,GPa,CrysMMNet Table 1,Published benchmark result
+JARVIS,Matformer,graph,ShearModulusGv,10.76,,GPa,CrysMMNet Table 1,Published benchmark result
+JARVIS,CrysMMNet,graph+text,FormationEnergy,0.028,,eV/atom,CrysMMNet Table 1,JARVIS-DFT 55722 release and published split
+JARVIS,CrysMMNet,graph+text,Bandgap_OPT,0.128,,eV,CrysMMNet Table 1,JARVIS-DFT 55722 release and published split
+JARVIS,CrysMMNet,graph+text,Bandgap_MBJ,0.278,,eV,CrysMMNet Table 1,JARVIS-DFT published split
+JARVIS,CrysMMNet,graph+text,TotalEnergy,0.034,,eV/atom,CrysMMNet Table 1,JARVIS-DFT 55722 release and published split
+JARVIS,CrysMMNet,graph+text,BulkModulusKv,9.625,,GPa,CrysMMNet Table 1,JARVIS-DFT published split
+JARVIS,CrysMMNet,graph+text,ShearModulusGv,8.471,,GPa,CrysMMNet Table 1,JARVIS-DFT published split
+JARVIS,SFTGNN,graph,FormationEnergy,0.0283,,eV/atom,SFTGNN Table 4,Follows Matformer split
+JARVIS,SFTGNN,graph,Bandgap_OPT,0.129,,eV,SFTGNN Table 4,Follows Matformer split
+JARVIS,SFTGNN,graph,Bandgap_MBJ,0.270,,eV,SFTGNN Table 4,Follows Matformer split
+JARVIS,SFTGNN,graph,TotalEnergy,0.031,,eV/atom,SFTGNN Table 4,Follows Matformer split
+JARVIS,Hybrid-LLM-GNN,graph+text,FormationEnergy,0.0339,,eV/atom,Hybrid-LLM-GNN Table 1,Best reported hybrid combination; 75799 samples
+JARVIS,Hybrid-LLM-GNN,graph+text,Bandgap_MBJ,0.2516,,eV,Hybrid-LLM-GNN Table 1,Best reported hybrid combination; 19556 samples
+JARVIS,PRISM,graph,FormationEnergy,0.02587,0.00036,eV/atom,PRISM Table 1,Published value converted from meV
+JARVIS,PRISM,graph,Bandgap_OPT,0.10926,0.00254,eV,PRISM Table 1,Published value converted from meV
+JARVIS,PRISM,graph,Bandgap_MBJ,0.23649,0.00556,eV,PRISM Table 1,Published value converted from meV
+JARVIS,PRISM,graph,TotalEnergy,0.02634,0.00038,eV/atom,PRISM Table 1,Published value converted from meV
+JARVIS,TextResidualSHFMat,graph+text,FormationEnergy,0.028730,,eV/atom,This work,Strict validation-selected single run
+JARVIS,TextResidualSHFMat,graph+text,Bandgap_OPT,0.114055,,eV,This work,Strict validation-selected single run
+JARVIS,TextResidualSHFMat,graph+text,Bandgap_MBJ,0.252056,0.007256,eV,This work,Strict six-seed mean and sample standard deviation
+JARVIS,TextResidualSHFMat,graph+text,TotalEnergy,0.030288,,eV/atom,This work,Strict validation-selected single run
+JARVIS,TextResidualSHFMat,graph+text,BulkModulusKv,9.958718,,GPa,This work,Strict validation-selected single run
+JARVIS,TextResidualSHFMat,graph+text,ShearModulusGv,8.687048,,GPa,This work,Strict validation-selected single run
+MP,ALIGNN,graph,FormationEnergy,0.0221,,eV/atom,SFTGNN Table 3,Published Materials Project benchmark
+MP,ALIGNN,graph,Bandgap,0.218,,eV,SFTGNN Table 3,Published Materials Project benchmark
+MP,ALIGNN,graph,BulkModuli,0.051,,log10(GPa),SFTGNN Table 3,Published Materials Project benchmark
+MP,ALIGNN,graph,ShearModuli,0.078,,log10(GPa),SFTGNN Table 3,Published Materials Project benchmark
+MP,Matformer,graph,FormationEnergy,0.0210,,eV/atom,SFTGNN Table 3,Published Materials Project benchmark
+MP,Matformer,graph,Bandgap,0.211,,eV,SFTGNN Table 3,Published Materials Project benchmark
+MP,Matformer,graph,BulkModuli,0.043,,log10(GPa),SFTGNN Table 3,Published Materials Project benchmark
+MP,Matformer,graph,ShearModuli,0.073,,log10(GPa),SFTGNN Table 3,Published Materials Project benchmark
+MP,CrysMMNet,graph+text,FormationEnergy,0.020,,eV/atom,CrysMMNet Table 2,MP-2018.6.1 published split
+MP,CrysMMNet,graph+text,Bandgap,0.197,,eV,CrysMMNet Table 2,MP-2018.6.1 published split
+MP,CrysMMNet,graph+text,BulkModuli,0.038,,log10(GPa),CrysMMNet Table 2,MP-2018.6.1 published split
+MP,CrysMMNet,graph+text,ShearModuli,0.062,,log10(GPa),CrysMMNet Table 2,MP-2018.6.1 published split
+MP,SFTGNN,graph,FormationEnergy,0.0183,,eV/atom,SFTGNN Table 3,MP-2018.6.1 benchmark split
+MP,SFTGNN,graph,Bandgap,0.198,,eV,SFTGNN Table 3,MP-2018.6.1 benchmark split
+MP,SFTGNN,graph,BulkModuli,0.037,,log10(GPa),SFTGNN Table 3,MP-2018.6.1 benchmark split
+MP,SFTGNN,graph,ShearModuli,0.064,,log10(GPa),SFTGNN Table 3,MP-2018.6.1 benchmark split
+MP,PRISM,graph,FormationEnergy,0.01659,0.00010,eV/atom,PRISM Table 2,Published value converted from meV
+MP,PRISM,graph,Bandgap,0.17971,0.00158,eV,PRISM Table 2,Published value converted from meV
+MP,PRISM,graph,BulkModuli,0.033,0.00117,log10(GPa),PRISM Table 2,Published value
+MP,PRISM,graph,ShearModuli,0.0655,0.0008,log10(GPa),PRISM Table 2,Published value
+MP,TextResidualSHFMat,graph+text,FormationEnergy,0.023305,,eV/atom,This work,Reduced fixed test manifest in Table datasets
+MP,TextResidualSHFMat,graph+text,Bandgap,0.208899,,eV,This work,Reduced fixed test manifest in Table datasets
+MP,TextResidualSHFMat,graph+text,BulkModuli,0.036867,,log10(GPa),This work,Fixed manifest in Table datasets
+MP,TextResidualSHFMat,graph+text,ShearModuli,0.071618,,log10(GPa),This work,Fixed manifest in Table datasets

@@ -1,0 +1,32 @@
+--- /root/autodl-tmp/TextResidualSHFMat/scripts/run_seed43_benchmark.py	2026-08-30 13:17:11.052089687 +0800
++++ /root/run_seed43_benchmark.reload_input_fix.py	2026-09-01 03:58:23.881944366 +0800
+@@ -888,6 +888,16 @@
+     first = next(iter(make_loader(
+         valid_dataset, min(4, len(valid_dataset)), False, seed, 0
+     ))).to(device)
++    # Graph encoders may update batch attributes in place, so each model must
++    # receive an independent copy when serialized predictions are compared.
++    reference_graph = first.graph.clone()
++    reloaded_graph = first.graph.clone()
++    reference_tokens = first.text_tokens.clone()
++    reloaded_tokens = first.text_tokens.clone()
++    reference_mask = first.attention_mask.clone()
++    reloaded_mask = first.attention_mask.clone()
++    reference_ids = first.input_ids.clone()
++    reloaded_ids = first.input_ids.clone()
+     reference_model.eval()
+     restored.eval()
+     with torch.no_grad(), torch.autocast(
+@@ -896,10 +906,10 @@
+         enabled=device.type == "cuda",
+     ):
+         reference = reference_model(
+-            first.graph, first.text_tokens, first.attention_mask, input_ids=first.input_ids
++            reference_graph, reference_tokens, reference_mask, input_ids=reference_ids
+         )["final_prediction"]
+         reloaded = restored(
+-            first.graph, first.text_tokens, first.attention_mask, input_ids=first.input_ids
++            reloaded_graph, reloaded_tokens, reloaded_mask, input_ids=reloaded_ids
+         )["final_prediction"]
+     reload_max_abs = float((reference - reloaded).abs().max().cpu())
+     bf16_tolerance = float(4 * torch.finfo(torch.bfloat16).eps)

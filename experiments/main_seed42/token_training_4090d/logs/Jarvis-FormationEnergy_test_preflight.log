@@ -1,0 +1,107 @@
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py preflight --task Jarvis-FormationEnergy --token_cache /dev/shm/final_10task_ours_seed42_gpu4090d/Jarvis-FormationEnergy/token_cache --scratch /dev/shm/final_10task_ours_seed42_gpu4090d/Jarvis-FormationEnergy --output_root /root/final_10task_ours_seed42_20260810_tau05_gpu4090d --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda
+dataset split: total=55723, train=44578, valid=5572, test=5573
+train range:(-4.3855299949646,4.985750198364258)
+valid range:(-4.379370212554932,3.785399913787842)
+test range:(-4.42303991317749,3.307389974594116)
+mean:-0.831722617149353
+std:1.0806602239608765
+{
+  "aliases": {
+    "aliases": [
+      {
+        "path": "/root/autodl-tmp/TextResidualSHFMat/Dataset/processed/Jarvis-FormationEnergy-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-train-CGCNN.pt",
+        "source": "existing_plain"
+      },
+      {
+        "path": "/root/autodl-tmp/TextResidualSHFMat/Dataset/processed/Jarvis-FormationEnergy-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-valid-CGCNN.pt",
+        "source": "existing_plain"
+      },
+      {
+        "path": "/root/autodl-tmp/TextResidualSHFMat/Dataset/processed/Jarvis-FormationEnergy-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-test-CGCNN.pt",
+        "source": "existing_plain"
+      }
+    ],
+    "retargeted": null,
+    "task": "Jarvis-FormationEnergy"
+  },
+  "data_loader_workers": 2,
+  "dataset": "JARVIS",
+  "drop_last": false,
+  "graph_target_mean": -0.831722617149353,
+  "graph_target_std": 1.0806602239608765,
+  "graph_total": 55723,
+  "model_checks": {
+    "ours": {
+      "autocast_dtype": "bfloat16",
+      "effective_token_count_min": 124.57218933105469,
+      "k_norm_after_max_deviation": 1.1920928955078125e-07,
+      "padding_attention_max": 0.0,
+      "parameter_count": 2800739,
+      "prediction_finite": true,
+      "prediction_shape": [
+        4
+      ],
+      "q_norm_after_max_deviation": 5.960464477539063e-08,
+      "special_token_attention_max": 0.0,
+      "temperature": 0.5
+    }
+  },
+  "pin_memory": false,
+  "property": "FormationEnergy",
+  "protocol": {
+    "bandgap_nonnegative_clipping": true,
+    "batch_size": 32,
+    "checkpoint_selection": "best Valid MAE only",
+    "data_loader_workers": 2,
+    "drop_last": false,
+    "epochs": 300,
+    "eval_batch_size": 64,
+    "lr": 0.001,
+    "matbert_max_length": 128,
+    "max_lr": 0.001,
+    "models": [
+      "ours"
+    ],
+    "optimizer": "AdamW",
+    "original_loss": "MAE(property,target)",
+    "ours_loss": "MAE(final,target)+0.2*MAE(graph,target)",
+    "ours_temperature": 0.5,
+    "pin_memory": false,
+    "prefetch_factor": 1,
+    "scheduler": "OneCycleLR",
+    "seeds": [
+      42
+    ],
+    "tasks": [
+      "Jarvis-Bandgap_MBJ",
+      "Jarvis-Bandgap_OPT",
+      "Jarvis-FormationEnergy",
+      "Jarvis-TotalEnergy",
+      "Jarvis-BulkModulusKv",
+      "Jarvis-ShearModulusGv",
+      "MP-Bandgap",
+      "MP-FormationEnergy",
+      "MP-BulkModuli",
+      "MP-ShearModuli"
+    ],
+    "torch_multiprocessing_sharing_strategy": "file_system",
+    "training_dtype": "bfloat16",
+    "weight_decay": 0.0001
+  },
+  "protocol_sha256": "1c0de7770307b627f62cf48e28cd65816b801b11574153f29af71667151fcb5f",
+  "split_sizes": {
+    "test": 5573,
+    "train": 44578,
+    "valid": 5572
+  },
+  "status": "passed",
+  "task": "Jarvis-FormationEnergy",
+  "token_cache_rows": 55723,
+  "token_cache_sha256": "8de93a4917ae19e44101be14e40566533124da95a6810ecc8e2ae2b5ed507d6f",
+  "token_cache_shape": [
+    55723,
+    128,
+    768
+  ],
+  "torch_multiprocessing_sharing_strategy": "file_system"
+}

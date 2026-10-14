@@ -1,0 +1,145 @@
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_tagif_fast_screen.py train --task MP-Bandgap --variant B0_TokenOnly --seed 42 --token_cache /dev/shm/tagif_fast_screen_seed42_20260902/MP-Bandgap/token_cache --output_dir /root/tagif_fast_screen_seed42_20260902/runs/MP-Bandgap/B0_TokenOnly/seed_42 --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda --num_workers 2 --epochs 80 --patience 15
+dataset split: total=65516, train=60000, valid=5000, test=516
+train range:(0.0,17.891399383544922)
+valid range:(0.0,8.311300277709961)
+test range:(0.0,7.539400100708008)
+mean:1.350268006324768
+std:1.6265326738357544
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=1/80 loss=0.69716356 valid_mae=0.59051444 best=0.59051444 best_epoch=1 stale=0/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=2/80 loss=0.55528986 valid_mae=0.49665484 best=0.49665484 best_epoch=2 stale=0/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=3/80 loss=0.49844371 valid_mae=0.45243451 best=0.45243451 best_epoch=3 stale=0/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=4/80 loss=0.46829678 valid_mae=0.45726308 best=0.45243451 best_epoch=3 stale=1/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=5/80 loss=0.44788108 valid_mae=0.43908017 best=0.43908017 best_epoch=5 stale=0/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=6/80 loss=0.43853710 valid_mae=0.44279330 best=0.43908017 best_epoch=5 stale=1/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=7/80 loss=0.42904753 valid_mae=0.40378178 best=0.40378178 best_epoch=7 stale=0/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=8/80 loss=0.42386598 valid_mae=0.40873466 best=0.40378178 best_epoch=7 stale=1/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=9/80 loss=0.41975493 valid_mae=0.40944040 best=0.40378178 best_epoch=7 stale=2/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=10/80 loss=0.41408315 valid_mae=0.41110644 best=0.40378178 best_epoch=7 stale=3/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=11/80 loss=0.41174127 valid_mae=0.42454167 best=0.40378178 best_epoch=7 stale=4/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=12/80 loss=0.40591174 valid_mae=0.40358866 best=0.40358866 best_epoch=12 stale=0/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=13/80 loss=0.39295649 valid_mae=0.38929697 best=0.38929697 best_epoch=13 stale=0/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=14/80 loss=0.38961498 valid_mae=0.38347278 best=0.38347278 best_epoch=14 stale=0/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=15/80 loss=0.37872300 valid_mae=0.36632386 best=0.36632386 best_epoch=15 stale=0/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=16/80 loss=0.37269112 valid_mae=0.38937956 best=0.36632386 best_epoch=15 stale=1/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=17/80 loss=0.36356076 valid_mae=0.37071422 best=0.36632386 best_epoch=15 stale=2/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=18/80 loss=0.35703880 valid_mae=0.38650454 best=0.36632386 best_epoch=15 stale=3/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=19/80 loss=0.35154052 valid_mae=0.35935462 best=0.35935462 best_epoch=19 stale=0/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=20/80 loss=0.34403989 valid_mae=0.39298748 best=0.35935462 best_epoch=19 stale=1/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=21/80 loss=0.33880467 valid_mae=0.33372651 best=0.33372651 best_epoch=21 stale=0/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=22/80 loss=0.32900236 valid_mae=0.33062441 best=0.33062441 best_epoch=22 stale=0/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=23/80 loss=0.31930955 valid_mae=0.34594883 best=0.33062441 best_epoch=22 stale=1/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=24/80 loss=0.31116246 valid_mae=0.32076500 best=0.32076500 best_epoch=24 stale=0/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=25/80 loss=0.30521158 valid_mae=0.33399505 best=0.32076500 best_epoch=24 stale=1/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=26/80 loss=0.30091874 valid_mae=0.30925286 best=0.30925286 best_epoch=26 stale=0/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=27/80 loss=0.29060392 valid_mae=0.31527388 best=0.30925286 best_epoch=26 stale=1/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=28/80 loss=0.28717374 valid_mae=0.33417525 best=0.30925286 best_epoch=26 stale=2/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=29/80 loss=0.28138418 valid_mae=0.29945296 best=0.29945296 best_epoch=29 stale=0/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=30/80 loss=0.27169009 valid_mae=0.29504565 best=0.29504565 best_epoch=30 stale=0/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=31/80 loss=0.27330161 valid_mae=0.30327474 best=0.29504565 best_epoch=30 stale=1/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=32/80 loss=0.26363893 valid_mae=0.30154589 best=0.29504565 best_epoch=30 stale=2/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=33/80 loss=0.26110231 valid_mae=0.29114200 best=0.29114200 best_epoch=33 stale=0/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=34/80 loss=0.25296200 valid_mae=0.28715017 best=0.28715017 best_epoch=34 stale=0/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=35/80 loss=0.24955349 valid_mae=0.28361810 best=0.28361810 best_epoch=35 stale=0/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=36/80 loss=0.24735848 valid_mae=0.28038502 best=0.28038502 best_epoch=36 stale=0/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=37/80 loss=0.24114480 valid_mae=0.27908833 best=0.27908833 best_epoch=37 stale=0/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=38/80 loss=0.23549528 valid_mae=0.27302103 best=0.27302103 best_epoch=38 stale=0/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=39/80 loss=0.23166335 valid_mae=0.26446815 best=0.26446815 best_epoch=39 stale=0/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=40/80 loss=0.22791212 valid_mae=0.26456115 best=0.26446815 best_epoch=39 stale=1/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=41/80 loss=0.22057857 valid_mae=0.25870714 best=0.25870714 best_epoch=41 stale=0/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=42/80 loss=0.21339329 valid_mae=0.41979750 best=0.25870714 best_epoch=41 stale=1/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=43/80 loss=0.21085796 valid_mae=0.27475647 best=0.25870714 best_epoch=41 stale=2/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=44/80 loss=0.20651247 valid_mae=0.26169398 best=0.25870714 best_epoch=41 stale=3/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=45/80 loss=0.20281472 valid_mae=0.27635740 best=0.25870714 best_epoch=41 stale=4/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=46/80 loss=0.19695473 valid_mae=0.27160094 best=0.25870714 best_epoch=41 stale=5/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=47/80 loss=0.19255584 valid_mae=0.25510576 best=0.25510576 best_epoch=47 stale=0/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=48/80 loss=0.18903839 valid_mae=0.24556199 best=0.24556199 best_epoch=48 stale=0/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=49/80 loss=0.18457900 valid_mae=0.24537944 best=0.24537944 best_epoch=49 stale=0/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=50/80 loss=0.17849251 valid_mae=0.24721781 best=0.24537944 best_epoch=49 stale=1/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=51/80 loss=0.17505855 valid_mae=0.24914026 best=0.24537944 best_epoch=49 stale=2/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=52/80 loss=0.17045178 valid_mae=0.23892117 best=0.23892117 best_epoch=52 stale=0/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=53/80 loss=0.16483159 valid_mae=0.24000143 best=0.23892117 best_epoch=52 stale=1/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=54/80 loss=0.16091095 valid_mae=0.23713880 best=0.23713880 best_epoch=54 stale=0/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=55/80 loss=0.15633684 valid_mae=0.23651101 best=0.23651101 best_epoch=55 stale=0/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=56/80 loss=0.15250117 valid_mae=0.24032326 best=0.23651101 best_epoch=55 stale=1/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=57/80 loss=0.14839426 valid_mae=0.23245243 best=0.23245243 best_epoch=57 stale=0/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=58/80 loss=0.14354250 valid_mae=0.23535939 best=0.23245243 best_epoch=57 stale=1/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=59/80 loss=0.13931978 valid_mae=0.22987255 best=0.22987255 best_epoch=59 stale=0/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=60/80 loss=0.13582635 valid_mae=0.23069292 best=0.22987255 best_epoch=59 stale=1/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=61/80 loss=0.13270016 valid_mae=0.22928649 best=0.22928649 best_epoch=61 stale=0/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=62/80 loss=0.12894894 valid_mae=0.22354774 best=0.22354774 best_epoch=62 stale=0/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=63/80 loss=0.12471811 valid_mae=0.22448550 best=0.22354774 best_epoch=62 stale=1/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=64/80 loss=0.12174700 valid_mae=0.22732571 best=0.22354774 best_epoch=62 stale=2/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=65/80 loss=0.11813563 valid_mae=0.22496625 best=0.22354774 best_epoch=62 stale=3/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=66/80 loss=0.11564241 valid_mae=0.22302307 best=0.22302307 best_epoch=66 stale=0/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=67/80 loss=0.11289378 valid_mae=0.22357601 best=0.22302307 best_epoch=66 stale=1/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=68/80 loss=0.10982271 valid_mae=0.22082154 best=0.22082154 best_epoch=68 stale=0/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=69/80 loss=0.10712535 valid_mae=0.22146247 best=0.22082154 best_epoch=68 stale=1/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=70/80 loss=0.10565717 valid_mae=0.22031459 best=0.22031459 best_epoch=70 stale=0/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=71/80 loss=0.10347433 valid_mae=0.21963577 best=0.21963577 best_epoch=71 stale=0/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=72/80 loss=0.10140141 valid_mae=0.21893047 best=0.21893047 best_epoch=72 stale=0/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=73/80 loss=0.10026766 valid_mae=0.21808102 best=0.21808102 best_epoch=73 stale=0/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=74/80 loss=0.09879195 valid_mae=0.21865208 best=0.21808102 best_epoch=73 stale=1/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=75/80 loss=0.09789158 valid_mae=0.21765607 best=0.21765607 best_epoch=75 stale=0/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=76/80 loss=0.09677875 valid_mae=0.21795346 best=0.21765607 best_epoch=75 stale=1/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=77/80 loss=0.09676954 valid_mae=0.21735022 best=0.21735022 best_epoch=77 stale=0/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=78/80 loss=0.09578872 valid_mae=0.21842760 best=0.21735022 best_epoch=77 stale=1/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=79/80 loss=0.09532324 valid_mae=0.21783588 best=0.21735022 best_epoch=77 stale=2/15
+[MP-Bandgap:B0_TokenOnly:seed42] epoch=80/80 loss=0.09518406 valid_mae=0.21792053 best=0.21735022 best_epoch=77 stale=3/15
+{
+  "attention_entropy_mean": 4.3872442351341245,
+  "best_valid_epoch": 77,
+  "checkpoint_reload_state_exact": true,
+  "checkpoint_reselection": 0,
+  "checkpoint_sha256": "399bfc12888977595a4e694029a50bc69f66a6cdaf4a2e8254072f4b816b59cc",
+  "cos_hc_ht_mean": null,
+  "cos_hc_ht_median": null,
+  "cos_hc_ht_std": null,
+  "cos_hc_perp_ht_max_abs": null,
+  "cos_hc_perp_ht_mean": null,
+  "data_loader_workers": 2,
+  "dataset": "MP",
+  "drop_last": false,
+  "early_stopped": false,
+  "effective_token_count_mean": 81.804467552948,
+  "gradient_definition": "L2 norm of full-validation raw-MAE gradient",
+  "gradient_norm_W1": null,
+  "gradient_norm_W2": null,
+  "gradient_norm_Wc": null,
+  "gradient_norm_Wo": null,
+  "innovation_ratio_mean": null,
+  "innovation_ratio_median": null,
+  "innovation_ratio_std": null,
+  "interaction_rank": null,
+  "interaction_ratio_mean": null,
+  "interaction_ratio_median": null,
+  "interaction_ratio_std": null,
+  "loss_weight_search": 0,
+  "max_epochs": 80,
+  "mean_max_attention": 0.078268086258322,
+  "median_max_attention": 0.07785120233893394,
+  "padding_attention_max": 0.0,
+  "parameter_count": 2767586,
+  "patience": 15,
+  "property": "Bandgap",
+  "protocol_sha256": "797ab7a78766df6b6280ad1432054736641577eb14a7f01f149f658d2a701294",
+  "seed": 42,
+  "semantic_controls": null,
+  "special_token_attention_max": 0.0,
+  "status": "valid_complete",
+  "stopped_epoch": 80,
+  "target_mean": 1.350268006324768,
+  "target_std": 1.6265326738357544,
+  "task": "MP-Bandgap",
+  "tau_search": 0,
+  "temperature": 0.5,
+  "test_forward_count": 0,
+  "token_cache_sha256": "ee701e2c5c105c14feed7af9dfc7a5e2a6dbf11f473fd84b6364c64fb9048fc3",
+  "train_size": 60000,
+  "training_autocast_dtype": "bfloat16",
+  "training_runs": 1,
+  "training_time_seconds": 8685.137437850004,
+  "unit": "eV",
+  "valid_mae": 0.21734947443008423,
+  "valid_size": 5000,
+  "variant": "B0_TokenOnly"
+}

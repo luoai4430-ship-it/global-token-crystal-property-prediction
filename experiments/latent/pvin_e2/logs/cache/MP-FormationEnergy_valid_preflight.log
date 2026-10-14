@@ -1,0 +1,333 @@
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py preflight --task MP-FormationEnergy --token_cache /dev/shm/pvin_stage_e2_seed42_20260909/MP-FormationEnergy/token_cache --scratch /dev/shm/pvin_stage_e2_seed42_20260909/MP-FormationEnergy --output_root /root/pvin_stage_e2_seed42_20260909 --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+Graph construction workers: 8
+Building graphs (parallel)...
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py preflight --task MP-FormationEnergy --token_cache /dev/shm/pvin_stage_e2_seed42_20260909/MP-FormationEnergy/token_cache --scratch /dev/shm/pvin_stage_e2_seed42_20260909/MP-FormationEnergy --output_root /root/pvin_stage_e2_seed42_20260909 --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+Graph construction workers: 8
+Building graphs (parallel)...
+Processing...
+Merging results from workers...
+
+Time consumption for constructing graph data: 2700.431838274002s
+dataset split: total=65516, train=60000, valid=5000, test=516
+train range:(-4.522498607635498,4.390343189239502)
+valid range:(-4.438785552978516,4.213304042816162)
+test range:(-4.011949062347412,2.410712957382202)
+mean:-1.6532751321792603
+std:1.072024941444397
+processing train data:   0%|          | 0/60000 [00:00<?, ?it/s]processing train data:   1%|▏         | 799/60000 [00:00<00:10, 5424.44it/s]processing train data:   2%|▏         | 1342/60000 [00:00<00:11, 5138.92it/s]processing train data:   3%|▎         | 1853/60000 [00:00<00:11, 5004.52it/s]processing train data:   4%|▍         | 2351/60000 [00:00<00:15, 3742.41it/s]processing train data:   5%|▍         | 2754/60000 [00:00<00:14, 3820.48it/s]processing train data:   5%|▌         | 3157/60000 [00:00<00:14, 3859.70it/s]processing train data:   6%|▌         | 3558/60000 [00:00<00:14, 3868.59it/s]processing train data:   7%|▋         | 3955/60000 [00:01<00:17, 3119.94it/s]processing train data:   7%|▋         | 4365/60000 [00:01<00:16, 3362.89it/s]processing train data:   8%|▊         | 4726/60000 [00:01<00:16, 3414.64it/s]processing train data:   8%|▊         | 5086/60000 [00:01<00:15, 3445.60it/s]processing train data:   9%|▉         | 5444/60000 [00:01<00:15, 3472.01it/s]processing train data:  10%|▉         | 5801/60000 [00:01<00:15, 3485.70it/s]processing train data:  10%|█         | 6156/60000 [00:01<00:15, 3494.64it/s]processing train data:  11%|█         | 6510/60000 [00:01<00:15, 3494.99it/s]processing train data:  11%|█▏        | 6863/60000 [00:01<00:15, 3489.56it/s]processing train data:  12%|█▏        | 7215/60000 [00:01<00:15, 3488.28it/s]processing train data:  13%|█▎        | 7566/60000 [00:02<00:15, 3486.94it/s]processing train data:  13%|█▎        | 7916/60000 [00:02<00:14, 3478.58it/s]processing train data:  14%|█▍        | 8265/60000 [00:02<00:14, 3481.46it/s]processing train data:  14%|█▍        | 8614/60000 [00:02<00:14, 3453.95it/s]processing train data:  15%|█▍        | 8964/60000 [00:02<00:14, 3467.20it/s]processing train data:  16%|█▌        | 9312/60000 [00:02<00:18, 2792.05it/s]processing train data:  16%|█▌        | 9645/60000 [00:02<00:17, 2929.06it/s]processing train data:  17%|█▋        | 9980/60000 [00:02<00:16, 3041.26it/s]processing train data:  17%|█▋        | 10318/60000 [00:02<00:15, 3134.27it/s]processing train data:  18%|█▊        | 10652/60000 [00:03<00:15, 3163.53it/s]processing train data:  18%|█▊        | 11040/60000 [00:03<00:14, 3367.73it/s]processing train data:  19%|█▉        | 11383/60000 [00:03<00:14, 3385.22it/s]processing train data:  20%|█▉        | 11727/60000 [00:03<00:14, 3400.93it/s]processing train data:  20%|██        | 12071/60000 [00:03<00:14, 3400.96it/s]processing train data:  21%|██        | 12414/60000 [00:03<00:13, 3402.59it/s]processing train data:  21%|██▏       | 12756/60000 [00:03<00:13, 3405.74it/s]processing train data:  22%|██▏       | 13098/60000 [00:03<00:13, 3404.80it/s]processing train data:  22%|██▏       | 13440/60000 [00:03<00:13, 3404.75it/s]processing train data:  23%|██▎       | 13781/60000 [00:03<00:13, 3404.24it/s]processing train data:  24%|██▎       | 14122/60000 [00:04<00:13, 3405.44it/s]processing train data:  24%|██▍       | 14463/60000 [00:04<00:13, 3404.74it/s]processing train data:  25%|██▍       | 14804/60000 [00:04<00:13, 3403.85it/s]processing train data:  25%|██▌       | 15145/60000 [00:04<00:13, 3402.63it/s]processing train data:  26%|██▌       | 15486/60000 [00:04<00:13, 3401.96it/s]processing train data:  26%|██▋       | 15827/60000 [00:04<00:12, 3402.56it/s]processing train data:  27%|██▋       | 16168/60000 [00:04<00:12, 3402.26it/s]processing train data:  28%|██▊       | 16509/60000 [00:04<00:12, 3394.50it/s]processing train data:  28%|██▊       | 16849/60000 [00:04<00:12, 3392.23it/s]processing train data:  29%|██▊       | 17189/60000 [00:04<00:12, 3390.50it/s]processing train data:  29%|██▉       | 17603/60000 [00:05<00:11, 3614.43it/s]processing train data:  30%|██▉       | 17965/60000 [00:05<00:11, 3592.23it/s]processing train data:  31%|███       | 18369/60000 [00:05<00:11, 3725.67it/s]processing train data:  31%|███       | 18742/60000 [00:05<00:11, 3705.02it/s]processing train data:  32%|███▏      | 19113/60000 [00:05<00:11, 3682.59it/s]processing train data:  32%|███▏      | 19482/60000 [00:05<00:11, 3665.14it/s]processing train data:  33%|███▎      | 19849/60000 [00:05<00:13, 2930.81it/s]processing train data:  34%|███▎      | 20187/60000 [00:05<00:13, 3044.46it/s]processing train data:  34%|███▍      | 20523/60000 [00:05<00:12, 3102.15it/s]processing train data:  35%|███▍      | 20847/60000 [00:06<00:12, 3123.43it/s]processing train data:  35%|███▌      | 21185/60000 [00:06<00:12, 3195.03it/s]processing train data:  36%|███▌      | 21512/60000 [00:06<00:11, 3210.37it/s]processing train data:  36%|███▋      | 21841/60000 [00:06<00:11, 3233.30it/s]processing train data:  37%|███▋      | 22169/60000 [00:06<00:11, 3207.73it/s]processing train data:  38%|███▊      | 22574/60000 [00:06<00:10, 3453.61it/s]processing train data:  38%|███▊      | 22922/60000 [00:06<00:10, 3452.33it/s]processing train data:  39%|███▉      | 23269/60000 [00:06<00:10, 3452.94it/s]processing train data:  39%|███▉      | 23616/60000 [00:06<00:10, 3432.23it/s]processing train data:  40%|████      | 24095/60000 [00:06<00:09, 3833.70it/s]processing train data:  41%|████      | 24480/60000 [00:07<00:11, 3068.08it/s]processing train data:  41%|████▏     | 24812/60000 [00:07<00:11, 3085.47it/s]processing train data:  42%|████▏     | 25139/60000 [00:07<00:11, 3097.54it/s]processing train data:  42%|████▏     | 25470/60000 [00:07<00:10, 3154.63it/s]processing train data:  43%|████▎     | 25795/60000 [00:07<00:10, 3179.76it/s]processing train data:  44%|████▎     | 26124/60000 [00:07<00:10, 3210.96it/s]processing train data:  44%|████▍     | 26450/60000 [00:07<00:10, 3171.97it/s]processing train data:  45%|████▍     | 26771/60000 [00:07<00:10, 3181.86it/s]processing train data:  45%|████▌     | 27092/60000 [00:07<00:10, 3188.88it/s]processing train data:  46%|████▌     | 27425/60000 [00:08<00:10, 3230.30it/s]processing train data:  46%|████▋     | 27752/60000 [00:08<00:09, 3241.81it/s]processing train data:  47%|████▋     | 28078/60000 [00:08<00:09, 3246.95it/s]processing train data:  47%|████▋     | 28413/60000 [00:08<00:09, 3277.11it/s]processing train data:  48%|████▊     | 28745/60000 [00:08<00:09, 3289.85it/s]processing train data:  48%|████▊     | 29078/60000 [00:08<00:09, 3301.50it/s]processing train data:  49%|████▉     | 29409/60000 [00:08<00:09, 3301.33it/s]processing train data:  50%|████▉     | 29750/60000 [00:08<00:09, 3333.53it/s]processing train data:  50%|█████     | 30084/60000 [00:08<00:11, 2677.43it/s]processing train data:  51%|█████     | 30416/60000 [00:09<00:10, 2841.51it/s]processing train data:  51%|█████     | 30749/60000 [00:09<00:09, 2971.98it/s]processing train data:  52%|█████▏    | 31219/60000 [00:09<00:08, 3449.63it/s]processing train data:  53%|█████▎    | 31578/60000 [00:09<00:08, 3472.87it/s]processing train data:  53%|█████▎    | 31935/60000 [00:09<00:08, 3485.27it/s]processing train data:  54%|█████▍    | 32291/60000 [00:09<00:07, 3489.15it/s]processing train data:  54%|█████▍    | 32645/60000 [00:09<00:07, 3485.87it/s]processing train data:  55%|█████▍    | 32997/60000 [00:09<00:07, 3478.08it/s]processing train data:  56%|█████▌    | 33348/60000 [00:09<00:07, 3475.38it/s]processing train data:  56%|█████▌    | 33698/60000 [00:09<00:07, 3468.59it/s]processing train data:  57%|█████▋    | 34046/60000 [00:10<00:07, 3417.38it/s]processing train data:  57%|█████▋    | 34389/60000 [00:10<00:09, 2747.93it/s]processing train data:  58%|█████▊    | 34717/60000 [00:10<00:08, 2881.92it/s]processing train data:  58%|█████▊    | 35043/60000 [00:10<00:08, 2981.64it/s]processing train data:  59%|█████▉    | 35365/60000 [00:10<00:08, 3046.78it/s]processing train data:  60%|█████▉    | 35758/60000 [00:10<00:07, 3295.30it/s]processing train data:  60%|██████    | 36097/60000 [00:10<00:07, 3315.40it/s]processing train data:  61%|██████    | 36435/60000 [00:10<00:07, 3327.24it/s]processing train data:  61%|██████▏   | 36773/60000 [00:10<00:06, 3333.14it/s]processing train data:  62%|██████▏   | 37110/60000 [00:11<00:06, 3334.63it/s]processing train data:  62%|██████▏   | 37446/60000 [00:11<00:06, 3336.33it/s]processing train data:  63%|██████▎   | 37782/60000 [00:11<00:06, 3334.60it/s]processing train data:  64%|██████▎   | 38117/60000 [00:11<00:06, 3330.40it/s]processing train data:  64%|██████▍   | 38451/60000 [00:11<00:06, 3325.52it/s]processing train data:  65%|██████▍   | 38785/60000 [00:11<00:06, 3321.36it/s]processing train data:  65%|██████▌   | 39118/60000 [00:11<00:06, 3319.81it/s]processing train data:  66%|██████▌   | 39451/60000 [00:11<00:06, 3307.15it/s]processing train data:  66%|██████▋   | 39839/60000 [00:11<00:05, 3477.13it/s]processing train data:  67%|██████▋   | 40187/60000 [00:11<00:05, 3440.61it/s]processing train data:  68%|██████▊   | 40539/60000 [00:12<00:05, 3464.02it/s]processing train data:  68%|██████▊   | 40886/60000 [00:12<00:05, 3448.25it/s]processing train data:  69%|██████▊   | 41231/60000 [00:12<00:05, 3433.63it/s]processing train data:  69%|██████▉   | 41575/60000 [00:12<00:05, 3421.89it/s]processing train data:  70%|██████▉   | 41918/60000 [00:12<00:06, 2742.81it/s]processing train data:  71%|███████   | 42380/60000 [00:12<00:05, 3218.88it/s]processing train data:  71%|███████   | 42726/60000 [00:12<00:05, 3259.29it/s]processing train data:  72%|███████▏  | 43117/60000 [00:12<00:04, 3437.33it/s]processing train data:  72%|███████▏  | 43475/60000 [00:12<00:04, 3454.25it/s]processing train data:  73%|███████▎  | 43830/60000 [00:13<00:04, 3462.99it/s]processing train data:  74%|███████▎  | 44184/60000 [00:13<00:04, 3461.26it/s]processing train data:  74%|███████▍  | 44535/60000 [00:13<00:04, 3452.74it/s]processing train data:  75%|███████▍  | 44884/60000 [00:13<00:05, 2758.50it/s]processing train data:  75%|███████▌  | 45196/60000 [00:13<00:05, 2848.19it/s]processing train data:  76%|███████▌  | 45500/60000 [00:13<00:05, 2893.88it/s]processing train data:  77%|███████▋  | 45931/60000 [00:13<00:04, 3279.32it/s]processing train data:  77%|███████▋  | 46273/60000 [00:13<00:04, 3299.51it/s]processing train data:  78%|███████▊  | 46613/60000 [00:13<00:04, 3237.51it/s]processing train data:  78%|███████▊  | 46944/60000 [00:14<00:04, 3243.05it/s]processing train data:  79%|███████▉  | 47274/60000 [00:14<00:03, 3240.08it/s]processing train data:  79%|███████▉  | 47602/60000 [00:14<00:04, 2595.06it/s]processing train data:  80%|███████▉  | 47908/60000 [00:14<00:04, 2710.25it/s]processing train data:  80%|████████  | 48214/60000 [00:14<00:04, 2801.68it/s]processing train data:  81%|████████  | 48515/60000 [00:14<00:04, 2858.32it/s]processing train data:  81%|████████▏ | 48812/60000 [00:14<00:03, 2860.63it/s]processing train data:  82%|████████▏ | 49127/60000 [00:14<00:03, 2942.36it/s]processing train data:  82%|████████▏ | 49431/60000 [00:14<00:03, 2970.11it/s]processing train data:  83%|████████▎ | 49733/60000 [00:15<00:03, 2984.15it/s]processing train data:  83%|████████▎ | 50035/60000 [00:15<00:03, 2965.81it/s]processing train data:  84%|████████▍ | 50334/60000 [00:15<00:03, 2951.74it/s]processing train data:  84%|████████▍ | 50631/60000 [00:15<00:03, 2949.81it/s]processing train data:  85%|████████▍ | 50927/60000 [00:15<00:03, 2947.50it/s]processing train data:  85%|████████▌ | 51223/60000 [00:15<00:03, 2340.10it/s]processing train data:  86%|████████▌ | 51478/60000 [00:15<00:03, 2356.75it/s]processing train data:  86%|████████▌ | 51746/60000 [00:15<00:03, 2441.03it/s]processing train data:  87%|████████▋ | 52015/60000 [00:15<00:03, 2508.36it/s]processing train data:  87%|████████▋ | 52294/60000 [00:16<00:02, 2586.71it/s]processing train data:  88%|████████▊ | 52576/60000 [00:16<00:02, 2653.15it/s]processing train data:  88%|████████▊ | 52861/60000 [00:16<00:02, 2709.70it/s]processing train data:  89%|████████▊ | 53143/60000 [00:16<00:02, 2741.87it/s]processing train data:  89%|████████▉ | 53427/60000 [00:16<00:02, 2770.32it/s]processing train data:  90%|████████▉ | 53712/60000 [00:16<00:02, 2793.23it/s]processing train data:  90%|████████▉ | 53999/60000 [00:16<00:02, 2815.93it/s]processing train data:  90%|█████████ | 54282/60000 [00:16<00:02, 2811.71it/s]processing train data:  91%|█████████ | 54568/60000 [00:16<00:01, 2825.62it/s]processing train data:  91%|█████████▏| 54852/60000 [00:16<00:01, 2827.76it/s]processing train data:  92%|█████████▏| 55136/60000 [00:17<00:01, 2818.59it/s]processing train data:  92%|█████████▏| 55419/60000 [00:17<00:01, 2821.46it/s]processing train data:  93%|█████████▎| 55702/60000 [00:17<00:01, 2815.09it/s]processing train data:  93%|█████████▎| 55987/60000 [00:17<00:01, 2825.16it/s]processing train data:  94%|█████████▍| 56274/60000 [00:17<00:01, 2838.12it/s]processing train data:  94%|█████████▍| 56558/60000 [00:17<00:01, 2833.76it/s]processing train data:  95%|█████████▍| 56842/60000 [00:17<00:01, 2824.34it/s]processing train data:  95%|█████████▌| 57125/60000 [00:17<00:01, 2814.74it/s]processing train data:  96%|█████████▌| 57407/60000 [00:17<00:00, 2814.02it/s]processing train data:  96%|█████████▌| 57689/60000 [00:18<00:01, 2254.41it/s]processing train data:  97%|█████████▋| 57961/60000 [00:18<00:00, 2372.58it/s]processing train data:  97%|█████████▋| 58219/60000 [00:18<00:00, 2427.74it/s]processing train data:  97%|█████████▋| 58473/60000 [00:18<00:00, 2439.99it/s]processing train data:  98%|█████████▊| 58725/60000 [00:18<00:00, 2451.72it/s]processing train data:  98%|█████████▊| 58976/60000 [00:18<00:00, 2458.09it/s]processing train data:  99%|█████████▊| 59226/60000 [00:18<00:00, 2452.61it/s]processing train data:  99%|█████████▉| 59474/60000 [00:18<00:00, 2443.42it/s]processing train data: 100%|█████████▉| 59721/60000 [00:18<00:00, 2443.77it/s]processing train data: 100%|█████████▉| 59967/60000 [00:18<00:00, 2441.13it/s]processing train data: 100%|██████████| 60000/60000 [00:18<00:00, 3163.79it/s]
+Traceback (most recent call last):
+  File "/root/autodl-tmp/micromamba/envs/sftmat/lib/python3.10/site-packages/torch/serialization.py", line 629, in save
+    _save(obj, opened_zipfile, pickle_module, pickle_protocol, _disable_byteorder_record)
+  File "/root/autodl-tmp/micromamba/envs/sftmat/lib/python3.10/site-packages/torch/serialization.py", line 863, in _save
+    zip_file.write_record(name, storage.data_ptr(), num_bytes)
+RuntimeError: [enforce fail at inline_container.cc:764] . PytorchStreamWriter failed writing file data/3: file write failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py", line 1446, in <module>
+    main()
+  File "/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py", line 1432, in main
+    preflight_task(args)
+  File "/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py", line 592, in preflight_task
+    train_graphs, valid_graphs, test_graphs, mean, std = load_graph_splits(args.task)
+  File "/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py", line 353, in load_graph_splits
+    train_loader, valid_loader, test_loader, mean, std = get_dataloader()
+  File "/root/autodl-tmp/TextResidualSHFMat/data/dataset.py", line 536, in get_dataloader
+    train_dataset = GraphDataset(data_train, 'train', mean=mean, std=std)
+  File "/root/autodl-tmp/TextResidualSHFMat/data/dataset.py", line 254, in __init__
+    super().__init__(self.root)
+  File "/root/autodl-tmp/micromamba/envs/sftmat/lib/python3.10/site-packages/torch_geometric/data/in_memory_dataset.py", line 81, in __init__
+    super().__init__(root, transform, pre_transform, pre_filter, log,
+  File "/root/autodl-tmp/micromamba/envs/sftmat/lib/python3.10/site-packages/torch_geometric/data/dataset.py", line 115, in __init__
+    self._process()
+  File "/root/autodl-tmp/micromamba/envs/sftmat/lib/python3.10/site-packages/torch_geometric/data/dataset.py", line 260, in _process
+    self.process()
+  File "/root/autodl-tmp/TextResidualSHFMat/data/dataset.py", line 298, in process
+    torch.save((data, slices), self.processed_paths[0])
+  File "/root/autodl-tmp/micromamba/envs/sftmat/lib/python3.10/site-packages/torch/serialization.py", line 628, in save
+    with _open_zipfile_writer(f) as opened_zipfile:
+  File "/root/autodl-tmp/micromamba/envs/sftmat/lib/python3.10/site-packages/torch/serialization.py", line 476, in __exit__
+    self.file_like.write_end_of_file()
+RuntimeError: [enforce fail at inline_container.cc:595] . unexpected pos 1816696896 vs 1816696720
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py preflight --task MP-FormationEnergy --token_cache /dev/shm/pvin_stage_e2_seed42_20260909/MP-FormationEnergy/token_cache --scratch /dev/shm/pvin_stage_e2_seed42_20260909/MP-FormationEnergy --output_root /root/pvin_stage_e2_seed42_20260909 --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+Graph construction workers: 8
+Building graphs (parallel)...
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py preflight --task MP-FormationEnergy --token_cache /dev/shm/pvin_stage_e2_seed42_20260909/MP-FormationEnergy/token_cache --scratch /dev/shm/pvin_stage_e2_seed42_20260909/MP-FormationEnergy --output_root /root/pvin_stage_e2_seed42_20260909 --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+Graph construction workers: 1
+Building graphs (parallel)...
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py preflight --task MP-FormationEnergy --token_cache /dev/shm/pvin_stage_e2_seed42_20260909/MP-FormationEnergy/token_cache --scratch /dev/shm/pvin_stage_e2_seed42_20260909/MP-FormationEnergy --output_root /root/pvin_stage_e2_seed42_20260909 --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda
+dataset split: total=65516, train=60000, valid=5000, test=516
+train range:(-4.522498607635498,4.390343189239502)
+valid range:(-4.438785552978516,4.213304042816162)
+test range:(-4.011949062347412,2.410712957382202)
+mean:-1.6532751321792603
+std:1.072024941444397
+{
+  "aliases": {
+    "aliases": [
+      {
+        "path": "/root/autodl-tmp/TextResidualSHFMat/Dataset/processed/MP-FormationEnergy-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-train-CGCNN.pt",
+        "source": "existing_plain"
+      },
+      {
+        "path": "/root/autodl-tmp/TextResidualSHFMat/Dataset/processed/MP-FormationEnergy-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-valid-CGCNN.pt",
+        "source": "existing_plain"
+      },
+      {
+        "path": "/root/autodl-tmp/TextResidualSHFMat/Dataset/processed/MP-FormationEnergy-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-test-CGCNN.pt",
+        "source": "existing_plain"
+      }
+    ],
+    "retargeted": null,
+    "task": "MP-FormationEnergy"
+  },
+  "data_loader_workers": 2,
+  "dataset": "MP",
+  "drop_last": false,
+  "graph_target_mean": -1.6532751321792603,
+  "graph_target_std": 1.072024941444397,
+  "graph_total": 65516,
+  "model_checks": {
+    "ours": {
+      "autocast_dtype": "bfloat16",
+      "effective_token_count_min": 124.7142333984375,
+      "k_norm_after_max_deviation": 1.1920928955078125e-07,
+      "padding_attention_max": 0.0,
+      "parameter_count": 2800739,
+      "prediction_finite": true,
+      "prediction_shape": [
+        4
+      ],
+      "q_norm_after_max_deviation": 5.960464477539063e-08,
+      "special_token_attention_max": 0.0,
+      "temperature": 0.5
+    }
+  },
+  "pin_memory": false,
+  "property": "FormationEnergy",
+  "protocol": {
+    "bandgap_nonnegative_clipping": true,
+    "batch_size": 32,
+    "checkpoint_selection": "best Valid MAE only",
+    "data_loader_workers": 2,
+    "drop_last": false,
+    "epochs": 300,
+    "eval_batch_size": 64,
+    "lr": 0.001,
+    "matbert_max_length": 128,
+    "max_lr": 0.001,
+    "models": [
+      "ours"
+    ],
+    "optimizer": "AdamW",
+    "original_loss": "MAE(property,target)",
+    "ours_loss": "MAE(final,target)+0.2*MAE(graph,target)",
+    "ours_temperature": 0.5,
+    "pin_memory": false,
+    "prefetch_factor": 1,
+    "scheduler": "OneCycleLR",
+    "seeds": [
+      42
+    ],
+    "tasks": [
+      "Jarvis-Bandgap_MBJ",
+      "Jarvis-Bandgap_OPT",
+      "Jarvis-FormationEnergy",
+      "Jarvis-TotalEnergy",
+      "Jarvis-BulkModulusKv",
+      "Jarvis-ShearModulusGv",
+      "MP-Bandgap",
+      "MP-FormationEnergy",
+      "MP-BulkModuli",
+      "MP-ShearModuli"
+    ],
+    "torch_multiprocessing_sharing_strategy": "file_system",
+    "training_dtype": "bfloat16",
+    "weight_decay": 0.0001
+  },
+  "protocol_sha256": "1c0de7770307b627f62cf48e28cd65816b801b11574153f29af71667151fcb5f",
+  "split_sizes": {
+    "test": 516,
+    "train": 60000,
+    "valid": 5000
+  },
+  "status": "passed",
+  "task": "MP-FormationEnergy",
+  "token_cache_rows": 65516,
+  "token_cache_sha256": "ee701e2c5c105c14feed7af9dfc7a5e2a6dbf11f473fd84b6364c64fb9048fc3",
+  "token_cache_shape": [
+    65516,
+    128,
+    768
+  ],
+  "torch_multiprocessing_sharing_strategy": "file_system"
+}

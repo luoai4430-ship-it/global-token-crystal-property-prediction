@@ -1,0 +1,15 @@
+{
+  "best_valid_epoch": 211,
+  "checkpoint_sha256": "9b0b9ac6ebd498336173a8f9956dc72e2bba451bf5689e3fcd45e96dbca3a718",
+  "model_name": "ours",
+  "protocol_sha256": "adae888170a616d63ca455803e3c186d270cb62ae5bbd3ed70b55835dc8c674d",
+  "seed": 43,
+  "selected_by": "Valid only",
+  "status": "test_complete",
+  "task": "Jarvis-BulkModulusKv",
+  "test_forward_count": 1,
+  "test_mae": 9.473764217965972,
+  "test_size": 1968,
+  "token_cache_sha256": "e3899bff12e8aabbd7d8f13535268f6d502ed84a68fe4d8714a75e47a88764a1",
+  "valid_mae": 9.185918358283315
+}

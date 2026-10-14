@@ -1,0 +1,26 @@
+{
+  "completed": [
+    "Jarvis-Bandgap_OPT",
+    "Jarvis-TotalEnergy",
+    "Jarvis-BulkModulusKv",
+    "Jarvis-ShearModulusGv",
+    "MP-BulkModuli",
+    "MP-ShearModuli"
+  ],
+  "failed": {},
+  "max_concurrent": 2,
+  "pending": [],
+  "running": {},
+  "status": "COMPLETE",
+  "tasks": [
+    "Jarvis-Bandgap_OPT",
+    "Jarvis-TotalEnergy",
+    "Jarvis-BulkModulusKv",
+    "Jarvis-ShearModulusGv",
+    "MP-BulkModuli",
+    "MP-ShearModuli"
+  ],
+  "test_forward_count": 0,
+  "test_loader_call_count": 0,
+  "updated_at_unix": 1789207789.6090393
+}

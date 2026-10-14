@@ -1,0 +1,5 @@
+control,attention,tau,jarvis_bandgap_mae,mp_bandgap_mae,effective_token_count,attention_max_weight,attention_entropy,median_max_attention,formal_result_recovered,source_status,split,test_forward_count,training_runs,new_test_forward,weight_search,tau_search,checkpoint_reselection
+C0,raw dot-product TrueToken,,,,,,,,False,formal archived CSV/JSON/log not found; numeric fields intentionally left blank,validation,0,0,0,0,0,0
+C1,cosine-normalized TrueToken,1.0,,,,,,,False,formal archived CSV/JSON/log not found; numeric fields intentionally left blank,validation,0,0,0,0,0,0
+C2,cosine-normalized TrueToken,0.5,,,,,,,False,formal archived CSV/JSON/log not found; numeric fields intentionally left blank,validation,0,0,0,0,0,0
+C3,cosine-normalized TrueToken,0.25,,,,,,,False,formal archived CSV/JSON/log not found; numeric fields intentionally left blank,validation,0,0,0,0,0,0

@@ -1,0 +1,54 @@
+time=2026-09-10T07:44:59+08:00
+reason=MP-FormationEnergy preflight stagnant with existing cache and queue restart with one graph worker
+   PID   PPID     ELAPSED %CPU %MEM S WCHAN                          CMD
+419267      1    02:10:48  0.2  0.2 S do_wait                        /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/run_pvin_stage_e2_queue.py
+419715 419267    02:08:07  6.8  0.2 S unix_stream_data_wait          /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py preflight --task MP-FormationEnergy --token_cache /dev/shm/pvin_stage_e2_seed42_20260909/MP-FormationEnergy/token_cache --scratch /dev/shm/pvin_stage_e2_seed42_20260909/MP-FormationEnergy --output_root /root/pvin_stage_e2_seed42_20260909 --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda
+420116 419715    01:59:24  0.0  0.1 S futex_wait_queue_me            /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py preflight --task MP-FormationEnergy --token_cache /dev/shm/pvin_stage_e2_seed42_20260909/MP-FormationEnergy/token_cache --scratch /dev/shm/pvin_stage_e2_seed42_20260909/MP-FormationEnergy --output_root /root/pvin_stage_e2_seed42_20260909 --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda
+420121 419715    01:59:24  0.0  0.2 S futex_wait_queue_me            /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py preflight --task MP-FormationEnergy --token_cache /dev/shm/pvin_stage_e2_seed42_20260909/MP-FormationEnergy/token_cache --scratch /dev/shm/pvin_stage_e2_seed42_20260909/MP-FormationEnergy --output_root /root/pvin_stage_e2_seed42_20260909 --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda
+420123 419715    01:59:24  0.0  0.2 S futex_wait_queue_me            /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py preflight --task MP-FormationEnergy --token_cache /dev/shm/pvin_stage_e2_seed42_20260909/MP-FormationEnergy/token_cache --scratch /dev/shm/pvin_stage_e2_seed42_20260909/MP-FormationEnergy --output_root /root/pvin_stage_e2_seed42_20260909 --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda
+420125 419715    01:59:24  0.0  0.2 S futex_wait_queue_me            /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py preflight --task MP-FormationEnergy --token_cache /dev/shm/pvin_stage_e2_seed42_20260909/MP-FormationEnergy/token_cache --scratch /dev/shm/pvin_stage_e2_seed42_20260909/MP-FormationEnergy --output_root /root/pvin_stage_e2_seed42_20260909 --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda
+420127 419715    01:59:24  0.0  0.2 S futex_wait_queue_me            /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py preflight --task MP-FormationEnergy --token_cache /dev/shm/pvin_stage_e2_seed42_20260909/MP-FormationEnergy/token_cache --scratch /dev/shm/pvin_stage_e2_seed42_20260909/MP-FormationEnergy --output_root /root/pvin_stage_e2_seed42_20260909 --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda
+420129 419715    01:59:24  0.0  0.2 S futex_wait_queue_me            /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py preflight --task MP-FormationEnergy --token_cache /dev/shm/pvin_stage_e2_seed42_20260909/MP-FormationEnergy/token_cache --scratch /dev/shm/pvin_stage_e2_seed42_20260909/MP-FormationEnergy --output_root /root/pvin_stage_e2_seed42_20260909 --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda
+420131 419715    01:59:24  0.1  0.2 S futex_wait_queue_me            /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py preflight --task MP-FormationEnergy --token_cache /dev/shm/pvin_stage_e2_seed42_20260909/MP-FormationEnergy/token_cache --scratch /dev/shm/pvin_stage_e2_seed42_20260909/MP-FormationEnergy --output_root /root/pvin_stage_e2_seed42_20260909 --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda
+420133 419715    01:59:24  0.0  0.2 S futex_wait_queue_me            /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py preflight --task MP-FormationEnergy --token_cache /dev/shm/pvin_stage_e2_seed42_20260909/MP-FormationEnergy/token_cache --scratch /dev/shm/pvin_stage_e2_seed42_20260909/MP-FormationEnergy --output_root /root/pvin_stage_e2_seed42_20260909 --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda
+420135 419715    01:59:24  0.0  0.2 S futex_wait_queue_me            /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py preflight --task MP-FormationEnergy --token_cache /dev/shm/pvin_stage_e2_seed42_20260909/MP-FormationEnergy/token_cache --scratch /dev/shm/pvin_stage_e2_seed42_20260909/MP-FormationEnergy --output_root /root/pvin_stage_e2_seed42_20260909 --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+Graph construction workers: 8
+Building graphs (parallel)...

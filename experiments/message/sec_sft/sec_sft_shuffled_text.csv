@@ -1,0 +1,11 @@
+task,note,test_forward_count
+Jarvis-Bandgap_MBJ,not run in 10-task continuation; no test forward,0
+Jarvis-Bandgap_OPT,not run in 10-task continuation; no test forward,0
+Jarvis-FormationEnergy,not run in 10-task continuation; no test forward,0
+Jarvis-TotalEnergy,not run in 10-task continuation; no test forward,0
+Jarvis-BulkModulusKv,not run in 10-task continuation; no test forward,0
+Jarvis-ShearModulusGv,not run in 10-task continuation; no test forward,0
+MP-Bandgap,not run in 10-task continuation; no test forward,0
+MP-FormationEnergy,not run in 10-task continuation; no test forward,0
+MP-BulkModuli,not run in 10-task continuation; no test forward,0
+MP-ShearModuli,not run in 10-task continuation; no test forward,0

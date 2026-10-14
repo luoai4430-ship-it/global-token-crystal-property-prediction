@@ -1,0 +1,2330 @@
+{
+  "date": "2026-10-14",
+  "profile": "local",
+  "training_runs_started": 0,
+  "test_evaluations_started": 0,
+  "roots": [
+    {
+      "destination": "main_seed43",
+      "source_root": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830",
+      "exists": true,
+      "exported_files": 212
+    },
+    {
+      "destination": "latent/tagif",
+      "source_root": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\tagif_fast_screen_seed42_20260902",
+      "exists": true,
+      "exported_files": 20
+    },
+    {
+      "destination": "latent/gcta",
+      "source_root": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902",
+      "exists": true,
+      "exported_files": 56
+    },
+    {
+      "destination": "latent/gctr",
+      "source_root": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gctr_fast_screen_seed42_20260906",
+      "exists": true,
+      "exported_files": 31
+    },
+    {
+      "destination": "validation_complementarity_seed42",
+      "source_root": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\error_complementarity_seed42_20260822",
+      "exists": true,
+      "exported_files": 13
+    },
+    {
+      "destination": "validation_prediction_mean_seed42",
+      "source_root": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\e1_simple_ensemble_seed42_20260822",
+      "exists": true,
+      "exported_files": 35
+    }
+  ],
+  "files": [
+    {
+      "path": "experiments/main_seed43/Jarvis-Bandgap_MBJ--paired_test_predictions.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\Jarvis-Bandgap_MBJ--paired_test_predictions.csv",
+      "bytes": 171209,
+      "sha256": "d8331a1b7e2f192ee5492920957d1e8fd7fc8b9789ffec33f4594ee18aa48739"
+    },
+    {
+      "path": "experiments/main_seed43/Jarvis-Bandgap_OPT--paired_test_predictions.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\Jarvis-Bandgap_OPT--paired_test_predictions.csv",
+      "bytes": 434128,
+      "sha256": "f26f4128459bac5bb8884acd29ce9272d4150bf02ab20e8aebcc8026b43a27d8"
+    },
+    {
+      "path": "experiments/main_seed43/Jarvis-BulkModulusKv--paired_test_predictions.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\Jarvis-BulkModulusKv--paired_test_predictions.csv",
+      "bytes": 297460,
+      "sha256": "bcc7362c723553ee6e835bc16578498fdfc7a247be4414bb1d975ebbb04fd0ef"
+    },
+    {
+      "path": "experiments/main_seed43/Jarvis-FormationEnergy--paired_test_predictions.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\Jarvis-FormationEnergy--paired_test_predictions.csv",
+      "bytes": 925296,
+      "sha256": "7d6cb24961bf24a5d6213e23d806a1659db0f205deb848780ea8830021c68a6c"
+    },
+    {
+      "path": "experiments/main_seed43/Jarvis-ShearModulusGv--paired_test_predictions.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\Jarvis-ShearModulusGv--paired_test_predictions.csv",
+      "bytes": 298269,
+      "sha256": "7167a67f26f7f56b790de5f7cfdecdde48afd70a5119c4b12deb560f3c5b23bf"
+    },
+    {
+      "path": "experiments/main_seed43/Jarvis-TotalEnergy--paired_test_predictions.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\Jarvis-TotalEnergy--paired_test_predictions.csv",
+      "bytes": 915571,
+      "sha256": "39825ded44f721d1cbc9110f26938e4ee4082cd61112367253799e99f8a4aa38"
+    },
+    {
+      "path": "experiments/main_seed43/MP-Bandgap--paired_test_predictions.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\MP-Bandgap--paired_test_predictions.csv",
+      "bytes": 60703,
+      "sha256": "63c6b1717d55ec643d3e88403dfcfb6d59cfd5b86c4d3e6cddb39d3a11123155"
+    },
+    {
+      "path": "experiments/main_seed43/MP-BulkModuli--paired_test_predictions.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\MP-BulkModuli--paired_test_predictions.csv",
+      "bytes": 92699,
+      "sha256": "3ef8d30969c0c5ab18dc96ee50e261df738e74e14b9e438cb8cb167593c4a599"
+    },
+    {
+      "path": "experiments/main_seed43/MP-FormationEnergy--paired_test_predictions.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\MP-FormationEnergy--paired_test_predictions.csv",
+      "bytes": 85928,
+      "sha256": "2248458284fc93c85105dbfd28b21bdf6626e9dd58ac13012787033284ca5c56"
+    },
+    {
+      "path": "experiments/main_seed43/MP-ShearModuli--paired_test_predictions.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\MP-ShearModuli--paired_test_predictions.csv",
+      "bytes": 92309,
+      "sha256": "3b555b188d5486b2ff8bf422ae68c05856253a898613cfc46d80b6c1c8799941"
+    },
+    {
+      "path": "experiments/main_seed43/build_two_seed_summary.py",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\build_two_seed_summary.py",
+      "bytes": 15191,
+      "sha256": "0e724737d3de924c358936a018f11b72e02475b5e2ce3b11d5525f5513b6c7dc"
+    },
+    {
+      "path": "experiments/main_seed43/local_verification.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\local_verification.json",
+      "bytes": 2773,
+      "sha256": "7fe04563aacf393547aaf63928d8f7313b1857533e73f107dd95dd5bdb008c3e"
+    },
+    {
+      "path": "experiments/main_seed43/parallel_transition.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\parallel_transition.log",
+      "bytes": 603,
+      "sha256": "4a9eab604fd147d5c7247dcfc2c71cab882fcff57276bd6acb7600330fab783a"
+    },
+    {
+      "path": "experiments/main_seed43/queue.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\queue.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/main_seed43/queue_failure.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\queue_failure.json",
+      "bytes": 712,
+      "sha256": "766e626f05a87e4052874526d3b75276f58ccfb82f23a633bde00fcc1161da6d"
+    },
+    {
+      "path": "experiments/main_seed43/queue_recovery_cwd_fix.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\queue_recovery_cwd_fix.log",
+      "bytes": 565,
+      "sha256": "a1abef2b5e9b8dffae056d182ef3723297f54419c26f66cd3ce26d695e33c24e"
+    },
+    {
+      "path": "experiments/main_seed43/queue_recovery_parallel.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\queue_recovery_parallel.log",
+      "bytes": 898,
+      "sha256": "3e540fbffccdb4706562885b56785c98eba2bbc6de01ea6e5fe5ec2b26fd045c"
+    },
+    {
+      "path": "experiments/main_seed43/queue_recovery_reload_fix.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\queue_recovery_reload_fix.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/main_seed43/queue_state.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\queue_state.json",
+      "bytes": 4640,
+      "sha256": "4ae2abb15634df206500e120291471efd09d13c5c69da062474b000b82282844"
+    },
+    {
+      "path": "experiments/main_seed43/recovery_code_sha256.txt",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\recovery_code_sha256.txt",
+      "bytes": 244,
+      "sha256": "5684422a903bdd53eaa89d66b45880487778ae219f6ed60eaf4205953d51585b"
+    },
+    {
+      "path": "experiments/main_seed43/seed43_dualview_results.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\seed43_dualview_results.csv",
+      "bytes": 1737,
+      "sha256": "07410bbd5760dec97bf6c8bd0f48c70cce4be9748e56df7da8529642f62f1103"
+    },
+    {
+      "path": "experiments/main_seed43/seed43_per_run_results.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\seed43_per_run_results.csv",
+      "bytes": 4930,
+      "sha256": "d8a77747312b2018d7a6bf510fe13ec880e22b91149d5fb365dc6000b21f0992"
+    },
+    {
+      "path": "experiments/main_seed43/seed43_report.md",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\seed43_report.md",
+      "bytes": 252,
+      "sha256": "59a83c2507ff2e8ed72918c286caaec74ee517cff0f191ace350e54e26bd7b2e"
+    },
+    {
+      "path": "experiments/main_seed43/seed43_selection.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\seed43_selection.json",
+      "bytes": 1118,
+      "sha256": "171c82b6eedae52298369a7c2d4e6d20b839232e5e854a0ff3bfefae1db8e2dd"
+    },
+    {
+      "path": "experiments/main_seed43/two_seed_macro_summary.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\two_seed_macro_summary.csv",
+      "bytes": 1263,
+      "sha256": "d7aeacb7f075ff30de49f9b023a0c593e8d97a61d28d281f22ecd1268122f11b"
+    },
+    {
+      "path": "experiments/main_seed43/two_seed_report.md",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\two_seed_report.md",
+      "bytes": 621,
+      "sha256": "163e1a8db30a4c8daab0d957836081b48822394a129757c58d65c8048a8ec072"
+    },
+    {
+      "path": "experiments/main_seed43/two_seed_summary.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\two_seed_summary.json",
+      "bytes": 13410,
+      "sha256": "22604c075b1b7a36cfff627b6166c1b02cf7199ba197338ee4c88b1f85fee858"
+    },
+    {
+      "path": "experiments/main_seed43/two_seed_task_summary.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\two_seed_task_summary.csv",
+      "bytes": 2912,
+      "sha256": "05a141d892aead558bc8638ef5603fcad99d875850e20d9c6207ba9a2c8864bc"
+    },
+    {
+      "path": "experiments/main_seed43/valid_freeze_manifest.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\valid_freeze_manifest.json",
+      "bytes": 10654,
+      "sha256": "120d516966d617678dc0fe3c9b14b5b76ee5b23efd39a39c68fd09ad28e5cd0d"
+    },
+    {
+      "path": "experiments/main_seed43/incidents/cuda_unknown_previous_host.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\incidents\\cuda_unknown_previous_host.json",
+      "bytes": 788,
+      "sha256": "d9ca03b624c525b00f1525b849a0c44334a7f3e38920d0628d8213ecb267e443"
+    },
+    {
+      "path": "experiments/main_seed43/incidents/jarvis_formation_preflight_cwd_cache_failure.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\incidents\\jarvis_formation_preflight_cwd_cache_failure.json",
+      "bytes": 1921,
+      "sha256": "1e717bc4602c9d319199ff8d2a36c56ab39afea31ffce15649b26338a19af7d6"
+    },
+    {
+      "path": "experiments/main_seed43/incidents/jarvis_formation_preflight_queue_failure.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\incidents\\jarvis_formation_preflight_queue_failure.json",
+      "bytes": 1054,
+      "sha256": "dac674e575b2fd58f8ef7cedd73791923d622492f7a233d365b3fe4e0e51f9b8"
+    },
+    {
+      "path": "experiments/main_seed43/incidents/recovery_prepare_wrong_cwd_20260901/generated_files.txt",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\incidents\\recovery_prepare_wrong_cwd_20260901\\generated_files.txt",
+      "bytes": 2871,
+      "sha256": "a9e1dabeaae8a629d3c4faa95844b7e4e91c6db3f770a3429f9d6205255f5721"
+    },
+    {
+      "path": "experiments/main_seed43/incidents/recovery_prepare_wrong_cwd_20260901/manifest.txt",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\incidents\\recovery_prepare_wrong_cwd_20260901\\manifest.txt",
+      "bytes": 49,
+      "sha256": "5ac6cd174ff9ea8501790c65bb5be22c24076de58c8cada5a32f4ecec7181dda"
+    },
+    {
+      "path": "experiments/main_seed43/incidents/recovery_prepare_wrong_cwd_20260901/preflight_failed.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\incidents\\recovery_prepare_wrong_cwd_20260901\\preflight_failed.log",
+      "bytes": 8129,
+      "sha256": "186e386fcbfb251e432ab624642f8a068769d459179c8992ae28d2cbbc012dad"
+    },
+    {
+      "path": "experiments/main_seed43/incidents/recovery_prepare_wrong_cwd_20260901/prepare_failed.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\incidents\\recovery_prepare_wrong_cwd_20260901\\prepare_failed.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/main_seed43/incidents/reload_guard_fix_20260901/queue_failure.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\incidents\\reload_guard_fix_20260901\\queue_failure.json",
+      "bytes": 712,
+      "sha256": "766e626f05a87e4052874526d3b75276f58ccfb82f23a633bde00fcc1161da6d"
+    },
+    {
+      "path": "experiments/main_seed43/incidents/reload_guard_fix_20260901/queue_state.failed.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\incidents\\reload_guard_fix_20260901\\queue_state.failed.json",
+      "bytes": 4484,
+      "sha256": "76a5dc4b8b98b9fa68c29dc9ef761cab76bdc5aaceb0905f824ef08118d87618"
+    },
+    {
+      "path": "experiments/main_seed43/incidents/reload_guard_fix_20260901/reload_input_fix.diff",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\incidents\\reload_guard_fix_20260901\\reload_input_fix.diff",
+      "bytes": 1654,
+      "sha256": "a8403eb1142c5a131dc1e8999b0cf84b579b95048794da767d34cefcdb988c6d"
+    },
+    {
+      "path": "experiments/main_seed43/incidents/reload_guard_fix_20260901/run_seed43_benchmark.before.py",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\incidents\\reload_guard_fix_20260901\\run_seed43_benchmark.before.py",
+      "bytes": 61170,
+      "sha256": "20bce5aac5f89a17c7487337da4cecaefe622c0697021a21b339805946a6ef2f"
+    },
+    {
+      "path": "experiments/main_seed43/incidents/reload_guard_fix_20260901/run_seed43_benchmark.before_mae_tolerance.py",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\incidents\\reload_guard_fix_20260901\\run_seed43_benchmark.before_mae_tolerance.py",
+      "bytes": 61676,
+      "sha256": "43c6311dff2bda0057dd9a4cfc46e19f4bdfb808db01113456e1851693547df4"
+    },
+    {
+      "path": "experiments/main_seed43/incidents/reload_guard_fix_20260901/run_seed43_benchmark.before_repeated_forward.py",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\incidents\\reload_guard_fix_20260901\\run_seed43_benchmark.before_repeated_forward.py",
+      "bytes": 62165,
+      "sha256": "528a1ff2725273a80b981d36d3b60bdbf02e4fb53e0e8af8a671826030a91db9"
+    },
+    {
+      "path": "experiments/main_seed43/logs/Jarvis-Bandgap_MBJ_original_sftmat_seed43_test.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\Jarvis-Bandgap_MBJ_original_sftmat_seed43_test.log",
+      "bytes": 1188,
+      "sha256": "af20af8426363c1fcf5ec2ad510dd3248d1b43100073cd2538c323a8cfde3c53"
+    },
+    {
+      "path": "experiments/main_seed43/logs/Jarvis-Bandgap_MBJ_original_sftmat_seed43_valid.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\Jarvis-Bandgap_MBJ_original_sftmat_seed43_valid.log",
+      "bytes": 48900,
+      "sha256": "6be9ae2548e116e9efea36ec2b54d158b880249efa4199b48ab8bc264556d465"
+    },
+    {
+      "path": "experiments/main_seed43/logs/Jarvis-Bandgap_MBJ_ours_seed43_test.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\Jarvis-Bandgap_MBJ_ours_seed43_test.log",
+      "bytes": 1165,
+      "sha256": "35a20459346609c7c19780da523c58c86c796cf0d0748e7ffce71cda5607db93"
+    },
+    {
+      "path": "experiments/main_seed43/logs/Jarvis-Bandgap_MBJ_ours_seed43_valid.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\Jarvis-Bandgap_MBJ_ours_seed43_valid.log",
+      "bytes": 43241,
+      "sha256": "c48020c20d6334819ee84cd283a4f39165ea14036850ce37c312fef305964bd4"
+    },
+    {
+      "path": "experiments/main_seed43/logs/Jarvis-Bandgap_OPT_original_sftmat_seed43_test.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\Jarvis-Bandgap_OPT_original_sftmat_seed43_test.log",
+      "bytes": 1185,
+      "sha256": "eede01b921820673efe95f6316b80f48af425188fc6797e7212c8edafec32244"
+    },
+    {
+      "path": "experiments/main_seed43/logs/Jarvis-Bandgap_OPT_original_sftmat_seed43_valid.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\Jarvis-Bandgap_OPT_original_sftmat_seed43_valid.log",
+      "bytes": 39603,
+      "sha256": "2cabae829cd5ce060902b4b31bf32e8010f70824c8ffa81c99d092653b2fe2e0"
+    },
+    {
+      "path": "experiments/main_seed43/logs/Jarvis-Bandgap_OPT_ours_seed43_test.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\Jarvis-Bandgap_OPT_ours_seed43_test.log",
+      "bytes": 1163,
+      "sha256": "123a8359f038c794f36689ec8617f73391b7387074c3bf4f30e3c9b2c26c1eab"
+    },
+    {
+      "path": "experiments/main_seed43/logs/Jarvis-Bandgap_OPT_ours_seed43_valid.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\Jarvis-Bandgap_OPT_ours_seed43_valid.log",
+      "bytes": 36356,
+      "sha256": "22d8da60a5a780218fb1d9b5855742a086b2c797b2e4170a82f01f0041157890"
+    },
+    {
+      "path": "experiments/main_seed43/logs/Jarvis-BulkModulusKv_original_sftmat_seed43_test.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\Jarvis-BulkModulusKv_original_sftmat_seed43_test.log",
+      "bytes": 1235,
+      "sha256": "b20e3228af106b07c4ad798481f5ace61773166b41fee5a41a4a27d4076ab61a"
+    },
+    {
+      "path": "experiments/main_seed43/logs/Jarvis-BulkModulusKv_original_sftmat_seed43_valid.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\Jarvis-BulkModulusKv_original_sftmat_seed43_valid.log",
+      "bytes": 40522,
+      "sha256": "265d263e6868c3ea4f07229fc064af9b5762db9bd13c5f567ee6e3767e40e7f6"
+    },
+    {
+      "path": "experiments/main_seed43/logs/Jarvis-BulkModulusKv_ours_seed43_test.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\Jarvis-BulkModulusKv_ours_seed43_test.log",
+      "bytes": 1213,
+      "sha256": "9eabebdd46e57ed4fa485e9eed5728512d151cd17251e6917e8473ac6647a64a"
+    },
+    {
+      "path": "experiments/main_seed43/logs/Jarvis-BulkModulusKv_ours_seed43_valid.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\Jarvis-BulkModulusKv_ours_seed43_valid.log",
+      "bytes": 37258,
+      "sha256": "78c36408fd213aec9a1c019ef4e86cea097bf0a510109ade72100ad0cf0b7c97"
+    },
+    {
+      "path": "experiments/main_seed43/logs/Jarvis-FormationEnergy_original_sftmat_seed43_test.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\Jarvis-FormationEnergy_original_sftmat_seed43_test.log",
+      "bytes": 1238,
+      "sha256": "e365e6ddc1d9378d235e632f51b6510e27ae93594fc3f10a4d8bf1a87f2994f6"
+    },
+    {
+      "path": "experiments/main_seed43/logs/Jarvis-FormationEnergy_original_sftmat_seed43_valid.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\Jarvis-FormationEnergy_original_sftmat_seed43_valid.log",
+      "bytes": 40883,
+      "sha256": "752c7387c6d69878a6a75a5842318db6bf5932962948178e6a12ebc7d96df5dc"
+    },
+    {
+      "path": "experiments/main_seed43/logs/Jarvis-FormationEnergy_ours_seed43_test.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\Jarvis-FormationEnergy_ours_seed43_test.log",
+      "bytes": 1219,
+      "sha256": "5afe1e99fa2c5f6033b2159f456e4e4bcd113ce89654a30162744165ed63e39c"
+    },
+    {
+      "path": "experiments/main_seed43/logs/Jarvis-FormationEnergy_ours_seed43_valid.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\Jarvis-FormationEnergy_ours_seed43_valid.log",
+      "bytes": 37642,
+      "sha256": "d6c91d0ebd60305e060d81190062ba406ac01225e4a74af9271d6a5cfd44af4b"
+    },
+    {
+      "path": "experiments/main_seed43/logs/Jarvis-ShearModulusGv_original_sftmat_seed43_test.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\Jarvis-ShearModulusGv_original_sftmat_seed43_test.log",
+      "bytes": 1236,
+      "sha256": "59be93b2f4c4e91a48060123fdb78a96c76e6ec6a42528b5f74aff4ab223ba16"
+    },
+    {
+      "path": "experiments/main_seed43/logs/Jarvis-ShearModulusGv_original_sftmat_seed43_valid.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\Jarvis-ShearModulusGv_original_sftmat_seed43_valid.log",
+      "bytes": 40764,
+      "sha256": "ca75aba383cb31ac64a2d90025db9a7c16638d8d37e53a6437ea1df1de314fa0"
+    },
+    {
+      "path": "experiments/main_seed43/logs/Jarvis-ShearModulusGv_ours_seed43_test.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\Jarvis-ShearModulusGv_ours_seed43_test.log",
+      "bytes": 1215,
+      "sha256": "ad285e6547553cc40656d1169d7ffa9c043275a9e0cfe3962e7e8642c37c86ae"
+    },
+    {
+      "path": "experiments/main_seed43/logs/Jarvis-ShearModulusGv_ours_seed43_valid.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\Jarvis-ShearModulusGv_ours_seed43_valid.log",
+      "bytes": 37498,
+      "sha256": "45d966e2f2fb15407223a2e6bad04a759075452d0aa58c443c807ff5109d92ad"
+    },
+    {
+      "path": "experiments/main_seed43/logs/Jarvis-TotalEnergy_original_sftmat_seed43_test.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\Jarvis-TotalEnergy_original_sftmat_seed43_test.log",
+      "bytes": 1237,
+      "sha256": "e83ccdda8a83a4c07dce37e71b4d3f0d23597e1b52eeffcab158c9cdd2fe49c0"
+    },
+    {
+      "path": "experiments/main_seed43/logs/Jarvis-TotalEnergy_original_sftmat_seed43_valid.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\Jarvis-TotalEnergy_original_sftmat_seed43_valid.log",
+      "bytes": 39674,
+      "sha256": "9d9f0209830e2a5580a2139e7ad41bd16bc6c0fcd7bf51321f7652193d3f1cd2"
+    },
+    {
+      "path": "experiments/main_seed43/logs/Jarvis-TotalEnergy_ours_seed43_test.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\Jarvis-TotalEnergy_ours_seed43_test.log",
+      "bytes": 1212,
+      "sha256": "e61c0d4b3bbed74cc5960d01e369dbee7350aca1a43347785ec9c940ab3e9c80"
+    },
+    {
+      "path": "experiments/main_seed43/logs/Jarvis-TotalEnergy_ours_seed43_valid.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\Jarvis-TotalEnergy_ours_seed43_valid.log",
+      "bytes": 36429,
+      "sha256": "f9e3d2abd21942a2ab5a1dab188f7a7b316d4a35433fbcc54cc0b2915cbc123a"
+    },
+    {
+      "path": "experiments/main_seed43/logs/MP-Bandgap_original_sftmat_seed43_test.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\MP-Bandgap_original_sftmat_seed43_test.log",
+      "bytes": 1157,
+      "sha256": "4fa3c5e146eed0b9f75b96fe03a55658e549949498ae939b79c401b120b32eb3"
+    },
+    {
+      "path": "experiments/main_seed43/logs/MP-Bandgap_original_sftmat_seed43_valid.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\MP-Bandgap_original_sftmat_seed43_valid.log",
+      "bytes": 37170,
+      "sha256": "12eb3c8eaf4c64ec79cab2d20aec245afeb70f7df6a7909d9a219c2ac82f11b4"
+    },
+    {
+      "path": "experiments/main_seed43/logs/MP-Bandgap_ours_seed43_recover_valid.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\MP-Bandgap_ours_seed43_recover_valid.log",
+      "bytes": 1287,
+      "sha256": "8b91994fcaecad8957837842e05d6eed70f568fb7245e621a89eae3e54054df2"
+    },
+    {
+      "path": "experiments/main_seed43/logs/MP-Bandgap_ours_seed43_recover_valid_fixed.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\MP-Bandgap_ours_seed43_recover_valid_fixed.log",
+      "bytes": 4236,
+      "sha256": "0ad0901dd8331897ffce416211353cbcdf7613b12a349decb01ddeba38d0d38e"
+    },
+    {
+      "path": "experiments/main_seed43/logs/MP-Bandgap_ours_seed43_test.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\MP-Bandgap_ours_seed43_test.log",
+      "bytes": 1137,
+      "sha256": "75e8c855dfc99bbc134adc1198b1b8f32bbeeeba91ffafdf8d81f663855ac2f9"
+    },
+    {
+      "path": "experiments/main_seed43/logs/MP-Bandgap_ours_seed43_valid.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\MP-Bandgap_ours_seed43_valid.log",
+      "bytes": 33168,
+      "sha256": "4b065a017df258751ea54d1b3ec40cf608c8ccc9b1478f89aee603244f70e931"
+    },
+    {
+      "path": "experiments/main_seed43/logs/MP-Bandgap_recovery_prepare.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\MP-Bandgap_recovery_prepare.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/main_seed43/logs/MP-Bandgap_recovery_prepare_correct_cwd.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\MP-Bandgap_recovery_prepare_correct_cwd.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/main_seed43/logs/MP-BulkModuli_original_sftmat_seed43_test.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\MP-BulkModuli_original_sftmat_seed43_test.log",
+      "bytes": 1209,
+      "sha256": "b7f6842c099ef0bcf6003912773d6fc74836f7192745d2590f62657cf103fc0a"
+    },
+    {
+      "path": "experiments/main_seed43/logs/MP-BulkModuli_original_sftmat_seed43_valid.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\MP-BulkModuli_original_sftmat_seed43_valid.log",
+      "bytes": 38135,
+      "sha256": "0e0d6eebc1e45bfcaa7b483a5f6a3a558f4951c2f5abd90f7f5a509d79815968"
+    },
+    {
+      "path": "experiments/main_seed43/logs/MP-BulkModuli_ours_seed43_test.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\MP-BulkModuli_ours_seed43_test.log",
+      "bytes": 1188,
+      "sha256": "6786dfaf18dd7927f934bb837b64050e47d4deb74a8efafb5e1ad0841513e202"
+    },
+    {
+      "path": "experiments/main_seed43/logs/MP-BulkModuli_ours_seed43_valid.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\MP-BulkModuli_ours_seed43_valid.log",
+      "bytes": 34901,
+      "sha256": "fc35c1c3010b9f2d78380c7ac097d6ef4a4d99cd663f14c27bfac280da8507f1"
+    },
+    {
+      "path": "experiments/main_seed43/logs/MP-FormationEnergy_original_sftmat_seed43_test.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\MP-FormationEnergy_original_sftmat_seed43_test.log",
+      "bytes": 1230,
+      "sha256": "be154fd879913cf5f87649b1a1c45afa31500634eec2659d90d585dd4cbe4c09"
+    },
+    {
+      "path": "experiments/main_seed43/logs/MP-FormationEnergy_original_sftmat_seed43_valid.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\MP-FormationEnergy_original_sftmat_seed43_valid.log",
+      "bytes": 39771,
+      "sha256": "ca29c9849fdfdbe44ce53579ccc6b30b98bbedc929ef05fe243c514aad834dc1"
+    },
+    {
+      "path": "experiments/main_seed43/logs/MP-FormationEnergy_ours_seed43_test.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\MP-FormationEnergy_ours_seed43_test.log",
+      "bytes": 1207,
+      "sha256": "a91c9f525bf81f97c3a5870adb744d859cac27dd7bbd3ffa7fbf3d4628eca348"
+    },
+    {
+      "path": "experiments/main_seed43/logs/MP-FormationEnergy_ours_seed43_valid.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\MP-FormationEnergy_ours_seed43_valid.log",
+      "bytes": 36532,
+      "sha256": "eb343a92c0b36cd0e04ab06709300398c2d39b287546509c7b1d2e20e0194a24"
+    },
+    {
+      "path": "experiments/main_seed43/logs/MP-ShearModuli_original_sftmat_seed43_test.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\MP-ShearModuli_original_sftmat_seed43_test.log",
+      "bytes": 1216,
+      "sha256": "f860eef3db77348adb49a665f1693d9719c6c677b7ab7e11aa8f9602c42b6b81"
+    },
+    {
+      "path": "experiments/main_seed43/logs/MP-ShearModuli_original_sftmat_seed43_valid.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\MP-ShearModuli_original_sftmat_seed43_valid.log",
+      "bytes": 38440,
+      "sha256": "82f6dd5b6574046ba7689b065101677e4d94508f544c7b9b4b266dc702521d87"
+    },
+    {
+      "path": "experiments/main_seed43/logs/MP-ShearModuli_ours_seed43_test.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\MP-ShearModuli_ours_seed43_test.log",
+      "bytes": 1194,
+      "sha256": "8422ba1fbc31b13a8c8481be0d5cc32c36f2f394a41e341dee3b36a176171bce"
+    },
+    {
+      "path": "experiments/main_seed43/logs/MP-ShearModuli_ours_seed43_valid.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\MP-ShearModuli_ours_seed43_valid.log",
+      "bytes": 35206,
+      "sha256": "aa92420537229f7b0879c419e182c1954dbde453a412b1d664be27abd8e5a336"
+    },
+    {
+      "path": "experiments/main_seed43/logs/freeze_valid.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\freeze_valid.log",
+      "bytes": 10833,
+      "sha256": "640fde03fa8c4a3361d132a55fb7c29a2669b5947088b03d1b787f7f1cce1c76"
+    },
+    {
+      "path": "experiments/main_seed43/logs/summarize.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\summarize.log",
+      "bytes": 1295,
+      "sha256": "9c54446eab163d8fbb9e085f243aaf926b020504d3f7dee23d54ad71ade499d4"
+    },
+    {
+      "path": "experiments/main_seed43/logs/cache/Jarvis-Bandgap_MBJ_test_preflight.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\cache\\Jarvis-Bandgap_MBJ_test_preflight.log",
+      "bytes": 3785,
+      "sha256": "5b42d09dc19d4a562c157bfc4342c76c5d42c3f6c9768b52c605909906650ab4"
+    },
+    {
+      "path": "experiments/main_seed43/logs/cache/Jarvis-Bandgap_MBJ_test_token_cache.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\cache\\Jarvis-Bandgap_MBJ_test_token_cache.log",
+      "bytes": 2177,
+      "sha256": "3880d95cca6a3d3a908a939fd69ec90d4103422fb5aee3660250f15b27626f9d"
+    },
+    {
+      "path": "experiments/main_seed43/logs/cache/Jarvis-Bandgap_MBJ_valid_preflight.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\cache\\Jarvis-Bandgap_MBJ_valid_preflight.log",
+      "bytes": 7570,
+      "sha256": "783eee732a15e937073130c45c30f44a55a55f6eb544984bde05f7e292abc5b6"
+    },
+    {
+      "path": "experiments/main_seed43/logs/cache/Jarvis-Bandgap_MBJ_valid_token_cache.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\cache\\Jarvis-Bandgap_MBJ_valid_token_cache.log",
+      "bytes": 4354,
+      "sha256": "68891a4a2f8a713c69dc948769491fd84041678d302c68d56756c83422ed0c43"
+    },
+    {
+      "path": "experiments/main_seed43/logs/cache/Jarvis-Bandgap_OPT_test_preflight.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\cache\\Jarvis-Bandgap_OPT_test_preflight.log",
+      "bytes": 3782,
+      "sha256": "774f62cd4d71f706082ea466c698886736cc86beaeb136c315a09930b12e0e26"
+    },
+    {
+      "path": "experiments/main_seed43/logs/cache/Jarvis-Bandgap_OPT_test_token_cache.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\cache\\Jarvis-Bandgap_OPT_test_token_cache.log",
+      "bytes": 3472,
+      "sha256": "bb76f4b9a25ce53e1d76b116fd3b55f99048d519f82bf0835debbe2e4f15ed67"
+    },
+    {
+      "path": "experiments/main_seed43/logs/cache/Jarvis-Bandgap_OPT_valid_preflight.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\cache\\Jarvis-Bandgap_OPT_valid_preflight.log",
+      "bytes": 3782,
+      "sha256": "2f874a269f74118dab885bde7ed87986c773d3859b5501cba3d6a8ff909ef184"
+    },
+    {
+      "path": "experiments/main_seed43/logs/cache/Jarvis-Bandgap_OPT_valid_token_cache.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\cache\\Jarvis-Bandgap_OPT_valid_token_cache.log",
+      "bytes": 3472,
+      "sha256": "bb76f4b9a25ce53e1d76b116fd3b55f99048d519f82bf0835debbe2e4f15ed67"
+    },
+    {
+      "path": "experiments/main_seed43/logs/cache/Jarvis-BulkModulusKv_test_preflight.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\cache\\Jarvis-BulkModulusKv_test_preflight.log",
+      "bytes": 3828,
+      "sha256": "515395991f47656859d187c9c033bbfb251577fa391029e2d5adb35b5933a0ed"
+    },
+    {
+      "path": "experiments/main_seed43/logs/cache/Jarvis-BulkModulusKv_test_token_cache.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\cache\\Jarvis-BulkModulusKv_test_token_cache.log",
+      "bytes": 2253,
+      "sha256": "c0108bad7cb6d13132bb17c2f3917bf77a5d2cee38672323fb82253f0d97533b"
+    },
+    {
+      "path": "experiments/main_seed43/logs/cache/Jarvis-BulkModulusKv_valid_preflight.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\cache\\Jarvis-BulkModulusKv_valid_preflight.log",
+      "bytes": 6049,
+      "sha256": "21d49c52a5c81627723bbe6bec40addd2449c6f5476756d5c95c27e784ecb0e5"
+    },
+    {
+      "path": "experiments/main_seed43/logs/cache/Jarvis-BulkModulusKv_valid_token_cache.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\cache\\Jarvis-BulkModulusKv_valid_token_cache.log",
+      "bytes": 2253,
+      "sha256": "c0108bad7cb6d13132bb17c2f3917bf77a5d2cee38672323fb82253f0d97533b"
+    },
+    {
+      "path": "experiments/main_seed43/logs/cache/Jarvis-FormationEnergy_test_preflight.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\cache\\Jarvis-FormationEnergy_test_preflight.log",
+      "bytes": 4433,
+      "sha256": "883dcadb1b67920c71ee808058e8acdce20c049ac9f14a6bbfdf247c19728213"
+    },
+    {
+      "path": "experiments/main_seed43/logs/cache/Jarvis-FormationEnergy_test_token_cache.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\cache\\Jarvis-FormationEnergy_test_token_cache.log",
+      "bytes": 3484,
+      "sha256": "c04433749d2c5f0e4f3ef453355dc7bc5e66b504355099ff2868df5d85f6ff65"
+    },
+    {
+      "path": "experiments/main_seed43/logs/cache/Jarvis-FormationEnergy_valid_preflight.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\cache\\Jarvis-FormationEnergy_valid_preflight.log",
+      "bytes": 6123,
+      "sha256": "031823c0669afa5f5fc44088bec6c920539c0013ae67230c0b0640d40ba2e27c"
+    },
+    {
+      "path": "experiments/main_seed43/logs/cache/Jarvis-FormationEnergy_valid_token_cache.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\cache\\Jarvis-FormationEnergy_valid_token_cache.log",
+      "bytes": 6968,
+      "sha256": "4ddb38116f26a00bb3bcbdf300e77403dd48b544f7cfa4cf1dca86ad07401ce2"
+    },
+    {
+      "path": "experiments/main_seed43/logs/cache/Jarvis-ShearModulusGv_test_preflight.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\cache\\Jarvis-ShearModulusGv_test_preflight.log",
+      "bytes": 3855,
+      "sha256": "c595921a41ef49a699b43b309d970fcc6643daa746473a4508bc21b50bbefa1c"
+    },
+    {
+      "path": "experiments/main_seed43/logs/cache/Jarvis-ShearModulusGv_test_token_cache.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\cache\\Jarvis-ShearModulusGv_test_token_cache.log",
+      "bytes": 2256,
+      "sha256": "41ba879786bd2a7122e242b6532f66b46b5c76d9074d0cc89595b97dfe4e1ac0"
+    },
+    {
+      "path": "experiments/main_seed43/logs/cache/Jarvis-ShearModulusGv_valid_preflight.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\cache\\Jarvis-ShearModulusGv_valid_preflight.log",
+      "bytes": 6062,
+      "sha256": "b89d1212c6f994dbda21430a79758fb7fb79cd319237a7a1e0263cba6b8c5a6e"
+    },
+    {
+      "path": "experiments/main_seed43/logs/cache/Jarvis-ShearModulusGv_valid_token_cache.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\cache\\Jarvis-ShearModulusGv_valid_token_cache.log",
+      "bytes": 2256,
+      "sha256": "41ba879786bd2a7122e242b6532f66b46b5c76d9074d0cc89595b97dfe4e1ac0"
+    },
+    {
+      "path": "experiments/main_seed43/logs/cache/Jarvis-TotalEnergy_test_preflight.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\cache\\Jarvis-TotalEnergy_test_preflight.log",
+      "bytes": 3814,
+      "sha256": "afa96f6e43e6dd947e09813b34631776ef38ef8a9f685bb7f63b796e08a461d4"
+    },
+    {
+      "path": "experiments/main_seed43/logs/cache/Jarvis-TotalEnergy_test_token_cache.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\cache\\Jarvis-TotalEnergy_test_token_cache.log",
+      "bytes": 3472,
+      "sha256": "e0a7ebf9764ca68711bbb8807ad56cca3114ecb22e7fb8098762f859bff735ea"
+    },
+    {
+      "path": "experiments/main_seed43/logs/cache/Jarvis-TotalEnergy_valid_preflight.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\cache\\Jarvis-TotalEnergy_valid_preflight.log",
+      "bytes": 3831,
+      "sha256": "e5a323e8f38f04ca0b6e35d6d15d8013985572520446d78c88730ca8c6fe20df"
+    },
+    {
+      "path": "experiments/main_seed43/logs/cache/Jarvis-TotalEnergy_valid_token_cache.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\cache\\Jarvis-TotalEnergy_valid_token_cache.log",
+      "bytes": 3472,
+      "sha256": "e0a7ebf9764ca68711bbb8807ad56cca3114ecb22e7fb8098762f859bff735ea"
+    },
+    {
+      "path": "experiments/main_seed43/logs/cache/MP-Bandgap_test_preflight.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\cache\\MP-Bandgap_test_preflight.log",
+      "bytes": 3704,
+      "sha256": "15fdfaac53dba5a0f30b0090fa4b77139af680b63c2382fcd1354889d21db6e0"
+    },
+    {
+      "path": "experiments/main_seed43/logs/cache/MP-Bandgap_test_token_cache.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\cache\\MP-Bandgap_test_token_cache.log",
+      "bytes": 3749,
+      "sha256": "5e7c180b96d337bebcc53bf151370edc1df4baf900ada2811583ea8e5656847b"
+    },
+    {
+      "path": "experiments/main_seed43/logs/cache/MP-Bandgap_valid_preflight.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\cache\\MP-Bandgap_valid_preflight.log",
+      "bytes": 11836,
+      "sha256": "a6f5ed6c059aad513f456364d4491622d9dcdc2758abaf5919120355ef870786"
+    },
+    {
+      "path": "experiments/main_seed43/logs/cache/MP-Bandgap_valid_token_cache.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\cache\\MP-Bandgap_valid_token_cache.log",
+      "bytes": 11247,
+      "sha256": "8bdf2bb37a58a8f53ddf83dd177f7f18c8a9d538706f7ba012e29d7d76ddfe9d"
+    },
+    {
+      "path": "experiments/main_seed43/logs/cache/MP-BulkModuli_test_preflight.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\cache\\MP-BulkModuli_test_preflight.log",
+      "bytes": 3771,
+      "sha256": "c36a4247f71860392c03b21665ae7e3ac8604fd623fca2eaa7a0f41f49533d4a"
+    },
+    {
+      "path": "experiments/main_seed43/logs/cache/MP-BulkModuli_test_token_cache.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\cache\\MP-BulkModuli_test_token_cache.log",
+      "bytes": 1734,
+      "sha256": "6bda8596f3937e1a3d787529b6201c3f75aa0f6ea4798d060b34b089eb1f0f6d"
+    },
+    {
+      "path": "experiments/main_seed43/logs/cache/MP-BulkModuli_valid_preflight.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\cache\\MP-BulkModuli_valid_preflight.log",
+      "bytes": 10553,
+      "sha256": "8c4f8359809802022ffee81760fb379e6f0ad600e3c19e50f660aa9ae320a2d5"
+    },
+    {
+      "path": "experiments/main_seed43/logs/cache/MP-BulkModuli_valid_token_cache.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\cache\\MP-BulkModuli_valid_token_cache.log",
+      "bytes": 3468,
+      "sha256": "eb5b883f4984ac2414d4ae7d2a783f007c504461af120fbafda497a1cb6be0ef"
+    },
+    {
+      "path": "experiments/main_seed43/logs/cache/MP-FormationEnergy_test_preflight.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\cache\\MP-FormationEnergy_test_preflight.log",
+      "bytes": 4713,
+      "sha256": "baa09781693e133f3a115b1126d37b7445b17efdd07c1d3a5cee4a13cf83e174"
+    },
+    {
+      "path": "experiments/main_seed43/logs/cache/MP-FormationEnergy_test_token_cache.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\cache\\MP-FormationEnergy_test_token_cache.log",
+      "bytes": 3773,
+      "sha256": "a6535fa83f997c27120deed5d15296e83d79caf909c99e7bde70a66c9d48ae8e"
+    },
+    {
+      "path": "experiments/main_seed43/logs/cache/MP-FormationEnergy_valid_preflight.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\cache\\MP-FormationEnergy_valid_preflight.log",
+      "bytes": 5418,
+      "sha256": "ff81f4460efe634d55a4e7d0d8b627944f7609b2494b587661a10d1b5c1ca9bc"
+    },
+    {
+      "path": "experiments/main_seed43/logs/cache/MP-FormationEnergy_valid_token_cache.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\cache\\MP-FormationEnergy_valid_token_cache.log",
+      "bytes": 3773,
+      "sha256": "a6535fa83f997c27120deed5d15296e83d79caf909c99e7bde70a66c9d48ae8e"
+    },
+    {
+      "path": "experiments/main_seed43/logs/cache/MP-ShearModuli_test_preflight.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\cache\\MP-ShearModuli_test_preflight.log",
+      "bytes": 4623,
+      "sha256": "e27b21d8ab6d3dc072f2aaee68b1b6a664d1766be7291a00c08127a95951d6e5"
+    },
+    {
+      "path": "experiments/main_seed43/logs/cache/MP-ShearModuli_test_token_cache.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\cache\\MP-ShearModuli_test_token_cache.log",
+      "bytes": 1737,
+      "sha256": "1222ae134464f480ef620ebf27609b3dca0d8caa2a149fa0e4f2f6afcbae4b5c"
+    },
+    {
+      "path": "experiments/main_seed43/logs/cache/MP-ShearModuli_valid_preflight.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\cache\\MP-ShearModuli_valid_preflight.log",
+      "bytes": 7907,
+      "sha256": "74e00ade97eae9fdca351824bf5cc6813a87d305eec2dbc0143fd9491112fa28"
+    },
+    {
+      "path": "experiments/main_seed43/logs/cache/MP-ShearModuli_valid_token_cache.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\logs\\cache\\MP-ShearModuli_valid_token_cache.log",
+      "bytes": 1737,
+      "sha256": "1222ae134464f480ef620ebf27609b3dca0d8caa2a149fa0e4f2f6afcbae4b5c"
+    },
+    {
+      "path": "experiments/main_seed43/recovery_patch/run_seed43_benchmark.before.py",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\recovery_patch\\run_seed43_benchmark.before.py",
+      "bytes": 61170,
+      "sha256": "20bce5aac5f89a17c7487337da4cecaefe622c0697021a21b339805946a6ef2f"
+    },
+    {
+      "path": "experiments/main_seed43/recovery_patch/run_seed43_benchmark.before_mae_tolerance.py",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\recovery_patch\\run_seed43_benchmark.before_mae_tolerance.py",
+      "bytes": 61676,
+      "sha256": "43c6311dff2bda0057dd9a4cfc46e19f4bdfb808db01113456e1851693547df4"
+    },
+    {
+      "path": "experiments/main_seed43/recovery_patch/run_seed43_benchmark.before_repeated_forward.py",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\recovery_patch\\run_seed43_benchmark.before_repeated_forward.py",
+      "bytes": 62165,
+      "sha256": "528a1ff2725273a80b981d36d3b60bdbf02e4fb53e0e8af8a671826030a91db9"
+    },
+    {
+      "path": "experiments/main_seed43/recovery_patch/run_seed43_benchmark.py",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\recovery_patch\\run_seed43_benchmark.py",
+      "bytes": 62947,
+      "sha256": "93e284ab4e0c49e63e0e3da22c257a79df2c61a5f5fb76606aa0d954bc99eff0"
+    },
+    {
+      "path": "experiments/main_seed43/runs/Jarvis-Bandgap_MBJ/original_sftmat/seed_43/summary.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\Jarvis-Bandgap_MBJ\\original_sftmat\\seed_43\\summary.json",
+      "bytes": 1327,
+      "sha256": "200b3756e3f7c958c36fe479ba8aebe61c04472db69aa7efc3031494e44fa274"
+    },
+    {
+      "path": "experiments/main_seed43/runs/Jarvis-Bandgap_MBJ/original_sftmat/seed_43/test_forward_started.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\Jarvis-Bandgap_MBJ\\original_sftmat\\seed_43\\test_forward_started.json",
+      "bytes": 160,
+      "sha256": "b70be0e9cd9b85fec859024d823411be1665a70ace5e244b493cd9752ac4c29e"
+    },
+    {
+      "path": "experiments/main_seed43/runs/Jarvis-Bandgap_MBJ/original_sftmat/seed_43/test_summary.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\Jarvis-Bandgap_MBJ\\original_sftmat\\seed_43\\test_summary.json",
+      "bytes": 562,
+      "sha256": "fbd34a4841f7322dbc2179d7210bfd124551d7b7b05117d9ad9a3bf3ee757424"
+    },
+    {
+      "path": "experiments/main_seed43/runs/Jarvis-Bandgap_MBJ/original_sftmat/seed_43/valid_predictions.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\Jarvis-Bandgap_MBJ\\original_sftmat\\seed_43\\valid_predictions.csv",
+      "bytes": 73284,
+      "sha256": "c62ed9e50c68545f1d5a498e0c0d1b011ae555ef0f80626b08739fc93ec4c945"
+    },
+    {
+      "path": "experiments/main_seed43/runs/Jarvis-Bandgap_MBJ/ours/seed_43/summary.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\Jarvis-Bandgap_MBJ\\ours\\seed_43\\summary.json",
+      "bytes": 1405,
+      "sha256": "599f0d5ab5380e235ff82770879f258924b5f117ac18bf1560e9d9c47ef2d8a0"
+    },
+    {
+      "path": "experiments/main_seed43/runs/Jarvis-Bandgap_MBJ/ours/seed_43/test_forward_started.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\Jarvis-Bandgap_MBJ\\ours\\seed_43\\test_forward_started.json",
+      "bytes": 160,
+      "sha256": "2b30b86f9aa3de98c7323f9cf26ab487cef4de002bed696b1b4d933104292e62"
+    },
+    {
+      "path": "experiments/main_seed43/runs/Jarvis-Bandgap_MBJ/ours/seed_43/test_summary.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\Jarvis-Bandgap_MBJ\\ours\\seed_43\\test_summary.json",
+      "bytes": 550,
+      "sha256": "67de53e9cb7c3b05c9ee1beb04fc6ec4d68ab934bebf51b9809e7a2c64f8ad8d"
+    },
+    {
+      "path": "experiments/main_seed43/runs/Jarvis-Bandgap_MBJ/ours/seed_43/valid_predictions.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\Jarvis-Bandgap_MBJ\\ours\\seed_43\\valid_predictions.csv",
+      "bytes": 125012,
+      "sha256": "d41e1bdbe52ea968bf78fc479887d3795e01105444cf00ac991c3b510d18e80b"
+    },
+    {
+      "path": "experiments/main_seed43/runs/Jarvis-Bandgap_OPT/original_sftmat/seed_43/summary.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\Jarvis-Bandgap_OPT\\original_sftmat\\seed_43\\summary.json",
+      "bytes": 1324,
+      "sha256": "d3ca8f323ab8b2636ff8d801d47cb83ce4f95804f90ece4f40112bf832263158"
+    },
+    {
+      "path": "experiments/main_seed43/runs/Jarvis-Bandgap_OPT/original_sftmat/seed_43/test_forward_started.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\Jarvis-Bandgap_OPT\\original_sftmat\\seed_43\\test_forward_started.json",
+      "bytes": 160,
+      "sha256": "dce0bdf688846e0a25c6a1a00ede0f258761f4b273d053af3a0b4a79c17172dd"
+    },
+    {
+      "path": "experiments/main_seed43/runs/Jarvis-Bandgap_OPT/original_sftmat/seed_43/test_summary.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\Jarvis-Bandgap_OPT\\original_sftmat\\seed_43\\test_summary.json",
+      "bytes": 562,
+      "sha256": "058a38c17bd4d02b49113a9ed0b3eb921b5bec75b93d175db85f79fcc87fc272"
+    },
+    {
+      "path": "experiments/main_seed43/runs/Jarvis-Bandgap_OPT/original_sftmat/seed_43/valid_predictions.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\Jarvis-Bandgap_OPT\\original_sftmat\\seed_43\\valid_predictions.csv",
+      "bytes": 193205,
+      "sha256": "77272a57bbdc2730b1b231a7297d8f51e7a5958bbd7a2e1694740d0af285671e"
+    },
+    {
+      "path": "experiments/main_seed43/runs/Jarvis-Bandgap_OPT/ours/seed_43/summary.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\Jarvis-Bandgap_OPT\\ours\\seed_43\\summary.json",
+      "bytes": 1407,
+      "sha256": "551bc373707305012efca07fbd4f290dc3cb504d091272678c06c57362929ca2"
+    },
+    {
+      "path": "experiments/main_seed43/runs/Jarvis-Bandgap_OPT/ours/seed_43/test_forward_started.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\Jarvis-Bandgap_OPT\\ours\\seed_43\\test_forward_started.json",
+      "bytes": 160,
+      "sha256": "d1394fa1d335929279cf8906ddfb4b4cc240ccda8f3a0787c2b41eebb1a187f8"
+    },
+    {
+      "path": "experiments/main_seed43/runs/Jarvis-Bandgap_OPT/ours/seed_43/test_summary.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\Jarvis-Bandgap_OPT\\ours\\seed_43\\test_summary.json",
+      "bytes": 551,
+      "sha256": "5aab0f8e86495abc179c3e415d9ee4cdcb0b106312262e5c5d2eaa5c48b2434a"
+    },
+    {
+      "path": "experiments/main_seed43/runs/Jarvis-Bandgap_OPT/ours/seed_43/valid_predictions.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\Jarvis-Bandgap_OPT\\ours\\seed_43\\valid_predictions.csv",
+      "bytes": 341984,
+      "sha256": "aae15ffd76ab98b47db034a15a8f39f74cea1c15a655cac903eecfcfa4de181a"
+    },
+    {
+      "path": "experiments/main_seed43/runs/Jarvis-BulkModulusKv/original_sftmat/seed_43/summary.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\Jarvis-BulkModulusKv\\original_sftmat\\seed_43\\summary.json",
+      "bytes": 1330,
+      "sha256": "d5983c3443c5eda3f4f4ae3af48e2e4631c6825a706a63460547ce6dc380cd23"
+    },
+    {
+      "path": "experiments/main_seed43/runs/Jarvis-BulkModulusKv/original_sftmat/seed_43/test_forward_started.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\Jarvis-BulkModulusKv\\original_sftmat\\seed_43\\test_forward_started.json",
+      "bytes": 160,
+      "sha256": "5cd14c73697505efda4826c621e51386ebdc4db9ecd1905016b641b427e66dc8"
+    },
+    {
+      "path": "experiments/main_seed43/runs/Jarvis-BulkModulusKv/original_sftmat/seed_43/test_summary.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\Jarvis-BulkModulusKv\\original_sftmat\\seed_43\\test_summary.json",
+      "bytes": 560,
+      "sha256": "736346e4d09d7e7c87f1a1c538b415891ea26a21a16b3319ff6749aa7af540fe"
+    },
+    {
+      "path": "experiments/main_seed43/runs/Jarvis-BulkModulusKv/original_sftmat/seed_43/valid_predictions.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\Jarvis-BulkModulusKv\\original_sftmat\\seed_43\\valid_predictions.csv",
+      "bytes": 122243,
+      "sha256": "ba46ac8146367f194fc0e8465c8894c318aa2ae400bc1752278a225ea626f302"
+    },
+    {
+      "path": "experiments/main_seed43/runs/Jarvis-BulkModulusKv/ours/seed_43/summary.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\Jarvis-BulkModulusKv\\ours\\seed_43\\summary.json",
+      "bytes": 1415,
+      "sha256": "6491d5f94eb11e83722cb0bb93d040e11f716d0824dd2929773e3ce609d3a672"
+    },
+    {
+      "path": "experiments/main_seed43/runs/Jarvis-BulkModulusKv/ours/seed_43/test_forward_started.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\Jarvis-BulkModulusKv\\ours\\seed_43\\test_forward_started.json",
+      "bytes": 160,
+      "sha256": "3292ac10564ce037ab2aca1748fd0fe67d0a1b61b323e68f9ab572bab71d6964"
+    },
+    {
+      "path": "experiments/main_seed43/runs/Jarvis-BulkModulusKv/ours/seed_43/test_summary.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\Jarvis-BulkModulusKv\\ours\\seed_43\\test_summary.json",
+      "bytes": 549,
+      "sha256": "9f623f578ebfe7e31ee2a9f05919b4db3c7d771bd521243c1b3e227b97564671"
+    },
+    {
+      "path": "experiments/main_seed43/runs/Jarvis-BulkModulusKv/ours/seed_43/valid_predictions.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\Jarvis-BulkModulusKv\\ours\\seed_43\\valid_predictions.csv",
+      "bytes": 193577,
+      "sha256": "25f03b04120e92b777b3972d0c372f80d6663127c3df4663c6d609dcab9924d7"
+    },
+    {
+      "path": "experiments/main_seed43/runs/Jarvis-FormationEnergy/original_sftmat/seed_43/summary.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\Jarvis-FormationEnergy\\original_sftmat\\seed_43\\summary.json",
+      "bytes": 1347,
+      "sha256": "648c725d7c9bbc6319b8003ebcf95b37cc86ab3c11f2898023d861e501dbcef3"
+    },
+    {
+      "path": "experiments/main_seed43/runs/Jarvis-FormationEnergy/original_sftmat/seed_43/test_forward_started.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\Jarvis-FormationEnergy\\original_sftmat\\seed_43\\test_forward_started.json",
+      "bytes": 160,
+      "sha256": "dfc521869a0ed10e5cec620046c9ae6814b6b8cf904f38b4383ae77ad339ca55"
+    },
+    {
+      "path": "experiments/main_seed43/runs/Jarvis-FormationEnergy/original_sftmat/seed_43/test_summary.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\Jarvis-FormationEnergy\\original_sftmat\\seed_43\\test_summary.json",
+      "bytes": 565,
+      "sha256": "0c72c8373aa021fd9f5df266e0021de4af43793794dff910c51e4038e69d6c9f"
+    },
+    {
+      "path": "experiments/main_seed43/runs/Jarvis-FormationEnergy/original_sftmat/seed_43/valid_predictions.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\Jarvis-FormationEnergy\\original_sftmat\\seed_43\\valid_predictions.csv",
+      "bytes": 381654,
+      "sha256": "661698206b043d862b0e19eb7874be324df9906112f79a4eeb38148bdabf11cb"
+    },
+    {
+      "path": "experiments/main_seed43/runs/Jarvis-FormationEnergy/ours/seed_43/summary.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\Jarvis-FormationEnergy\\ours\\seed_43\\summary.json",
+      "bytes": 1431,
+      "sha256": "b95437177a8bcbb7277fe869d67f418a036aec14bb8be42f73d87cb98859df31"
+    },
+    {
+      "path": "experiments/main_seed43/runs/Jarvis-FormationEnergy/ours/seed_43/test_forward_started.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\Jarvis-FormationEnergy\\ours\\seed_43\\test_forward_started.json",
+      "bytes": 160,
+      "sha256": "5c8c079f19a5969d7e97cde78b531419cff1ba774237a06d5288299f791c1988"
+    },
+    {
+      "path": "experiments/main_seed43/runs/Jarvis-FormationEnergy/ours/seed_43/test_summary.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\Jarvis-FormationEnergy\\ours\\seed_43\\test_summary.json",
+      "bytes": 557,
+      "sha256": "de542e6d23f46fc27fb5065e878506e81b5ac1fe6522e0ae7f174fd2557eb446"
+    },
+    {
+      "path": "experiments/main_seed43/runs/Jarvis-FormationEnergy/ours/seed_43/valid_predictions.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\Jarvis-FormationEnergy\\ours\\seed_43\\valid_predictions.csv",
+      "bytes": 604862,
+      "sha256": "5a288bd06ae2739fb49996e9017f439f1a8681884997a42f064c3923e6eee5a7"
+    },
+    {
+      "path": "experiments/main_seed43/runs/Jarvis-ShearModulusGv/original_sftmat/seed_43/summary.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\Jarvis-ShearModulusGv\\original_sftmat\\seed_43\\summary.json",
+      "bytes": 1340,
+      "sha256": "9908dd9ed81768407968925e0fb03e5f410efc8495c07823cc7f4b5f6cbd5e2f"
+    },
+    {
+      "path": "experiments/main_seed43/runs/Jarvis-ShearModulusGv/original_sftmat/seed_43/test_forward_started.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\Jarvis-ShearModulusGv\\original_sftmat\\seed_43\\test_forward_started.json",
+      "bytes": 160,
+      "sha256": "184fe34f3a404440d6cab2c2fd17a7277847b15dd1d5fed4417930cb5a277b57"
+    },
+    {
+      "path": "experiments/main_seed43/runs/Jarvis-ShearModulusGv/original_sftmat/seed_43/test_summary.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\Jarvis-ShearModulusGv\\original_sftmat\\seed_43\\test_summary.json",
+      "bytes": 560,
+      "sha256": "0cc01962c350f6f85941223b489c4c724390ab34f2c807a1d964309c3c79e3d5"
+    },
+    {
+      "path": "experiments/main_seed43/runs/Jarvis-ShearModulusGv/original_sftmat/seed_43/valid_predictions.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\Jarvis-ShearModulusGv\\original_sftmat\\seed_43\\valid_predictions.csv",
+      "bytes": 122308,
+      "sha256": "8acf3db59fc653bbfd015c2c88c14d5fc0be582ed6023b6913c0ed8d021f32a1"
+    },
+    {
+      "path": "experiments/main_seed43/runs/Jarvis-ShearModulusGv/ours/seed_43/summary.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\Jarvis-ShearModulusGv\\ours\\seed_43\\summary.json",
+      "bytes": 1417,
+      "sha256": "d1dc5f225273daf8c6e95a9997d6d7d98899f530187ecb1efe5cf7ab6c152ec5"
+    },
+    {
+      "path": "experiments/main_seed43/runs/Jarvis-ShearModulusGv/ours/seed_43/test_forward_started.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\Jarvis-ShearModulusGv\\ours\\seed_43\\test_forward_started.json",
+      "bytes": 160,
+      "sha256": "233581412406ece2a4177547c12d2f76a26608a3cc83f755d0deda52fa1b040e"
+    },
+    {
+      "path": "experiments/main_seed43/runs/Jarvis-ShearModulusGv/ours/seed_43/test_summary.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\Jarvis-ShearModulusGv\\ours\\seed_43\\test_summary.json",
+      "bytes": 550,
+      "sha256": "2a0c8d3dd204459a203f469a1d7a0a27edbe73d4b9dd02b04c59e95180384a0b"
+    },
+    {
+      "path": "experiments/main_seed43/runs/Jarvis-ShearModulusGv/ours/seed_43/valid_predictions.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\Jarvis-ShearModulusGv\\ours\\seed_43\\valid_predictions.csv",
+      "bytes": 193909,
+      "sha256": "90e7d44ba6fef9ddddb6b937ddf74ce8d5f71105f406323bb76f5ff54afac3f7"
+    },
+    {
+      "path": "experiments/main_seed43/runs/Jarvis-TotalEnergy/original_sftmat/seed_43/summary.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\Jarvis-TotalEnergy\\original_sftmat\\seed_43\\summary.json",
+      "bytes": 1343,
+      "sha256": "e31aed46f43a80722c3e6daf68bf16772f9080736c4cda2980b43fd33b1e9ada"
+    },
+    {
+      "path": "experiments/main_seed43/runs/Jarvis-TotalEnergy/original_sftmat/seed_43/test_forward_started.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\Jarvis-TotalEnergy\\original_sftmat\\seed_43\\test_forward_started.json",
+      "bytes": 160,
+      "sha256": "bf8318f863c54cc4df8017deab6b06c008da9767d3a89bee7e231165cec9014a"
+    },
+    {
+      "path": "experiments/main_seed43/runs/Jarvis-TotalEnergy/original_sftmat/seed_43/test_summary.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\Jarvis-TotalEnergy\\original_sftmat\\seed_43\\test_summary.json",
+      "bytes": 564,
+      "sha256": "dbcf09085093a87d6b4e49261dcf9309a0b921a1541f30708fa7ae65d8eb65f4"
+    },
+    {
+      "path": "experiments/main_seed43/runs/Jarvis-TotalEnergy/original_sftmat/seed_43/valid_predictions.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\Jarvis-TotalEnergy\\original_sftmat\\seed_43\\valid_predictions.csv",
+      "bytes": 375010,
+      "sha256": "b82dcc3ef45b35d01e395d8042908472f9da1a6a106d4f30e766df057b6a9d23"
+    },
+    {
+      "path": "experiments/main_seed43/runs/Jarvis-TotalEnergy/ours/seed_43/summary.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\Jarvis-TotalEnergy\\ours\\seed_43\\summary.json",
+      "bytes": 1419,
+      "sha256": "40748dab71af2e9685a0f407ca6043a4fcd90d987c6b0a45cd2e077a1e8a9b45"
+    },
+    {
+      "path": "experiments/main_seed43/runs/Jarvis-TotalEnergy/ours/seed_43/test_forward_started.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\Jarvis-TotalEnergy\\ours\\seed_43\\test_forward_started.json",
+      "bytes": 160,
+      "sha256": "b660a43f37729b76cdb012a3a6652d97429087e9868854f7047ac6b560d8b04c"
+    },
+    {
+      "path": "experiments/main_seed43/runs/Jarvis-TotalEnergy/ours/seed_43/test_summary.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\Jarvis-TotalEnergy\\ours\\seed_43\\test_summary.json",
+      "bytes": 550,
+      "sha256": "bfdaadce0ab23303f7a7d7cda079866661b58e77ff9b4b4f26f50db6c10ace78"
+    },
+    {
+      "path": "experiments/main_seed43/runs/Jarvis-TotalEnergy/ours/seed_43/valid_predictions.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\Jarvis-TotalEnergy\\ours\\seed_43\\valid_predictions.csv",
+      "bytes": 594880,
+      "sha256": "bb32533d0733a37253d9b5eb09c0cb303646546bce74287784c4c4287a5877a2"
+    },
+    {
+      "path": "experiments/main_seed43/runs/MP-Bandgap/original_sftmat/seed_43/summary.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\MP-Bandgap\\original_sftmat\\seed_43\\summary.json",
+      "bytes": 1313,
+      "sha256": "be528f8e413b03904a910b6c2b17e69e9790514c4ca96dd128f7c3ce65c6708d"
+    },
+    {
+      "path": "experiments/main_seed43/runs/MP-Bandgap/original_sftmat/seed_43/test_forward_started.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\MP-Bandgap\\original_sftmat\\seed_43\\test_forward_started.json",
+      "bytes": 160,
+      "sha256": "3af7dca88ae817a184b6b7021616d4b71098f72eea915efc1e6c54681d76cd10"
+    },
+    {
+      "path": "experiments/main_seed43/runs/MP-Bandgap/original_sftmat/seed_43/test_summary.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\MP-Bandgap\\original_sftmat\\seed_43\\test_summary.json",
+      "bytes": 551,
+      "sha256": "02157ae0b038976fe6eeca781ec3bc43f8b8bad6f0f56790314135ff94f01ba0"
+    },
+    {
+      "path": "experiments/main_seed43/runs/MP-Bandgap/original_sftmat/seed_43/valid_predictions.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\MP-Bandgap\\original_sftmat\\seed_43\\valid_predictions.csv",
+      "bytes": 245901,
+      "sha256": "5ca8c0f508244ccef222a21390bb9b7da0b95d031038e39ce98e87cc12a27aa9"
+    },
+    {
+      "path": "experiments/main_seed43/runs/MP-Bandgap/ours/seed_43/summary.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\MP-Bandgap\\ours\\seed_43\\summary.json",
+      "bytes": 1678,
+      "sha256": "61ca57664b7643bdc0765fdc8427a58e3dc1e2fe09a0008cb261f2646edb4361"
+    },
+    {
+      "path": "experiments/main_seed43/runs/MP-Bandgap/ours/seed_43/test_forward_started.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\MP-Bandgap\\ours\\seed_43\\test_forward_started.json",
+      "bytes": 160,
+      "sha256": "72b65aa30db673bf7c2c011e71bc0da2f5fe009dd552e627b189239b7a2a3884"
+    },
+    {
+      "path": "experiments/main_seed43/runs/MP-Bandgap/ours/seed_43/test_summary.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\MP-Bandgap\\ours\\seed_43\\test_summary.json",
+      "bytes": 542,
+      "sha256": "a59da3b5e24922b27a1cab2826110d2ce036ffed52f6b034802b123eec8f7e66"
+    },
+    {
+      "path": "experiments/main_seed43/runs/MP-Bandgap/ours/seed_43/valid_predictions.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\MP-Bandgap\\ours\\seed_43\\valid_predictions.csv",
+      "bytes": 401171,
+      "sha256": "b822887e2fa10d17b25916453d9157aacabafdf1aecbca7c4b67349a6e08f2c9"
+    },
+    {
+      "path": "experiments/main_seed43/runs/MP-BulkModuli/original_sftmat/seed_43/summary.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\MP-BulkModuli\\original_sftmat\\seed_43\\summary.json",
+      "bytes": 1332,
+      "sha256": "1391db8008d4539295fb962f948f4c35ebd5e37cab88565bd26119b88385ab7d"
+    },
+    {
+      "path": "experiments/main_seed43/runs/MP-BulkModuli/original_sftmat/seed_43/test_forward_started.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\MP-BulkModuli\\original_sftmat\\seed_43\\test_forward_started.json",
+      "bytes": 160,
+      "sha256": "6932f7b5f20d742d791030fc07b0c3029c0bb4c64ecc1a8e4691fb9ff998cafc"
+    },
+    {
+      "path": "experiments/main_seed43/runs/MP-BulkModuli/original_sftmat/seed_43/test_summary.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\MP-BulkModuli\\original_sftmat\\seed_43\\test_summary.json",
+      "bytes": 556,
+      "sha256": "835e0bc0fb79ac6b9f2f2488eaa7efc2980ffd0fe2e023906b8d82fe7b25d759"
+    },
+    {
+      "path": "experiments/main_seed43/runs/MP-BulkModuli/original_sftmat/seed_43/valid_predictions.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\MP-BulkModuli\\original_sftmat\\seed_43\\valid_predictions.csv",
+      "bytes": 37699,
+      "sha256": "f8288c008f62f217240f8bb36762d7fc04e9c5b4742d3d4389651af2b3c03682"
+    },
+    {
+      "path": "experiments/main_seed43/runs/MP-BulkModuli/ours/seed_43/summary.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\MP-BulkModuli\\ours\\seed_43\\summary.json",
+      "bytes": 1415,
+      "sha256": "bd3da4b91bf67fb6605e0bc75a1a5300aa5ac89d4e09242184469a7d88b415af"
+    },
+    {
+      "path": "experiments/main_seed43/runs/MP-BulkModuli/ours/seed_43/test_forward_started.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\MP-BulkModuli\\ours\\seed_43\\test_forward_started.json",
+      "bytes": 160,
+      "sha256": "f2c575cf02499dfdd69fcb3537e57a670372ac4e7636d5e0f2d82094c93fa3c9"
+    },
+    {
+      "path": "experiments/main_seed43/runs/MP-BulkModuli/ours/seed_43/test_summary.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\MP-BulkModuli\\ours\\seed_43\\test_summary.json",
+      "bytes": 546,
+      "sha256": "f98d0baf5153552d7e3e47b8298e3331bd22f1598bfda29fbad2841bb9285f76"
+    },
+    {
+      "path": "experiments/main_seed43/runs/MP-BulkModuli/ours/seed_43/valid_predictions.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\MP-BulkModuli\\ours\\seed_43\\valid_predictions.csv",
+      "bytes": 60167,
+      "sha256": "2fb3bc3f94441e4d5e12a55b60b58ef9ba5403200abdb80a87aedb5c67d5e2a5"
+    },
+    {
+      "path": "experiments/main_seed43/runs/MP-FormationEnergy/original_sftmat/seed_43/summary.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\MP-FormationEnergy\\original_sftmat\\seed_43\\summary.json",
+      "bytes": 1445,
+      "sha256": "c6109b50a6634daed96e18968e3e78ec2339392bda55bc94b755894eb16ac121"
+    },
+    {
+      "path": "experiments/main_seed43/runs/MP-FormationEnergy/original_sftmat/seed_43/test_forward_started.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\MP-FormationEnergy\\original_sftmat\\seed_43\\test_forward_started.json",
+      "bytes": 160,
+      "sha256": "07e3df2ff4538ce1a6813fab32aee3c3d8d4aa855f1310dde605d3900f3345db"
+    },
+    {
+      "path": "experiments/main_seed43/runs/MP-FormationEnergy/original_sftmat/seed_43/test_summary.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\MP-FormationEnergy\\original_sftmat\\seed_43\\test_summary.json",
+      "bytes": 563,
+      "sha256": "01300123489223010bfa7e3cf718a21db086014d926d0bed2778f00ecd74d7a4"
+    },
+    {
+      "path": "experiments/main_seed43/runs/MP-FormationEnergy/original_sftmat/seed_43/valid_predictions.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\MP-FormationEnergy\\original_sftmat\\seed_43\\valid_predictions.csv",
+      "bytes": 341481,
+      "sha256": "e1986c1ecf9bc1f33f85b488b9fc99630281669295fb00fa44fed638d8a80c07"
+    },
+    {
+      "path": "experiments/main_seed43/runs/MP-FormationEnergy/ours/seed_43/summary.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\MP-FormationEnergy\\ours\\seed_43\\summary.json",
+      "bytes": 1527,
+      "sha256": "9cd0cdb986a7359adb6aae0e2d621afc211de523e412a2e480a987e35d414757"
+    },
+    {
+      "path": "experiments/main_seed43/runs/MP-FormationEnergy/ours/seed_43/test_forward_started.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\MP-FormationEnergy\\ours\\seed_43\\test_forward_started.json",
+      "bytes": 160,
+      "sha256": "9cb03a1e086d366a2244c52d9074ca66f08e4910c0534324e26ddff2d7ad77b7"
+    },
+    {
+      "path": "experiments/main_seed43/runs/MP-FormationEnergy/ours/seed_43/test_summary.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\MP-FormationEnergy\\ours\\seed_43\\test_summary.json",
+      "bytes": 551,
+      "sha256": "3f1cf8809f840a38a1c3ef2b8941d22d0cf1e81b00cca5bebb6c2c7bbd5e1c11"
+    },
+    {
+      "path": "experiments/main_seed43/runs/MP-FormationEnergy/ours/seed_43/valid_predictions.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\MP-FormationEnergy\\ours\\seed_43\\valid_predictions.csv",
+      "bytes": 541464,
+      "sha256": "8f06d9a6fbea5411a159045585baf53a0be2af98aafea11c0b37b6a49c46b6e8"
+    },
+    {
+      "path": "experiments/main_seed43/runs/MP-ShearModuli/original_sftmat/seed_43/summary.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\MP-ShearModuli\\original_sftmat\\seed_43\\summary.json",
+      "bytes": 1332,
+      "sha256": "6efe11a416f028e889d3daea85ea767ecdbaafa39f9fe9be1725ffb28a366f3f"
+    },
+    {
+      "path": "experiments/main_seed43/runs/MP-ShearModuli/original_sftmat/seed_43/test_forward_started.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\MP-ShearModuli\\original_sftmat\\seed_43\\test_forward_started.json",
+      "bytes": 160,
+      "sha256": "d6d841968d43093383cbbfe70d8a7307018b09151dd171f418f9cb8080e02e9a"
+    },
+    {
+      "path": "experiments/main_seed43/runs/MP-ShearModuli/original_sftmat/seed_43/test_summary.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\MP-ShearModuli\\original_sftmat\\seed_43\\test_summary.json",
+      "bytes": 557,
+      "sha256": "36384ed4fcf11b11c040ddc5f83d1e42a3a4994be36cee206da9ff5209239e20"
+    },
+    {
+      "path": "experiments/main_seed43/runs/MP-ShearModuli/original_sftmat/seed_43/valid_predictions.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\MP-ShearModuli\\original_sftmat\\seed_43\\valid_predictions.csv",
+      "bytes": 37579,
+      "sha256": "f4bcd84a94a16b0289d0169144509b6f8c78e5c4d01cd283d432feffc0a17d4c"
+    },
+    {
+      "path": "experiments/main_seed43/runs/MP-ShearModuli/ours/seed_43/summary.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\MP-ShearModuli\\ours\\seed_43\\summary.json",
+      "bytes": 1419,
+      "sha256": "e39de961a3368f237452d43560ebf544593f8eb96c0e9a785a4696927065845b"
+    },
+    {
+      "path": "experiments/main_seed43/runs/MP-ShearModuli/ours/seed_43/test_forward_started.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\MP-ShearModuli\\ours\\seed_43\\test_forward_started.json",
+      "bytes": 160,
+      "sha256": "9a5cb8a268d7a14d048b86463ef46ec4e45a6497779dd5b0fb9801ef2381a468"
+    },
+    {
+      "path": "experiments/main_seed43/runs/MP-ShearModuli/ours/seed_43/test_summary.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\MP-ShearModuli\\ours\\seed_43\\test_summary.json",
+      "bytes": 546,
+      "sha256": "5a17a63ed9dc5d6ac2a8ba3d0f805518910898f92631a537a1187ace5a232985"
+    },
+    {
+      "path": "experiments/main_seed43/runs/MP-ShearModuli/ours/seed_43/valid_predictions.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\runs\\MP-ShearModuli\\ours\\seed_43\\valid_predictions.csv",
+      "bytes": 59977,
+      "sha256": "d2e239077881ddbd06ae6735ac255f909adb7e6871dc0d2baa4e6c36b63e2c7f"
+    },
+    {
+      "path": "experiments/latent/tagif/queue_state.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\tagif_fast_screen_seed42_20260902\\queue_state.json",
+      "bytes": 531,
+      "sha256": "9fa030eed6a0a3ac08a93c1bf7c250fd090ac7e21644b8dcdbe935b3d0f3b6db"
+    },
+    {
+      "path": "experiments/latent/tagif/tagif_diagnostics.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\tagif_fast_screen_seed42_20260902\\tagif_diagnostics.csv",
+      "bytes": 1583,
+      "sha256": "dd51a4d72175bd7486001e6dff18aeebaf2f967b64fc32cab8df31b3376c696c"
+    },
+    {
+      "path": "experiments/latent/tagif/tagif_fast_screen.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\tagif_fast_screen_seed42_20260902\\tagif_fast_screen.csv",
+      "bytes": 1084,
+      "sha256": "578f04ca2cdcf1f6abc092ad0d26ddd96f9d79ccfd6d5bc242c48faef510ba8d"
+    },
+    {
+      "path": "experiments/latent/tagif/tagif_parameter_count.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\tagif_fast_screen_seed42_20260902\\tagif_parameter_count.json",
+      "bytes": 346,
+      "sha256": "bd5fcc3c9d6b54168ebd1e68f1a748ecfb01db7da4e3a76c86220a62fda56fb5"
+    },
+    {
+      "path": "experiments/latent/tagif/tagif_report.md",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\tagif_fast_screen_seed42_20260902\\tagif_report.md",
+      "bytes": 1337,
+      "sha256": "6ced11a7cace421a61cfd239659c77d0ac25b7410c34fde2d25a585f86958e19"
+    },
+    {
+      "path": "experiments/latent/tagif/tagif_selection.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\tagif_fast_screen_seed42_20260902\\tagif_selection.json",
+      "bytes": 314,
+      "sha256": "0cc06119e5e82bb98a12f0a1e530ec218138277f9d5600844f08c3aaa465df27"
+    },
+    {
+      "path": "experiments/latent/tagif/tagif_semantic_controls.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\tagif_fast_screen_seed42_20260902\\tagif_semantic_controls.csv",
+      "bytes": 498,
+      "sha256": "74265aee00ab07b1892dcf69a174679d06a3c8ebdf47a4c15b46d9f00f98fbc1"
+    },
+    {
+      "path": "experiments/latent/tagif/incidents/preflight_scope_false_positive.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\tagif_fast_screen_seed42_20260902\\incidents\\preflight_scope_false_positive.json",
+      "bytes": 926,
+      "sha256": "1a193f7fe1546987c6ea3dd29093226034571d98479ccc1bd805c78ef5ef2bc8"
+    },
+    {
+      "path": "experiments/latent/tagif/incidents/preflight_scope_false_positive_full.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\tagif_fast_screen_seed42_20260902\\incidents\\preflight_scope_false_positive_full.json",
+      "bytes": 926,
+      "sha256": "1a193f7fe1546987c6ea3dd29093226034571d98479ccc1bd805c78ef5ef2bc8"
+    },
+    {
+      "path": "experiments/latent/tagif/logs/Jarvis-Bandgap_MBJ_B0_TokenOnly_seed42_valid.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\tagif_fast_screen_seed42_20260902\\logs\\Jarvis-Bandgap_MBJ_B0_TokenOnly_seed42_valid.log",
+      "bytes": 13088,
+      "sha256": "4ed6636cbb6bf689c8bd7d9d577ed164d84764b0814118c3028744211c9acb96"
+    },
+    {
+      "path": "experiments/latent/tagif/logs/Jarvis-Bandgap_MBJ_B1_NaiveConcat_seed42_valid.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\tagif_fast_screen_seed42_20260902\\logs\\Jarvis-Bandgap_MBJ_B1_NaiveConcat_seed42_valid.log",
+      "bytes": 13317,
+      "sha256": "5b00379c05ccdc59662a2bb0e02ddc9a255bbc5a54dec99c735b7d23dde7fb3a"
+    },
+    {
+      "path": "experiments/latent/tagif/logs/Jarvis-Bandgap_MBJ_P1_TAGIF_seed42_valid.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\tagif_fast_screen_seed42_20260902\\logs\\Jarvis-Bandgap_MBJ_P1_TAGIF_seed42_valid.log",
+      "bytes": 13384,
+      "sha256": "62fa050a34d86f76ab2426ac489b2090f5005481528b927b8f2c4cbe8a768635"
+    },
+    {
+      "path": "experiments/latent/tagif/logs/MP-Bandgap_B0_TokenOnly_seed42_valid.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\tagif_fast_screen_seed42_20260902\\logs\\MP-Bandgap_B0_TokenOnly_seed42_valid.log",
+      "bytes": 12401,
+      "sha256": "9b0dffa01f4f0a8d7bd81fc622ab5f58fdfdc9743766e898da2b2801a8789b60"
+    },
+    {
+      "path": "experiments/latent/tagif/logs/MP-Bandgap_B1_NaiveConcat_seed42_valid.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\tagif_fast_screen_seed42_20260902\\logs\\MP-Bandgap_B1_NaiveConcat_seed42_valid.log",
+      "bytes": 12632,
+      "sha256": "cb6b2ce593eb16c5598f0adcf65b730ef29efcdfba10902d26c09865480f4247"
+    },
+    {
+      "path": "experiments/latent/tagif/logs/MP-Bandgap_P1_TAGIF_seed42_valid.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\tagif_fast_screen_seed42_20260902\\logs\\MP-Bandgap_P1_TAGIF_seed42_valid.log",
+      "bytes": 12701,
+      "sha256": "2b94cf4b37b1a1af2e44ce3dd62896cd7b2b4b217ea6ca07e8e6a96eabeeb9ab"
+    },
+    {
+      "path": "experiments/latent/tagif/logs/summarize.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\tagif_fast_screen_seed42_20260902\\logs\\summarize.log",
+      "bytes": 506,
+      "sha256": "832e063c4b787b759846b6170a57bb67986d23ef23ff6bf2bc8f23776142bbae"
+    },
+    {
+      "path": "experiments/latent/tagif/logs/cache/Jarvis-Bandgap_MBJ_valid_preflight.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\tagif_fast_screen_seed42_20260902\\logs\\cache\\Jarvis-Bandgap_MBJ_valid_preflight.log",
+      "bytes": 6544,
+      "sha256": "da38f72447d97137511c37a6757e37abf697f550cc074808ef4e8abedb8bd08f"
+    },
+    {
+      "path": "experiments/latent/tagif/logs/cache/Jarvis-Bandgap_MBJ_valid_token_cache.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\tagif_fast_screen_seed42_20260902\\logs\\cache\\Jarvis-Bandgap_MBJ_valid_token_cache.log",
+      "bytes": 4408,
+      "sha256": "f0e60525d6803cb60318fc0f9fa6d57ba9030f6a98a3f5d2f84a2e375273548b"
+    },
+    {
+      "path": "experiments/latent/tagif/logs/cache/MP-Bandgap_valid_preflight.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\tagif_fast_screen_seed42_20260902\\logs\\cache\\MP-Bandgap_valid_preflight.log",
+      "bytes": 4688,
+      "sha256": "c3de8e7628cb170a083d4441140666f20691bdf0da9031a8d9bd57586fd9ba6a"
+    },
+    {
+      "path": "experiments/latent/tagif/logs/cache/MP-Bandgap_valid_token_cache.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\tagif_fast_screen_seed42_20260902\\logs\\cache\\MP-Bandgap_valid_token_cache.log",
+      "bytes": 3776,
+      "sha256": "862be210732e1eba08d8e9f9f3abb8bec5586cdfbd277f90752b76f33438492e"
+    },
+    {
+      "path": "experiments/latent/gcta/completion_status.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\completion_status.json",
+      "bytes": 852,
+      "sha256": "7b20da68ac488456345d582f79e27ed7f68268a3fbf1b9549a49a4e0e8541432"
+    },
+    {
+      "path": "experiments/latent/gcta/gcta_attention_diagnostics.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\gcta_attention_diagnostics.csv",
+      "bytes": 1101,
+      "sha256": "6159eb7985c42ab1eb834083c443fc1f905d75f66600066e9c329af2403032c8"
+    },
+    {
+      "path": "experiments/latent/gcta/gcta_fast_screen.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\gcta_fast_screen.csv",
+      "bytes": 763,
+      "sha256": "63787cd02c1722c4cf22f890cc48a8ef59e657b1f039ee9095198824a06ad20f"
+    },
+    {
+      "path": "experiments/latent/gcta/gcta_parameter_count.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\gcta_parameter_count.json",
+      "bytes": 314,
+      "sha256": "f804a907007784b665cd35b697fef716a30c94100df0294b0d8370a20f3d478c"
+    },
+    {
+      "path": "experiments/latent/gcta/gcta_query_controls.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\gcta_query_controls.csv",
+      "bytes": 835,
+      "sha256": "0fe659ee4f6cdee06f578c1eacd9d0f4fcc73b8d3ca34d69da59b4686b4a5f84"
+    },
+    {
+      "path": "experiments/latent/gcta/gcta_report.md",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\gcta_report.md",
+      "bytes": 1188,
+      "sha256": "b4eb756794ef23aed0c1d9c3408e2666d921af839b27d639dae9114e8d62b3cf"
+    },
+    {
+      "path": "experiments/latent/gcta/gcta_selection.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\gcta_selection.json",
+      "bytes": 302,
+      "sha256": "96862a9dcb00c53fb0ae33e3ea112f20d5ac33f1b1153e1fccc6660f89532268"
+    },
+    {
+      "path": "experiments/latent/gcta/gcta_verification.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\gcta_verification.json",
+      "bytes": 7796,
+      "sha256": "b4645d200833ab4283031acc5407b2c8bee493ff40e0bb1d3f05922214038889"
+    },
+    {
+      "path": "experiments/latent/gcta/interim_analysis_20260905.md",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\interim_analysis_20260905.md",
+      "bytes": 4606,
+      "sha256": "0ff8bde931341b413aaa5897cdb63df1932912b58c36f333b13d888e28cce075"
+    },
+    {
+      "path": "experiments/latent/gcta/queue_launch.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\queue_launch.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/latent/gcta/queue_state.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\queue_state.json",
+      "bytes": 509,
+      "sha256": "41f42b7bc1aa797beee1707ce47cebd0802ce39e4a550634cf70b7890e3e7777"
+    },
+    {
+      "path": "experiments/latent/gcta/control_repair/cache_state.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\control_repair\\cache_state.json",
+      "bytes": 297,
+      "sha256": "a47b97d9a571fb87255a93d0d8eb7d3d6ee0493ef8bb5ad36e8930ec9e0a9116"
+    },
+    {
+      "path": "experiments/latent/gcta/control_repair/logs/Jarvis-Bandgap_MBJ_valid_preflight.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\control_repair\\logs\\Jarvis-Bandgap_MBJ_valid_preflight.log",
+      "bytes": 4275,
+      "sha256": "a136781af6652a8c2fb0cb255221fdc34b4c748bf5c619b0897f831bbde02e85"
+    },
+    {
+      "path": "experiments/latent/gcta/control_repair/logs/Jarvis-Bandgap_MBJ_valid_token_cache.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\control_repair\\logs\\Jarvis-Bandgap_MBJ_valid_token_cache.log",
+      "bytes": 2311,
+      "sha256": "1f1c0bd6f77acdf1730ef4197b9136e8260de23f271fa0f66b1dc49f1d0d7c23"
+    },
+    {
+      "path": "experiments/latent/gcta/control_repair/logs/MP-Bandgap_valid_preflight.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\control_repair\\logs\\MP-Bandgap_valid_preflight.log",
+      "bytes": 4206,
+      "sha256": "ee865852e31f2519f23a2f2d9861be7ca346ea4eccac423baede279330daabb4"
+    },
+    {
+      "path": "experiments/latent/gcta/control_repair/logs/MP-Bandgap_valid_token_cache.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\control_repair\\logs\\MP-Bandgap_valid_token_cache.log",
+      "bytes": 3883,
+      "sha256": "279070aa065571d2537685fdf49ec08b06c812763fe0af74b644a2a3ef79e3cb"
+    },
+    {
+      "path": "experiments/latent/gcta/control_repair/preflight/Jarvis-Bandgap_MBJ.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\control_repair\\preflight\\Jarvis-Bandgap_MBJ.json",
+      "bytes": 3502,
+      "sha256": "388060b25e0a5ed0f78902df614e2be3c55122d342c9a83b7a636c1e5a0a65ad"
+    },
+    {
+      "path": "experiments/latent/gcta/control_repair/preflight/MP-Bandgap.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\control_repair\\preflight\\MP-Bandgap.json",
+      "bytes": 3461,
+      "sha256": "6fa141833117418b01f1c2dbc5f5938da161ccdcc257a15747d3c3ad6bad823f"
+    },
+    {
+      "path": "experiments/latent/gcta/control_repair/source_manifests/Jarvis-Bandgap_MBJ.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\control_repair\\source_manifests\\Jarvis-Bandgap_MBJ.json",
+      "bytes": 740,
+      "sha256": "93b399cb476f576b2ec415bd1b19213f52a7ab28846f2c355d18abe9fec2d932"
+    },
+    {
+      "path": "experiments/latent/gcta/control_repair/source_manifests/MP-Bandgap.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\control_repair\\source_manifests\\MP-Bandgap.json",
+      "bytes": 1956,
+      "sha256": "e7b8faa8f9b463d3c2c412ff05d14709cdfdc75ffe3abf8f0086ab51b43dbff5"
+    },
+    {
+      "path": "experiments/latent/gcta/logs/Jarvis-Bandgap_MBJ_B1_NaiveConcat_seed42_valid.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\logs\\Jarvis-Bandgap_MBJ_B1_NaiveConcat_seed42_valid.log",
+      "bytes": 15969,
+      "sha256": "2c378e97426b4411661465691c6a5b3acbb2ff93b6d2a5f334689d43dbf1e2f5"
+    },
+    {
+      "path": "experiments/latent/gcta/logs/Jarvis-Bandgap_MBJ_P2_GCTA_seed42_valid.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\logs\\Jarvis-Bandgap_MBJ_P2_GCTA_seed42_valid.log",
+      "bytes": 15751,
+      "sha256": "c1bf2927cea4b341f273ea7c23be2f3ba5210b01ebd67bfcc415e74c007ba2cd"
+    },
+    {
+      "path": "experiments/latent/gcta/logs/MP-Bandgap_B1_NaiveConcat_seed42_valid.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\logs\\MP-Bandgap_B1_NaiveConcat_seed42_valid.log",
+      "bytes": 15112,
+      "sha256": "0c7b4ff3aefc03eaf7d02b7422928acfeef9a4233b758ea7c040b4f57702c66b"
+    },
+    {
+      "path": "experiments/latent/gcta/logs/MP-Bandgap_P2_GCTA_seed42_valid.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\logs\\MP-Bandgap_P2_GCTA_seed42_valid.log",
+      "bytes": 14913,
+      "sha256": "028d09535224950b6401864a75857760aa68d14900e4ee45654df11519d0de54"
+    },
+    {
+      "path": "experiments/latent/gcta/logs/summarize.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\logs\\summarize.log",
+      "bytes": 1215,
+      "sha256": "1c84f7cc8ac5528e90711795b41c02dbd6ac41de5e896ebd9c5e308b572fa264"
+    },
+    {
+      "path": "experiments/latent/gcta/logs/cache/Jarvis-Bandgap_MBJ_valid_preflight.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\logs\\cache\\Jarvis-Bandgap_MBJ_valid_preflight.log",
+      "bytes": 4229,
+      "sha256": "08e5aaebf9df8ed7cc2b4e7deb5d9eb02f7d8245483b0c6473f94925f5690bad"
+    },
+    {
+      "path": "experiments/latent/gcta/logs/cache/Jarvis-Bandgap_MBJ_valid_token_cache.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\logs\\cache\\Jarvis-Bandgap_MBJ_valid_token_cache.log",
+      "bytes": 2266,
+      "sha256": "b2a4da2018f89e892f947567457cacc2b15c6fee0e5c496aaad88434a685fb45"
+    },
+    {
+      "path": "experiments/latent/gcta/logs/cache/MP-Bandgap_valid_preflight.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\logs\\cache\\MP-Bandgap_valid_preflight.log",
+      "bytes": 4161,
+      "sha256": "26291acbf3c006c9ec173c08501e951443a211ffa0fa201c413aa348f9b6d49f"
+    },
+    {
+      "path": "experiments/latent/gcta/logs/cache/MP-Bandgap_valid_token_cache.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\logs\\cache\\MP-Bandgap_valid_token_cache.log",
+      "bytes": 3838,
+      "sha256": "0282513a401db7e4003ef5e96312531da7a0cef8747a8586a7be4bd841ec4a28"
+    },
+    {
+      "path": "experiments/latent/gcta/preflight/Jarvis-Bandgap_MBJ.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\preflight\\Jarvis-Bandgap_MBJ.json",
+      "bytes": 3501,
+      "sha256": "c516e1398469aa1d45aa2ca61ac3cda79f8fa76f16853c28d786d03bca0b1825"
+    },
+    {
+      "path": "experiments/latent/gcta/preflight/MP-Bandgap.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\preflight\\MP-Bandgap.json",
+      "bytes": 3461,
+      "sha256": "766978598ea7031699d9f69b42b22291a06cc20cdce235cb04b83114a19ba15d"
+    },
+    {
+      "path": "experiments/latent/gcta/runs/Jarvis-Bandgap_MBJ/B1_NaiveConcat/seed_42/summary.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\runs\\Jarvis-Bandgap_MBJ\\B1_NaiveConcat\\seed_42\\summary.json",
+      "bytes": 1671,
+      "sha256": "74e4053f9ee7b76776eb87465ae9e6c9a46663e0c94150d199684de1a03cf929"
+    },
+    {
+      "path": "experiments/latent/gcta/runs/Jarvis-Bandgap_MBJ/B1_NaiveConcat/seed_42/valid_predictions.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\runs\\Jarvis-Bandgap_MBJ\\B1_NaiveConcat\\seed_42\\valid_predictions.csv",
+      "bytes": 5024370,
+      "sha256": "48adb086a21f1d3e2e798dd257dc976582a9017b7bed3e387e50021a87557f7a"
+    },
+    {
+      "path": "experiments/latent/gcta/runs/Jarvis-Bandgap_MBJ/P2_GCTA/seed_42/normal_control_corrected.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\runs\\Jarvis-Bandgap_MBJ\\P2_GCTA\\seed_42\\normal_control_corrected.csv",
+      "bytes": 5017535,
+      "sha256": "78d36c6eb8995686f2221fd1e5f05a1bfa2f21d9ffbff9e662d5b5479f04aaaa"
+    },
+    {
+      "path": "experiments/latent/gcta/runs/Jarvis-Bandgap_MBJ/P2_GCTA/seed_42/query_cls_shuffled_control_corrected.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\runs\\Jarvis-Bandgap_MBJ\\P2_GCTA\\seed_42\\query_cls_shuffled_control_corrected.csv",
+      "bytes": 5039401,
+      "sha256": "a4f9c8d88f2e402248076d3cc96a813a0c22ad4faab1559a2b273f363f97dcf7"
+    },
+    {
+      "path": "experiments/latent/gcta/runs/Jarvis-Bandgap_MBJ/P2_GCTA/seed_42/query_cls_zero_control_corrected.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\runs\\Jarvis-Bandgap_MBJ\\P2_GCTA\\seed_42\\query_cls_zero_control_corrected.csv",
+      "bytes": 5023852,
+      "sha256": "9f6c5f96d5297fd759237885157442e85e66978f6de7211dc1f889ceea6863bd"
+    },
+    {
+      "path": "experiments/latent/gcta/runs/Jarvis-Bandgap_MBJ/P2_GCTA/seed_42/query_controls.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\runs\\Jarvis-Bandgap_MBJ\\P2_GCTA\\seed_42\\query_controls.json",
+      "bytes": 394,
+      "sha256": "41b50dc1788c5e3f6931dde94f98205b5c53041b41ec91da36f05193026b9100"
+    },
+    {
+      "path": "experiments/latent/gcta/runs/Jarvis-Bandgap_MBJ/P2_GCTA/seed_42/query_controls_corrected.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\runs\\Jarvis-Bandgap_MBJ\\P2_GCTA\\seed_42\\query_controls_corrected.json",
+      "bytes": 652,
+      "sha256": "3c71650dfff88ac1989c8731ff60427b66d6c5c5799614eae3158391ae07734a"
+    },
+    {
+      "path": "experiments/latent/gcta/runs/Jarvis-Bandgap_MBJ/P2_GCTA/seed_42/summary.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\runs\\Jarvis-Bandgap_MBJ\\P2_GCTA\\seed_42\\summary.json",
+      "bytes": 2176,
+      "sha256": "886401fadf168ba596d8568712f86f51dfcbf7b2b06e5e9026557b3f11ded31d"
+    },
+    {
+      "path": "experiments/latent/gcta/runs/Jarvis-Bandgap_MBJ/P2_GCTA/seed_42/valid_predictions.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\runs\\Jarvis-Bandgap_MBJ\\P2_GCTA\\seed_42\\valid_predictions.csv",
+      "bytes": 5017410,
+      "sha256": "77df4b9a07759ff966514537faa203bf8aa68eedf72b32cd6146b1a9c2ca7d4f"
+    },
+    {
+      "path": "experiments/latent/gcta/runs/MP-Bandgap/B1_NaiveConcat/seed_42/summary.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\runs\\MP-Bandgap\\B1_NaiveConcat\\seed_42\\summary.json",
+      "bytes": 1653,
+      "sha256": "3d6b544514e9f62cfef5b0a62b25a8246372900e7485a159aae44b64ccc308f2"
+    },
+    {
+      "path": "experiments/latent/gcta/runs/MP-Bandgap/B1_NaiveConcat/seed_42/valid_predictions.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\runs\\MP-Bandgap\\B1_NaiveConcat\\seed_42\\valid_predictions.csv",
+      "bytes": 14143669,
+      "sha256": "90e761ab456f7560b3912d8d5b9bca016565ed99b0887a4f13d018470487fd0e"
+    },
+    {
+      "path": "experiments/latent/gcta/runs/MP-Bandgap/P2_GCTA/seed_42/normal_control_corrected.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\runs\\MP-Bandgap\\P2_GCTA\\seed_42\\normal_control_corrected.csv",
+      "bytes": 14121124,
+      "sha256": "cb84a60e032ed5475b909b82433547409d0886bdf3f076910e6e5a4201d67be1"
+    },
+    {
+      "path": "experiments/latent/gcta/runs/MP-Bandgap/P2_GCTA/seed_42/query_cls_shuffled_control_corrected.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\runs\\MP-Bandgap\\P2_GCTA\\seed_42\\query_cls_shuffled_control_corrected.csv",
+      "bytes": 14182954,
+      "sha256": "859dcd1367a828b4a0288d4eea99839a81d91b6bbce019e01a7273c2b491556c"
+    },
+    {
+      "path": "experiments/latent/gcta/runs/MP-Bandgap/P2_GCTA/seed_42/query_cls_zero_control_corrected.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\runs\\MP-Bandgap\\P2_GCTA\\seed_42\\query_cls_zero_control_corrected.csv",
+      "bytes": 14167019,
+      "sha256": "cb094a2700d2b3a90d8fa5b130e2a648e3986ca0724be4d5b72488e708eb21b6"
+    },
+    {
+      "path": "experiments/latent/gcta/runs/MP-Bandgap/P2_GCTA/seed_42/query_controls.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\runs\\MP-Bandgap\\P2_GCTA\\seed_42\\query_controls.json",
+      "bytes": 396,
+      "sha256": "f403cbd7a3803b24e1dbd1c122d350dd253bb453e0b2becca3f650e815674bbd"
+    },
+    {
+      "path": "experiments/latent/gcta/runs/MP-Bandgap/P2_GCTA/seed_42/query_controls_corrected.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\runs\\MP-Bandgap\\P2_GCTA\\seed_42\\query_controls_corrected.json",
+      "bytes": 653,
+      "sha256": "e5959f4a4ffba5d7b40404e4162c401b8ba30c0f210694423cae00405eee2859"
+    },
+    {
+      "path": "experiments/latent/gcta/runs/MP-Bandgap/P2_GCTA/seed_42/summary.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\runs\\MP-Bandgap\\P2_GCTA\\seed_42\\summary.json",
+      "bytes": 2165,
+      "sha256": "737fa04db5caf64fcf4fe7b36f0094bad0a3c4cf32e4f9000d24112182f30a5e"
+    },
+    {
+      "path": "experiments/latent/gcta/runs/MP-Bandgap/P2_GCTA/seed_42/valid_predictions.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\runs\\MP-Bandgap\\P2_GCTA\\seed_42\\valid_predictions.csv",
+      "bytes": 14120763,
+      "sha256": "1156d73c96d7cee7fff7463997402f1fddea1e64f112f9998cdbb8a1078fa285"
+    },
+    {
+      "path": "experiments/latent/gcta/source_code/check_gcta_query_zero.py",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\source_code\\check_gcta_query_zero.py",
+      "bytes": 3042,
+      "sha256": "955083edb5f37b2085207d273145ac4bc371137053a2514b6387265bd613f154"
+    },
+    {
+      "path": "experiments/latent/gcta/source_code/run_gcta_fast_queue.py",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\source_code\\run_gcta_fast_queue.py",
+      "bytes": 9658,
+      "sha256": "7b94cef902c8323215b047ace97986e0a64a4ab9aabc277fef56c386bc579282"
+    },
+    {
+      "path": "experiments/latent/gcta/source_code/run_gcta_fast_screen.pre_query_zero_fix.py",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\source_code\\run_gcta_fast_screen.pre_query_zero_fix.py",
+      "bytes": 46356,
+      "sha256": "a3a5f5e5a6dfb19e6d3a6c264eef1fe63ce6b740e5042346bec0d81c24a99b16"
+    },
+    {
+      "path": "experiments/latent/gcta/source_code/run_gcta_fast_screen.py",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\source_code\\run_gcta_fast_screen.py",
+      "bytes": 51529,
+      "sha256": "e7d3750e9ed7b313fb1d54aab668ef0d138882323a4c5f14ce2c04e1f0fb9136"
+    },
+    {
+      "path": "experiments/latent/gcta/source_code/verify_gcta_outputs.py",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\source_code\\verify_gcta_outputs.py",
+      "bytes": 7264,
+      "sha256": "d93dc2460463c76419d241e8b7ec41b5fa1a054666b44999117646470f933dcd"
+    },
+    {
+      "path": "experiments/latent/gcta/source_manifests/Jarvis-Bandgap_MBJ.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\source_manifests\\Jarvis-Bandgap_MBJ.json",
+      "bytes": 740,
+      "sha256": "93b399cb476f576b2ec415bd1b19213f52a7ab28846f2c355d18abe9fec2d932"
+    },
+    {
+      "path": "experiments/latent/gcta/source_manifests/MP-Bandgap.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\source_manifests\\MP-Bandgap.json",
+      "bytes": 1956,
+      "sha256": "e7b8faa8f9b463d3c2c412ff05d14709cdfdc75ffe3abf8f0086ab51b43dbff5"
+    },
+    {
+      "path": "experiments/latent/gctr/gctr_fast_screen.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gctr_fast_screen_seed42_20260906\\gctr_fast_screen.csv",
+      "bytes": 747,
+      "sha256": "d7ff04845ea12aeb5d83d0497b8b4b2b4c17731e1ea480efb836b570bf88ef3f"
+    },
+    {
+      "path": "experiments/latent/gctr/gctr_film_diagnostics.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gctr_fast_screen_seed42_20260906\\gctr_film_diagnostics.csv",
+      "bytes": 1188,
+      "sha256": "f2a4f73dab8475ba3d364c3eb34bc8744d9594bb248393bdcafbd727fa8aa965"
+    },
+    {
+      "path": "experiments/latent/gctr/gctr_parameter_count.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gctr_fast_screen_seed42_20260906\\gctr_parameter_count.json",
+      "bytes": 314,
+      "sha256": "1bcfb4d89413bc53f518853ef09fb5c71b192e235fa9353f2c906bae09b90e25"
+    },
+    {
+      "path": "experiments/latent/gctr/gctr_report.md",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gctr_fast_screen_seed42_20260906\\gctr_report.md",
+      "bytes": 1661,
+      "sha256": "bab78bfcbdec4ca6728bc06127c8e3c593428210705e4eedc19c468478b6e70c"
+    },
+    {
+      "path": "experiments/latent/gctr/gctr_selection.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gctr_fast_screen_seed42_20260906\\gctr_selection.json",
+      "bytes": 302,
+      "sha256": "243e4c98ea8040839a8fb611880c5b63e92f77e3ac9ef0b20306d7d81ff99d27"
+    },
+    {
+      "path": "experiments/latent/gctr/gctr_semantic_control.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gctr_fast_screen_seed42_20260906\\gctr_semantic_control.csv",
+      "bytes": 902,
+      "sha256": "42deaafb4e2872adf7e28196f3d4dbe65f6e823bc5f276537c665b012edfdd47"
+    },
+    {
+      "path": "experiments/latent/gctr/queue.nohup.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gctr_fast_screen_seed42_20260906\\queue.nohup.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/latent/gctr/queue_state.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gctr_fast_screen_seed42_20260906\\queue_state.json",
+      "bytes": 509,
+      "sha256": "3a0fff348452fd3750e074bb0a9a12fb70e826abe46addec09363d671d372ccf"
+    },
+    {
+      "path": "experiments/latent/gctr/logs/Jarvis-Bandgap_MBJ_B1_NaiveConcat_seed42_valid.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gctr_fast_screen_seed42_20260906\\logs\\Jarvis-Bandgap_MBJ_B1_NaiveConcat_seed42_valid.log",
+      "bytes": 16213,
+      "sha256": "4d273a49b0d0425d605044db9fa3e739d37f34f483c3e27a773c13b19b15ebf9"
+    },
+    {
+      "path": "experiments/latent/gctr/logs/Jarvis-Bandgap_MBJ_P3_GCTR_seed42_valid.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gctr_fast_screen_seed42_20260906\\logs\\Jarvis-Bandgap_MBJ_P3_GCTR_seed42_valid.log",
+      "bytes": 16192,
+      "sha256": "30d784b992df8cd6a479a4e3d945fc908f7c1ed26d3de21d018916449b790603"
+    },
+    {
+      "path": "experiments/latent/gctr/logs/MP-Bandgap_B1_NaiveConcat_seed42_valid.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gctr_fast_screen_seed42_20260906\\logs\\MP-Bandgap_B1_NaiveConcat_seed42_valid.log",
+      "bytes": 15363,
+      "sha256": "b199e94862ed20df3e08deda7244bcb2156b12981990aa30d133988c1e67624a"
+    },
+    {
+      "path": "experiments/latent/gctr/logs/MP-Bandgap_P3_GCTR_seed42_valid.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gctr_fast_screen_seed42_20260906\\logs\\MP-Bandgap_P3_GCTR_seed42_valid.log",
+      "bytes": 15333,
+      "sha256": "5943fc529f5c8d8426586277f717f82050ff5e5948fd358064b8ad8c0655bbf8"
+    },
+    {
+      "path": "experiments/latent/gctr/logs/summarize.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gctr_fast_screen_seed42_20260906\\logs\\summarize.log",
+      "bytes": 557,
+      "sha256": "6b9829718030ed0a94e7c30a5ca95a899dd4c5129b1dc660775a4b4e7257ea90"
+    },
+    {
+      "path": "experiments/latent/gctr/logs/cache/Jarvis-Bandgap_MBJ_valid_preflight.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gctr_fast_screen_seed42_20260906\\logs\\cache\\Jarvis-Bandgap_MBJ_valid_preflight.log",
+      "bytes": 4301,
+      "sha256": "36045ea2470ed07dcbd36afe10d8237da44fd8df6ee02082a4024a71ac926eac"
+    },
+    {
+      "path": "experiments/latent/gctr/logs/cache/Jarvis-Bandgap_MBJ_valid_token_cache.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gctr_fast_screen_seed42_20260906\\logs\\cache\\Jarvis-Bandgap_MBJ_valid_token_cache.log",
+      "bytes": 2266,
+      "sha256": "3cd77491f0043017b6d8befa82000438d7e6c3177b35b4806ae0837cd4f86afb"
+    },
+    {
+      "path": "experiments/latent/gctr/logs/cache/MP-Bandgap_valid_preflight.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gctr_fast_screen_seed42_20260906\\logs\\cache\\MP-Bandgap_valid_preflight.log",
+      "bytes": 4232,
+      "sha256": "77e4c1adebe5d5a281e4503cd942c6bf8514eab7addd3cbd3ba1abf9196538dc"
+    },
+    {
+      "path": "experiments/latent/gctr/logs/cache/MP-Bandgap_valid_token_cache.log",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gctr_fast_screen_seed42_20260906\\logs\\cache\\MP-Bandgap_valid_token_cache.log",
+      "bytes": 3838,
+      "sha256": "9bad7696327413385ce961750c0484d795e6fd0797b7b115d323aa760e9d41ca"
+    },
+    {
+      "path": "experiments/latent/gctr/preflight/Jarvis-Bandgap_MBJ.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gctr_fast_screen_seed42_20260906\\preflight\\Jarvis-Bandgap_MBJ.json",
+      "bytes": 3573,
+      "sha256": "3eaad226bd380a4b37d3bc4886da528d981e78b67d82c5c355b17afcf2241f90"
+    },
+    {
+      "path": "experiments/latent/gctr/preflight/MP-Bandgap.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gctr_fast_screen_seed42_20260906\\preflight\\MP-Bandgap.json",
+      "bytes": 3532,
+      "sha256": "2829be746ee8e8eba01bc47403fe99a610b516a31c95564065cc2f4c34f27c5a"
+    },
+    {
+      "path": "experiments/latent/gctr/runs/Jarvis-Bandgap_MBJ/B1_NaiveConcat/seed_42/summary.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gctr_fast_screen_seed42_20260906\\runs\\Jarvis-Bandgap_MBJ\\B1_NaiveConcat\\seed_42\\summary.json",
+      "bytes": 1920,
+      "sha256": "a47f7bc761df0d3ee71aac8fc19ccdef5855138e586dcd32e714fe8707a9c2de"
+    },
+    {
+      "path": "experiments/latent/gctr/runs/Jarvis-Bandgap_MBJ/B1_NaiveConcat/seed_42/valid_predictions.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gctr_fast_screen_seed42_20260906\\runs\\Jarvis-Bandgap_MBJ\\B1_NaiveConcat\\seed_42\\valid_predictions.csv",
+      "bytes": 5028906,
+      "sha256": "ab37dcd99bf54fb3cbb205f2ccb2bfe91b4125a0cc90e03eb0ff52b141737422"
+    },
+    {
+      "path": "experiments/latent/gctr/runs/Jarvis-Bandgap_MBJ/P3_GCTR/seed_42/film_controls.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gctr_fast_screen_seed42_20260906\\runs\\Jarvis-Bandgap_MBJ\\P3_GCTR\\seed_42\\film_controls.json",
+      "bytes": 479,
+      "sha256": "44930e629aa77dc1fdfd8025fbd45edb380660ab0a10ba839ac4b1cfd8d873a7"
+    },
+    {
+      "path": "experiments/latent/gctr/runs/Jarvis-Bandgap_MBJ/P3_GCTR/seed_42/summary.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gctr_fast_screen_seed42_20260906\\runs\\Jarvis-Bandgap_MBJ\\P3_GCTR\\seed_42\\summary.json",
+      "bytes": 2605,
+      "sha256": "8e614d7a467dd4d495fe29beafb26cfdd92e3008b107b05a0e2e2d3a8f824afb"
+    },
+    {
+      "path": "experiments/latent/gctr/runs/Jarvis-Bandgap_MBJ/P3_GCTR/seed_42/valid_predictions.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gctr_fast_screen_seed42_20260906\\runs\\Jarvis-Bandgap_MBJ\\P3_GCTR\\seed_42\\valid_predictions.csv",
+      "bytes": 5026482,
+      "sha256": "488d6a8c05d1c5f74ee93bca9b1ea79cf69478329c2e33f466faba8f487ceb6b"
+    },
+    {
+      "path": "experiments/latent/gctr/runs/MP-Bandgap/B1_NaiveConcat/seed_42/summary.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gctr_fast_screen_seed42_20260906\\runs\\MP-Bandgap\\B1_NaiveConcat\\seed_42\\summary.json",
+      "bytes": 1905,
+      "sha256": "3d05431e08c7324ed946364a9667afc4a025d6f2fb747cee005bd6e2cc8a5232"
+    },
+    {
+      "path": "experiments/latent/gctr/runs/MP-Bandgap/B1_NaiveConcat/seed_42/valid_predictions.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gctr_fast_screen_seed42_20260906\\runs\\MP-Bandgap\\B1_NaiveConcat\\seed_42\\valid_predictions.csv",
+      "bytes": 14130471,
+      "sha256": "50e2da1ee147f0c05490dffdd7f769d4e4300ea1888dcce65cf9323e8af7cd66"
+    },
+    {
+      "path": "experiments/latent/gctr/runs/MP-Bandgap/P3_GCTR/seed_42/film_controls.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gctr_fast_screen_seed42_20260906\\runs\\MP-Bandgap\\P3_GCTR\\seed_42\\film_controls.json",
+      "bytes": 478,
+      "sha256": "e97037b13b72d9b7e283bf8a31470965a19ec64326699f71a422128832f6dff9"
+    },
+    {
+      "path": "experiments/latent/gctr/runs/MP-Bandgap/P3_GCTR/seed_42/summary.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gctr_fast_screen_seed42_20260906\\runs\\MP-Bandgap\\P3_GCTR\\seed_42\\summary.json",
+      "bytes": 2586,
+      "sha256": "7a5e56628533ec3f4d1c18afbb5a137cdfd9592e2a19763feac8d1228adfbde9"
+    },
+    {
+      "path": "experiments/latent/gctr/runs/MP-Bandgap/P3_GCTR/seed_42/valid_predictions.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gctr_fast_screen_seed42_20260906\\runs\\MP-Bandgap\\P3_GCTR\\seed_42\\valid_predictions.csv",
+      "bytes": 14120373,
+      "sha256": "f58b23dcd8dc93e0846755d1c2432ddcfd5cf5833b918d7fdce57b74a6887ada"
+    },
+    {
+      "path": "experiments/latent/gctr/source_manifests/Jarvis-Bandgap_MBJ.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gctr_fast_screen_seed42_20260906\\source_manifests\\Jarvis-Bandgap_MBJ.json",
+      "bytes": 740,
+      "sha256": "93b399cb476f576b2ec415bd1b19213f52a7ab28846f2c355d18abe9fec2d932"
+    },
+    {
+      "path": "experiments/latent/gctr/source_manifests/MP-Bandgap.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gctr_fast_screen_seed42_20260906\\source_manifests\\MP-Bandgap.json",
+      "bytes": 1956,
+      "sha256": "e7b8faa8f9b463d3c2c412ff05d14709cdfdc75ffe3abf8f0086ab51b43dbff5"
+    },
+    {
+      "path": "experiments/validation_complementarity_seed42/analyze_complementarity.py",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\error_complementarity_seed42_20260822\\analyze_complementarity.py",
+      "bytes": 5867,
+      "sha256": "59847f3feff0af61c40b9ce6d0829f4f28973dd544cdbb0029f790f7055f8dca"
+    },
+    {
+      "path": "experiments/validation_complementarity_seed42/disagreement_quintiles.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\error_complementarity_seed42_20260822\\disagreement_quintiles.csv",
+      "bytes": 1562,
+      "sha256": "be1f9b0831d9a4e845b3dbb1ab45585606cadba419355ccfe8cf806cfd8d1467"
+    },
+    {
+      "path": "experiments/validation_complementarity_seed42/error_complementarity_report.md",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\error_complementarity_seed42_20260822\\error_complementarity_report.md",
+      "bytes": 1113,
+      "sha256": "ffb2de45ab4cdd5f47080c87169e381e8dd54a3bc85ab5b72ce67926e11ebd94"
+    },
+    {
+      "path": "experiments/validation_complementarity_seed42/error_complementarity_samples.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\error_complementarity_seed42_20260822\\error_complementarity_samples.csv",
+      "bytes": 1522555,
+      "sha256": "8c761b0ff96d88589450e6c0f42ed6049d27a7bbb1a95dff7dfbd7a8f1eff6a1"
+    },
+    {
+      "path": "experiments/validation_complementarity_seed42/error_complementarity_summary.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\error_complementarity_seed42_20260822\\error_complementarity_summary.csv",
+      "bytes": 1170,
+      "sha256": "e42a6d9cd3985afa070ef180da9bc79442f5fbeb518b8b13d90c3d181420b2a3"
+    },
+    {
+      "path": "experiments/validation_complementarity_seed42/raw/Jarvis-Bandgap_MBJ__original.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\error_complementarity_seed42_20260822\\raw\\Jarvis-Bandgap_MBJ__original.csv",
+      "bytes": 73454,
+      "sha256": "7b71f3a2dd547d918f54a8b27d1360eee4793071a341bbd1927c14a50948723e"
+    },
+    {
+      "path": "experiments/validation_complementarity_seed42/raw/Jarvis-Bandgap_MBJ__truetoken.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\error_complementarity_seed42_20260822\\raw\\Jarvis-Bandgap_MBJ__truetoken.csv",
+      "bytes": 124721,
+      "sha256": "44fd5680cf8b0051dd2b4eef008a896814d9e09b63f14cc3d6a8be88bf7b2659"
+    },
+    {
+      "path": "experiments/validation_complementarity_seed42/raw/Jarvis-BulkModulusKv__original.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\error_complementarity_seed42_20260822\\raw\\Jarvis-BulkModulusKv__original.csv",
+      "bytes": 122282,
+      "sha256": "852c8e71e88ed0a2abccf49d3636d8dba42dcd05f69026d8e1d203fbb5b90c71"
+    },
+    {
+      "path": "experiments/validation_complementarity_seed42/raw/Jarvis-BulkModulusKv__truetoken.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\error_complementarity_seed42_20260822\\raw\\Jarvis-BulkModulusKv__truetoken.csv",
+      "bytes": 193352,
+      "sha256": "b91ed127f6965a411e85c4418ee2120b6cbc9b7af9dbb932d5b90c8b23424d80"
+    },
+    {
+      "path": "experiments/validation_complementarity_seed42/raw/MP-Bandgap__original.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\error_complementarity_seed42_20260822\\raw\\MP-Bandgap__original.csv",
+      "bytes": 246232,
+      "sha256": "c080c34e32298a972bfd32e1a164320a86af0fd07e183b323db56033596ced65"
+    },
+    {
+      "path": "experiments/validation_complementarity_seed42/raw/MP-Bandgap__truetoken.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\error_complementarity_seed42_20260822\\raw\\MP-Bandgap__truetoken.csv",
+      "bytes": 402530,
+      "sha256": "f2fdc2beda666b9b5decd0b6d730a353537a5c5199e55fa9a4f158a104556a70"
+    },
+    {
+      "path": "experiments/validation_complementarity_seed42/raw/MP-BulkModuli__original.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\error_complementarity_seed42_20260822\\raw\\MP-BulkModuli__original.csv",
+      "bytes": 37673,
+      "sha256": "656f15f4a1f7580aca51b852aebaacdfb0c8e5b4171592d129ca1ce10b99b804"
+    },
+    {
+      "path": "experiments/validation_complementarity_seed42/raw/MP-BulkModuli__truetoken.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\error_complementarity_seed42_20260822\\raw\\MP-BulkModuli__truetoken.csv",
+      "bytes": 60073,
+      "sha256": "8cb19ee1f3dc24629873cc96cde6bd53298ef2af17495a617c4404699d5b2c90"
+    },
+    {
+      "path": "experiments/validation_prediction_mean_seed42/Jarvis-TotalEnergy--original-valid-audit.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\e1_simple_ensemble_seed42_20260822\\Jarvis-TotalEnergy--original-valid-audit.json",
+      "bytes": 586,
+      "sha256": "5f320b3ac501fbeb18d40a60b280e59ddf5a8058cad34194610119535482aa83"
+    },
+    {
+      "path": "experiments/validation_prediction_mean_seed42/MP-FormationEnergy--original-valid-audit.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\e1_simple_ensemble_seed42_20260822\\MP-FormationEnergy--original-valid-audit.json",
+      "bytes": 578,
+      "sha256": "d54a4fa14730202119787e1ca3cc3898f1769b399806ce90b14fad22f298133b"
+    },
+    {
+      "path": "experiments/validation_prediction_mean_seed42/e1_10task_ensemble_results.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\e1_simple_ensemble_seed42_20260822\\e1_10task_ensemble_results.csv",
+      "bytes": 2115,
+      "sha256": "c54f8d0a0531f6fe958839a2e4e731a8e04d648a7bf4339a07f9401313f75cef"
+    },
+    {
+      "path": "experiments/validation_prediction_mean_seed42/e1_disagreement_quartiles.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\e1_simple_ensemble_seed42_20260822\\e1_disagreement_quartiles.csv",
+      "bytes": 5986,
+      "sha256": "ee00be3b2954eef702e87e5a3aba0012b0d9f842eab498ddaa907f067a96c0dd"
+    },
+    {
+      "path": "experiments/validation_prediction_mean_seed42/e1_error_complementarity.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\e1_simple_ensemble_seed42_20260822\\e1_error_complementarity.csv",
+      "bytes": 2267,
+      "sha256": "26b7b1642c1e68fd352f1899fd0cc77d927676bfc5f3845ec55bceadeca69bf2"
+    },
+    {
+      "path": "experiments/validation_prediction_mean_seed42/e1_macro_statistics.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\e1_simple_ensemble_seed42_20260822\\e1_macro_statistics.json",
+      "bytes": 846,
+      "sha256": "d6c967a862f9ffb861b91860aafdfc9644aab792e2c3f5a5edced2695dfeed3e"
+    },
+    {
+      "path": "experiments/validation_prediction_mean_seed42/e1_paired_prediction_audit.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\e1_simple_ensemble_seed42_20260822\\e1_paired_prediction_audit.csv",
+      "bytes": 1097,
+      "sha256": "c17d78efcd1c6cfaaf0ae15c709241b8adfb08528cd279cbc3ae7edffde3b676"
+    },
+    {
+      "path": "experiments/validation_prediction_mean_seed42/e1_report.md",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\e1_simple_ensemble_seed42_20260822\\e1_report.md",
+      "bytes": 1908,
+      "sha256": "a19bca9f087be31a599b51d7190aa6cee8ba604b062b79c18deccba992159805"
+    },
+    {
+      "path": "experiments/validation_prediction_mean_seed42/e1_selection.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\e1_simple_ensemble_seed42_20260822\\e1_selection.json",
+      "bytes": 305,
+      "sha256": "fed8dd55757dafeffdc416a93ac66f9826986d583df0533f23d40cc0b5f46841"
+    },
+    {
+      "path": "experiments/validation_prediction_mean_seed42/original_checkpoint_inventory.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\e1_simple_ensemble_seed42_20260822\\original_checkpoint_inventory.csv",
+      "bytes": 1306,
+      "sha256": "14c067c306e77d5d79ead4c46de1fe411b878dabc050ef5f74c9277038e653f4"
+    },
+    {
+      "path": "experiments/validation_prediction_mean_seed42/run_e1.py",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\e1_simple_ensemble_seed42_20260822\\run_e1.py",
+      "bytes": 13306,
+      "sha256": "e8de69300b4b2815c11e1d45881236273fe870ede93413baf26df9c201e4ced0"
+    },
+    {
+      "path": "experiments/validation_prediction_mean_seed42/raw/Jarvis-Bandgap_MBJ--original.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\e1_simple_ensemble_seed42_20260822\\raw\\Jarvis-Bandgap_MBJ--original.csv",
+      "bytes": 73454,
+      "sha256": "7b71f3a2dd547d918f54a8b27d1360eee4793071a341bbd1927c14a50948723e"
+    },
+    {
+      "path": "experiments/validation_prediction_mean_seed42/raw/Jarvis-Bandgap_MBJ--truetoken.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\e1_simple_ensemble_seed42_20260822\\raw\\Jarvis-Bandgap_MBJ--truetoken.csv",
+      "bytes": 124721,
+      "sha256": "44fd5680cf8b0051dd2b4eef008a896814d9e09b63f14cc3d6a8be88bf7b2659"
+    },
+    {
+      "path": "experiments/validation_prediction_mean_seed42/raw/Jarvis-Bandgap_OPT--original.audit.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\e1_simple_ensemble_seed42_20260822\\raw\\Jarvis-Bandgap_OPT--original.audit.json",
+      "bytes": 432,
+      "sha256": "d8cf2690c01981b895d5bff94cc942ea90773c4108f18a5fa1403fa0d4982522"
+    },
+    {
+      "path": "experiments/validation_prediction_mean_seed42/raw/Jarvis-Bandgap_OPT--original.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\e1_simple_ensemble_seed42_20260822\\raw\\Jarvis-Bandgap_OPT--original.csv",
+      "bytes": 323352,
+      "sha256": "b06e8029998f468f63cf5c65c839430bd208cff11b681965d91be231c3c6b5bb"
+    },
+    {
+      "path": "experiments/validation_prediction_mean_seed42/raw/Jarvis-Bandgap_OPT--truetoken.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\e1_simple_ensemble_seed42_20260822\\raw\\Jarvis-Bandgap_OPT--truetoken.csv",
+      "bytes": 342215,
+      "sha256": "52d756018c3c319bce64fd3d21733ee5f7f2f4131348331c26e8af910be589d0"
+    },
+    {
+      "path": "experiments/validation_prediction_mean_seed42/raw/Jarvis-BulkModulusKv--original.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\e1_simple_ensemble_seed42_20260822\\raw\\Jarvis-BulkModulusKv--original.csv",
+      "bytes": 122282,
+      "sha256": "852c8e71e88ed0a2abccf49d3636d8dba42dcd05f69026d8e1d203fbb5b90c71"
+    },
+    {
+      "path": "experiments/validation_prediction_mean_seed42/raw/Jarvis-BulkModulusKv--truetoken.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\e1_simple_ensemble_seed42_20260822\\raw\\Jarvis-BulkModulusKv--truetoken.csv",
+      "bytes": 193352,
+      "sha256": "b91ed127f6965a411e85c4418ee2120b6cbc9b7af9dbb932d5b90c8b23424d80"
+    },
+    {
+      "path": "experiments/validation_prediction_mean_seed42/raw/Jarvis-FormationEnergy--original.audit.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\e1_simple_ensemble_seed42_20260822\\raw\\Jarvis-FormationEnergy--original.audit.json",
+      "bytes": 438,
+      "sha256": "a18dd7d501abd740b563e67564ee0830a1e7942f96a8bd22004ecb16fcf826b1"
+    },
+    {
+      "path": "experiments/validation_prediction_mean_seed42/raw/Jarvis-FormationEnergy--original.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\e1_simple_ensemble_seed42_20260822\\raw\\Jarvis-FormationEnergy--original.csv",
+      "bytes": 376110,
+      "sha256": "3e1bcecaf20e59ea6280f50815026afeb7edb4aed966c5529f30749c3a219eb6"
+    },
+    {
+      "path": "experiments/validation_prediction_mean_seed42/raw/Jarvis-FormationEnergy--truetoken.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\e1_simple_ensemble_seed42_20260822\\raw\\Jarvis-FormationEnergy--truetoken.csv",
+      "bytes": 604790,
+      "sha256": "d15da5299bbf04856d7344e80c7ad8f0445cbbdaac2c441973a572c8c6ebc5b9"
+    },
+    {
+      "path": "experiments/validation_prediction_mean_seed42/raw/Jarvis-ShearModulusGv--original.audit.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\e1_simple_ensemble_seed42_20260822\\raw\\Jarvis-ShearModulusGv--original.audit.json",
+      "bytes": 433,
+      "sha256": "333b6b6fce9449dd1e9e87af20df57d9dd7c8ab64b04b362410970df0d92037d"
+    },
+    {
+      "path": "experiments/validation_prediction_mean_seed42/raw/Jarvis-ShearModulusGv--original.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\e1_simple_ensemble_seed42_20260822\\raw\\Jarvis-ShearModulusGv--original.csv",
+      "bytes": 120362,
+      "sha256": "63c44cdcd186d097351724ca2f295ba8ed5bae610dc010afde9eec89e82d0fa2"
+    },
+    {
+      "path": "experiments/validation_prediction_mean_seed42/raw/Jarvis-ShearModulusGv--truetoken.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\e1_simple_ensemble_seed42_20260822\\raw\\Jarvis-ShearModulusGv--truetoken.csv",
+      "bytes": 193910,
+      "sha256": "28c43f109d4c2919d5a0e31450fb9a183ce3c7741ea0421aecbca71f816bc53d"
+    },
+    {
+      "path": "experiments/validation_prediction_mean_seed42/raw/Jarvis-TotalEnergy--original.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\e1_simple_ensemble_seed42_20260822\\raw\\Jarvis-TotalEnergy--original.csv",
+      "bytes": 369376,
+      "sha256": "4977021491260e81c5837cb1baffe815d1523b765eafc1ee727d9e036348641f"
+    },
+    {
+      "path": "experiments/validation_prediction_mean_seed42/raw/Jarvis-TotalEnergy--truetoken.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\e1_simple_ensemble_seed42_20260822\\raw\\Jarvis-TotalEnergy--truetoken.csv",
+      "bytes": 594502,
+      "sha256": "be32bbb5b4ff1ace9ec565f99d163b39f7dd4454b803d1eb166289672e34fc5d"
+    },
+    {
+      "path": "experiments/validation_prediction_mean_seed42/raw/MP-Bandgap--original.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\e1_simple_ensemble_seed42_20260822\\raw\\MP-Bandgap--original.csv",
+      "bytes": 246232,
+      "sha256": "c080c34e32298a972bfd32e1a164320a86af0fd07e183b323db56033596ced65"
+    },
+    {
+      "path": "experiments/validation_prediction_mean_seed42/raw/MP-Bandgap--truetoken.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\e1_simple_ensemble_seed42_20260822\\raw\\MP-Bandgap--truetoken.csv",
+      "bytes": 402530,
+      "sha256": "f2fdc2beda666b9b5decd0b6d730a353537a5c5199e55fa9a4f158a104556a70"
+    },
+    {
+      "path": "experiments/validation_prediction_mean_seed42/raw/MP-BulkModuli--original.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\e1_simple_ensemble_seed42_20260822\\raw\\MP-BulkModuli--original.csv",
+      "bytes": 37673,
+      "sha256": "656f15f4a1f7580aca51b852aebaacdfb0c8e5b4171592d129ca1ce10b99b804"
+    },
+    {
+      "path": "experiments/validation_prediction_mean_seed42/raw/MP-BulkModuli--truetoken.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\e1_simple_ensemble_seed42_20260822\\raw\\MP-BulkModuli--truetoken.csv",
+      "bytes": 60073,
+      "sha256": "8cb19ee1f3dc24629873cc96cde6bd53298ef2af17495a617c4404699d5b2c90"
+    },
+    {
+      "path": "experiments/validation_prediction_mean_seed42/raw/MP-FormationEnergy--original.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\e1_simple_ensemble_seed42_20260822\\raw\\MP-FormationEnergy--original.csv",
+      "bytes": 336359,
+      "sha256": "80f11009df744dca2c10bb26c3a084552a1c2241baebf01a0f4d1c102d13c797"
+    },
+    {
+      "path": "experiments/validation_prediction_mean_seed42/raw/MP-FormationEnergy--truetoken.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\e1_simple_ensemble_seed42_20260822\\raw\\MP-FormationEnergy--truetoken.csv",
+      "bytes": 541149,
+      "sha256": "f0364c18b7c0357ab3122c906fdfc549c201f40168cb7642b44ce32f9f740392"
+    },
+    {
+      "path": "experiments/validation_prediction_mean_seed42/raw/MP-ShearModuli--original.audit.json",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\e1_simple_ensemble_seed42_20260822\\raw\\MP-ShearModuli--original.audit.json",
+      "bytes": 424,
+      "sha256": "791cb326c692947ce5cd5dd264cb1c50ced9fc72a6303b3fa6587d6bf59d1209"
+    },
+    {
+      "path": "experiments/validation_prediction_mean_seed42/raw/MP-ShearModuli--original.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\e1_simple_ensemble_seed42_20260822\\raw\\MP-ShearModuli--original.csv",
+      "bytes": 36962,
+      "sha256": "2bc8cc3976a381904abafba374ac467248a2662239047dbf6572d12785c55f05"
+    },
+    {
+      "path": "experiments/validation_prediction_mean_seed42/raw/MP-ShearModuli--truetoken.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\e1_simple_ensemble_seed42_20260822\\raw\\MP-ShearModuli--truetoken.csv",
+      "bytes": 59971,
+      "sha256": "9f24455e35dfc53aa6bd8fce6e96df6a76386cd088ecc96f9b2c3b982b0cf84b"
+    }
+  ],
+  "excluded": [
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\MP-Bandgap_recovery_prepare.pid",
+      "reason": "weights_cache_or_nontext_artifact"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\MP-Bandgap_recovery_prepare_correct_cwd.pid",
+      "reason": "weights_cache_or_nontext_artifact"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\parallel_transition.pid",
+      "reason": "weights_cache_or_nontext_artifact"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\queue.pid",
+      "reason": "weights_cache_or_nontext_artifact"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\queue_recovery_cwd_fix.pid",
+      "reason": "weights_cache_or_nontext_artifact"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\queue_recovery_parallel.pid",
+      "reason": "weights_cache_or_nontext_artifact"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\queue_recovery_reload_fix.pid",
+      "reason": "weights_cache_or_nontext_artifact"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\seed43_audit_bundle.tar.gz",
+      "reason": "weights_cache_or_nontext_artifact"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\dualview_seed43_20260830\\seed43_valid_predictions.tar.gz",
+      "reason": "weights_cache_or_nontext_artifact"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\tagif_fast_screen_seed42_20260902\\tagif_fast_screen_seed42_20260902_outputs.tgz",
+      "reason": "weights_cache_or_nontext_artifact"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\gcta_fast_screen_seed42_20260902_outputs.tgz",
+      "reason": "weights_cache_or_nontext_artifact"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\runs\\Jarvis-Bandgap_MBJ\\B1_NaiveConcat\\seed_42\\best_valid.pt",
+      "reason": "weights_cache_or_nontext_artifact"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\runs\\Jarvis-Bandgap_MBJ\\P2_GCTA\\seed_42\\best_valid.pt",
+      "reason": "weights_cache_or_nontext_artifact"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\runs\\MP-Bandgap\\B1_NaiveConcat\\seed_42\\best_valid.pt",
+      "reason": "weights_cache_or_nontext_artifact"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gcta_fast_screen_seed42_20260902\\runs\\MP-Bandgap\\P2_GCTA\\seed_42\\best_valid.pt",
+      "reason": "weights_cache_or_nontext_artifact"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gctr_fast_screen_seed42_20260906\\queue.pid",
+      "reason": "weights_cache_or_nontext_artifact"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gctr_fast_screen_seed42_20260906\\runs\\Jarvis-Bandgap_MBJ\\B1_NaiveConcat\\seed_42\\best_valid.pt",
+      "reason": "weights_cache_or_nontext_artifact"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gctr_fast_screen_seed42_20260906\\runs\\Jarvis-Bandgap_MBJ\\P3_GCTR\\seed_42\\best_valid.pt",
+      "reason": "weights_cache_or_nontext_artifact"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gctr_fast_screen_seed42_20260906\\runs\\MP-Bandgap\\B1_NaiveConcat\\seed_42\\best_valid.pt",
+      "reason": "weights_cache_or_nontext_artifact"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\server_audits\\gctr_fast_screen_seed42_20260906\\runs\\MP-Bandgap\\P3_GCTR\\seed_42\\best_valid.pt",
+      "reason": "weights_cache_or_nontext_artifact"
+    }
+  ]
+}

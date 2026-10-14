@@ -1,0 +1,46 @@
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/cache_matbert_token_features.py --input /dev/shm/final_10task_ours_seed42_current/MP-ShearModuli/description_complete.csv --output_dir /dev/shm/final_10task_ours_seed42_current/MP-ShearModuli/token_cache --model_name /root/autodl-tmp/matbert-base-cased --id_column Id --text_column Description --max_length 128 --batch_size 64 --device cuda --progress_every 1024 --overwrite
+cached 1024/5830 token sequences
+cached 2048/5830 token sequences
+cached 3072/5830 token sequences
+cached 4096/5830 token sequences
+cached 5120/5830 token sequences
+cached 5830/5830 token sequences
+{
+  "attention_mask_dtype": "uint8",
+  "cache_sha256": "23a4dd3ae30d0d0fe9ec817980b5a07fa70d7d57f92e0371193f873c75b39459",
+  "completed_rows": 5830,
+  "feature_dtype": "float16",
+  "feature_shape": [
+    5830,
+    128,
+    768
+  ],
+  "forbidden_global_pooling_used": false,
+  "format": "dense_memmap_v1",
+  "hidden_dim": 768,
+  "hidden_size": 768,
+  "id_column": "Id",
+  "input_ids_dtype": "int32",
+  "input_ids_shape": [
+    5830,
+    128
+  ],
+  "mask_shape": [
+    5830,
+    128
+  ],
+  "max_length": 128,
+  "model_checkpoint": "/root/autodl-tmp/matbert-base-cased",
+  "model_name": "/root/autodl-tmp/matbert-base-cased",
+  "num_samples": 5830,
+  "padding": "max_length",
+  "source_csv": "/dev/shm/final_10task_ours_seed42_current/MP-ShearModuli/description_complete.csv",
+  "source_sha256": "d03f49140cfc320583328acbe47c60e94ff17c5cf3a739d476cbbe75687f32b6",
+  "special_tokens_excluded": false,
+  "status": "complete",
+  "text_column": "Description",
+  "tokenizer_class": "BertTokenizerFast",
+  "tokenizer_version": "4.38.2",
+  "truncation": true,
+  "uses_last_hidden_state": true
+}

@@ -1,0 +1,24 @@
+{
+  "decision": "NO_GT_PVIN_GAIN",
+  "family_macro_gain_vs_p0_pct": {
+    "Electronic": NaN,
+    "Energetic": NaN,
+    "Mechanical": NaN
+  },
+  "full_pvin_family_macro_gain_vs_p0_pct": {
+    "Electronic": NaN,
+    "Energetic": NaN,
+    "Mechanical": NaN
+  },
+  "jarvis_macro_gain_vs_p0_pct": 2.0904808819913954,
+  "macro_gain_vs_full_pvin_pct": 0.04802744430787468,
+  "macro_gain_vs_p0_pct": 0.9382690591228009,
+  "max_task_degradation_vs_p0_pct": 4.064926086115328,
+  "mp_macro_gain_vs_p0_pct": -0.7900486751800908,
+  "new_training_runs": 10,
+  "repaired_previous_negative_tasks": 2,
+  "test_forward_count": 0,
+  "wins_vs_full_pvin": 6,
+  "wins_vs_p0": 7,
+  "zero_u_gt_positive_count": 10
+}

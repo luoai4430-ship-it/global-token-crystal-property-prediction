@@ -1,0 +1,58 @@
+MP-FormationEnergy CLS epoch=1/300 valid_mae=0.13708292 best=0.13708292
+MP-FormationEnergy CLS epoch=10/300 valid_mae=0.07719769 best=0.07719769
+MP-FormationEnergy CLS epoch=20/300 valid_mae=0.05929115 best=0.05862041
+MP-FormationEnergy CLS epoch=30/300 valid_mae=0.05283716 best=0.05231675
+MP-FormationEnergy CLS epoch=40/300 valid_mae=0.04798573 best=0.04412378
+MP-FormationEnergy CLS epoch=50/300 valid_mae=0.04239224 best=0.04057004
+MP-FormationEnergy CLS epoch=60/300 valid_mae=0.04085389 best=0.03921789
+MP-FormationEnergy CLS epoch=70/300 valid_mae=0.04616449 best=0.03740244
+MP-FormationEnergy CLS epoch=80/300 valid_mae=0.03647881 best=0.03553354
+MP-FormationEnergy CLS epoch=90/300 valid_mae=0.03894514 best=0.03417830
+MP-FormationEnergy CLS epoch=100/300 valid_mae=0.03572615 best=0.03195487
+MP-FormationEnergy CLS epoch=110/300 valid_mae=0.03227269 best=0.03181602
+MP-FormationEnergy CLS epoch=120/300 valid_mae=0.02996016 best=0.02996016
+MP-FormationEnergy CLS epoch=130/300 valid_mae=0.02992258 best=0.02935955
+MP-FormationEnergy CLS epoch=140/300 valid_mae=0.02734530 best=0.02734530
+MP-FormationEnergy CLS epoch=150/300 valid_mae=0.02671456 best=0.02671456
+MP-FormationEnergy CLS epoch=160/300 valid_mae=0.02735409 best=0.02595772
+MP-FormationEnergy CLS epoch=170/300 valid_mae=0.02590541 best=0.02528496
+MP-FormationEnergy CLS epoch=180/300 valid_mae=0.02488828 best=0.02431360
+MP-FormationEnergy CLS epoch=190/300 valid_mae=0.02543361 best=0.02360114
+MP-FormationEnergy CLS epoch=200/300 valid_mae=0.02517693 best=0.02313569
+MP-FormationEnergy CLS epoch=210/300 valid_mae=0.02313141 best=0.02259325
+MP-FormationEnergy CLS epoch=220/300 valid_mae=0.02217578 best=0.02194492
+MP-FormationEnergy CLS epoch=230/300 valid_mae=0.02135527 best=0.02135527
+MP-FormationEnergy CLS epoch=240/300 valid_mae=0.02119817 best=0.02110952
+MP-FormationEnergy CLS epoch=250/300 valid_mae=0.02074962 best=0.02074962
+MP-FormationEnergy CLS epoch=260/300 valid_mae=0.02074481 best=0.02044052
+MP-FormationEnergy CLS epoch=270/300 valid_mae=0.02056882 best=0.02043784
+MP-FormationEnergy CLS epoch=280/300 valid_mae=0.02052060 best=0.02032944
+MP-FormationEnergy CLS epoch=290/300 valid_mae=0.02015691 best=0.02015691
+MP-FormationEnergy CLS epoch=300/300 valid_mae=0.02029082 best=0.02015691
+{
+  "task": "MP-FormationEnergy",
+  "dataset": "MP",
+  "property_family": "Energetic",
+  "variant": "CLS",
+  "seed": 42,
+  "best_epoch": 290,
+  "best_valid_mae": 0.020156909545579405,
+  "final_valid_mae": 0.020290819480161315,
+  "mean": -1.6532750963404999,
+  "std": 1.0720249835312508,
+  "trainable_params": 2636514,
+  "checkpoint_path": "/root/autodl-tmp/TextResidualSHFMat/matched_ablation_runs/MP-FormationEnergy/CLS/best_valid.pt",
+  "test_forward_count": 0,
+  "runtime_sec": 17822.867975473404,
+  "train_samples": 60000,
+  "valid_samples": 5000,
+  "mean_eligible_token_count": 124.4382,
+  "median_eligible_token_count": 126.0,
+  "attention_entropy_mean": null,
+  "attention_entropy_median": null,
+  "attention_effective_token_count_mean": null,
+  "attention_effective_token_count_median": null,
+  "attention_mean_max": null,
+  "zero_text_fallback_count": 0,
+  "zero_text_fallback_ids": []
+}

@@ -1,0 +1,15 @@
+{
+  "best_valid_epoch": 246,
+  "checkpoint_sha256": "6095b966a2e61bdd013da2644864896c3234ae0b23e269cc3eb86009a0af876f",
+  "model_name": "ours",
+  "protocol_sha256": "1c0de7770307b627f62cf48e28cd65816b801b11574153f29af71667151fcb5f",
+  "seed": 42,
+  "selected_by": "Valid only",
+  "status": "test_complete",
+  "task": "MP-ShearModuli",
+  "test_forward_count": 1,
+  "test_mae": 0.07116317176491686,
+  "test_size": 583,
+  "token_cache_sha256": "0663a554cd7601a38b088486ab866dd0e0258d117754eb69ff7234937b89b6a3",
+  "valid_mae": 0.06410893036202746
+}

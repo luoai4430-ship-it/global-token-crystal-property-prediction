@@ -1,0 +1,58 @@
+Jarvis-BulkModulusKv CLS epoch=1/300 valid_mae=19.65274572 best=19.65274572
+Jarvis-BulkModulusKv CLS epoch=10/300 valid_mae=13.48556145 best=13.43031782
+Jarvis-BulkModulusKv CLS epoch=20/300 valid_mae=12.04486598 best=12.04486598
+Jarvis-BulkModulusKv CLS epoch=30/300 valid_mae=13.12916308 best=11.58944680
+Jarvis-BulkModulusKv CLS epoch=40/300 valid_mae=11.52438843 best=11.23686340
+Jarvis-BulkModulusKv CLS epoch=50/300 valid_mae=11.25316945 best=10.37043163
+Jarvis-BulkModulusKv CLS epoch=60/300 valid_mae=10.58697682 best=10.36458234
+Jarvis-BulkModulusKv CLS epoch=70/300 valid_mae=10.97201451 best=9.95208213
+Jarvis-BulkModulusKv CLS epoch=80/300 valid_mae=10.58074660 best=9.65511432
+Jarvis-BulkModulusKv CLS epoch=90/300 valid_mae=10.58553518 best=9.65511432
+Jarvis-BulkModulusKv CLS epoch=100/300 valid_mae=10.06303749 best=9.65511432
+Jarvis-BulkModulusKv CLS epoch=110/300 valid_mae=10.05163653 best=9.62503772
+Jarvis-BulkModulusKv CLS epoch=120/300 valid_mae=10.02383863 best=9.62503772
+Jarvis-BulkModulusKv CLS epoch=130/300 valid_mae=10.07892010 best=9.28472513
+Jarvis-BulkModulusKv CLS epoch=140/300 valid_mae=9.50812270 best=9.28472513
+Jarvis-BulkModulusKv CLS epoch=150/300 valid_mae=9.50392745 best=9.28472513
+Jarvis-BulkModulusKv CLS epoch=160/300 valid_mae=9.51589673 best=9.09455189
+Jarvis-BulkModulusKv CLS epoch=170/300 valid_mae=9.92072941 best=9.09455189
+Jarvis-BulkModulusKv CLS epoch=180/300 valid_mae=10.08742181 best=9.09455189
+Jarvis-BulkModulusKv CLS epoch=190/300 valid_mae=9.46223820 best=9.09455189
+Jarvis-BulkModulusKv CLS epoch=200/300 valid_mae=9.09092445 best=8.97140054
+Jarvis-BulkModulusKv CLS epoch=210/300 valid_mae=9.55971064 best=8.97140054
+Jarvis-BulkModulusKv CLS epoch=220/300 valid_mae=9.50064590 best=8.97140054
+Jarvis-BulkModulusKv CLS epoch=230/300 valid_mae=9.28513466 best=8.97140054
+Jarvis-BulkModulusKv CLS epoch=240/300 valid_mae=9.14268483 best=8.97140054
+Jarvis-BulkModulusKv CLS epoch=250/300 valid_mae=9.16298372 best=8.97140054
+Jarvis-BulkModulusKv CLS epoch=260/300 valid_mae=9.13748352 best=8.97140054
+Jarvis-BulkModulusKv CLS epoch=270/300 valid_mae=9.13166084 best=8.97140054
+Jarvis-BulkModulusKv CLS epoch=280/300 valid_mae=9.10362027 best=8.97140054
+Jarvis-BulkModulusKv CLS epoch=290/300 valid_mae=9.10467706 best=8.97140054
+Jarvis-BulkModulusKv CLS epoch=300/300 valid_mae=9.13361556 best=8.97140054
+{
+  "task": "Jarvis-BulkModulusKv",
+  "dataset": "JARVIS",
+  "property_family": "Mechanical",
+  "variant": "CLS",
+  "seed": 42,
+  "best_epoch": 196,
+  "best_valid_mae": 8.971400543918886,
+  "final_valid_mae": 9.133615560046708,
+  "mean": 84.35909870426829,
+  "std": 66.33599313040396,
+  "trainable_params": 2636514,
+  "checkpoint_path": "/root/autodl-tmp/TextResidualSHFMat/matched_ablation_runs/Jarvis-BulkModulusKv/CLS/best_valid.pt",
+  "test_forward_count": 0,
+  "runtime_sec": 3830.9978828430176,
+  "train_samples": 15744,
+  "valid_samples": 1968,
+  "mean_eligible_token_count": 120.1869918699187,
+  "median_eligible_token_count": 126.0,
+  "attention_entropy_mean": null,
+  "attention_entropy_median": null,
+  "attention_effective_token_count_mean": null,
+  "attention_effective_token_count_median": null,
+  "attention_mean_max": null,
+  "zero_text_fallback_count": 0,
+  "zero_text_fallback_ids": []
+}

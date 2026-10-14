@@ -1,0 +1,15 @@
+{
+  "best_valid_epoch": 231,
+  "checkpoint_sha256": "c5d6958ccf7caed6f551bd50396d3089f2b242a7061da862c098b2c4a8d907a1",
+  "model_name": "original_sftmat",
+  "protocol_sha256": "adae888170a616d63ca455803e3c186d270cb62ae5bbd3ed70b55835dc8c674d",
+  "seed": 43,
+  "selected_by": "Valid only",
+  "status": "test_complete",
+  "task": "MP-BulkModuli",
+  "test_forward_count": 1,
+  "test_mae": 0.03833650806551323,
+  "test_size": 583,
+  "token_cache_sha256": "23a4dd3ae30d0d0fe9ec817980b5a07fa70d7d57f92e0371193f873c75b39459",
+  "valid_mae": 0.03787937581436916
+}

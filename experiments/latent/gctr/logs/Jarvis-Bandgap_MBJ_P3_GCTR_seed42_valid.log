@@ -1,0 +1,180 @@
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_gctr_fast_screen.py train --task Jarvis-Bandgap_MBJ --variant P3_GCTR --seed 42 --token_cache /dev/shm/gctr_fast_screen_seed42_20260906/Jarvis-Bandgap_MBJ/token_cache --output_dir /root/gctr_fast_screen_seed42_20260906/runs/Jarvis-Bandgap_MBJ/P3_GCTR/seed_42 --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda --num_workers 2 --epochs 100 --patience 20
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+dataset split: total=18172, train=14537, valid=1817, test=1818
+train range:(0.0,27.500999450683594)
+valid range:(0.0,23.900999069213867)
+test range:(0.0,14.498000144958496)
+mean:1.4889696836471558
+std:2.3161327838897705
+
+libgomp: 
+libgomp: Invalid value for environment variable OMP_NUM_THREADSInvalid value for environment variable OMP_NUM_THREADS
+
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=1/100 loss=0.92243036 valid_mae=0.71762719 best=0.71762719 best_epoch=1 stale=0/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=2/100 loss=0.70479071 valid_mae=0.58260523 best=0.58260523 best_epoch=2 stale=0/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=3/100 loss=0.61975827 valid_mae=0.58255143 best=0.58255143 best_epoch=3 stale=0/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=4/100 loss=0.58166202 valid_mae=0.51397241 best=0.51397241 best_epoch=4 stale=0/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=5/100 loss=0.56438852 valid_mae=0.51315297 best=0.51315297 best_epoch=5 stale=0/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=6/100 loss=0.53393249 valid_mae=0.49914252 best=0.49914252 best_epoch=6 stale=0/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=7/100 loss=0.51952848 valid_mae=0.49837002 best=0.49837002 best_epoch=7 stale=0/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=8/100 loss=0.50760515 valid_mae=0.48370759 best=0.48370759 best_epoch=8 stale=0/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=9/100 loss=0.49781487 valid_mae=0.53266634 best=0.48370759 best_epoch=8 stale=1/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=10/100 loss=0.49734504 valid_mae=0.48052080 best=0.48052080 best_epoch=10 stale=0/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=11/100 loss=0.47884954 valid_mae=0.43851356 best=0.43851356 best_epoch=11 stale=0/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=12/100 loss=0.48282305 valid_mae=0.55692126 best=0.43851356 best_epoch=11 stale=1/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=13/100 loss=0.47760353 valid_mae=0.48477241 best=0.43851356 best_epoch=11 stale=2/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=14/100 loss=0.46330207 valid_mae=0.47273138 best=0.43851356 best_epoch=11 stale=3/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=15/100 loss=0.46277964 valid_mae=0.46907108 best=0.43851356 best_epoch=11 stale=4/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=16/100 loss=0.46376920 valid_mae=0.45672131 best=0.43851356 best_epoch=11 stale=5/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=17/100 loss=0.44881904 valid_mae=0.47767131 best=0.43851356 best_epoch=11 stale=6/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=18/100 loss=0.44488119 valid_mae=0.42996833 best=0.42996833 best_epoch=18 stale=0/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=19/100 loss=0.43306354 valid_mae=0.48079087 best=0.42996833 best_epoch=18 stale=1/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=20/100 loss=0.42562281 valid_mae=0.43139201 best=0.42996833 best_epoch=18 stale=2/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=21/100 loss=0.42522361 valid_mae=0.51154362 best=0.42996833 best_epoch=18 stale=3/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=22/100 loss=0.41379910 valid_mae=0.42528703 best=0.42528703 best_epoch=22 stale=0/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=23/100 loss=0.41293415 valid_mae=0.43330535 best=0.42528703 best_epoch=22 stale=1/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=24/100 loss=0.40365827 valid_mae=0.46685590 best=0.42528703 best_epoch=22 stale=2/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=25/100 loss=0.39507574 valid_mae=0.45545702 best=0.42528703 best_epoch=22 stale=3/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=26/100 loss=0.39160799 valid_mae=0.46666849 best=0.42528703 best_epoch=22 stale=4/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=27/100 loss=0.37952368 valid_mae=0.40667571 best=0.40667571 best_epoch=27 stale=0/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=28/100 loss=0.37319445 valid_mae=0.44065065 best=0.40667571 best_epoch=27 stale=1/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=29/100 loss=0.37472483 valid_mae=0.39361980 best=0.39361980 best_epoch=29 stale=0/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=30/100 loss=0.35762621 valid_mae=0.36914434 best=0.36914434 best_epoch=30 stale=0/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=31/100 loss=0.34115834 valid_mae=0.40312981 best=0.36914434 best_epoch=30 stale=1/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=32/100 loss=0.33740621 valid_mae=0.39274369 best=0.36914434 best_epoch=30 stale=2/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=33/100 loss=0.33458299 valid_mae=0.39667970 best=0.36914434 best_epoch=30 stale=3/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=34/100 loss=0.32715174 valid_mae=0.39257341 best=0.36914434 best_epoch=30 stale=4/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=35/100 loss=0.31503200 valid_mae=0.37994214 best=0.36914434 best_epoch=30 stale=5/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=36/100 loss=0.31363696 valid_mae=0.39005881 best=0.36914434 best_epoch=30 stale=6/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=37/100 loss=0.30424621 valid_mae=0.37024238 best=0.36914434 best_epoch=30 stale=7/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=38/100 loss=0.29262328 valid_mae=0.36129204 best=0.36129204 best_epoch=38 stale=0/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=39/100 loss=0.29672121 valid_mae=0.37082098 best=0.36129204 best_epoch=38 stale=1/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=40/100 loss=0.28673440 valid_mae=0.36727244 best=0.36129204 best_epoch=38 stale=2/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=41/100 loss=0.27955675 valid_mae=0.39712509 best=0.36129204 best_epoch=38 stale=3/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=42/100 loss=0.27047549 valid_mae=0.36997009 best=0.36129204 best_epoch=38 stale=4/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=43/100 loss=0.26319582 valid_mae=0.36609975 best=0.36129204 best_epoch=38 stale=5/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=44/100 loss=0.25806677 valid_mae=0.36200841 best=0.36129204 best_epoch=38 stale=6/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=45/100 loss=0.25247183 valid_mae=0.36002492 best=0.36002492 best_epoch=45 stale=0/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=46/100 loss=0.25249527 valid_mae=0.34736266 best=0.34736266 best_epoch=46 stale=0/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=47/100 loss=0.25246117 valid_mae=0.36365735 best=0.34736266 best_epoch=46 stale=1/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=48/100 loss=0.23397402 valid_mae=0.36392195 best=0.34736266 best_epoch=46 stale=2/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=49/100 loss=0.22654459 valid_mae=0.34031744 best=0.34031744 best_epoch=49 stale=0/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=50/100 loss=0.22730292 valid_mae=0.34168845 best=0.34031744 best_epoch=49 stale=1/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=51/100 loss=0.21246433 valid_mae=0.33822334 best=0.33822334 best_epoch=51 stale=0/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=52/100 loss=0.21264696 valid_mae=0.32735125 best=0.32735125 best_epoch=52 stale=0/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=53/100 loss=0.21086429 valid_mae=0.32670855 best=0.32670855 best_epoch=53 stale=0/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=54/100 loss=0.20597380 valid_mae=0.32339847 best=0.32339847 best_epoch=54 stale=0/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=55/100 loss=0.19930991 valid_mae=0.31861247 best=0.31861247 best_epoch=55 stale=0/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=56/100 loss=0.19429101 valid_mae=0.31650614 best=0.31650614 best_epoch=56 stale=0/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=57/100 loss=0.18542460 valid_mae=0.32911949 best=0.31650614 best_epoch=56 stale=1/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=58/100 loss=0.18364936 valid_mae=0.30494238 best=0.30494238 best_epoch=58 stale=0/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=59/100 loss=0.18020952 valid_mae=0.32697072 best=0.30494238 best_epoch=58 stale=1/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=60/100 loss=0.17245178 valid_mae=0.32740774 best=0.30494238 best_epoch=58 stale=2/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=61/100 loss=0.17020075 valid_mae=0.31425030 best=0.30494238 best_epoch=58 stale=3/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=62/100 loss=0.16788213 valid_mae=0.31102333 best=0.30494238 best_epoch=58 stale=4/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=63/100 loss=0.16148939 valid_mae=0.32158146 best=0.30494238 best_epoch=58 stale=5/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=64/100 loss=0.15674155 valid_mae=0.30354814 best=0.30354814 best_epoch=64 stale=0/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=65/100 loss=0.15492754 valid_mae=0.30887200 best=0.30354814 best_epoch=64 stale=1/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=66/100 loss=0.14832822 valid_mae=0.31479862 best=0.30354814 best_epoch=64 stale=2/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=67/100 loss=0.14599481 valid_mae=0.30976330 best=0.30354814 best_epoch=64 stale=3/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=68/100 loss=0.13820373 valid_mae=0.30305005 best=0.30305005 best_epoch=68 stale=0/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=69/100 loss=0.13724911 valid_mae=0.31305807 best=0.30305005 best_epoch=68 stale=1/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=70/100 loss=0.13263552 valid_mae=0.30857939 best=0.30305005 best_epoch=68 stale=2/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=71/100 loss=0.12989004 valid_mae=0.29655498 best=0.29655498 best_epoch=71 stale=0/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=72/100 loss=0.12580384 valid_mae=0.29586317 best=0.29586317 best_epoch=72 stale=0/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=73/100 loss=0.12151634 valid_mae=0.30498448 best=0.29586317 best_epoch=72 stale=1/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=74/100 loss=0.11988368 valid_mae=0.30102593 best=0.29586317 best_epoch=72 stale=2/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=75/100 loss=0.11890823 valid_mae=0.29772035 best=0.29586317 best_epoch=72 stale=3/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=76/100 loss=0.11329794 valid_mae=0.29342338 best=0.29342338 best_epoch=76 stale=0/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=77/100 loss=0.10988848 valid_mae=0.29172915 best=0.29172915 best_epoch=77 stale=0/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=78/100 loss=0.10817384 valid_mae=0.29107073 best=0.29107073 best_epoch=78 stale=0/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=79/100 loss=0.10543690 valid_mae=0.29001260 best=0.29001260 best_epoch=79 stale=0/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=80/100 loss=0.10168795 valid_mae=0.28945662 best=0.28945662 best_epoch=80 stale=0/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=81/100 loss=0.09955498 valid_mae=0.30042674 best=0.28945662 best_epoch=80 stale=1/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=82/100 loss=0.09788763 valid_mae=0.29374513 best=0.28945662 best_epoch=80 stale=2/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=83/100 loss=0.09553821 valid_mae=0.29376288 best=0.28945662 best_epoch=80 stale=3/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=84/100 loss=0.09247499 valid_mae=0.29237801 best=0.28945662 best_epoch=80 stale=4/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=85/100 loss=0.09098943 valid_mae=0.29156109 best=0.28945662 best_epoch=80 stale=5/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=86/100 loss=0.08931677 valid_mae=0.29379889 best=0.28945662 best_epoch=80 stale=6/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=87/100 loss=0.08761117 valid_mae=0.29371992 best=0.28945662 best_epoch=80 stale=7/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=88/100 loss=0.08620124 valid_mae=0.29137420 best=0.28945662 best_epoch=80 stale=8/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=89/100 loss=0.08592319 valid_mae=0.29522787 best=0.28945662 best_epoch=80 stale=9/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=90/100 loss=0.08399810 valid_mae=0.29337135 best=0.28945662 best_epoch=80 stale=10/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=91/100 loss=0.08230206 valid_mae=0.29465050 best=0.28945662 best_epoch=80 stale=11/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=92/100 loss=0.08081708 valid_mae=0.29550437 best=0.28945662 best_epoch=80 stale=12/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=93/100 loss=0.08084604 valid_mae=0.29452059 best=0.28945662 best_epoch=80 stale=13/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=94/100 loss=0.07969934 valid_mae=0.29269865 best=0.28945662 best_epoch=80 stale=14/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=95/100 loss=0.07934804 valid_mae=0.29203051 best=0.28945662 best_epoch=80 stale=15/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=96/100 loss=0.07865625 valid_mae=0.29267670 best=0.28945662 best_epoch=80 stale=16/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=97/100 loss=0.07878649 valid_mae=0.29224565 best=0.28945662 best_epoch=80 stale=17/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=98/100 loss=0.07791474 valid_mae=0.29078471 best=0.28945662 best_epoch=80 stale=18/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=99/100 loss=0.07806615 valid_mae=0.29179419 best=0.28945662 best_epoch=80 stale=19/20
+[Jarvis-Bandgap_MBJ:P3_GCTR:seed42] epoch=100/100 loss=0.07931351 valid_mae=0.29222443 best=0.28945662 best_epoch=80 stale=20/20
+{
+  "attention_entropy_mean": 4.243050739538164,
+  "best_valid_epoch": 80,
+  "checkpoint_reload_state_exact": true,
+  "checkpoint_reselection": 0,
+  "checkpoint_sha256": "c5e9f57b0ca0fd99ecffbe8e775c06571cf84a2d6696d549b4cebcadb697673d",
+  "cos_ht_ht_refined_mean": 0.9676963664636418,
+  "cos_ht_ht_refined_median": 0.9677371978759766,
+  "data_loader_workers": 2,
+  "dataset": "JARVIS",
+  "drop_last": false,
+  "early_stopped": false,
+  "effective_token_count_mean": 72.08939430959026,
+  "feature_l2_distance_mean": 3.9881504179031295,
+  "feature_l2_distance_median": 4.035189151763916,
+  "film_controls": {
+    "film_cls_shuffled_mae": 0.28944488771026056,
+    "film_cls_zero_mae": 0.28957846955932887,
+    "mapping_kind": "seeded cyclic derangement",
+    "mapping_sha256": "8e408f75afb126b9d54802c923b0852d38c7eb60d9cffc208e9a8d06807ecd7a",
+    "normal_better_than_shuffled": false,
+    "normal_better_than_zero": true,
+    "normal_mae": 0.2895280038122955,
+    "selection_use": false,
+    "test_forward_count": 0,
+    "zero_control_definition": "FiLM conditioning CLS=0; prediction_head_cls=correct"
+  },
+  "gradient_definition": "L2 norm of full-validation raw-MAE gradient",
+  "gradient_norm_Wc": 0.011118979235478992,
+  "gradient_norm_film_beta": 0.0005118827433967226,
+  "gradient_norm_film_gamma": 0.000533859305533745,
+  "gradient_norm_refine_norm": 0.011138306235253252,
+  "loss_weight_search": 0,
+  "max_epochs": 100,
+  "mean_abs_beta": 0.00912889899930983,
+  "mean_abs_gamma_minus_one": 0.019784325876272702,
+  "mean_max_attention": 0.07866512869633878,
+  "median_abs_gamma_minus_one": 0.019378662109375,
+  "median_max_attention": 0.07542158663272858,
+  "padding_attention_max": 0.0,
+  "parameter_count": 2915938,
+  "patience": 20,
+  "property": "Bandgap_MBJ",
+  "protocol_sha256": "ad0eb26ebe3ec10f94c8b275163587975ee6b1bea797ae75fd9d6904d6f89cf3",
+  "refinement_ratio_mean": 0.028204450577017724,
+  "refinement_ratio_median": 0.027224082499742508,
+  "seed": 42,
+  "special_token_attention_max": 0.0,
+  "status": "valid_complete",
+  "std_gamma_mean": 0.02472698964008392,
+  "stopped_epoch": 100,
+  "target_mean": 1.4889696836471558,
+  "target_std": 2.3161327838897705,
+  "task": "Jarvis-Bandgap_MBJ",
+  "tau_search": 0,
+  "temperature": 0.5,
+  "test_forward_count": 0,
+  "token_cache_sha256": "0caf4b99a950f281a2632fb36d1939bf311e88ea8c4934a951f4d1d0fc5270a6",
+  "train_size": 14537,
+  "training_autocast_dtype": "bfloat16",
+  "training_runs": 1,
+  "training_time_seconds": 2432.2806686060503,
+  "unit": "eV",
+  "valid_mae": 0.2895280038122955,
+  "valid_size": 1817,
+  "variant": "P3_GCTR"
+}

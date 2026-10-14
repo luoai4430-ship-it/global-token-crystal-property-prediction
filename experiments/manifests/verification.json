@@ -1,0 +1,147 @@
+{
+  "status": "VERIFIED",
+  "date": "2026-10-14",
+  "source_hashes_verified": 1164,
+  "matched_runs": 18,
+  "matched_normalized_macro": {
+    "CLS": 1.0,
+    "MaskedMean": 0.9979018570334954,
+    "CosineAttention": 1.029091452003692
+  },
+  "seed43_valid_summaries": 20,
+  "seed43_test_summaries": 20,
+  "saved_test_pair_checks": [
+    {
+      "seed": 42,
+      "task": "Jarvis-Bandgap_MBJ",
+      "rows": 1818,
+      "max_mae_delta": 5.551115123125783e-17
+    },
+    {
+      "seed": 42,
+      "task": "Jarvis-Bandgap_OPT",
+      "rows": 5573,
+      "max_mae_delta": 1.3877787807814457e-17
+    },
+    {
+      "seed": 42,
+      "task": "Jarvis-BulkModulusKv",
+      "rows": 1968,
+      "max_mae_delta": 1.7763568394002505e-15
+    },
+    {
+      "seed": 42,
+      "task": "Jarvis-FormationEnergy",
+      "rows": 5573,
+      "max_mae_delta": 5.204170427930421e-17
+    },
+    {
+      "seed": 42,
+      "task": "Jarvis-ShearModulusGv",
+      "rows": 1968,
+      "max_mae_delta": 0.0
+    },
+    {
+      "seed": 42,
+      "task": "Jarvis-TotalEnergy",
+      "rows": 5573,
+      "max_mae_delta": 5.551115123125783e-17
+    },
+    {
+      "seed": 42,
+      "task": "MP-Bandgap",
+      "rows": 516,
+      "max_mae_delta": 2.7755575615628914e-17
+    },
+    {
+      "seed": 42,
+      "task": "MP-BulkModuli",
+      "rows": 583,
+      "max_mae_delta": 4.85722573273506e-17
+    },
+    {
+      "seed": 42,
+      "task": "MP-FormationEnergy",
+      "rows": 516,
+      "max_mae_delta": 5.551115123125783e-17
+    },
+    {
+      "seed": 42,
+      "task": "MP-ShearModuli",
+      "rows": 583,
+      "max_mae_delta": 5.551115123125783e-17
+    },
+    {
+      "seed": 43,
+      "task": "Jarvis-Bandgap_MBJ",
+      "rows": 1818,
+      "max_mae_delta": 0.0
+    },
+    {
+      "seed": 43,
+      "task": "Jarvis-Bandgap_OPT",
+      "rows": 5573,
+      "max_mae_delta": 2.7755575615628914e-17
+    },
+    {
+      "seed": 43,
+      "task": "Jarvis-BulkModulusKv",
+      "rows": 1968,
+      "max_mae_delta": 0.0
+    },
+    {
+      "seed": 43,
+      "task": "Jarvis-FormationEnergy",
+      "rows": 5573,
+      "max_mae_delta": 3.469446951953614e-18
+    },
+    {
+      "seed": 43,
+      "task": "Jarvis-ShearModulusGv",
+      "rows": 1968,
+      "max_mae_delta": 0.0
+    },
+    {
+      "seed": 43,
+      "task": "Jarvis-TotalEnergy",
+      "rows": 5573,
+      "max_mae_delta": 6.938893903907228e-18
+    },
+    {
+      "seed": 43,
+      "task": "MP-Bandgap",
+      "rows": 516,
+      "max_mae_delta": 0.0
+    },
+    {
+      "seed": 43,
+      "task": "MP-BulkModuli",
+      "rows": 583,
+      "max_mae_delta": 0.0
+    },
+    {
+      "seed": 43,
+      "task": "MP-FormationEnergy",
+      "rows": 516,
+      "max_mae_delta": 3.469446951953614e-18
+    },
+    {
+      "seed": 43,
+      "task": "MP-ShearModuli",
+      "rows": 583,
+      "max_mae_delta": 0.0
+    }
+  ],
+  "extensions": {
+    ".log": 411,
+    ".py": 39,
+    ".json": 433,
+    ".csv": 248,
+    ".md": 22,
+    ".sh": 2,
+    ".txt": 8,
+    ".diff": 1
+  },
+  "training_runs_started": 0,
+  "test_evaluations_started": 0
+}

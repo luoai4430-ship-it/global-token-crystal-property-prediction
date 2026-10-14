@@ -1,0 +1,24 @@
+{
+  "active": [],
+  "completed_training_runs": 4,
+  "current_task": null,
+  "current_variant": null,
+  "expected_training_runs": 4,
+  "failed": [],
+  "finished_at_unix": 1788646077.562042,
+  "max_training_processes": 2,
+  "phase": "complete",
+  "seed": 42,
+  "started_at_unix": 1788632832.2716882,
+  "status": "COMPLETE",
+  "tasks": [
+    "Jarvis-Bandgap_MBJ",
+    "MP-Bandgap"
+  ],
+  "test_forward_count": 0,
+  "updated_at_unix": 1788646077.5628767,
+  "variants": [
+    "B1_NaiveConcat",
+    "P3_GCTR"
+  ]
+}

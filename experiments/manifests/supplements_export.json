@@ -1,0 +1,107 @@
+{
+  "date": "2026-10-14",
+  "profile": "supplements",
+  "training_runs_started": 0,
+  "test_evaluations_started": 0,
+  "roots": [
+    {
+      "destination": "paper_analysis/same_view_ensemble_control.csv",
+      "source_root": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\same_view_ensemble_control.csv",
+      "exists": true,
+      "exported_files": 1
+    },
+    {
+      "destination": "paper_analysis/two_run_error_complementarity.csv",
+      "source_root": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\two_run_error_complementarity.csv",
+      "exists": true,
+      "exported_files": 1
+    },
+    {
+      "destination": "paper_analysis/attention_ablation.csv",
+      "source_root": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\attention_ablation.csv",
+      "exists": true,
+      "exported_files": 1
+    },
+    {
+      "destination": "paper_analysis/literature_benchmark_provenance.csv",
+      "source_root": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\literature_benchmark_provenance.csv",
+      "exists": true,
+      "exported_files": 1
+    },
+    {
+      "destination": "paper_analysis/benchmark_split_comparison.csv",
+      "source_root": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\benchmark_split_comparison.csv",
+      "exists": true,
+      "exported_files": 1
+    },
+    {
+      "destination": "paper_analysis/numerical_provenance_audit.csv",
+      "source_root": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\numerical_provenance_audit.csv",
+      "exists": true,
+      "exported_files": 1
+    },
+    {
+      "destination": "paper_analysis/sbdvf_extra_tasks_baseline_audit.md",
+      "source_root": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\sbdvf_extra_tasks_baseline_audit.md",
+      "exists": true,
+      "exported_files": 1
+    },
+    {
+      "destination": "paper_analysis/review_20260914/test_same_view_recomputed.csv",
+      "source_root": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\review_20260914\\test_same_view_recomputed.csv",
+      "exists": true,
+      "exported_files": 1
+    }
+  ],
+  "files": [
+    {
+      "path": "experiments/paper_analysis/same_view_ensemble_control.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\same_view_ensemble_control.csv",
+      "bytes": 6028,
+      "sha256": "7ec03d92af67cd36b7f004a611bc5d7bafd2e36abc577a76a62d32dad8445a8e"
+    },
+    {
+      "path": "experiments/paper_analysis/two_run_error_complementarity.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\two_run_error_complementarity.csv",
+      "bytes": 8427,
+      "sha256": "e253921698c6138e1f62975e8df28bfbcf504586112d0ab344f8fa58517a663a"
+    },
+    {
+      "path": "experiments/paper_analysis/attention_ablation.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\attention_ablation.csv",
+      "bytes": 881,
+      "sha256": "1ad1bdd83a61c5c6004467dba58e11857718279339a4afcbb2ff3442064e2554"
+    },
+    {
+      "path": "experiments/paper_analysis/literature_benchmark_provenance.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\literature_benchmark_provenance.csv",
+      "bytes": 6642,
+      "sha256": "2978496cff0ca92e389a1f60e842b823cd6b423d4559d5bbef0779210904fd58"
+    },
+    {
+      "path": "experiments/paper_analysis/benchmark_split_comparison.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\benchmark_split_comparison.csv",
+      "bytes": 2301,
+      "sha256": "2f86ff03431089fb526a6ba443ce8fcf6a9b6bf9af50e99d803b8c52e4bf389c"
+    },
+    {
+      "path": "experiments/paper_analysis/numerical_provenance_audit.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\numerical_provenance_audit.csv",
+      "bytes": 1046,
+      "sha256": "f51ccf3ed01a29225c37dacbcd7ba024aec71762649873bdea308ffc9fe4c6ef"
+    },
+    {
+      "path": "experiments/paper_analysis/sbdvf_extra_tasks_baseline_audit.md",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\sbdvf_extra_tasks_baseline_audit.md",
+      "bytes": 2227,
+      "sha256": "7a432c27c5cab9a270cadbe335730beceef781617db8a3a3055dd8a980d095a3"
+    },
+    {
+      "path": "experiments/paper_analysis/review_20260914/test_same_view_recomputed.csv",
+      "source": "C:\\Users\\Administrator\\Desktop\\CGCNN\\\u8bba\u6587\\review_20260914\\test_same_view_recomputed.csv",
+      "bytes": 1615,
+      "sha256": "3a58bc0b312b5000340d26fee990294601e5e852d75018e3dfb3d975f3df4e81"
+    }
+  ],
+  "excluded": []
+}

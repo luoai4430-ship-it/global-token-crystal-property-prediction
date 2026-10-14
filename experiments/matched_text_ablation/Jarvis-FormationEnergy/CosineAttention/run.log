@@ -1,0 +1,58 @@
+Jarvis-FormationEnergy CosineAttention epoch=1/300 valid_mae=0.19627676 best=0.19627676
+Jarvis-FormationEnergy CosineAttention epoch=10/300 valid_mae=0.09597368 best=0.09597368
+Jarvis-FormationEnergy CosineAttention epoch=20/300 valid_mae=0.07989550 best=0.07989550
+Jarvis-FormationEnergy CosineAttention epoch=30/300 valid_mae=0.07149023 best=0.07043642
+Jarvis-FormationEnergy CosineAttention epoch=40/300 valid_mae=0.07192405 best=0.06422923
+Jarvis-FormationEnergy CosineAttention epoch=50/300 valid_mae=0.06132612 best=0.05695178
+Jarvis-FormationEnergy CosineAttention epoch=60/300 valid_mae=0.05412566 best=0.05395466
+Jarvis-FormationEnergy CosineAttention epoch=70/300 valid_mae=0.05375809 best=0.05046087
+Jarvis-FormationEnergy CosineAttention epoch=80/300 valid_mae=0.04811817 best=0.04811817
+Jarvis-FormationEnergy CosineAttention epoch=90/300 valid_mae=0.04897463 best=0.04609032
+Jarvis-FormationEnergy CosineAttention epoch=100/300 valid_mae=0.04455988 best=0.04455988
+Jarvis-FormationEnergy CosineAttention epoch=110/300 valid_mae=0.04646336 best=0.04230127
+Jarvis-FormationEnergy CosineAttention epoch=120/300 valid_mae=0.04324660 best=0.04197219
+Jarvis-FormationEnergy CosineAttention epoch=130/300 valid_mae=0.04192847 best=0.04125144
+Jarvis-FormationEnergy CosineAttention epoch=140/300 valid_mae=0.03885835 best=0.03885835
+Jarvis-FormationEnergy CosineAttention epoch=150/300 valid_mae=0.03846085 best=0.03773376
+Jarvis-FormationEnergy CosineAttention epoch=160/300 valid_mae=0.03744984 best=0.03729683
+Jarvis-FormationEnergy CosineAttention epoch=170/300 valid_mae=0.03857467 best=0.03526291
+Jarvis-FormationEnergy CosineAttention epoch=180/300 valid_mae=0.03611416 best=0.03480650
+Jarvis-FormationEnergy CosineAttention epoch=190/300 valid_mae=0.03548517 best=0.03402248
+Jarvis-FormationEnergy CosineAttention epoch=200/300 valid_mae=0.03364342 best=0.03356488
+Jarvis-FormationEnergy CosineAttention epoch=210/300 valid_mae=0.03269242 best=0.03269242
+Jarvis-FormationEnergy CosineAttention epoch=220/300 valid_mae=0.03164845 best=0.03164845
+Jarvis-FormationEnergy CosineAttention epoch=230/300 valid_mae=0.03152909 best=0.03144513
+Jarvis-FormationEnergy CosineAttention epoch=240/300 valid_mae=0.03094090 best=0.03064802
+Jarvis-FormationEnergy CosineAttention epoch=250/300 valid_mae=0.03081219 best=0.03041761
+Jarvis-FormationEnergy CosineAttention epoch=260/300 valid_mae=0.03024401 best=0.03018640
+Jarvis-FormationEnergy CosineAttention epoch=270/300 valid_mae=0.03013701 best=0.02998372
+Jarvis-FormationEnergy CosineAttention epoch=280/300 valid_mae=0.02984414 best=0.02984414
+Jarvis-FormationEnergy CosineAttention epoch=290/300 valid_mae=0.02988363 best=0.02969048
+Jarvis-FormationEnergy CosineAttention epoch=300/300 valid_mae=0.02976634 best=0.02969048
+{
+  "task": "Jarvis-FormationEnergy",
+  "dataset": "JARVIS",
+  "property_family": "Energetic",
+  "variant": "CosineAttention",
+  "seed": 42,
+  "best_epoch": 288,
+  "best_valid_mae": 0.029690475451080407,
+  "final_valid_mae": 0.029766344276944776,
+  "mean": -0.8317226277536003,
+  "std": 1.0806602652341355,
+  "trainable_params": 2751458,
+  "checkpoint_path": "/root/autodl-tmp/TextResidualSHFMat/matched_ablation_runs/Jarvis-FormationEnergy/CosineAttention/best_valid.pt",
+  "test_forward_count": 0,
+  "runtime_sec": 11548.637444257736,
+  "train_samples": 44578,
+  "valid_samples": 5572,
+  "mean_eligible_token_count": 122.4294687724336,
+  "median_eligible_token_count": 126.0,
+  "attention_entropy_mean": 4.250105223934683,
+  "attention_entropy_median": 4.240769147872925,
+  "attention_effective_token_count_mean": 72.71030928859906,
+  "attention_effective_token_count_median": 69.4612574525638,
+  "attention_mean_max": null,
+  "zero_text_fallback_count": 0,
+  "zero_text_fallback_ids": []
+}

@@ -1,0 +1,346 @@
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_seed43_benchmark.py train --task MP-BulkModuli --model_name original_sftmat --seed 43 --token_cache /dev/shm/dualview_seed43_20260830/MP-BulkModuli/token_cache --output_dir /root/dualview_seed43_20260830/runs/MP-BulkModuli/original_sftmat/seed_43 --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda --num_workers 2 --epochs 300 --batch_size 32
+dataset split: total=5830, train=4664, valid=583, test=583
+train range:(0.4771212637424469,2.63948655128479)
+valid range:(0.6020600199699402,2.63948655128479)
+test range:(0.6020600199699402,2.5774917602539062)
+mean:1.9345861673355103
+std:0.3619743585586548
+[MP-BulkModuli:original_sftmat:seed43] epoch=1/300 loss=0.16388442 valid_mae=0.10835979 best=0.10835979 best_epoch=1
+[MP-BulkModuli:original_sftmat:seed43] epoch=2/300 loss=0.11299751 valid_mae=0.09260262 best=0.09260262 best_epoch=2
+[MP-BulkModuli:original_sftmat:seed43] epoch=3/300 loss=0.09960699 valid_mae=0.08680687 best=0.08680687 best_epoch=3
+[MP-BulkModuli:original_sftmat:seed43] epoch=4/300 loss=0.09372598 valid_mae=0.07932355 best=0.07932355 best_epoch=4
+[MP-BulkModuli:original_sftmat:seed43] epoch=5/300 loss=0.08764268 valid_mae=0.07543984 best=0.07543984 best_epoch=5
+[MP-BulkModuli:original_sftmat:seed43] epoch=6/300 loss=0.08674274 valid_mae=0.07715528 best=0.07543984 best_epoch=5
+[MP-BulkModuli:original_sftmat:seed43] epoch=7/300 loss=0.08378536 valid_mae=0.06944446 best=0.06944446 best_epoch=7
+[MP-BulkModuli:original_sftmat:seed43] epoch=8/300 loss=0.07538801 valid_mae=0.06989399 best=0.06944446 best_epoch=7
+[MP-BulkModuli:original_sftmat:seed43] epoch=9/300 loss=0.07449886 valid_mae=0.07140592 best=0.06944446 best_epoch=7
+[MP-BulkModuli:original_sftmat:seed43] epoch=10/300 loss=0.07305604 valid_mae=0.06779703 best=0.06779703 best_epoch=10
+[MP-BulkModuli:original_sftmat:seed43] epoch=11/300 loss=0.07168075 valid_mae=0.06324441 best=0.06324441 best_epoch=11
+[MP-BulkModuli:original_sftmat:seed43] epoch=12/300 loss=0.07338978 valid_mae=0.06522128 best=0.06324441 best_epoch=11
+[MP-BulkModuli:original_sftmat:seed43] epoch=13/300 loss=0.06993012 valid_mae=0.06285714 best=0.06285714 best_epoch=13
+[MP-BulkModuli:original_sftmat:seed43] epoch=14/300 loss=0.06753628 valid_mae=0.06754386 best=0.06285714 best_epoch=13
+[MP-BulkModuli:original_sftmat:seed43] epoch=15/300 loss=0.06819456 valid_mae=0.06616918 best=0.06285714 best_epoch=13
+[MP-BulkModuli:original_sftmat:seed43] epoch=16/300 loss=0.06760103 valid_mae=0.06601893 best=0.06285714 best_epoch=13
+[MP-BulkModuli:original_sftmat:seed43] epoch=17/300 loss=0.06545701 valid_mae=0.06642040 best=0.06285714 best_epoch=13
+[MP-BulkModuli:original_sftmat:seed43] epoch=18/300 loss=0.06549385 valid_mae=0.06075447 best=0.06075447 best_epoch=18
+[MP-BulkModuli:original_sftmat:seed43] epoch=19/300 loss=0.06253532 valid_mae=0.07192798 best=0.06075447 best_epoch=18
+[MP-BulkModuli:original_sftmat:seed43] epoch=20/300 loss=0.06522581 valid_mae=0.05956900 best=0.05956900 best_epoch=20
+[MP-BulkModuli:original_sftmat:seed43] epoch=21/300 loss=0.06475098 valid_mae=0.06601234 best=0.05956900 best_epoch=20
+[MP-BulkModuli:original_sftmat:seed43] epoch=22/300 loss=0.06271625 valid_mae=0.06655038 best=0.05956900 best_epoch=20
+[MP-BulkModuli:original_sftmat:seed43] epoch=23/300 loss=0.06224153 valid_mae=0.06074422 best=0.05956900 best_epoch=20
+[MP-BulkModuli:original_sftmat:seed43] epoch=24/300 loss=0.06107526 valid_mae=0.06288828 best=0.05956900 best_epoch=20
+[MP-BulkModuli:original_sftmat:seed43] epoch=25/300 loss=0.05884450 valid_mae=0.05912691 best=0.05912691 best_epoch=25
+[MP-BulkModuli:original_sftmat:seed43] epoch=26/300 loss=0.05832858 valid_mae=0.06174323 best=0.05912691 best_epoch=25
+[MP-BulkModuli:original_sftmat:seed43] epoch=27/300 loss=0.05830265 valid_mae=0.05796024 best=0.05796024 best_epoch=27
+[MP-BulkModuli:original_sftmat:seed43] epoch=28/300 loss=0.05563364 valid_mae=0.06567201 best=0.05796024 best_epoch=27
+[MP-BulkModuli:original_sftmat:seed43] epoch=29/300 loss=0.05835713 valid_mae=0.05318144 best=0.05318144 best_epoch=29
+[MP-BulkModuli:original_sftmat:seed43] epoch=30/300 loss=0.05625306 valid_mae=0.05358346 best=0.05318144 best_epoch=29
+[MP-BulkModuli:original_sftmat:seed43] epoch=31/300 loss=0.05617662 valid_mae=0.06136760 best=0.05318144 best_epoch=29
+[MP-BulkModuli:original_sftmat:seed43] epoch=32/300 loss=0.05584538 valid_mae=0.06550817 best=0.05318144 best_epoch=29
+[MP-BulkModuli:original_sftmat:seed43] epoch=33/300 loss=0.05709360 valid_mae=0.06230679 best=0.05318144 best_epoch=29
+[MP-BulkModuli:original_sftmat:seed43] epoch=34/300 loss=0.05429160 valid_mae=0.05487618 best=0.05318144 best_epoch=29
+[MP-BulkModuli:original_sftmat:seed43] epoch=35/300 loss=0.05577070 valid_mae=0.05455743 best=0.05318144 best_epoch=29
+[MP-BulkModuli:original_sftmat:seed43] epoch=36/300 loss=0.05594905 valid_mae=0.05629082 best=0.05318144 best_epoch=29
+[MP-BulkModuli:original_sftmat:seed43] epoch=37/300 loss=0.05132197 valid_mae=0.05710036 best=0.05318144 best_epoch=29
+[MP-BulkModuli:original_sftmat:seed43] epoch=38/300 loss=0.05345012 valid_mae=0.06234331 best=0.05318144 best_epoch=29
+[MP-BulkModuli:original_sftmat:seed43] epoch=39/300 loss=0.05247214 valid_mae=0.05500193 best=0.05318144 best_epoch=29
+[MP-BulkModuli:original_sftmat:seed43] epoch=40/300 loss=0.05354777 valid_mae=0.05448083 best=0.05318144 best_epoch=29
+[MP-BulkModuli:original_sftmat:seed43] epoch=41/300 loss=0.05203665 valid_mae=0.05878553 best=0.05318144 best_epoch=29
+[MP-BulkModuli:original_sftmat:seed43] epoch=42/300 loss=0.05115087 valid_mae=0.05712270 best=0.05318144 best_epoch=29
+[MP-BulkModuli:original_sftmat:seed43] epoch=43/300 loss=0.05250251 valid_mae=0.05866492 best=0.05318144 best_epoch=29
+[MP-BulkModuli:original_sftmat:seed43] epoch=44/300 loss=0.05247021 valid_mae=0.05221171 best=0.05221171 best_epoch=44
+[MP-BulkModuli:original_sftmat:seed43] epoch=45/300 loss=0.04809790 valid_mae=0.05678464 best=0.05221171 best_epoch=44
+[MP-BulkModuli:original_sftmat:seed43] epoch=46/300 loss=0.04936565 valid_mae=0.05552599 best=0.05221171 best_epoch=44
+[MP-BulkModuli:original_sftmat:seed43] epoch=47/300 loss=0.04786297 valid_mae=0.05337679 best=0.05221171 best_epoch=44
+[MP-BulkModuli:original_sftmat:seed43] epoch=48/300 loss=0.04758673 valid_mae=0.05616229 best=0.05221171 best_epoch=44
+[MP-BulkModuli:original_sftmat:seed43] epoch=49/300 loss=0.04845092 valid_mae=0.04683849 best=0.04683849 best_epoch=49
+[MP-BulkModuli:original_sftmat:seed43] epoch=50/300 loss=0.04641651 valid_mae=0.05840989 best=0.04683849 best_epoch=49
+[MP-BulkModuli:original_sftmat:seed43] epoch=51/300 loss=0.04935454 valid_mae=0.05787772 best=0.04683849 best_epoch=49
+[MP-BulkModuli:original_sftmat:seed43] epoch=52/300 loss=0.04782092 valid_mae=0.05814233 best=0.04683849 best_epoch=49
+[MP-BulkModuli:original_sftmat:seed43] epoch=53/300 loss=0.04876492 valid_mae=0.05821568 best=0.04683849 best_epoch=49
+[MP-BulkModuli:original_sftmat:seed43] epoch=54/300 loss=0.05140824 valid_mae=0.05771880 best=0.04683849 best_epoch=49
+[MP-BulkModuli:original_sftmat:seed43] epoch=55/300 loss=0.04555717 valid_mae=0.05333821 best=0.04683849 best_epoch=49
+[MP-BulkModuli:original_sftmat:seed43] epoch=56/300 loss=0.04640668 valid_mae=0.05212164 best=0.04683849 best_epoch=49
+[MP-BulkModuli:original_sftmat:seed43] epoch=57/300 loss=0.04454727 valid_mae=0.04998818 best=0.04683849 best_epoch=49
+[MP-BulkModuli:original_sftmat:seed43] epoch=58/300 loss=0.04425098 valid_mae=0.05720659 best=0.04683849 best_epoch=49
+[MP-BulkModuli:original_sftmat:seed43] epoch=59/300 loss=0.04418996 valid_mae=0.05719926 best=0.04683849 best_epoch=49
+[MP-BulkModuli:original_sftmat:seed43] epoch=60/300 loss=0.04401847 valid_mae=0.07206783 best=0.04683849 best_epoch=49
+[MP-BulkModuli:original_sftmat:seed43] epoch=61/300 loss=0.04459251 valid_mae=0.05016493 best=0.04683849 best_epoch=49
+[MP-BulkModuli:original_sftmat:seed43] epoch=62/300 loss=0.04555169 valid_mae=0.04750282 best=0.04683849 best_epoch=49
+[MP-BulkModuli:original_sftmat:seed43] epoch=63/300 loss=0.04280566 valid_mae=0.04945243 best=0.04683849 best_epoch=49
+[MP-BulkModuli:original_sftmat:seed43] epoch=64/300 loss=0.04508774 valid_mae=0.05318922 best=0.04683849 best_epoch=49
+[MP-BulkModuli:original_sftmat:seed43] epoch=65/300 loss=0.04383688 valid_mae=0.04841937 best=0.04683849 best_epoch=49
+[MP-BulkModuli:original_sftmat:seed43] epoch=66/300 loss=0.04044631 valid_mae=0.05013737 best=0.04683849 best_epoch=49
+[MP-BulkModuli:original_sftmat:seed43] epoch=67/300 loss=0.04194123 valid_mae=0.04871616 best=0.04683849 best_epoch=49
+[MP-BulkModuli:original_sftmat:seed43] epoch=68/300 loss=0.03992654 valid_mae=0.04711195 best=0.04683849 best_epoch=49
+[MP-BulkModuli:original_sftmat:seed43] epoch=69/300 loss=0.04219549 valid_mae=0.05007625 best=0.04683849 best_epoch=49
+[MP-BulkModuli:original_sftmat:seed43] epoch=70/300 loss=0.03957510 valid_mae=0.05008385 best=0.04683849 best_epoch=49
+[MP-BulkModuli:original_sftmat:seed43] epoch=71/300 loss=0.04136590 valid_mae=0.04987000 best=0.04683849 best_epoch=49
+[MP-BulkModuli:original_sftmat:seed43] epoch=72/300 loss=0.03743630 valid_mae=0.05636777 best=0.04683849 best_epoch=49
+[MP-BulkModuli:original_sftmat:seed43] epoch=73/300 loss=0.03922101 valid_mae=0.05844950 best=0.04683849 best_epoch=49
+[MP-BulkModuli:original_sftmat:seed43] epoch=74/300 loss=0.03947374 valid_mae=0.05794538 best=0.04683849 best_epoch=49
+[MP-BulkModuli:original_sftmat:seed43] epoch=75/300 loss=0.04079767 valid_mae=0.05249121 best=0.04683849 best_epoch=49
+[MP-BulkModuli:original_sftmat:seed43] epoch=76/300 loss=0.03818263 valid_mae=0.04914353 best=0.04683849 best_epoch=49
+[MP-BulkModuli:original_sftmat:seed43] epoch=77/300 loss=0.03870537 valid_mae=0.05471947 best=0.04683849 best_epoch=49
+[MP-BulkModuli:original_sftmat:seed43] epoch=78/300 loss=0.03730468 valid_mae=0.05805373 best=0.04683849 best_epoch=49
+[MP-BulkModuli:original_sftmat:seed43] epoch=79/300 loss=0.03841169 valid_mae=0.04949767 best=0.04683849 best_epoch=49
+[MP-BulkModuli:original_sftmat:seed43] epoch=80/300 loss=0.03718620 valid_mae=0.05116723 best=0.04683849 best_epoch=49
+[MP-BulkModuli:original_sftmat:seed43] epoch=81/300 loss=0.03600743 valid_mae=0.05027460 best=0.04683849 best_epoch=49
+[MP-BulkModuli:original_sftmat:seed43] epoch=82/300 loss=0.03572933 valid_mae=0.04603756 best=0.04603756 best_epoch=82
+[MP-BulkModuli:original_sftmat:seed43] epoch=83/300 loss=0.03565758 valid_mae=0.05322660 best=0.04603756 best_epoch=82
+[MP-BulkModuli:original_sftmat:seed43] epoch=84/300 loss=0.03503463 valid_mae=0.05423522 best=0.04603756 best_epoch=82
+[MP-BulkModuli:original_sftmat:seed43] epoch=85/300 loss=0.03551138 valid_mae=0.04913357 best=0.04603756 best_epoch=82
+[MP-BulkModuli:original_sftmat:seed43] epoch=86/300 loss=0.03359228 valid_mae=0.04683801 best=0.04603756 best_epoch=82
+[MP-BulkModuli:original_sftmat:seed43] epoch=87/300 loss=0.03255725 valid_mae=0.04459852 best=0.04459852 best_epoch=87
+[MP-BulkModuli:original_sftmat:seed43] epoch=88/300 loss=0.03240654 valid_mae=0.04755866 best=0.04459852 best_epoch=87
+[MP-BulkModuli:original_sftmat:seed43] epoch=89/300 loss=0.03368108 valid_mae=0.04860544 best=0.04459852 best_epoch=87
+[MP-BulkModuli:original_sftmat:seed43] epoch=90/300 loss=0.03300227 valid_mae=0.04602579 best=0.04459852 best_epoch=87
+[MP-BulkModuli:original_sftmat:seed43] epoch=91/300 loss=0.03276784 valid_mae=0.04431255 best=0.04431255 best_epoch=91
+[MP-BulkModuli:original_sftmat:seed43] epoch=92/300 loss=0.03277050 valid_mae=0.04974269 best=0.04431255 best_epoch=91
+[MP-BulkModuli:original_sftmat:seed43] epoch=93/300 loss=0.03274441 valid_mae=0.04397243 best=0.04397243 best_epoch=93
+[MP-BulkModuli:original_sftmat:seed43] epoch=94/300 loss=0.03184708 valid_mae=0.04590054 best=0.04397243 best_epoch=93
+[MP-BulkModuli:original_sftmat:seed43] epoch=95/300 loss=0.03151736 valid_mae=0.04606044 best=0.04397243 best_epoch=93
+[MP-BulkModuli:original_sftmat:seed43] epoch=96/300 loss=0.03076208 valid_mae=0.04942451 best=0.04397243 best_epoch=93
+[MP-BulkModuli:original_sftmat:seed43] epoch=97/300 loss=0.02999675 valid_mae=0.05094378 best=0.04397243 best_epoch=93
+[MP-BulkModuli:original_sftmat:seed43] epoch=98/300 loss=0.03054975 valid_mae=0.04549387 best=0.04397243 best_epoch=93
+[MP-BulkModuli:original_sftmat:seed43] epoch=99/300 loss=0.02865823 valid_mae=0.04671299 best=0.04397243 best_epoch=93
+[MP-BulkModuli:original_sftmat:seed43] epoch=100/300 loss=0.02852070 valid_mae=0.04528871 best=0.04397243 best_epoch=93
+[MP-BulkModuli:original_sftmat:seed43] epoch=101/300 loss=0.03052225 valid_mae=0.04725185 best=0.04397243 best_epoch=93
+[MP-BulkModuli:original_sftmat:seed43] epoch=102/300 loss=0.03029677 valid_mae=0.04572239 best=0.04397243 best_epoch=93
+[MP-BulkModuli:original_sftmat:seed43] epoch=103/300 loss=0.02876418 valid_mae=0.04776362 best=0.04397243 best_epoch=93
+[MP-BulkModuli:original_sftmat:seed43] epoch=104/300 loss=0.02687570 valid_mae=0.04611691 best=0.04397243 best_epoch=93
+[MP-BulkModuli:original_sftmat:seed43] epoch=105/300 loss=0.02714780 valid_mae=0.04411230 best=0.04397243 best_epoch=93
+[MP-BulkModuli:original_sftmat:seed43] epoch=106/300 loss=0.02716037 valid_mae=0.04184038 best=0.04184038 best_epoch=106
+[MP-BulkModuli:original_sftmat:seed43] epoch=107/300 loss=0.02786076 valid_mae=0.04704764 best=0.04184038 best_epoch=106
+[MP-BulkModuli:original_sftmat:seed43] epoch=108/300 loss=0.02566041 valid_mae=0.04338015 best=0.04184038 best_epoch=106
+[MP-BulkModuli:original_sftmat:seed43] epoch=109/300 loss=0.02531215 valid_mae=0.04747721 best=0.04184038 best_epoch=106
+[MP-BulkModuli:original_sftmat:seed43] epoch=110/300 loss=0.02574374 valid_mae=0.04458769 best=0.04184038 best_epoch=106
+[MP-BulkModuli:original_sftmat:seed43] epoch=111/300 loss=0.02521510 valid_mae=0.04497364 best=0.04184038 best_epoch=106
+[MP-BulkModuli:original_sftmat:seed43] epoch=112/300 loss=0.02563037 valid_mae=0.04527891 best=0.04184038 best_epoch=106
+[MP-BulkModuli:original_sftmat:seed43] epoch=113/300 loss=0.02472767 valid_mae=0.04360489 best=0.04184038 best_epoch=106
+[MP-BulkModuli:original_sftmat:seed43] epoch=114/300 loss=0.02365714 valid_mae=0.04272384 best=0.04184038 best_epoch=106
+[MP-BulkModuli:original_sftmat:seed43] epoch=115/300 loss=0.02458330 valid_mae=0.04338819 best=0.04184038 best_epoch=106
+[MP-BulkModuli:original_sftmat:seed43] epoch=116/300 loss=0.02573078 valid_mae=0.04720260 best=0.04184038 best_epoch=106
+[MP-BulkModuli:original_sftmat:seed43] epoch=117/300 loss=0.02340735 valid_mae=0.04346762 best=0.04184038 best_epoch=106
+[MP-BulkModuli:original_sftmat:seed43] epoch=118/300 loss=0.02300995 valid_mae=0.04105369 best=0.04105369 best_epoch=118
+[MP-BulkModuli:original_sftmat:seed43] epoch=119/300 loss=0.02313495 valid_mae=0.04271190 best=0.04105369 best_epoch=118
+[MP-BulkModuli:original_sftmat:seed43] epoch=120/300 loss=0.02492548 valid_mae=0.04315181 best=0.04105369 best_epoch=118
+[MP-BulkModuli:original_sftmat:seed43] epoch=121/300 loss=0.02294403 valid_mae=0.04177232 best=0.04105369 best_epoch=118
+[MP-BulkModuli:original_sftmat:seed43] epoch=122/300 loss=0.02282808 valid_mae=0.04322476 best=0.04105369 best_epoch=118
+[MP-BulkModuli:original_sftmat:seed43] epoch=123/300 loss=0.02168454 valid_mae=0.04184102 best=0.04105369 best_epoch=118
+[MP-BulkModuli:original_sftmat:seed43] epoch=124/300 loss=0.02140519 valid_mae=0.04305327 best=0.04105369 best_epoch=118
+[MP-BulkModuli:original_sftmat:seed43] epoch=125/300 loss=0.02206898 valid_mae=0.04514175 best=0.04105369 best_epoch=118
+[MP-BulkModuli:original_sftmat:seed43] epoch=126/300 loss=0.02201508 valid_mae=0.04240146 best=0.04105369 best_epoch=118
+[MP-BulkModuli:original_sftmat:seed43] epoch=127/300 loss=0.02153980 valid_mae=0.04466263 best=0.04105369 best_epoch=118
+[MP-BulkModuli:original_sftmat:seed43] epoch=128/300 loss=0.02107083 valid_mae=0.04397940 best=0.04105369 best_epoch=118
+[MP-BulkModuli:original_sftmat:seed43] epoch=129/300 loss=0.02110535 valid_mae=0.04063838 best=0.04063838 best_epoch=129
+[MP-BulkModuli:original_sftmat:seed43] epoch=130/300 loss=0.02089725 valid_mae=0.04306307 best=0.04063838 best_epoch=129
+[MP-BulkModuli:original_sftmat:seed43] epoch=131/300 loss=0.02045879 valid_mae=0.04329022 best=0.04063838 best_epoch=129
+[MP-BulkModuli:original_sftmat:seed43] epoch=132/300 loss=0.02090298 valid_mae=0.04308969 best=0.04063838 best_epoch=129
+[MP-BulkModuli:original_sftmat:seed43] epoch=133/300 loss=0.02071823 valid_mae=0.04541712 best=0.04063838 best_epoch=129
+[MP-BulkModuli:original_sftmat:seed43] epoch=134/300 loss=0.02016336 valid_mae=0.04435803 best=0.04063838 best_epoch=129
+[MP-BulkModuli:original_sftmat:seed43] epoch=135/300 loss=0.01922089 valid_mae=0.04215270 best=0.04063838 best_epoch=129
+[MP-BulkModuli:original_sftmat:seed43] epoch=136/300 loss=0.01955615 valid_mae=0.04190894 best=0.04063838 best_epoch=129
+[MP-BulkModuli:original_sftmat:seed43] epoch=137/300 loss=0.01863091 valid_mae=0.04605972 best=0.04063838 best_epoch=129
+[MP-BulkModuli:original_sftmat:seed43] epoch=138/300 loss=0.01889862 valid_mae=0.04335458 best=0.04063838 best_epoch=129
+[MP-BulkModuli:original_sftmat:seed43] epoch=139/300 loss=0.01838646 valid_mae=0.04166466 best=0.04063838 best_epoch=129
+[MP-BulkModuli:original_sftmat:seed43] epoch=140/300 loss=0.01912801 valid_mae=0.04108276 best=0.04063838 best_epoch=129
+[MP-BulkModuli:original_sftmat:seed43] epoch=141/300 loss=0.01878095 valid_mae=0.04251240 best=0.04063838 best_epoch=129
+[MP-BulkModuli:original_sftmat:seed43] epoch=142/300 loss=0.01816474 valid_mae=0.04257017 best=0.04063838 best_epoch=129
+[MP-BulkModuli:original_sftmat:seed43] epoch=143/300 loss=0.01848072 valid_mae=0.04574265 best=0.04063838 best_epoch=129
+[MP-BulkModuli:original_sftmat:seed43] epoch=144/300 loss=0.01880932 valid_mae=0.04272480 best=0.04063838 best_epoch=129
+[MP-BulkModuli:original_sftmat:seed43] epoch=145/300 loss=0.01826205 valid_mae=0.04410881 best=0.04063838 best_epoch=129
+[MP-BulkModuli:original_sftmat:seed43] epoch=146/300 loss=0.01736427 valid_mae=0.04449053 best=0.04063838 best_epoch=129
+[MP-BulkModuli:original_sftmat:seed43] epoch=147/300 loss=0.01709368 valid_mae=0.04051922 best=0.04051922 best_epoch=147
+[MP-BulkModuli:original_sftmat:seed43] epoch=148/300 loss=0.01807170 valid_mae=0.04147115 best=0.04051922 best_epoch=147
+[MP-BulkModuli:original_sftmat:seed43] epoch=149/300 loss=0.01726175 valid_mae=0.04209104 best=0.04051922 best_epoch=147
+[MP-BulkModuli:original_sftmat:seed43] epoch=150/300 loss=0.01707076 valid_mae=0.04123615 best=0.04051922 best_epoch=147
+[MP-BulkModuli:original_sftmat:seed43] epoch=151/300 loss=0.01715637 valid_mae=0.04037612 best=0.04037612 best_epoch=151
+[MP-BulkModuli:original_sftmat:seed43] epoch=152/300 loss=0.01655721 valid_mae=0.04120802 best=0.04037612 best_epoch=151
+[MP-BulkModuli:original_sftmat:seed43] epoch=153/300 loss=0.01651539 valid_mae=0.03958128 best=0.03958128 best_epoch=153
+[MP-BulkModuli:original_sftmat:seed43] epoch=154/300 loss=0.01562116 valid_mae=0.04070875 best=0.03958128 best_epoch=153
+[MP-BulkModuli:original_sftmat:seed43] epoch=155/300 loss=0.01679981 valid_mae=0.04182661 best=0.03958128 best_epoch=153
+[MP-BulkModuli:original_sftmat:seed43] epoch=156/300 loss=0.01575299 valid_mae=0.04165550 best=0.03958128 best_epoch=153
+[MP-BulkModuli:original_sftmat:seed43] epoch=157/300 loss=0.01584582 valid_mae=0.04120405 best=0.03958128 best_epoch=153
+[MP-BulkModuli:original_sftmat:seed43] epoch=158/300 loss=0.01568103 valid_mae=0.04020380 best=0.03958128 best_epoch=153
+[MP-BulkModuli:original_sftmat:seed43] epoch=159/300 loss=0.01551312 valid_mae=0.04104607 best=0.03958128 best_epoch=153
+[MP-BulkModuli:original_sftmat:seed43] epoch=160/300 loss=0.01589399 valid_mae=0.03971048 best=0.03958128 best_epoch=153
+[MP-BulkModuli:original_sftmat:seed43] epoch=161/300 loss=0.01507784 valid_mae=0.04246374 best=0.03958128 best_epoch=153
+[MP-BulkModuli:original_sftmat:seed43] epoch=162/300 loss=0.01463316 valid_mae=0.03944005 best=0.03944005 best_epoch=162
+[MP-BulkModuli:original_sftmat:seed43] epoch=163/300 loss=0.01449969 valid_mae=0.04127501 best=0.03944005 best_epoch=162
+[MP-BulkModuli:original_sftmat:seed43] epoch=164/300 loss=0.01451418 valid_mae=0.03997976 best=0.03944005 best_epoch=162
+[MP-BulkModuli:original_sftmat:seed43] epoch=165/300 loss=0.01403903 valid_mae=0.04108129 best=0.03944005 best_epoch=162
+[MP-BulkModuli:original_sftmat:seed43] epoch=166/300 loss=0.01459445 valid_mae=0.03941890 best=0.03941890 best_epoch=166
+[MP-BulkModuli:original_sftmat:seed43] epoch=167/300 loss=0.01443708 valid_mae=0.03884908 best=0.03884908 best_epoch=167
+[MP-BulkModuli:original_sftmat:seed43] epoch=168/300 loss=0.01363689 valid_mae=0.04029148 best=0.03884908 best_epoch=167
+[MP-BulkModuli:original_sftmat:seed43] epoch=169/300 loss=0.01353399 valid_mae=0.04094870 best=0.03884908 best_epoch=167
+[MP-BulkModuli:original_sftmat:seed43] epoch=170/300 loss=0.01373508 valid_mae=0.04057615 best=0.03884908 best_epoch=167
+[MP-BulkModuli:original_sftmat:seed43] epoch=171/300 loss=0.01382751 valid_mae=0.04095707 best=0.03884908 best_epoch=167
+[MP-BulkModuli:original_sftmat:seed43] epoch=172/300 loss=0.01324659 valid_mae=0.04225232 best=0.03884908 best_epoch=167
+[MP-BulkModuli:original_sftmat:seed43] epoch=173/300 loss=0.01374358 valid_mae=0.04400434 best=0.03884908 best_epoch=167
+[MP-BulkModuli:original_sftmat:seed43] epoch=174/300 loss=0.01386145 valid_mae=0.04006368 best=0.03884908 best_epoch=167
+[MP-BulkModuli:original_sftmat:seed43] epoch=175/300 loss=0.01283630 valid_mae=0.03908829 best=0.03884908 best_epoch=167
+[MP-BulkModuli:original_sftmat:seed43] epoch=176/300 loss=0.01233534 valid_mae=0.04049662 best=0.03884908 best_epoch=167
+[MP-BulkModuli:original_sftmat:seed43] epoch=177/300 loss=0.01268695 valid_mae=0.04050483 best=0.03884908 best_epoch=167
+[MP-BulkModuli:original_sftmat:seed43] epoch=178/300 loss=0.01182959 valid_mae=0.04049565 best=0.03884908 best_epoch=167
+[MP-BulkModuli:original_sftmat:seed43] epoch=179/300 loss=0.01221261 valid_mae=0.03932791 best=0.03884908 best_epoch=167
+[MP-BulkModuli:original_sftmat:seed43] epoch=180/300 loss=0.01219807 valid_mae=0.03910275 best=0.03884908 best_epoch=167
+[MP-BulkModuli:original_sftmat:seed43] epoch=181/300 loss=0.01236550 valid_mae=0.03902076 best=0.03884908 best_epoch=167
+[MP-BulkModuli:original_sftmat:seed43] epoch=182/300 loss=0.01201763 valid_mae=0.03921374 best=0.03884908 best_epoch=167
+[MP-BulkModuli:original_sftmat:seed43] epoch=183/300 loss=0.01148506 valid_mae=0.03889655 best=0.03884908 best_epoch=167
+[MP-BulkModuli:original_sftmat:seed43] epoch=184/300 loss=0.01146370 valid_mae=0.03858619 best=0.03858619 best_epoch=184
+[MP-BulkModuli:original_sftmat:seed43] epoch=185/300 loss=0.01141327 valid_mae=0.03886967 best=0.03858619 best_epoch=184
+[MP-BulkModuli:original_sftmat:seed43] epoch=186/300 loss=0.01177514 valid_mae=0.03963928 best=0.03858619 best_epoch=184
+[MP-BulkModuli:original_sftmat:seed43] epoch=187/300 loss=0.01074186 valid_mae=0.03985721 best=0.03858619 best_epoch=184
+[MP-BulkModuli:original_sftmat:seed43] epoch=188/300 loss=0.01133138 valid_mae=0.04043514 best=0.03858619 best_epoch=184
+[MP-BulkModuli:original_sftmat:seed43] epoch=189/300 loss=0.01114221 valid_mae=0.03999246 best=0.03858619 best_epoch=184
+[MP-BulkModuli:original_sftmat:seed43] epoch=190/300 loss=0.01107792 valid_mae=0.03935454 best=0.03858619 best_epoch=184
+[MP-BulkModuli:original_sftmat:seed43] epoch=191/300 loss=0.01064581 valid_mae=0.03851583 best=0.03851583 best_epoch=191
+[MP-BulkModuli:original_sftmat:seed43] epoch=192/300 loss=0.01067256 valid_mae=0.03929231 best=0.03851583 best_epoch=191
+[MP-BulkModuli:original_sftmat:seed43] epoch=193/300 loss=0.01038176 valid_mae=0.03928130 best=0.03851583 best_epoch=191
+[MP-BulkModuli:original_sftmat:seed43] epoch=194/300 loss=0.01036981 valid_mae=0.03919400 best=0.03851583 best_epoch=191
+[MP-BulkModuli:original_sftmat:seed43] epoch=195/300 loss=0.01037943 valid_mae=0.03987696 best=0.03851583 best_epoch=191
+[MP-BulkModuli:original_sftmat:seed43] epoch=196/300 loss=0.01009146 valid_mae=0.03976958 best=0.03851583 best_epoch=191
+[MP-BulkModuli:original_sftmat:seed43] epoch=197/300 loss=0.00983642 valid_mae=0.03858791 best=0.03851583 best_epoch=191
+[MP-BulkModuli:original_sftmat:seed43] epoch=198/300 loss=0.01035430 valid_mae=0.03878729 best=0.03851583 best_epoch=191
+[MP-BulkModuli:original_sftmat:seed43] epoch=199/300 loss=0.00980918 valid_mae=0.03881748 best=0.03851583 best_epoch=191
+[MP-BulkModuli:original_sftmat:seed43] epoch=200/300 loss=0.00989362 valid_mae=0.03930758 best=0.03851583 best_epoch=191
+[MP-BulkModuli:original_sftmat:seed43] epoch=201/300 loss=0.00963103 valid_mae=0.03940551 best=0.03851583 best_epoch=191
+[MP-BulkModuli:original_sftmat:seed43] epoch=202/300 loss=0.01027655 valid_mae=0.03935293 best=0.03851583 best_epoch=191
+[MP-BulkModuli:original_sftmat:seed43] epoch=203/300 loss=0.00902272 valid_mae=0.03900841 best=0.03851583 best_epoch=191
+[MP-BulkModuli:original_sftmat:seed43] epoch=204/300 loss=0.00895518 valid_mae=0.03915124 best=0.03851583 best_epoch=191
+[MP-BulkModuli:original_sftmat:seed43] epoch=205/300 loss=0.00901655 valid_mae=0.03973587 best=0.03851583 best_epoch=191
+[MP-BulkModuli:original_sftmat:seed43] epoch=206/300 loss=0.00879980 valid_mae=0.03948629 best=0.03851583 best_epoch=191
+[MP-BulkModuli:original_sftmat:seed43] epoch=207/300 loss=0.00877641 valid_mae=0.03866566 best=0.03851583 best_epoch=191
+[MP-BulkModuli:original_sftmat:seed43] epoch=208/300 loss=0.00827499 valid_mae=0.03897610 best=0.03851583 best_epoch=191
+[MP-BulkModuli:original_sftmat:seed43] epoch=209/300 loss=0.00900154 valid_mae=0.03947569 best=0.03851583 best_epoch=191
+[MP-BulkModuli:original_sftmat:seed43] epoch=210/300 loss=0.00867234 valid_mae=0.03942495 best=0.03851583 best_epoch=191
+[MP-BulkModuli:original_sftmat:seed43] epoch=211/300 loss=0.00792993 valid_mae=0.03907355 best=0.03851583 best_epoch=191
+[MP-BulkModuli:original_sftmat:seed43] epoch=212/300 loss=0.00799419 valid_mae=0.03870495 best=0.03851583 best_epoch=191
+[MP-BulkModuli:original_sftmat:seed43] epoch=213/300 loss=0.00866106 valid_mae=0.03913898 best=0.03851583 best_epoch=191
+[MP-BulkModuli:original_sftmat:seed43] epoch=214/300 loss=0.00844555 valid_mae=0.03902175 best=0.03851583 best_epoch=191
+[MP-BulkModuli:original_sftmat:seed43] epoch=215/300 loss=0.00813824 valid_mae=0.03952747 best=0.03851583 best_epoch=191
+[MP-BulkModuli:original_sftmat:seed43] epoch=216/300 loss=0.00772468 valid_mae=0.03891327 best=0.03851583 best_epoch=191
+[MP-BulkModuli:original_sftmat:seed43] epoch=217/300 loss=0.00779141 valid_mae=0.03921045 best=0.03851583 best_epoch=191
+[MP-BulkModuli:original_sftmat:seed43] epoch=218/300 loss=0.00798617 valid_mae=0.03942505 best=0.03851583 best_epoch=191
+[MP-BulkModuli:original_sftmat:seed43] epoch=219/300 loss=0.00822843 valid_mae=0.03963346 best=0.03851583 best_epoch=191
+[MP-BulkModuli:original_sftmat:seed43] epoch=220/300 loss=0.00764581 valid_mae=0.03910365 best=0.03851583 best_epoch=191
+[MP-BulkModuli:original_sftmat:seed43] epoch=221/300 loss=0.00781647 valid_mae=0.03983192 best=0.03851583 best_epoch=191
+[MP-BulkModuli:original_sftmat:seed43] epoch=222/300 loss=0.00784344 valid_mae=0.03892259 best=0.03851583 best_epoch=191
+[MP-BulkModuli:original_sftmat:seed43] epoch=223/300 loss=0.00692679 valid_mae=0.03867329 best=0.03851583 best_epoch=191
+[MP-BulkModuli:original_sftmat:seed43] epoch=224/300 loss=0.00741698 valid_mae=0.03952171 best=0.03851583 best_epoch=191
+[MP-BulkModuli:original_sftmat:seed43] epoch=225/300 loss=0.00684985 valid_mae=0.03861336 best=0.03851583 best_epoch=191
+[MP-BulkModuli:original_sftmat:seed43] epoch=226/300 loss=0.00703807 valid_mae=0.03889769 best=0.03851583 best_epoch=191
+[MP-BulkModuli:original_sftmat:seed43] epoch=227/300 loss=0.00664331 valid_mae=0.03877506 best=0.03851583 best_epoch=191
+[MP-BulkModuli:original_sftmat:seed43] epoch=228/300 loss=0.00644532 valid_mae=0.03837198 best=0.03837198 best_epoch=228
+[MP-BulkModuli:original_sftmat:seed43] epoch=229/300 loss=0.00663503 valid_mae=0.03865415 best=0.03837198 best_epoch=228
+[MP-BulkModuli:original_sftmat:seed43] epoch=230/300 loss=0.00641739 valid_mae=0.03866943 best=0.03837198 best_epoch=228
+[MP-BulkModuli:original_sftmat:seed43] epoch=231/300 loss=0.00636248 valid_mae=0.03786011 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=232/300 loss=0.00630212 valid_mae=0.03845915 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=233/300 loss=0.00600746 valid_mae=0.03866359 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=234/300 loss=0.00589512 valid_mae=0.03797562 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=235/300 loss=0.00627793 valid_mae=0.03868216 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=236/300 loss=0.00598704 valid_mae=0.03948610 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=237/300 loss=0.00593939 valid_mae=0.03818171 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=238/300 loss=0.00575609 valid_mae=0.03856284 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=239/300 loss=0.00573218 valid_mae=0.03864814 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=240/300 loss=0.00563706 valid_mae=0.03851017 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=241/300 loss=0.00578459 valid_mae=0.03843783 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=242/300 loss=0.00555183 valid_mae=0.03854094 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=243/300 loss=0.00542927 valid_mae=0.03840638 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=244/300 loss=0.00536747 valid_mae=0.03838687 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=245/300 loss=0.00528160 valid_mae=0.03884115 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=246/300 loss=0.00530917 valid_mae=0.03830013 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=247/300 loss=0.00506826 valid_mae=0.03828684 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=248/300 loss=0.00510825 valid_mae=0.03859116 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=249/300 loss=0.00525537 valid_mae=0.03860448 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=250/300 loss=0.00489258 valid_mae=0.03872455 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=251/300 loss=0.00496642 valid_mae=0.03858322 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=252/300 loss=0.00473323 valid_mae=0.03835133 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=253/300 loss=0.00469718 valid_mae=0.03844888 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=254/300 loss=0.00453600 valid_mae=0.03830523 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=255/300 loss=0.00474762 valid_mae=0.03840746 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=256/300 loss=0.00479245 valid_mae=0.03844612 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=257/300 loss=0.00467594 valid_mae=0.03845077 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=258/300 loss=0.00455354 valid_mae=0.03860801 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=259/300 loss=0.00433214 valid_mae=0.03818034 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=260/300 loss=0.00443240 valid_mae=0.03826248 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=261/300 loss=0.00435068 valid_mae=0.03850418 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=262/300 loss=0.00416038 valid_mae=0.03824545 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=263/300 loss=0.00421572 valid_mae=0.03853551 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=264/300 loss=0.00418569 valid_mae=0.03843317 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=265/300 loss=0.00425639 valid_mae=0.03833428 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=266/300 loss=0.00420339 valid_mae=0.03833117 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=267/300 loss=0.00404149 valid_mae=0.03834759 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=268/300 loss=0.00412991 valid_mae=0.03843826 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=269/300 loss=0.00392087 valid_mae=0.03836603 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=270/300 loss=0.00374682 valid_mae=0.03808056 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=271/300 loss=0.00392032 valid_mae=0.03838554 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=272/300 loss=0.00393121 valid_mae=0.03846582 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=273/300 loss=0.00388576 valid_mae=0.03823978 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=274/300 loss=0.00396210 valid_mae=0.03827272 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=275/300 loss=0.00387511 valid_mae=0.03817037 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=276/300 loss=0.00391746 valid_mae=0.03820889 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=277/300 loss=0.00385032 valid_mae=0.03824233 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=278/300 loss=0.00381535 valid_mae=0.03848088 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=279/300 loss=0.00368999 valid_mae=0.03826979 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=280/300 loss=0.00373381 valid_mae=0.03832584 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=281/300 loss=0.00365472 valid_mae=0.03842554 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=282/300 loss=0.00364692 valid_mae=0.03839469 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=283/300 loss=0.00369775 valid_mae=0.03829243 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=284/300 loss=0.00357726 valid_mae=0.03841205 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=285/300 loss=0.00354118 valid_mae=0.03830603 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=286/300 loss=0.00354147 valid_mae=0.03831524 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=287/300 loss=0.00353539 valid_mae=0.03843417 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=288/300 loss=0.00362773 valid_mae=0.03828870 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=289/300 loss=0.00358123 valid_mae=0.03839883 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=290/300 loss=0.00351897 valid_mae=0.03840691 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=291/300 loss=0.00350993 valid_mae=0.03852779 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=292/300 loss=0.00359577 valid_mae=0.03838628 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=293/300 loss=0.00338008 valid_mae=0.03843019 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=294/300 loss=0.00346877 valid_mae=0.03840594 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=295/300 loss=0.00363026 valid_mae=0.03833327 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=296/300 loss=0.00347231 valid_mae=0.03843103 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=297/300 loss=0.00348931 valid_mae=0.03828618 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=298/300 loss=0.00342341 valid_mae=0.03836763 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=299/300 loss=0.00353601 valid_mae=0.03834212 best=0.03786011 best_epoch=231
+[MP-BulkModuli:original_sftmat:seed43] epoch=300/300 loss=0.00341480 valid_mae=0.03823557 best=0.03786011 best_epoch=231
+{
+  "attention_entropy": NaN,
+  "bandgap_nonnegative_clipping": false,
+  "best_valid_epoch": 231,
+  "checkpoint_reload_atol": 0.03125,
+  "checkpoint_reload_max_abs": 0.0009765625,
+  "checkpoint_reload_passed": true,
+  "checkpoint_reload_rtol": 0.03125,
+  "checkpoint_reload_state_exact": true,
+  "checkpoint_sha256": "c5d6958ccf7caed6f551bd50396d3089f2b242a7061da862c098b2c4a8d907a1",
+  "data_loader_workers": 2,
+  "dataset": "MP",
+  "drop_last": false,
+  "effective_token_count": NaN,
+  "epochs": 300,
+  "graph_valid_mae": NaN,
+  "mean_abs_residual": NaN,
+  "mean_max_attention": NaN,
+  "median_max_attention": NaN,
+  "model_name": "original_sftmat",
+  "padding_attention_max": NaN,
+  "parameter_count": 2661154,
+  "pin_memory": false,
+  "property": "BulkModuli",
+  "protocol_sha256": "adae888170a616d63ca455803e3c186d270cb62ae5bbd3ed70b55835dc8c674d",
+  "seed": 43,
+  "special_token_attention_max": NaN,
+  "status": "valid_complete",
+  "task": "MP-BulkModuli",
+  "test_forward_count": 0,
+  "token_cache_sha256": "23a4dd3ae30d0d0fe9ec817980b5a07fa70d7d57f92e0371193f873c75b39459",
+  "torch_multiprocessing_sharing_strategy": "file_system",
+  "train_size": 4664,
+  "training_autocast_dtype": "bfloat16",
+  "training_time_seconds": 2201.902128217742,
+  "unit": "log10(GPa)",
+  "valid_mae": 0.03787937581436916,
+  "valid_size": 583
+}

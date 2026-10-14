@@ -1,0 +1,145 @@
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_tagif_fast_screen.py train --task Jarvis-Bandgap_MBJ --variant B0_TokenOnly --seed 42 --token_cache /dev/shm/tagif_fast_screen_seed42_20260902/Jarvis-Bandgap_MBJ/token_cache --output_dir /root/tagif_fast_screen_seed42_20260902/runs/Jarvis-Bandgap_MBJ/B0_TokenOnly/seed_42 --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda --num_workers 2 --epochs 80 --patience 15
+dataset split: total=18172, train=14537, valid=1817, test=1818
+train range:(0.0,27.500999450683594)
+valid range:(0.0,23.900999069213867)
+test range:(0.0,14.498000144958496)
+mean:1.4889696836471558
+std:2.3161327838897705
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=1/80 loss=0.92460019 valid_mae=0.66681281 best=0.66681281 best_epoch=1 stale=0/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=2/80 loss=0.69480940 valid_mae=0.59186219 best=0.59186219 best_epoch=2 stale=0/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=3/80 loss=0.61898950 valid_mae=0.63113202 best=0.59186219 best_epoch=2 stale=1/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=4/80 loss=0.56972411 valid_mae=0.54240909 best=0.54240909 best_epoch=4 stale=0/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=5/80 loss=0.55244268 valid_mae=0.50677910 best=0.50677910 best_epoch=5 stale=0/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=6/80 loss=0.54898652 valid_mae=0.52512679 best=0.50677910 best_epoch=5 stale=1/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=7/80 loss=0.52126727 valid_mae=0.51327498 best=0.50677910 best_epoch=5 stale=2/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=8/80 loss=0.52172271 valid_mae=0.47638832 best=0.47638832 best_epoch=8 stale=0/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=9/80 loss=0.49980909 valid_mae=0.50597761 best=0.47638832 best_epoch=8 stale=1/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=10/80 loss=0.50635538 valid_mae=0.50692324 best=0.47638832 best_epoch=8 stale=2/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=11/80 loss=0.48612599 valid_mae=0.53386015 best=0.47638832 best_epoch=8 stale=3/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=12/80 loss=0.48367066 valid_mae=0.48168081 best=0.47638832 best_epoch=8 stale=4/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=13/80 loss=0.48161381 valid_mae=0.46918967 best=0.46918967 best_epoch=13 stale=0/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=14/80 loss=0.45990285 valid_mae=0.50022010 best=0.46918967 best_epoch=13 stale=1/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=15/80 loss=0.47197305 valid_mae=0.48347916 best=0.46918967 best_epoch=13 stale=2/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=16/80 loss=0.45335316 valid_mae=0.48374654 best=0.46918967 best_epoch=13 stale=3/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=17/80 loss=0.46160008 valid_mae=0.52572564 best=0.46918967 best_epoch=13 stale=4/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=18/80 loss=0.44885306 valid_mae=0.46750263 best=0.46750263 best_epoch=18 stale=0/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=19/80 loss=0.43408400 valid_mae=0.46690907 best=0.46690907 best_epoch=19 stale=0/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=20/80 loss=0.42290602 valid_mae=0.45452099 best=0.45452099 best_epoch=20 stale=0/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=21/80 loss=0.42062752 valid_mae=0.46627538 best=0.45452099 best_epoch=20 stale=1/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=22/80 loss=0.41272319 valid_mae=0.42863406 best=0.42863406 best_epoch=22 stale=0/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=23/80 loss=0.40015856 valid_mae=0.41423828 best=0.41423828 best_epoch=23 stale=0/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=24/80 loss=0.38868822 valid_mae=0.42633066 best=0.41423828 best_epoch=23 stale=1/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=25/80 loss=0.38059441 valid_mae=0.41631831 best=0.41423828 best_epoch=23 stale=2/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=26/80 loss=0.38296437 valid_mae=0.45977871 best=0.41423828 best_epoch=23 stale=3/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=27/80 loss=0.37111390 valid_mae=0.43204210 best=0.41423828 best_epoch=23 stale=4/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=28/80 loss=0.35745368 valid_mae=0.43104050 best=0.41423828 best_epoch=23 stale=5/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=29/80 loss=0.35500901 valid_mae=0.40868090 best=0.40868090 best_epoch=29 stale=0/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=30/80 loss=0.34044447 valid_mae=0.38652883 best=0.38652883 best_epoch=30 stale=0/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=31/80 loss=0.33501036 valid_mae=0.40795782 best=0.38652883 best_epoch=30 stale=1/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=32/80 loss=0.32737261 valid_mae=0.39661572 best=0.38652883 best_epoch=30 stale=2/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=33/80 loss=0.31630625 valid_mae=0.39056506 best=0.38652883 best_epoch=30 stale=3/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=34/80 loss=0.30780257 valid_mae=0.37804039 best=0.37804039 best_epoch=34 stale=0/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=35/80 loss=0.30567934 valid_mae=0.37527481 best=0.37527481 best_epoch=35 stale=0/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=36/80 loss=0.29856396 valid_mae=0.37004205 best=0.37004205 best_epoch=36 stale=0/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=37/80 loss=0.28371407 valid_mae=0.35538627 best=0.35538627 best_epoch=37 stale=0/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=38/80 loss=0.27454561 valid_mae=0.37136465 best=0.35538627 best_epoch=37 stale=1/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=39/80 loss=0.27008588 valid_mae=0.35562897 best=0.35538627 best_epoch=37 stale=2/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=40/80 loss=0.26538027 valid_mae=0.34721768 best=0.34721768 best_epoch=40 stale=0/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=41/80 loss=0.25337456 valid_mae=0.35760661 best=0.34721768 best_epoch=40 stale=1/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=42/80 loss=0.24982591 valid_mae=0.34696092 best=0.34696092 best_epoch=42 stale=0/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=43/80 loss=0.25233955 valid_mae=0.34650552 best=0.34650552 best_epoch=43 stale=0/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=44/80 loss=0.23524746 valid_mae=0.33763549 best=0.33763549 best_epoch=44 stale=0/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=45/80 loss=0.23098036 valid_mae=0.33599371 best=0.33599371 best_epoch=45 stale=0/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=46/80 loss=0.22242734 valid_mae=0.34087118 best=0.33599371 best_epoch=45 stale=1/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=47/80 loss=0.21999733 valid_mae=0.33402371 best=0.33402371 best_epoch=47 stale=0/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=48/80 loss=0.20892277 valid_mae=0.33435233 best=0.33402371 best_epoch=47 stale=1/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=49/80 loss=0.20011607 valid_mae=0.33052118 best=0.33052118 best_epoch=49 stale=0/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=50/80 loss=0.19613977 valid_mae=0.32031040 best=0.32031040 best_epoch=50 stale=0/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=51/80 loss=0.18788932 valid_mae=0.33264084 best=0.32031040 best_epoch=50 stale=1/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=52/80 loss=0.18338653 valid_mae=0.31649327 best=0.31649327 best_epoch=52 stale=0/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=53/80 loss=0.17895927 valid_mae=0.32920511 best=0.31649327 best_epoch=52 stale=1/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=54/80 loss=0.17104185 valid_mae=0.31448091 best=0.31448091 best_epoch=54 stale=0/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=55/80 loss=0.16458108 valid_mae=0.31925573 best=0.31448091 best_epoch=54 stale=1/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=56/80 loss=0.15873302 valid_mae=0.32410108 best=0.31448091 best_epoch=54 stale=2/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=57/80 loss=0.15265756 valid_mae=0.31552895 best=0.31448091 best_epoch=54 stale=3/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=58/80 loss=0.14924021 valid_mae=0.31355839 best=0.31355839 best_epoch=58 stale=0/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=59/80 loss=0.14387919 valid_mae=0.30523562 best=0.30523562 best_epoch=59 stale=0/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=60/80 loss=0.13753221 valid_mae=0.30768516 best=0.30523562 best_epoch=59 stale=1/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=61/80 loss=0.13456851 valid_mae=0.30139506 best=0.30139506 best_epoch=61 stale=0/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=62/80 loss=0.12866861 valid_mae=0.30076939 best=0.30076939 best_epoch=62 stale=0/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=63/80 loss=0.12641026 valid_mae=0.30115578 best=0.30076939 best_epoch=62 stale=1/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=64/80 loss=0.12250851 valid_mae=0.30022680 best=0.30022680 best_epoch=64 stale=0/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=65/80 loss=0.11791400 valid_mae=0.29912115 best=0.29912115 best_epoch=65 stale=0/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=66/80 loss=0.11422837 valid_mae=0.30374017 best=0.29912115 best_epoch=65 stale=1/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=67/80 loss=0.11181299 valid_mae=0.29888514 best=0.29888514 best_epoch=67 stale=0/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=68/80 loss=0.10854386 valid_mae=0.29905305 best=0.29888514 best_epoch=67 stale=1/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=69/80 loss=0.10659838 valid_mae=0.30216915 best=0.29888514 best_epoch=67 stale=2/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=70/80 loss=0.10377103 valid_mae=0.29768481 best=0.29768481 best_epoch=70 stale=0/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=71/80 loss=0.10191353 valid_mae=0.29639582 best=0.29639582 best_epoch=71 stale=0/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=72/80 loss=0.10117134 valid_mae=0.30126041 best=0.29639582 best_epoch=71 stale=1/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=73/80 loss=0.09782138 valid_mae=0.29652569 best=0.29639582 best_epoch=71 stale=2/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=74/80 loss=0.09672287 valid_mae=0.29810508 best=0.29639582 best_epoch=71 stale=3/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=75/80 loss=0.09535749 valid_mae=0.29785027 best=0.29639582 best_epoch=71 stale=4/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=76/80 loss=0.09559353 valid_mae=0.29802023 best=0.29639582 best_epoch=71 stale=5/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=77/80 loss=0.09305715 valid_mae=0.29937446 best=0.29639582 best_epoch=71 stale=6/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=78/80 loss=0.09355188 valid_mae=0.29721794 best=0.29639582 best_epoch=71 stale=7/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=79/80 loss=0.09326800 valid_mae=0.29829305 best=0.29639582 best_epoch=71 stale=8/15
+[Jarvis-Bandgap_MBJ:B0_TokenOnly:seed42] epoch=80/80 loss=0.09287701 valid_mae=0.29815023 best=0.29639582 best_epoch=71 stale=9/15
+{
+  "attention_entropy_mean": 4.209597173469304,
+  "best_valid_epoch": 71,
+  "checkpoint_reload_state_exact": true,
+  "checkpoint_reselection": 0,
+  "checkpoint_sha256": "d3744acb2a6b83f516b5b1f865c4ee260f18c96071d72707bdb6aae183216942",
+  "cos_hc_ht_mean": null,
+  "cos_hc_ht_median": null,
+  "cos_hc_ht_std": null,
+  "cos_hc_perp_ht_max_abs": null,
+  "cos_hc_perp_ht_mean": null,
+  "data_loader_workers": 2,
+  "dataset": "JARVIS",
+  "drop_last": false,
+  "early_stopped": false,
+  "effective_token_count_mean": 68.53561915417063,
+  "gradient_definition": "L2 norm of full-validation raw-MAE gradient",
+  "gradient_norm_W1": null,
+  "gradient_norm_W2": null,
+  "gradient_norm_Wc": null,
+  "gradient_norm_Wo": null,
+  "innovation_ratio_mean": null,
+  "innovation_ratio_median": null,
+  "innovation_ratio_std": null,
+  "interaction_rank": null,
+  "interaction_ratio_mean": null,
+  "interaction_ratio_median": null,
+  "interaction_ratio_std": null,
+  "loss_weight_search": 0,
+  "max_epochs": 80,
+  "mean_max_attention": 0.08536624343400481,
+  "median_max_attention": 0.08265585452318192,
+  "padding_attention_max": 0.0,
+  "parameter_count": 2767586,
+  "patience": 15,
+  "property": "Bandgap_MBJ",
+  "protocol_sha256": "797ab7a78766df6b6280ad1432054736641577eb14a7f01f149f658d2a701294",
+  "seed": 42,
+  "semantic_controls": null,
+  "special_token_attention_max": 0.0,
+  "status": "valid_complete",
+  "stopped_epoch": 80,
+  "target_mean": 1.4889696836471558,
+  "target_std": 2.3161327838897705,
+  "task": "Jarvis-Bandgap_MBJ",
+  "tau_search": 0,
+  "temperature": 0.5,
+  "test_forward_count": 0,
+  "token_cache_sha256": "0caf4b99a950f281a2632fb36d1939bf311e88ea8c4934a951f4d1d0fc5270a6",
+  "train_size": 14537,
+  "training_autocast_dtype": "bfloat16",
+  "training_runs": 1,
+  "training_time_seconds": 2037.1099273989676,
+  "unit": "eV",
+  "valid_mae": 0.2964634466249994,
+  "valid_size": 1817,
+  "variant": "B0_TokenOnly"
+}

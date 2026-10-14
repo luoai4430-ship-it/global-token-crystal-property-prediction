@@ -1,0 +1,15 @@
+{
+  "task": "Jarvis-FormationEnergy",
+  "seed": 42,
+  "split": "Valid",
+  "sample_count": 5572,
+  "sample_id_order_match": true,
+  "duplicate_ids": 0,
+  "finite_predictions": true,
+  "valid_mae": 0.02889191050668115,
+  "summary_valid_mae": 0.028965817260297184,
+  "mae_match_tolerance_1e4": true,
+  "token_cache_sha256": "ad6d565e1270c8ec8dc5a8068249195b2307de7570fc1cf493b1d5438e288d26",
+  "test_forward_count": 0,
+  "training_runs": 0
+}

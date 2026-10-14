@@ -1,0 +1,12 @@
+{
+  "film_cls_shuffled_mae": 0.2175953136920929,
+  "film_cls_zero_mae": 0.21747015047073365,
+  "mapping_kind": "seeded cyclic derangement",
+  "mapping_sha256": "fc4c0f2a75b0429c379079c321527a85bd178327b7b5b79316b7cd4975de3400",
+  "normal_better_than_shuffled": true,
+  "normal_better_than_zero": true,
+  "normal_mae": 0.21741163573265077,
+  "selection_use": false,
+  "test_forward_count": 0,
+  "zero_control_definition": "FiLM conditioning CLS=0; prediction_head_cls=correct"
+}

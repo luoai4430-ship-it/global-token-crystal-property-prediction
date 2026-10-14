@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_queue.py", line 421, in <module>
+    main()
+  File "/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_queue.py", line 369, in main
+    execute_pairs(task, token_cache, "valid")
+  File "/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_queue.py", line 339, in execute_pairs
+    raise RuntimeError(
+RuntimeError: valid failed for Jarvis-Bandgap_MBJ/original_sftmat/seed42 with exit 1; see /root/final_10task_benchmark_20260809_tau05/logs/Jarvis-Bandgap_MBJ_original_sftmat_seed42_valid.log

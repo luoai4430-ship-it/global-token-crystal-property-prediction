@@ -1,0 +1,10 @@
+{
+  "status": "SIMPLE_ENSEMBLE_GENERALIZATION_GAIN",
+  "formal_gate_evaluated": true,
+  "reason": "Fixed 0.5/0.5 averaging passed the locked 10-task success criteria.",
+  "launch_e2": false,
+  "generate_e2_config_only": true,
+  "router_needed_now": false,
+  "training_runs": 0,
+  "test_runs": 0
+}

@@ -1,0 +1,348 @@
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_seed43_benchmark.py train --task MP-FormationEnergy --model_name original_sftmat --seed 43 --token_cache /dev/shm/dualview_seed43_20260830/MP-FormationEnergy/token_cache --output_dir /root/dualview_seed43_20260830/runs/MP-FormationEnergy/original_sftmat/seed_43 --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda --num_workers 2 --epochs 300 --batch_size 32
+dataset split: total=65516, train=60000, valid=5000, test=516
+train range:(-4.522498607635498,4.390343189239502)
+valid range:(-4.438785552978516,4.213304042816162)
+test range:(-4.011949062347412,2.410712957382202)
+mean:-1.6532751321792603
+std:1.072024941444397
+[MP-FormationEnergy:original_sftmat:seed43] epoch=1/300 loss=0.22261201 valid_mae=0.15045802 best=0.15045802 best_epoch=1
+[MP-FormationEnergy:original_sftmat:seed43] epoch=2/300 loss=0.13833623 valid_mae=0.11437057 best=0.11437057 best_epoch=2
+[MP-FormationEnergy:original_sftmat:seed43] epoch=3/300 loss=0.11603696 valid_mae=0.09838948 best=0.09838948 best_epoch=3
+[MP-FormationEnergy:original_sftmat:seed43] epoch=4/300 loss=0.10374398 valid_mae=0.09480164 best=0.09480164 best_epoch=4
+[MP-FormationEnergy:original_sftmat:seed43] epoch=5/300 loss=0.09601720 valid_mae=0.08522292 best=0.08522292 best_epoch=5
+[MP-FormationEnergy:original_sftmat:seed43] epoch=6/300 loss=0.08972972 valid_mae=0.08412284 best=0.08412284 best_epoch=6
+[MP-FormationEnergy:original_sftmat:seed43] epoch=7/300 loss=0.08559285 valid_mae=0.07864114 best=0.07864114 best_epoch=7
+[MP-FormationEnergy:original_sftmat:seed43] epoch=8/300 loss=0.08228600 valid_mae=0.07867995 best=0.07864114 best_epoch=7
+[MP-FormationEnergy:original_sftmat:seed43] epoch=9/300 loss=0.07837716 valid_mae=0.07481769 best=0.07481769 best_epoch=9
+[MP-FormationEnergy:original_sftmat:seed43] epoch=10/300 loss=0.07572054 valid_mae=0.07021415 best=0.07021415 best_epoch=10
+[MP-FormationEnergy:original_sftmat:seed43] epoch=11/300 loss=0.07277057 valid_mae=0.06931814 best=0.06931814 best_epoch=11
+[MP-FormationEnergy:original_sftmat:seed43] epoch=12/300 loss=0.07070850 valid_mae=0.06821847 best=0.06821847 best_epoch=12
+[MP-FormationEnergy:original_sftmat:seed43] epoch=13/300 loss=0.06954126 valid_mae=0.06762057 best=0.06762057 best_epoch=13
+[MP-FormationEnergy:original_sftmat:seed43] epoch=14/300 loss=0.06740336 valid_mae=0.06492893 best=0.06492893 best_epoch=14
+[MP-FormationEnergy:original_sftmat:seed43] epoch=15/300 loss=0.06597375 valid_mae=0.06356229 best=0.06356229 best_epoch=15
+[MP-FormationEnergy:original_sftmat:seed43] epoch=16/300 loss=0.06492404 valid_mae=0.07320213 best=0.06356229 best_epoch=15
+[MP-FormationEnergy:original_sftmat:seed43] epoch=17/300 loss=0.06418476 valid_mae=0.06608362 best=0.06356229 best_epoch=15
+[MP-FormationEnergy:original_sftmat:seed43] epoch=18/300 loss=0.06380710 valid_mae=0.06215139 best=0.06215139 best_epoch=18
+[MP-FormationEnergy:original_sftmat:seed43] epoch=19/300 loss=0.06149415 valid_mae=0.06150571 best=0.06150571 best_epoch=19
+[MP-FormationEnergy:original_sftmat:seed43] epoch=20/300 loss=0.06108269 valid_mae=0.05962156 best=0.05962156 best_epoch=20
+[MP-FormationEnergy:original_sftmat:seed43] epoch=21/300 loss=0.06032355 valid_mae=0.06350071 best=0.05962156 best_epoch=20
+[MP-FormationEnergy:original_sftmat:seed43] epoch=22/300 loss=0.05947181 valid_mae=0.05528125 best=0.05528125 best_epoch=22
+[MP-FormationEnergy:original_sftmat:seed43] epoch=23/300 loss=0.05818591 valid_mae=0.05333419 best=0.05333419 best_epoch=23
+[MP-FormationEnergy:original_sftmat:seed43] epoch=24/300 loss=0.05735427 valid_mae=0.05206045 best=0.05206045 best_epoch=24
+[MP-FormationEnergy:original_sftmat:seed43] epoch=25/300 loss=0.05596059 valid_mae=0.05197320 best=0.05197320 best_epoch=25
+[MP-FormationEnergy:original_sftmat:seed43] epoch=26/300 loss=0.05602253 valid_mae=0.06258968 best=0.05197320 best_epoch=25
+[MP-FormationEnergy:original_sftmat:seed43] epoch=27/300 loss=0.05460806 valid_mae=0.05088963 best=0.05088963 best_epoch=27
+[MP-FormationEnergy:original_sftmat:seed43] epoch=28/300 loss=0.05467651 valid_mae=0.05361514 best=0.05088963 best_epoch=27
+[MP-FormationEnergy:original_sftmat:seed43] epoch=29/300 loss=0.05415138 valid_mae=0.05173420 best=0.05088963 best_epoch=27
+[MP-FormationEnergy:original_sftmat:seed43] epoch=30/300 loss=0.05285027 valid_mae=0.05209117 best=0.05088963 best_epoch=27
+[MP-FormationEnergy:original_sftmat:seed43] epoch=31/300 loss=0.05113781 valid_mae=0.05188017 best=0.05088963 best_epoch=27
+[MP-FormationEnergy:original_sftmat:seed43] epoch=32/300 loss=0.05162883 valid_mae=0.05540504 best=0.05088963 best_epoch=27
+[MP-FormationEnergy:original_sftmat:seed43] epoch=33/300 loss=0.05089281 valid_mae=0.04800656 best=0.04800656 best_epoch=33
+[MP-FormationEnergy:original_sftmat:seed43] epoch=34/300 loss=0.04997956 valid_mae=0.04864294 best=0.04800656 best_epoch=33
+[MP-FormationEnergy:original_sftmat:seed43] epoch=35/300 loss=0.04867533 valid_mae=0.05222965 best=0.04800656 best_epoch=33
+[MP-FormationEnergy:original_sftmat:seed43] epoch=36/300 loss=0.04946574 valid_mae=0.04688271 best=0.04688271 best_epoch=36
+[MP-FormationEnergy:original_sftmat:seed43] epoch=37/300 loss=0.04862436 valid_mae=0.04897239 best=0.04688271 best_epoch=36
+[MP-FormationEnergy:original_sftmat:seed43] epoch=38/300 loss=0.04797280 valid_mae=0.04820256 best=0.04688271 best_epoch=36
+[MP-FormationEnergy:original_sftmat:seed43] epoch=39/300 loss=0.04754143 valid_mae=0.04509227 best=0.04509227 best_epoch=39
+[MP-FormationEnergy:original_sftmat:seed43] epoch=40/300 loss=0.04682638 valid_mae=0.04470690 best=0.04470690 best_epoch=40
+[MP-FormationEnergy:original_sftmat:seed43] epoch=41/300 loss=0.04620702 valid_mae=0.04930095 best=0.04470690 best_epoch=40
+[MP-FormationEnergy:original_sftmat:seed43] epoch=42/300 loss=0.04542988 valid_mae=0.04616877 best=0.04470690 best_epoch=40
+[MP-FormationEnergy:original_sftmat:seed43] epoch=43/300 loss=0.04472757 valid_mae=0.04592737 best=0.04470690 best_epoch=40
+[MP-FormationEnergy:original_sftmat:seed43] epoch=44/300 loss=0.04472880 valid_mae=0.04683689 best=0.04470690 best_epoch=40
+[MP-FormationEnergy:original_sftmat:seed43] epoch=45/300 loss=0.04425748 valid_mae=0.05095730 best=0.04470690 best_epoch=40
+[MP-FormationEnergy:original_sftmat:seed43] epoch=46/300 loss=0.04316896 valid_mae=0.04516210 best=0.04470690 best_epoch=40
+[MP-FormationEnergy:original_sftmat:seed43] epoch=47/300 loss=0.04277192 valid_mae=0.04407328 best=0.04407328 best_epoch=47
+[MP-FormationEnergy:original_sftmat:seed43] epoch=48/300 loss=0.04201254 valid_mae=0.04452144 best=0.04407328 best_epoch=47
+[MP-FormationEnergy:original_sftmat:seed43] epoch=49/300 loss=0.04188386 valid_mae=0.04924058 best=0.04407328 best_epoch=47
+[MP-FormationEnergy:original_sftmat:seed43] epoch=50/300 loss=0.04169320 valid_mae=0.04934553 best=0.04407328 best_epoch=47
+[MP-FormationEnergy:original_sftmat:seed43] epoch=51/300 loss=0.04107341 valid_mae=0.04453248 best=0.04407328 best_epoch=47
+[MP-FormationEnergy:original_sftmat:seed43] epoch=52/300 loss=0.04112899 valid_mae=0.04513834 best=0.04407328 best_epoch=47
+[MP-FormationEnergy:original_sftmat:seed43] epoch=53/300 loss=0.04057387 valid_mae=0.04384616 best=0.04384616 best_epoch=53
+[MP-FormationEnergy:original_sftmat:seed43] epoch=54/300 loss=0.04038715 valid_mae=0.04295038 best=0.04295038 best_epoch=54
+[MP-FormationEnergy:original_sftmat:seed43] epoch=55/300 loss=0.03998619 valid_mae=0.03938144 best=0.03938144 best_epoch=55
+[MP-FormationEnergy:original_sftmat:seed43] epoch=56/300 loss=0.03962018 valid_mae=0.03843876 best=0.03843876 best_epoch=56
+[MP-FormationEnergy:original_sftmat:seed43] epoch=57/300 loss=0.03908223 valid_mae=0.04061038 best=0.03843876 best_epoch=56
+[MP-FormationEnergy:original_sftmat:seed43] epoch=58/300 loss=0.03891121 valid_mae=0.04209691 best=0.03843876 best_epoch=56
+[MP-FormationEnergy:original_sftmat:seed43] epoch=59/300 loss=0.03806993 valid_mae=0.04138303 best=0.03843876 best_epoch=56
+[MP-FormationEnergy:original_sftmat:seed43] epoch=60/300 loss=0.03844397 valid_mae=0.04258618 best=0.03843876 best_epoch=56
+[MP-FormationEnergy:original_sftmat:seed43] epoch=61/300 loss=0.03744048 valid_mae=0.04508389 best=0.03843876 best_epoch=56
+[MP-FormationEnergy:original_sftmat:seed43] epoch=62/300 loss=0.03775240 valid_mae=0.04022647 best=0.03843876 best_epoch=56
+[MP-FormationEnergy:original_sftmat:seed43] epoch=63/300 loss=0.03726658 valid_mae=0.04255751 best=0.03843876 best_epoch=56
+[MP-FormationEnergy:original_sftmat:seed43] epoch=64/300 loss=0.03690100 valid_mae=0.03776381 best=0.03776381 best_epoch=64
+[MP-FormationEnergy:original_sftmat:seed43] epoch=65/300 loss=0.03690481 valid_mae=0.04459584 best=0.03776381 best_epoch=64
+[MP-FormationEnergy:original_sftmat:seed43] epoch=66/300 loss=0.03662863 valid_mae=0.04022101 best=0.03776381 best_epoch=64
+[MP-FormationEnergy:original_sftmat:seed43] epoch=67/300 loss=0.03639840 valid_mae=0.04248198 best=0.03776381 best_epoch=64
+[MP-FormationEnergy:original_sftmat:seed43] epoch=68/300 loss=0.03621324 valid_mae=0.03808925 best=0.03776381 best_epoch=64
+[MP-FormationEnergy:original_sftmat:seed43] epoch=69/300 loss=0.03634460 valid_mae=0.03712036 best=0.03712036 best_epoch=69
+[MP-FormationEnergy:original_sftmat:seed43] epoch=70/300 loss=0.03621513 valid_mae=0.04154219 best=0.03712036 best_epoch=69
+[MP-FormationEnergy:original_sftmat:seed43] epoch=71/300 loss=0.03625304 valid_mae=0.03866923 best=0.03712036 best_epoch=69
+[MP-FormationEnergy:original_sftmat:seed43] epoch=72/300 loss=0.03561537 valid_mae=0.04019652 best=0.03712036 best_epoch=69
+[MP-FormationEnergy:original_sftmat:seed43] epoch=73/300 loss=0.03567605 valid_mae=0.03963481 best=0.03712036 best_epoch=69
+[MP-FormationEnergy:original_sftmat:seed43] epoch=74/300 loss=0.03535452 valid_mae=0.03904206 best=0.03712036 best_epoch=69
+[MP-FormationEnergy:original_sftmat:seed43] epoch=75/300 loss=0.03522810 valid_mae=0.03925851 best=0.03712036 best_epoch=69
+[MP-FormationEnergy:original_sftmat:seed43] epoch=76/300 loss=0.03542521 valid_mae=0.04017759 best=0.03712036 best_epoch=69
+[MP-FormationEnergy:original_sftmat:seed43] epoch=77/300 loss=0.03491564 valid_mae=0.04306351 best=0.03712036 best_epoch=69
+[MP-FormationEnergy:original_sftmat:seed43] epoch=78/300 loss=0.03455584 valid_mae=0.03817792 best=0.03712036 best_epoch=69
+[MP-FormationEnergy:original_sftmat:seed43] epoch=79/300 loss=0.03456472 valid_mae=0.03553982 best=0.03553982 best_epoch=79
+[MP-FormationEnergy:original_sftmat:seed43] epoch=80/300 loss=0.03429603 valid_mae=0.03680979 best=0.03553982 best_epoch=79
+[MP-FormationEnergy:original_sftmat:seed43] epoch=81/300 loss=0.03418056 valid_mae=0.04558018 best=0.03553982 best_epoch=79
+[MP-FormationEnergy:original_sftmat:seed43] epoch=82/300 loss=0.03444664 valid_mae=0.04736296 best=0.03553982 best_epoch=79
+[MP-FormationEnergy:original_sftmat:seed43] epoch=83/300 loss=0.03398207 valid_mae=0.03599508 best=0.03553982 best_epoch=79
+[MP-FormationEnergy:original_sftmat:seed43] epoch=84/300 loss=0.03363451 valid_mae=0.04138943 best=0.03553982 best_epoch=79
+[MP-FormationEnergy:original_sftmat:seed43] epoch=85/300 loss=0.03399883 valid_mae=0.03852645 best=0.03553982 best_epoch=79
+[MP-FormationEnergy:original_sftmat:seed43] epoch=86/300 loss=0.03315646 valid_mae=0.03651683 best=0.03553982 best_epoch=79
+[MP-FormationEnergy:original_sftmat:seed43] epoch=87/300 loss=0.03319030 valid_mae=0.03665715 best=0.03553982 best_epoch=79
+[MP-FormationEnergy:original_sftmat:seed43] epoch=88/300 loss=0.03292115 valid_mae=0.04033292 best=0.03553982 best_epoch=79
+[MP-FormationEnergy:original_sftmat:seed43] epoch=89/300 loss=0.03287664 valid_mae=0.03692731 best=0.03553982 best_epoch=79
+[MP-FormationEnergy:original_sftmat:seed43] epoch=90/300 loss=0.03323493 valid_mae=0.03763038 best=0.03553982 best_epoch=79
+[MP-FormationEnergy:original_sftmat:seed43] epoch=91/300 loss=0.03210659 valid_mae=0.03637112 best=0.03553982 best_epoch=79
+[MP-FormationEnergy:original_sftmat:seed43] epoch=92/300 loss=0.03230335 valid_mae=0.03393124 best=0.03393124 best_epoch=92
+[MP-FormationEnergy:original_sftmat:seed43] epoch=93/300 loss=0.03229404 valid_mae=0.03392367 best=0.03392367 best_epoch=93
+[MP-FormationEnergy:original_sftmat:seed43] epoch=94/300 loss=0.03224419 valid_mae=0.03893055 best=0.03392367 best_epoch=93
+[MP-FormationEnergy:original_sftmat:seed43] epoch=95/300 loss=0.03188437 valid_mae=0.03554963 best=0.03392367 best_epoch=93
+[MP-FormationEnergy:original_sftmat:seed43] epoch=96/300 loss=0.03122747 valid_mae=0.03441495 best=0.03392367 best_epoch=93
+[MP-FormationEnergy:original_sftmat:seed43] epoch=97/300 loss=0.03109380 valid_mae=0.03782917 best=0.03392367 best_epoch=93
+[MP-FormationEnergy:original_sftmat:seed43] epoch=98/300 loss=0.03100914 valid_mae=0.04102597 best=0.03392367 best_epoch=93
+[MP-FormationEnergy:original_sftmat:seed43] epoch=99/300 loss=0.03040282 valid_mae=0.03799099 best=0.03392367 best_epoch=93
+[MP-FormationEnergy:original_sftmat:seed43] epoch=100/300 loss=0.03086945 valid_mae=0.03456871 best=0.03392367 best_epoch=93
+[MP-FormationEnergy:original_sftmat:seed43] epoch=101/300 loss=0.03045255 valid_mae=0.03482492 best=0.03392367 best_epoch=93
+[MP-FormationEnergy:original_sftmat:seed43] epoch=102/300 loss=0.03042731 valid_mae=0.03342999 best=0.03342999 best_epoch=102
+[MP-FormationEnergy:original_sftmat:seed43] epoch=103/300 loss=0.02987088 valid_mae=0.03399472 best=0.03342999 best_epoch=102
+[MP-FormationEnergy:original_sftmat:seed43] epoch=104/300 loss=0.02977856 valid_mae=0.03291872 best=0.03291872 best_epoch=104
+[MP-FormationEnergy:original_sftmat:seed43] epoch=105/300 loss=0.02978240 valid_mae=0.03584139 best=0.03291872 best_epoch=104
+[MP-FormationEnergy:original_sftmat:seed43] epoch=106/300 loss=0.02936330 valid_mae=0.03276766 best=0.03276766 best_epoch=106
+[MP-FormationEnergy:original_sftmat:seed43] epoch=107/300 loss=0.02929190 valid_mae=0.03360182 best=0.03276766 best_epoch=106
+[MP-FormationEnergy:original_sftmat:seed43] epoch=108/300 loss=0.02898658 valid_mae=0.03305121 best=0.03276766 best_epoch=106
+[MP-FormationEnergy:original_sftmat:seed43] epoch=109/300 loss=0.02876593 valid_mae=0.03205621 best=0.03205621 best_epoch=109
+[MP-FormationEnergy:original_sftmat:seed43] epoch=110/300 loss=0.02842459 valid_mae=0.03433762 best=0.03205621 best_epoch=109
+[MP-FormationEnergy:original_sftmat:seed43] epoch=111/300 loss=0.02839890 valid_mae=0.03191817 best=0.03191817 best_epoch=111
+[MP-FormationEnergy:original_sftmat:seed43] epoch=112/300 loss=0.02822944 valid_mae=0.03432015 best=0.03191817 best_epoch=111
+[MP-FormationEnergy:original_sftmat:seed43] epoch=113/300 loss=0.02796557 valid_mae=0.03952786 best=0.03191817 best_epoch=111
+[MP-FormationEnergy:original_sftmat:seed43] epoch=114/300 loss=0.02793213 valid_mae=0.03261026 best=0.03191817 best_epoch=111
+[MP-FormationEnergy:original_sftmat:seed43] epoch=115/300 loss=0.02836887 valid_mae=0.03229038 best=0.03191817 best_epoch=111
+[MP-FormationEnergy:original_sftmat:seed43] epoch=116/300 loss=0.02781160 valid_mae=0.03390629 best=0.03191817 best_epoch=111
+[MP-FormationEnergy:original_sftmat:seed43] epoch=117/300 loss=0.02733232 valid_mae=0.03249589 best=0.03191817 best_epoch=111
+[MP-FormationEnergy:original_sftmat:seed43] epoch=118/300 loss=0.02748955 valid_mae=0.03376509 best=0.03191817 best_epoch=111
+[MP-FormationEnergy:original_sftmat:seed43] epoch=119/300 loss=0.02705180 valid_mae=0.03290136 best=0.03191817 best_epoch=111
+[MP-FormationEnergy:original_sftmat:seed43] epoch=120/300 loss=0.02689212 valid_mae=0.03030765 best=0.03030765 best_epoch=120
+[MP-FormationEnergy:original_sftmat:seed43] epoch=121/300 loss=0.02687859 valid_mae=0.03317390 best=0.03030765 best_epoch=120
+[MP-FormationEnergy:original_sftmat:seed43] epoch=122/300 loss=0.02653777 valid_mae=0.03390868 best=0.03030765 best_epoch=120
+[MP-FormationEnergy:original_sftmat:seed43] epoch=123/300 loss=0.02643567 valid_mae=0.02990720 best=0.02990720 best_epoch=123
+[MP-FormationEnergy:original_sftmat:seed43] epoch=124/300 loss=0.02612419 valid_mae=0.03165093 best=0.02990720 best_epoch=123
+[MP-FormationEnergy:original_sftmat:seed43] epoch=125/300 loss=0.02601064 valid_mae=0.03195055 best=0.02990720 best_epoch=123
+[MP-FormationEnergy:original_sftmat:seed43] epoch=126/300 loss=0.02561229 valid_mae=0.03077850 best=0.02990720 best_epoch=123
+[MP-FormationEnergy:original_sftmat:seed43] epoch=127/300 loss=0.02549644 valid_mae=0.03253311 best=0.02990720 best_epoch=123
+[MP-FormationEnergy:original_sftmat:seed43] epoch=128/300 loss=0.02566207 valid_mae=0.03142442 best=0.02990720 best_epoch=123
+[MP-FormationEnergy:original_sftmat:seed43] epoch=129/300 loss=0.02528301 valid_mae=0.03046716 best=0.02990720 best_epoch=123
+[MP-FormationEnergy:original_sftmat:seed43] epoch=130/300 loss=0.02559485 valid_mae=0.03124598 best=0.02990720 best_epoch=123
+[MP-FormationEnergy:original_sftmat:seed43] epoch=131/300 loss=0.02511119 valid_mae=0.03027315 best=0.02990720 best_epoch=123
+[MP-FormationEnergy:original_sftmat:seed43] epoch=132/300 loss=0.02519903 valid_mae=0.03172375 best=0.02990720 best_epoch=123
+[MP-FormationEnergy:original_sftmat:seed43] epoch=133/300 loss=0.02484885 valid_mae=0.02907906 best=0.02907906 best_epoch=133
+[MP-FormationEnergy:original_sftmat:seed43] epoch=134/300 loss=0.02431170 valid_mae=0.03079976 best=0.02907906 best_epoch=133
+[MP-FormationEnergy:original_sftmat:seed43] epoch=135/300 loss=0.02461634 valid_mae=0.03228888 best=0.02907906 best_epoch=133
+[MP-FormationEnergy:original_sftmat:seed43] epoch=136/300 loss=0.02435632 valid_mae=0.03438719 best=0.02907906 best_epoch=133
+[MP-FormationEnergy:original_sftmat:seed43] epoch=137/300 loss=0.02400929 valid_mae=0.02907356 best=0.02907356 best_epoch=137
+[MP-FormationEnergy:original_sftmat:seed43] epoch=138/300 loss=0.02374963 valid_mae=0.03097963 best=0.02907356 best_epoch=137
+[MP-FormationEnergy:original_sftmat:seed43] epoch=139/300 loss=0.02380695 valid_mae=0.02916229 best=0.02907356 best_epoch=137
+[MP-FormationEnergy:original_sftmat:seed43] epoch=140/300 loss=0.02358052 valid_mae=0.02911745 best=0.02907356 best_epoch=137
+[MP-FormationEnergy:original_sftmat:seed43] epoch=141/300 loss=0.02313684 valid_mae=0.02979024 best=0.02907356 best_epoch=137
+[MP-FormationEnergy:original_sftmat:seed43] epoch=142/300 loss=0.02306895 valid_mae=0.03067777 best=0.02907356 best_epoch=137
+[MP-FormationEnergy:original_sftmat:seed43] epoch=143/300 loss=0.02289111 valid_mae=0.03000200 best=0.02907356 best_epoch=137
+[MP-FormationEnergy:original_sftmat:seed43] epoch=144/300 loss=0.02263921 valid_mae=0.02907708 best=0.02907356 best_epoch=137
+[MP-FormationEnergy:original_sftmat:seed43] epoch=145/300 loss=0.02242233 valid_mae=0.02899908 best=0.02899908 best_epoch=145
+[MP-FormationEnergy:original_sftmat:seed43] epoch=146/300 loss=0.02269993 valid_mae=0.03026394 best=0.02899908 best_epoch=145
+[MP-FormationEnergy:original_sftmat:seed43] epoch=147/300 loss=0.02210765 valid_mae=0.03029839 best=0.02899908 best_epoch=145
+[MP-FormationEnergy:original_sftmat:seed43] epoch=148/300 loss=0.02210784 valid_mae=0.02845205 best=0.02845205 best_epoch=148
+[MP-FormationEnergy:original_sftmat:seed43] epoch=149/300 loss=0.02208753 valid_mae=0.02738580 best=0.02738580 best_epoch=149
+[MP-FormationEnergy:original_sftmat:seed43] epoch=150/300 loss=0.02193739 valid_mae=0.02773731 best=0.02738580 best_epoch=149
+[MP-FormationEnergy:original_sftmat:seed43] epoch=151/300 loss=0.02137210 valid_mae=0.02763730 best=0.02738580 best_epoch=149
+[MP-FormationEnergy:original_sftmat:seed43] epoch=152/300 loss=0.02157683 valid_mae=0.03013181 best=0.02738580 best_epoch=149
+[MP-FormationEnergy:original_sftmat:seed43] epoch=153/300 loss=0.02117937 valid_mae=0.02856889 best=0.02738580 best_epoch=149
+[MP-FormationEnergy:original_sftmat:seed43] epoch=154/300 loss=0.02087002 valid_mae=0.02739058 best=0.02738580 best_epoch=149
+[MP-FormationEnergy:original_sftmat:seed43] epoch=155/300 loss=0.02067394 valid_mae=0.02911523 best=0.02738580 best_epoch=149
+[MP-FormationEnergy:original_sftmat:seed43] epoch=156/300 loss=0.02065419 valid_mae=0.02609406 best=0.02609406 best_epoch=156
+[MP-FormationEnergy:original_sftmat:seed43] epoch=157/300 loss=0.02049472 valid_mae=0.02872685 best=0.02609406 best_epoch=156
+[MP-FormationEnergy:original_sftmat:seed43] epoch=158/300 loss=0.02031440 valid_mae=0.02844657 best=0.02609406 best_epoch=156
+[MP-FormationEnergy:original_sftmat:seed43] epoch=159/300 loss=0.02039193 valid_mae=0.02703141 best=0.02609406 best_epoch=156
+[MP-FormationEnergy:original_sftmat:seed43] epoch=160/300 loss=0.02005593 valid_mae=0.02925414 best=0.02609406 best_epoch=156
+[MP-FormationEnergy:original_sftmat:seed43] epoch=161/300 loss=0.01988073 valid_mae=0.02614683 best=0.02609406 best_epoch=156
+[MP-FormationEnergy:original_sftmat:seed43] epoch=162/300 loss=0.01977657 valid_mae=0.02761504 best=0.02609406 best_epoch=156
+[MP-FormationEnergy:original_sftmat:seed43] epoch=163/300 loss=0.01969145 valid_mae=0.02835116 best=0.02609406 best_epoch=156
+[MP-FormationEnergy:original_sftmat:seed43] epoch=164/300 loss=0.01939762 valid_mae=0.02930980 best=0.02609406 best_epoch=156
+[MP-FormationEnergy:original_sftmat:seed43] epoch=165/300 loss=0.01913858 valid_mae=0.02690606 best=0.02609406 best_epoch=156
+[MP-FormationEnergy:original_sftmat:seed43] epoch=166/300 loss=0.01909449 valid_mae=0.02639136 best=0.02609406 best_epoch=156
+[MP-FormationEnergy:original_sftmat:seed43] epoch=167/300 loss=0.01881543 valid_mae=0.02544699 best=0.02544699 best_epoch=167
+[MP-FormationEnergy:original_sftmat:seed43] epoch=168/300 loss=0.01878686 valid_mae=0.02633073 best=0.02544699 best_epoch=167
+[MP-FormationEnergy:original_sftmat:seed43] epoch=169/300 loss=0.01841778 valid_mae=0.02597949 best=0.02544699 best_epoch=167
+[MP-FormationEnergy:original_sftmat:seed43] epoch=170/300 loss=0.01825819 valid_mae=0.02533356 best=0.02533356 best_epoch=170
+[MP-FormationEnergy:original_sftmat:seed43] epoch=171/300 loss=0.01807299 valid_mae=0.02558461 best=0.02533356 best_epoch=170
+[MP-FormationEnergy:original_sftmat:seed43] epoch=172/300 loss=0.01801031 valid_mae=0.02601794 best=0.02533356 best_epoch=170
+[MP-FormationEnergy:original_sftmat:seed43] epoch=173/300 loss=0.01786068 valid_mae=0.02603795 best=0.02533356 best_epoch=170
+[MP-FormationEnergy:original_sftmat:seed43] epoch=174/300 loss=0.01771960 valid_mae=0.02572722 best=0.02533356 best_epoch=170
+[MP-FormationEnergy:original_sftmat:seed43] epoch=175/300 loss=0.01758373 valid_mae=0.02726030 best=0.02533356 best_epoch=170
+[MP-FormationEnergy:original_sftmat:seed43] epoch=176/300 loss=0.01733605 valid_mae=0.02735274 best=0.02533356 best_epoch=170
+[MP-FormationEnergy:original_sftmat:seed43] epoch=177/300 loss=0.01721904 valid_mae=0.02547333 best=0.02533356 best_epoch=170
+[MP-FormationEnergy:original_sftmat:seed43] epoch=178/300 loss=0.01705188 valid_mae=0.02633482 best=0.02533356 best_epoch=170
+[MP-FormationEnergy:original_sftmat:seed43] epoch=179/300 loss=0.01695098 valid_mae=0.02564181 best=0.02533356 best_epoch=170
+[MP-FormationEnergy:original_sftmat:seed43] epoch=180/300 loss=0.01669147 valid_mae=0.02507886 best=0.02507886 best_epoch=180
+[MP-FormationEnergy:original_sftmat:seed43] epoch=181/300 loss=0.01678003 valid_mae=0.02502200 best=0.02502200 best_epoch=181
+[MP-FormationEnergy:original_sftmat:seed43] epoch=182/300 loss=0.01665243 valid_mae=0.02598825 best=0.02502200 best_epoch=181
+[MP-FormationEnergy:original_sftmat:seed43] epoch=183/300 loss=0.01639844 valid_mae=0.02559612 best=0.02502200 best_epoch=181
+[MP-FormationEnergy:original_sftmat:seed43] epoch=184/300 loss=0.01638785 valid_mae=0.02585386 best=0.02502200 best_epoch=181
+[MP-FormationEnergy:original_sftmat:seed43] epoch=185/300 loss=0.01616929 valid_mae=0.02506912 best=0.02502200 best_epoch=181
+[MP-FormationEnergy:original_sftmat:seed43] epoch=186/300 loss=0.01594022 valid_mae=0.02656981 best=0.02502200 best_epoch=181
+[MP-FormationEnergy:original_sftmat:seed43] epoch=187/300 loss=0.01584194 valid_mae=0.02494296 best=0.02494296 best_epoch=187
+[MP-FormationEnergy:original_sftmat:seed43] epoch=188/300 loss=0.01571830 valid_mae=0.02428548 best=0.02428548 best_epoch=188
+[MP-FormationEnergy:original_sftmat:seed43] epoch=189/300 loss=0.01547025 valid_mae=0.02451916 best=0.02428548 best_epoch=188
+[MP-FormationEnergy:original_sftmat:seed43] epoch=190/300 loss=0.01537144 valid_mae=0.02473323 best=0.02428548 best_epoch=188
+[MP-FormationEnergy:original_sftmat:seed43] epoch=191/300 loss=0.01517976 valid_mae=0.02407813 best=0.02407813 best_epoch=191
+[MP-FormationEnergy:original_sftmat:seed43] epoch=192/300 loss=0.01511689 valid_mae=0.02411327 best=0.02407813 best_epoch=191
+[MP-FormationEnergy:original_sftmat:seed43] epoch=193/300 loss=0.01502509 valid_mae=0.02503000 best=0.02407813 best_epoch=191
+[MP-FormationEnergy:original_sftmat:seed43] epoch=194/300 loss=0.01475926 valid_mae=0.02478895 best=0.02407813 best_epoch=191
+[MP-FormationEnergy:original_sftmat:seed43] epoch=195/300 loss=0.01461734 valid_mae=0.02457607 best=0.02407813 best_epoch=191
+[MP-FormationEnergy:original_sftmat:seed43] epoch=196/300 loss=0.01463291 valid_mae=0.02482849 best=0.02407813 best_epoch=191
+[MP-FormationEnergy:original_sftmat:seed43] epoch=197/300 loss=0.01448454 valid_mae=0.02507157 best=0.02407813 best_epoch=191
+[MP-FormationEnergy:original_sftmat:seed43] epoch=198/300 loss=0.01427116 valid_mae=0.02398436 best=0.02398436 best_epoch=198
+[MP-FormationEnergy:original_sftmat:seed43] epoch=199/300 loss=0.01397513 valid_mae=0.02530752 best=0.02398436 best_epoch=198
+[MP-FormationEnergy:original_sftmat:seed43] epoch=200/300 loss=0.01399289 valid_mae=0.02548660 best=0.02398436 best_epoch=198
+[MP-FormationEnergy:original_sftmat:seed43] epoch=201/300 loss=0.01379061 valid_mae=0.02428126 best=0.02398436 best_epoch=198
+[MP-FormationEnergy:original_sftmat:seed43] epoch=202/300 loss=0.01356461 valid_mae=0.02390513 best=0.02390513 best_epoch=202
+[MP-FormationEnergy:original_sftmat:seed43] epoch=203/300 loss=0.01353723 valid_mae=0.02350834 best=0.02350834 best_epoch=203
+[MP-FormationEnergy:original_sftmat:seed43] epoch=204/300 loss=0.01339525 valid_mae=0.02587584 best=0.02350834 best_epoch=203
+[MP-FormationEnergy:original_sftmat:seed43] epoch=205/300 loss=0.01317080 valid_mae=0.02343566 best=0.02343566 best_epoch=205
+[MP-FormationEnergy:original_sftmat:seed43] epoch=206/300 loss=0.01327394 valid_mae=0.02359989 best=0.02343566 best_epoch=205
+[MP-FormationEnergy:original_sftmat:seed43] epoch=207/300 loss=0.01312711 valid_mae=0.02293830 best=0.02293830 best_epoch=207
+[MP-FormationEnergy:original_sftmat:seed43] epoch=208/300 loss=0.01284761 valid_mae=0.02280782 best=0.02280782 best_epoch=208
+[MP-FormationEnergy:original_sftmat:seed43] epoch=209/300 loss=0.01276802 valid_mae=0.02392358 best=0.02280782 best_epoch=208
+[MP-FormationEnergy:original_sftmat:seed43] epoch=210/300 loss=0.01261332 valid_mae=0.02451655 best=0.02280782 best_epoch=208
+[MP-FormationEnergy:original_sftmat:seed43] epoch=211/300 loss=0.01247075 valid_mae=0.02297394 best=0.02280782 best_epoch=208
+[MP-FormationEnergy:original_sftmat:seed43] epoch=212/300 loss=0.01229456 valid_mae=0.02297935 best=0.02280782 best_epoch=208
+[MP-FormationEnergy:original_sftmat:seed43] epoch=213/300 loss=0.01236423 valid_mae=0.02289531 best=0.02280782 best_epoch=208
+[MP-FormationEnergy:original_sftmat:seed43] epoch=214/300 loss=0.01212307 valid_mae=0.02285997 best=0.02280782 best_epoch=208
+[MP-FormationEnergy:original_sftmat:seed43] epoch=215/300 loss=0.01201760 valid_mae=0.02247930 best=0.02247930 best_epoch=215
+[MP-FormationEnergy:original_sftmat:seed43] epoch=216/300 loss=0.01194829 valid_mae=0.02439837 best=0.02247930 best_epoch=215
+[MP-FormationEnergy:original_sftmat:seed43] epoch=217/300 loss=0.01171674 valid_mae=0.02319072 best=0.02247930 best_epoch=215
+[MP-FormationEnergy:original_sftmat:seed43] epoch=218/300 loss=0.01161340 valid_mae=0.02325648 best=0.02247930 best_epoch=215
+[MP-FormationEnergy:original_sftmat:seed43] epoch=219/300 loss=0.01148886 valid_mae=0.02262633 best=0.02247930 best_epoch=215
+[MP-FormationEnergy:original_sftmat:seed43] epoch=220/300 loss=0.01142892 valid_mae=0.02253398 best=0.02247930 best_epoch=215
+[MP-FormationEnergy:original_sftmat:seed43] epoch=221/300 loss=0.01126698 valid_mae=0.02246249 best=0.02246249 best_epoch=221
+[MP-FormationEnergy:original_sftmat:seed43] epoch=222/300 loss=0.01108858 valid_mae=0.02201409 best=0.02201409 best_epoch=222
+[MP-FormationEnergy:original_sftmat:seed43] epoch=223/300 loss=0.01091033 valid_mae=0.02231615 best=0.02201409 best_epoch=222
+[MP-FormationEnergy:original_sftmat:seed43] epoch=224/300 loss=0.01085428 valid_mae=0.02209490 best=0.02201409 best_epoch=222
+[MP-FormationEnergy:original_sftmat:seed43] epoch=225/300 loss=0.01080296 valid_mae=0.02251891 best=0.02201409 best_epoch=222
+[MP-FormationEnergy:original_sftmat:seed43] epoch=226/300 loss=0.01065461 valid_mae=0.02242761 best=0.02201409 best_epoch=222
+[MP-FormationEnergy:original_sftmat:seed43] epoch=227/300 loss=0.01053860 valid_mae=0.02249021 best=0.02201409 best_epoch=222
+[MP-FormationEnergy:original_sftmat:seed43] epoch=228/300 loss=0.01052912 valid_mae=0.02342702 best=0.02201409 best_epoch=222
+[MP-FormationEnergy:original_sftmat:seed43] epoch=229/300 loss=0.01040279 valid_mae=0.02253552 best=0.02201409 best_epoch=222
+[MP-FormationEnergy:original_sftmat:seed43] epoch=230/300 loss=0.01026570 valid_mae=0.02189260 best=0.02189260 best_epoch=230
+[MP-FormationEnergy:original_sftmat:seed43] epoch=231/300 loss=0.01008289 valid_mae=0.02200538 best=0.02189260 best_epoch=230
+[MP-FormationEnergy:original_sftmat:seed43] epoch=232/300 loss=0.01016221 valid_mae=0.02268984 best=0.02189260 best_epoch=230
+[MP-FormationEnergy:original_sftmat:seed43] epoch=233/300 loss=0.00993541 valid_mae=0.02187222 best=0.02187222 best_epoch=233
+[MP-FormationEnergy:original_sftmat:seed43] epoch=234/300 loss=0.00989433 valid_mae=0.02287855 best=0.02187222 best_epoch=233
+[MP-FormationEnergy:original_sftmat:seed43] epoch=235/300 loss=0.00975233 valid_mae=0.02228957 best=0.02187222 best_epoch=233
+[MP-FormationEnergy:original_sftmat:seed43] epoch=236/300 loss=0.00969194 valid_mae=0.02187053 best=0.02187053 best_epoch=236
+[MP-FormationEnergy:original_sftmat:seed43] epoch=237/300 loss=0.00955885 valid_mae=0.02143080 best=0.02143080 best_epoch=237
+[MP-FormationEnergy:original_sftmat:seed43] epoch=238/300 loss=0.00943051 valid_mae=0.02178080 best=0.02143080 best_epoch=237
+[MP-FormationEnergy:original_sftmat:seed43] epoch=239/300 loss=0.00934122 valid_mae=0.02171429 best=0.02143080 best_epoch=237
+[MP-FormationEnergy:original_sftmat:seed43] epoch=240/300 loss=0.00930181 valid_mae=0.02168311 best=0.02143080 best_epoch=237
+[MP-FormationEnergy:original_sftmat:seed43] epoch=241/300 loss=0.00914490 valid_mae=0.02194970 best=0.02143080 best_epoch=237
+[MP-FormationEnergy:original_sftmat:seed43] epoch=242/300 loss=0.00907174 valid_mae=0.02128825 best=0.02128825 best_epoch=242
+[MP-FormationEnergy:original_sftmat:seed43] epoch=243/300 loss=0.00900619 valid_mae=0.02146255 best=0.02128825 best_epoch=242
+[MP-FormationEnergy:original_sftmat:seed43] epoch=244/300 loss=0.00894221 valid_mae=0.02128100 best=0.02128100 best_epoch=244
+[MP-FormationEnergy:original_sftmat:seed43] epoch=245/300 loss=0.00891014 valid_mae=0.02165739 best=0.02128100 best_epoch=244
+[MP-FormationEnergy:original_sftmat:seed43] epoch=246/300 loss=0.00874986 valid_mae=0.02162737 best=0.02128100 best_epoch=244
+[MP-FormationEnergy:original_sftmat:seed43] epoch=247/300 loss=0.00862503 valid_mae=0.02128570 best=0.02128100 best_epoch=244
+[MP-FormationEnergy:original_sftmat:seed43] epoch=248/300 loss=0.00859185 valid_mae=0.02126086 best=0.02126086 best_epoch=248
+[MP-FormationEnergy:original_sftmat:seed43] epoch=249/300 loss=0.00849948 valid_mae=0.02127778 best=0.02126086 best_epoch=248
+[MP-FormationEnergy:original_sftmat:seed43] epoch=250/300 loss=0.00844583 valid_mae=0.02127381 best=0.02126086 best_epoch=248
+[MP-FormationEnergy:original_sftmat:seed43] epoch=251/300 loss=0.00841572 valid_mae=0.02157616 best=0.02126086 best_epoch=248
+[MP-FormationEnergy:original_sftmat:seed43] epoch=252/300 loss=0.00832637 valid_mae=0.02167089 best=0.02126086 best_epoch=248
+[MP-FormationEnergy:original_sftmat:seed43] epoch=253/300 loss=0.00825722 valid_mae=0.02102994 best=0.02102994 best_epoch=253
+[MP-FormationEnergy:original_sftmat:seed43] epoch=254/300 loss=0.00813413 valid_mae=0.02152219 best=0.02102994 best_epoch=253
+[MP-FormationEnergy:original_sftmat:seed43] epoch=255/300 loss=0.00807658 valid_mae=0.02109391 best=0.02102994 best_epoch=253
+[MP-FormationEnergy:original_sftmat:seed43] epoch=256/300 loss=0.00799398 valid_mae=0.02100350 best=0.02100350 best_epoch=256
+[MP-FormationEnergy:original_sftmat:seed43] epoch=257/300 loss=0.00802259 valid_mae=0.02115636 best=0.02100350 best_epoch=256
+[MP-FormationEnergy:original_sftmat:seed43] epoch=258/300 loss=0.00793145 valid_mae=0.02091549 best=0.02091549 best_epoch=258
+[MP-FormationEnergy:original_sftmat:seed43] epoch=259/300 loss=0.00786260 valid_mae=0.02133528 best=0.02091549 best_epoch=258
+[MP-FormationEnergy:original_sftmat:seed43] epoch=260/300 loss=0.00781574 valid_mae=0.02086802 best=0.02086802 best_epoch=260
+[MP-FormationEnergy:original_sftmat:seed43] epoch=261/300 loss=0.00775968 valid_mae=0.02098678 best=0.02086802 best_epoch=260
+[MP-FormationEnergy:original_sftmat:seed43] epoch=262/300 loss=0.00769288 valid_mae=0.02108436 best=0.02086802 best_epoch=260
+[MP-FormationEnergy:original_sftmat:seed43] epoch=263/300 loss=0.00766665 valid_mae=0.02090831 best=0.02086802 best_epoch=260
+[MP-FormationEnergy:original_sftmat:seed43] epoch=264/300 loss=0.00761973 valid_mae=0.02104127 best=0.02086802 best_epoch=260
+[MP-FormationEnergy:original_sftmat:seed43] epoch=265/300 loss=0.00754719 valid_mae=0.02084121 best=0.02084121 best_epoch=265
+[MP-FormationEnergy:original_sftmat:seed43] epoch=266/300 loss=0.00748524 valid_mae=0.02076466 best=0.02076466 best_epoch=266
+[MP-FormationEnergy:original_sftmat:seed43] epoch=267/300 loss=0.00749410 valid_mae=0.02086121 best=0.02076466 best_epoch=266
+[MP-FormationEnergy:original_sftmat:seed43] epoch=268/300 loss=0.00741731 valid_mae=0.02110293 best=0.02076466 best_epoch=266
+[MP-FormationEnergy:original_sftmat:seed43] epoch=269/300 loss=0.00732533 valid_mae=0.02110277 best=0.02076466 best_epoch=266
+[MP-FormationEnergy:original_sftmat:seed43] epoch=270/300 loss=0.00734832 valid_mae=0.02133748 best=0.02076466 best_epoch=266
+[MP-FormationEnergy:original_sftmat:seed43] epoch=271/300 loss=0.00722453 valid_mae=0.02212502 best=0.02076466 best_epoch=266
+[MP-FormationEnergy:original_sftmat:seed43] epoch=272/300 loss=0.00719104 valid_mae=0.02110017 best=0.02076466 best_epoch=266
+[MP-FormationEnergy:original_sftmat:seed43] epoch=273/300 loss=0.00717263 valid_mae=0.02107284 best=0.02076466 best_epoch=266
+[MP-FormationEnergy:original_sftmat:seed43] epoch=274/300 loss=0.00715040 valid_mae=0.02061151 best=0.02061151 best_epoch=274
+[MP-FormationEnergy:original_sftmat:seed43] epoch=275/300 loss=0.00709464 valid_mae=0.02085816 best=0.02061151 best_epoch=274
+[MP-FormationEnergy:original_sftmat:seed43] epoch=276/300 loss=0.00706698 valid_mae=0.02054576 best=0.02054576 best_epoch=276
+[MP-FormationEnergy:original_sftmat:seed43] epoch=277/300 loss=0.00694523 valid_mae=0.02062737 best=0.02054576 best_epoch=276
+[MP-FormationEnergy:original_sftmat:seed43] epoch=278/300 loss=0.00695933 valid_mae=0.02104408 best=0.02054576 best_epoch=276
+[MP-FormationEnergy:original_sftmat:seed43] epoch=279/300 loss=0.00691623 valid_mae=0.02068564 best=0.02054576 best_epoch=276
+[MP-FormationEnergy:original_sftmat:seed43] epoch=280/300 loss=0.00692464 valid_mae=0.02073296 best=0.02054576 best_epoch=276
+[MP-FormationEnergy:original_sftmat:seed43] epoch=281/300 loss=0.00689152 valid_mae=0.02081355 best=0.02054576 best_epoch=276
+[MP-FormationEnergy:original_sftmat:seed43] epoch=282/300 loss=0.00684591 valid_mae=0.02068556 best=0.02054576 best_epoch=276
+[MP-FormationEnergy:original_sftmat:seed43] epoch=283/300 loss=0.00682060 valid_mae=0.02061125 best=0.02054576 best_epoch=276
+[MP-FormationEnergy:original_sftmat:seed43] epoch=284/300 loss=0.00685006 valid_mae=0.02072159 best=0.02054576 best_epoch=276
+[MP-FormationEnergy:original_sftmat:seed43] epoch=285/300 loss=0.00680216 valid_mae=0.02088515 best=0.02054576 best_epoch=276
+[MP-FormationEnergy:original_sftmat:seed43] epoch=286/300 loss=0.00681664 valid_mae=0.02076748 best=0.02054576 best_epoch=276
+[MP-FormationEnergy:original_sftmat:seed43] epoch=287/300 loss=0.00681873 valid_mae=0.02101266 best=0.02054576 best_epoch=276
+[MP-FormationEnergy:original_sftmat:seed43] epoch=288/300 loss=0.00675150 valid_mae=0.02059125 best=0.02054576 best_epoch=276
+[MP-FormationEnergy:original_sftmat:seed43] epoch=289/300 loss=0.00675234 valid_mae=0.02061397 best=0.02054576 best_epoch=276
+[MP-FormationEnergy:original_sftmat:seed43] epoch=290/300 loss=0.00672145 valid_mae=0.02081316 best=0.02054576 best_epoch=276
+[MP-FormationEnergy:original_sftmat:seed43] epoch=291/300 loss=0.00675033 valid_mae=0.02069664 best=0.02054576 best_epoch=276
+[MP-FormationEnergy:original_sftmat:seed43] epoch=292/300 loss=0.00677160 valid_mae=0.02070993 best=0.02054576 best_epoch=276
+[MP-FormationEnergy:original_sftmat:seed43] epoch=293/300 loss=0.00672787 valid_mae=0.02064691 best=0.02054576 best_epoch=276
+[MP-FormationEnergy:original_sftmat:seed43] epoch=294/300 loss=0.00670673 valid_mae=0.02081026 best=0.02054576 best_epoch=276
+[MP-FormationEnergy:original_sftmat:seed43] epoch=295/300 loss=0.00672130 valid_mae=0.02064019 best=0.02054576 best_epoch=276
+[MP-FormationEnergy:original_sftmat:seed43] epoch=296/300 loss=0.00673904 valid_mae=0.02065772 best=0.02054576 best_epoch=276
+[MP-FormationEnergy:original_sftmat:seed43] epoch=297/300 loss=0.00675102 valid_mae=0.02075213 best=0.02054576 best_epoch=276
+[MP-FormationEnergy:original_sftmat:seed43] epoch=298/300 loss=0.00669653 valid_mae=0.02091475 best=0.02054576 best_epoch=276
+[MP-FormationEnergy:original_sftmat:seed43] epoch=299/300 loss=0.00670632 valid_mae=0.02064113 best=0.02054576 best_epoch=276
+[MP-FormationEnergy:original_sftmat:seed43] epoch=300/300 loss=0.00666606 valid_mae=0.02071551 best=0.02054576 best_epoch=276
+{
+  "attention_entropy": NaN,
+  "bandgap_nonnegative_clipping": false,
+  "best_valid_epoch": 276,
+  "checkpoint_reload_atol": 0.04296875,
+  "checkpoint_reload_max_abs": 0.005859375,
+  "checkpoint_reload_passed": true,
+  "checkpoint_reload_repeated_forward_count": 3,
+  "checkpoint_reload_rtol": 0.0,
+  "checkpoint_reload_same_model_max_abs": 0.005859375,
+  "checkpoint_reload_state_exact": true,
+  "checkpoint_sha256": "1d54a8235f1ff1207514ac5eafed1f36bf4aae5f84d3e3ed72f2f108395fb469",
+  "data_loader_workers": 2,
+  "dataset": "MP",
+  "drop_last": false,
+  "effective_token_count": NaN,
+  "epochs": 300,
+  "graph_valid_mae": NaN,
+  "mean_abs_residual": NaN,
+  "mean_max_attention": NaN,
+  "median_max_attention": NaN,
+  "model_name": "original_sftmat",
+  "padding_attention_max": NaN,
+  "parameter_count": 2661154,
+  "pin_memory": false,
+  "property": "FormationEnergy",
+  "protocol_sha256": "adae888170a616d63ca455803e3c186d270cb62ae5bbd3ed70b55835dc8c674d",
+  "seed": 43,
+  "special_token_attention_max": NaN,
+  "status": "valid_complete",
+  "task": "MP-FormationEnergy",
+  "test_forward_count": 0,
+  "token_cache_sha256": "ee701e2c5c105c14feed7af9dfc7a5e2a6dbf11f473fd84b6364c64fb9048fc3",
+  "torch_multiprocessing_sharing_strategy": "file_system",
+  "train_size": 60000,
+  "training_autocast_dtype": "bfloat16",
+  "training_time_seconds": 30790.686359615996,
+  "unit": "eV/atom",
+  "valid_mae": 0.020583225536346436,
+  "valid_size": 5000
+}

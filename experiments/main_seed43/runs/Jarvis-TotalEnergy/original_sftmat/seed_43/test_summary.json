@@ -1,0 +1,15 @@
+{
+  "best_valid_epoch": 285,
+  "checkpoint_sha256": "3b09ebf19d192e667c10f9ffaeadb71a3421c5590661f1814bf04180e43ec3d6",
+  "model_name": "original_sftmat",
+  "protocol_sha256": "adae888170a616d63ca455803e3c186d270cb62ae5bbd3ed70b55835dc8c674d",
+  "seed": 43,
+  "selected_by": "Valid only",
+  "status": "test_complete",
+  "task": "Jarvis-TotalEnergy",
+  "test_forward_count": 1,
+  "test_mae": 0.032581543956649126,
+  "test_size": 5573,
+  "token_cache_sha256": "74c804c038fc081aafba6f47ef2d9f91a6ee8ba295f55d18ebf1695ea47120a5",
+  "valid_mae": 0.031262843132190195
+}

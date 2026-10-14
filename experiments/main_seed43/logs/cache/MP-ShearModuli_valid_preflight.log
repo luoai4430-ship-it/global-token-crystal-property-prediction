@@ -1,0 +1,155 @@
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_seed43_benchmark.py preflight --task MP-ShearModuli --token_cache /dev/shm/dualview_seed43_20260830/MP-ShearModuli/token_cache --scratch /dev/shm/dualview_seed43_20260830/MP-ShearModuli --output_root /root/dualview_seed43_20260830 --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+Graph construction workers: 8
+Building graphs (parallel)...
+Processing...
+Merging results from workers...
+
+Time consumption for constructing graph data: 32.08181858062744s
+dataset split: total=5830, train=4664, valid=583, test=583
+train range:(0.3010300099849701,2.7201592922210693)
+valid range:(0.4771212637424469,2.717670440673828)
+test range:(0.3010300099849701,2.5403294563293457)
+mean:1.6166967153549194
+std:0.36755993962287903
+processing train data:   0%|          | 0/4664 [00:00<?, ?it/s]processing train data:  10%|█         | 486/4664 [00:00<00:01, 3457.93it/s]processing train data:  18%|█▊        | 832/4664 [00:00<00:01, 3137.36it/s]processing train data:  25%|██▍       | 1144/4664 [00:00<00:01, 1828.89it/s]processing train data:  32%|███▏      | 1507/4664 [00:00<00:01, 2274.71it/s]processing train data:  38%|███▊      | 1784/4664 [00:00<00:01, 2320.98it/s]processing train data:  44%|████▍     | 2049/4664 [00:00<00:01, 1935.92it/s]processing train data:  49%|████▊     | 2271/4664 [00:01<00:01, 1975.73it/s]processing train data:  53%|█████▎    | 2495/4664 [00:01<00:01, 2041.02it/s]processing train data:  58%|█████▊    | 2715/4664 [00:01<00:00, 2050.06it/s]processing train data:  63%|██████▎   | 2931/4664 [00:01<00:00, 2061.38it/s]processing train data:  68%|██████▊   | 3182/4664 [00:01<00:00, 1795.27it/s]processing train data:  74%|███████▎  | 3437/4664 [00:01<00:00, 1979.43it/s]processing train data:  78%|███████▊  | 3648/4664 [00:01<00:00, 1970.99it/s]processing train data:  83%|████████▎ | 3854/4664 [00:01<00:00, 1985.61it/s]processing train data:  88%|████████▊ | 4126/4664 [00:01<00:00, 2186.69it/s]processing train data:  93%|█████████▎| 4352/4664 [00:02<00:00, 2156.44it/s]processing train data:  98%|█████████▊| 4573/4664 [00:02<00:00, 2149.75it/s]processing train data: 100%|██████████| 4664/4664 [00:02<00:00, 2150.47it/s]
+Done!
+Processing...
+processing valid data:   0%|          | 0/583 [00:00<?, ?it/s]processing valid data: 100%|██████████| 583/583 [00:00<00:00, 15263.15it/s]
+Done!
+Processing...
+processing test data:   0%|          | 0/583 [00:00<?, ?it/s]processing test data: 100%|██████████| 583/583 [00:00<00:00, 19883.39it/s]
+Done!
+{
+  "aliases": {
+    "aliases": [
+      {
+        "path": "/root/autodl-tmp/TextResidualSHFMat/Dataset/processed/MP-ShearModuli-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-train-CGCNN.pt",
+        "source": "/dev/shm/dualview_seed43_20260830/MP-ShearModuli/graph/MP-ShearModuli-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-train-CGCNN.pt"
+      },
+      {
+        "path": "/root/autodl-tmp/TextResidualSHFMat/Dataset/processed/MP-ShearModuli-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-valid-CGCNN.pt",
+        "source": "/dev/shm/dualview_seed43_20260830/MP-ShearModuli/graph/MP-ShearModuli-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-valid-CGCNN.pt"
+      },
+      {
+        "path": "/root/autodl-tmp/TextResidualSHFMat/Dataset/processed/MP-ShearModuli-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-test-CGCNN.pt",
+        "source": "/dev/shm/dualview_seed43_20260830/MP-ShearModuli/graph/MP-ShearModuli-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-test-CGCNN.pt"
+      },
+      {
+        "path": "/root/autodl-tmp/TextResidualSHFMat/Dataset/raw/MP-ShearModuli-cutoff4.0-maxNeibNum16-spheHarmL4-CIF_CSV-rawData.pt",
+        "source": "/dev/shm/dualview_seed43_20260830/MP-ShearModuli/graph/MP-ShearModuli-cutoff4.0-maxNeibNum16-spheHarmL4-CIF_CSV-rawData.pt"
+      }
+    ],
+    "retargeted": {
+      "ordered_id_match": true,
+      "processed_caches": [
+        "/dev/shm/dualview_seed43_20260830/MP-ShearModuli/graph/MP-ShearModuli-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-train-CGCNN.pt",
+        "/dev/shm/dualview_seed43_20260830/MP-ShearModuli/graph/MP-ShearModuli-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-valid-CGCNN.pt",
+        "/dev/shm/dualview_seed43_20260830/MP-ShearModuli/graph/MP-ShearModuli-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-test-CGCNN.pt"
+      ],
+      "raw_cache": "/dev/shm/dualview_seed43_20260830/MP-ShearModuli/graph/MP-ShearModuli-cutoff4.0-maxNeibNum16-spheHarmL4-CIF_CSV-rawData.pt",
+      "source_task": "MP-BulkModuli",
+      "split_id_match": true,
+      "target_mean": 1.6166967153549194,
+      "target_std": 0.36755993962287903,
+      "target_task": "MP-ShearModuli"
+    },
+    "task": "MP-ShearModuli"
+  },
+  "data_loader_workers": 2,
+  "dataset": "MP",
+  "drop_last": false,
+  "graph_target_mean": 1.6166967153549194,
+  "graph_target_std": 0.36755993962287903,
+  "graph_total": 5830,
+  "model_checks": {
+    "original_sftmat": {
+      "autocast_dtype": "bfloat16",
+      "parameter_count": 2661154,
+      "prediction_finite": true,
+      "prediction_shape": [
+        4
+      ]
+    },
+    "ours": {
+      "autocast_dtype": "bfloat16",
+      "effective_token_count_min": 113.26969146728516,
+      "k_norm_after_max_deviation": 1.1920928955078125e-07,
+      "padding_attention_max": 0.0,
+      "parameter_count": 2800739,
+      "prediction_finite": true,
+      "prediction_shape": [
+        4
+      ],
+      "q_norm_after_max_deviation": 5.960464477539063e-08,
+      "special_token_attention_max": 0.0,
+      "temperature": 0.5
+    }
+  },
+  "pin_memory": false,
+  "property": "ShearModuli",
+  "protocol": {
+    "bandgap_nonnegative_clipping": true,
+    "batch_size": 32,
+    "checkpoint_selection": "best Valid MAE only",
+    "data_loader_workers": 2,
+    "drop_last": false,
+    "epochs": 300,
+    "eval_batch_size": 64,
+    "lr": 0.001,
+    "matbert_max_length": 128,
+    "max_lr": 0.001,
+    "models": [
+      "original_sftmat",
+      "ours"
+    ],
+    "optimizer": "AdamW",
+    "original_loss": "MAE(property,target)",
+    "ours_loss": "MAE(final,target)+0.2*MAE(graph,target)",
+    "ours_temperature": 0.5,
+    "pin_memory": false,
+    "prefetch_factor": 1,
+    "scheduler": "OneCycleLR",
+    "seeds": [
+      43
+    ],
+    "tasks": [
+      "Jarvis-Bandgap_MBJ",
+      "Jarvis-Bandgap_OPT",
+      "Jarvis-FormationEnergy",
+      "Jarvis-TotalEnergy",
+      "Jarvis-BulkModulusKv",
+      "Jarvis-ShearModulusGv",
+      "MP-Bandgap",
+      "MP-FormationEnergy",
+      "MP-BulkModuli",
+      "MP-ShearModuli"
+    ],
+    "torch_multiprocessing_sharing_strategy": "file_system",
+    "training_dtype": "bfloat16",
+    "weight_decay": 0.0001
+  },
+  "protocol_sha256": "adae888170a616d63ca455803e3c186d270cb62ae5bbd3ed70b55835dc8c674d",
+  "split_sizes": {
+    "test": 583,
+    "train": 4664,
+    "valid": 583
+  },
+  "status": "passed",
+  "task": "MP-ShearModuli",
+  "token_cache_rows": 5830,
+  "token_cache_sha256": "23a4dd3ae30d0d0fe9ec817980b5a07fa70d7d57f92e0371193f873c75b39459",
+  "token_cache_shape": [
+    5830,
+    128,
+    768
+  ],
+  "torch_multiprocessing_sharing_strategy": "file_system"
+}

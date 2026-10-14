@@ -1,0 +1,285 @@
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/cache_matbert_token_features.py --input /dev/shm/sec_sft_stage_s1_seed42_20260911/Jarvis-FormationEnergy/description_complete.csv --output_dir /dev/shm/sec_sft_stage_s1_seed42_20260911/Jarvis-FormationEnergy/token_cache --model_name /root/autodl-tmp/matbert-base-cased --id_column Id --text_column Description --max_length 128 --batch_size 64 --device cuda --progress_every 1024 --overwrite
+cached 1024/55723 token sequences
+cached 2048/55723 token sequences
+cached 3072/55723 token sequences
+cached 4096/55723 token sequences
+cached 5120/55723 token sequences
+cached 6144/55723 token sequences
+cached 7168/55723 token sequences
+cached 8192/55723 token sequences
+cached 9216/55723 token sequences
+cached 10240/55723 token sequences
+cached 11264/55723 token sequences
+cached 12288/55723 token sequences
+cached 13312/55723 token sequences
+cached 14336/55723 token sequences
+cached 15360/55723 token sequences
+cached 16384/55723 token sequences
+cached 17408/55723 token sequences
+cached 18432/55723 token sequences
+cached 19456/55723 token sequences
+cached 20480/55723 token sequences
+cached 21504/55723 token sequences
+cached 22528/55723 token sequences
+cached 23552/55723 token sequences
+cached 24576/55723 token sequences
+cached 25600/55723 token sequences
+cached 26624/55723 token sequences
+cached 27648/55723 token sequences
+cached 28672/55723 token sequences
+cached 29696/55723 token sequences
+cached 30720/55723 token sequences
+cached 31744/55723 token sequences
+cached 32768/55723 token sequences
+cached 33792/55723 token sequences
+cached 34816/55723 token sequences
+cached 35840/55723 token sequences
+cached 36864/55723 token sequences
+cached 37888/55723 token sequences
+cached 38912/55723 token sequences
+cached 39936/55723 token sequences
+cached 40960/55723 token sequences
+cached 41984/55723 token sequences
+cached 43008/55723 token sequences
+cached 44032/55723 token sequences
+cached 45056/55723 token sequences
+cached 46080/55723 token sequences
+cached 47104/55723 token sequences
+cached 48128/55723 token sequences
+cached 49152/55723 token sequences
+cached 50176/55723 token sequences
+cached 51200/55723 token sequences
+cached 52224/55723 token sequences
+cached 53248/55723 token sequences
+cached 54272/55723 token sequences
+cached 55296/55723 token sequences
+cached 55723/55723 token sequences
+{
+  "attention_mask_dtype": "uint8",
+  "cache_sha256": "ad6d565e1270c8ec8dc5a8068249195b2307de7570fc1cf493b1d5438e288d26",
+  "completed_rows": 55723,
+  "feature_dtype": "float16",
+  "feature_shape": [
+    55723,
+    128,
+    768
+  ],
+  "forbidden_global_pooling_used": false,
+  "format": "dense_memmap_v1",
+  "hidden_dim": 768,
+  "hidden_size": 768,
+  "id_column": "Id",
+  "input_ids_dtype": "int32",
+  "input_ids_shape": [
+    55723,
+    128
+  ],
+  "mask_shape": [
+    55723,
+    128
+  ],
+  "max_length": 128,
+  "model_checkpoint": "/root/autodl-tmp/matbert-base-cased",
+  "model_name": "/root/autodl-tmp/matbert-base-cased",
+  "num_samples": 55723,
+  "padding": "max_length",
+  "source_csv": "/dev/shm/sec_sft_stage_s1_seed42_20260911/Jarvis-FormationEnergy/description_complete.csv",
+  "source_sha256": "9830fc70bf4958b074abef47223ed0a7b41d798df8c2cf9af3730cc122ab2b14",
+  "special_tokens_excluded": false,
+  "status": "complete",
+  "text_column": "Description",
+  "tokenizer_class": "BertTokenizerFast",
+  "tokenizer_version": "4.38.2",
+  "truncation": true,
+  "uses_last_hidden_state": true
+}
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/cache_matbert_token_features.py --input /dev/shm/sec_sft_stage_s1_seed42_20260911/Jarvis-FormationEnergy/description_complete.csv --output_dir /dev/shm/sec_sft_stage_s1_seed42_20260911/Jarvis-FormationEnergy/token_cache --model_name /root/autodl-tmp/matbert-base-cased --id_column Id --text_column Description --max_length 128 --batch_size 64 --device cuda --progress_every 1024 --overwrite
+cached 1024/55723 token sequences
+cached 2048/55723 token sequences
+cached 3072/55723 token sequences
+cached 4096/55723 token sequences
+cached 5120/55723 token sequences
+cached 6144/55723 token sequences
+cached 7168/55723 token sequences
+cached 8192/55723 token sequences
+cached 9216/55723 token sequences
+cached 10240/55723 token sequences
+cached 11264/55723 token sequences
+cached 12288/55723 token sequences
+cached 13312/55723 token sequences
+cached 14336/55723 token sequences
+cached 15360/55723 token sequences
+cached 16384/55723 token sequences
+cached 17408/55723 token sequences
+cached 18432/55723 token sequences
+cached 19456/55723 token sequences
+cached 20480/55723 token sequences
+cached 21504/55723 token sequences
+cached 22528/55723 token sequences
+cached 23552/55723 token sequences
+cached 24576/55723 token sequences
+cached 25600/55723 token sequences
+cached 26624/55723 token sequences
+cached 27648/55723 token sequences
+cached 28672/55723 token sequences
+cached 29696/55723 token sequences
+cached 30720/55723 token sequences
+cached 31744/55723 token sequences
+cached 32768/55723 token sequences
+cached 33792/55723 token sequences
+cached 34816/55723 token sequences
+cached 35840/55723 token sequences
+cached 36864/55723 token sequences
+cached 37888/55723 token sequences
+cached 38912/55723 token sequences
+cached 39936/55723 token sequences
+cached 40960/55723 token sequences
+cached 41984/55723 token sequences
+cached 43008/55723 token sequences
+cached 44032/55723 token sequences
+cached 45056/55723 token sequences
+cached 46080/55723 token sequences
+cached 47104/55723 token sequences
+cached 48128/55723 token sequences
+cached 49152/55723 token sequences
+cached 50176/55723 token sequences
+cached 51200/55723 token sequences
+cached 52224/55723 token sequences
+cached 53248/55723 token sequences
+cached 54272/55723 token sequences
+cached 55296/55723 token sequences
+cached 55723/55723 token sequences
+{
+  "attention_mask_dtype": "uint8",
+  "cache_sha256": "ad6d565e1270c8ec8dc5a8068249195b2307de7570fc1cf493b1d5438e288d26",
+  "completed_rows": 55723,
+  "feature_dtype": "float16",
+  "feature_shape": [
+    55723,
+    128,
+    768
+  ],
+  "forbidden_global_pooling_used": false,
+  "format": "dense_memmap_v1",
+  "hidden_dim": 768,
+  "hidden_size": 768,
+  "id_column": "Id",
+  "input_ids_dtype": "int32",
+  "input_ids_shape": [
+    55723,
+    128
+  ],
+  "mask_shape": [
+    55723,
+    128
+  ],
+  "max_length": 128,
+  "model_checkpoint": "/root/autodl-tmp/matbert-base-cased",
+  "model_name": "/root/autodl-tmp/matbert-base-cased",
+  "num_samples": 55723,
+  "padding": "max_length",
+  "source_csv": "/dev/shm/sec_sft_stage_s1_seed42_20260911/Jarvis-FormationEnergy/description_complete.csv",
+  "source_sha256": "9830fc70bf4958b074abef47223ed0a7b41d798df8c2cf9af3730cc122ab2b14",
+  "special_tokens_excluded": false,
+  "status": "complete",
+  "text_column": "Description",
+  "tokenizer_class": "BertTokenizerFast",
+  "tokenizer_version": "4.38.2",
+  "truncation": true,
+  "uses_last_hidden_state": true
+}
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/cache_matbert_token_features.py --input /dev/shm/sec_sft_stage_s1_seed42_20260911/Jarvis-FormationEnergy/description_complete.csv --output_dir /dev/shm/sec_sft_stage_s1_seed42_20260911/Jarvis-FormationEnergy/token_cache --model_name /root/autodl-tmp/matbert-base-cased --id_column Id --text_column Description --max_length 128 --batch_size 64 --device cuda --progress_every 1024 --overwrite
+cached 1024/55723 token sequences
+cached 2048/55723 token sequences
+cached 3072/55723 token sequences
+cached 4096/55723 token sequences
+cached 5120/55723 token sequences
+cached 6144/55723 token sequences
+cached 7168/55723 token sequences
+cached 8192/55723 token sequences
+cached 9216/55723 token sequences
+cached 10240/55723 token sequences
+cached 11264/55723 token sequences
+cached 12288/55723 token sequences
+cached 13312/55723 token sequences
+cached 14336/55723 token sequences
+cached 15360/55723 token sequences
+cached 16384/55723 token sequences
+cached 17408/55723 token sequences
+cached 18432/55723 token sequences
+cached 19456/55723 token sequences
+cached 20480/55723 token sequences
+cached 21504/55723 token sequences
+cached 22528/55723 token sequences
+cached 23552/55723 token sequences
+cached 24576/55723 token sequences
+cached 25600/55723 token sequences
+cached 26624/55723 token sequences
+cached 27648/55723 token sequences
+cached 28672/55723 token sequences
+cached 29696/55723 token sequences
+cached 30720/55723 token sequences
+cached 31744/55723 token sequences
+cached 32768/55723 token sequences
+cached 33792/55723 token sequences
+cached 34816/55723 token sequences
+cached 35840/55723 token sequences
+cached 36864/55723 token sequences
+cached 37888/55723 token sequences
+cached 38912/55723 token sequences
+cached 39936/55723 token sequences
+cached 40960/55723 token sequences
+cached 41984/55723 token sequences
+cached 43008/55723 token sequences
+cached 44032/55723 token sequences
+cached 45056/55723 token sequences
+cached 46080/55723 token sequences
+cached 47104/55723 token sequences
+cached 48128/55723 token sequences
+cached 49152/55723 token sequences
+cached 50176/55723 token sequences
+cached 51200/55723 token sequences
+cached 52224/55723 token sequences
+cached 53248/55723 token sequences
+cached 54272/55723 token sequences
+cached 55296/55723 token sequences
+cached 55723/55723 token sequences
+{
+  "attention_mask_dtype": "uint8",
+  "cache_sha256": "ad6d565e1270c8ec8dc5a8068249195b2307de7570fc1cf493b1d5438e288d26",
+  "completed_rows": 55723,
+  "feature_dtype": "float16",
+  "feature_shape": [
+    55723,
+    128,
+    768
+  ],
+  "forbidden_global_pooling_used": false,
+  "format": "dense_memmap_v1",
+  "hidden_dim": 768,
+  "hidden_size": 768,
+  "id_column": "Id",
+  "input_ids_dtype": "int32",
+  "input_ids_shape": [
+    55723,
+    128
+  ],
+  "mask_shape": [
+    55723,
+    128
+  ],
+  "max_length": 128,
+  "model_checkpoint": "/root/autodl-tmp/matbert-base-cased",
+  "model_name": "/root/autodl-tmp/matbert-base-cased",
+  "num_samples": 55723,
+  "padding": "max_length",
+  "source_csv": "/dev/shm/sec_sft_stage_s1_seed42_20260911/Jarvis-FormationEnergy/description_complete.csv",
+  "source_sha256": "9830fc70bf4958b074abef47223ed0a7b41d798df8c2cf9af3730cc122ab2b14",
+  "special_tokens_excluded": false,
+  "status": "complete",
+  "text_column": "Description",
+  "tokenizer_class": "BertTokenizerFast",
+  "tokenizer_version": "4.38.2",
+  "truncation": true,
+  "uses_last_hidden_state": true
+}

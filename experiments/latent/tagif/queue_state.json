@@ -1,0 +1,25 @@
+{
+  "active": [],
+  "completed_training_runs": 6,
+  "current_task": null,
+  "current_variant": null,
+  "expected_training_runs": 6,
+  "failed": [],
+  "finished_at_unix": 1788348624.6410508,
+  "max_training_processes": 2,
+  "phase": "complete",
+  "seed": 42,
+  "started_at_unix": 1788327310.0327983,
+  "status": "COMPLETE",
+  "tasks": [
+    "Jarvis-Bandgap_MBJ",
+    "MP-Bandgap"
+  ],
+  "test_forward_count": 0,
+  "updated_at_unix": 1788348624.6418228,
+  "variants": [
+    "B0_TokenOnly",
+    "B1_NaiveConcat",
+    "P1_TAGIF"
+  ]
+}

@@ -1,0 +1,104 @@
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/cache_matbert_token_features.py --input /dev/shm/final_10task_benchmark_current/MP-FormationEnergy/description_complete.csv --output_dir /dev/shm/final_10task_benchmark_current/MP-FormationEnergy/token_cache --model_name /root/autodl-tmp/matbert-base-cased --id_column id --text_column text --max_length 128 --batch_size 64 --device cuda --progress_every 1024 --overwrite
+cached 1024/65516 token sequences
+cached 2048/65516 token sequences
+cached 3072/65516 token sequences
+cached 4096/65516 token sequences
+cached 5120/65516 token sequences
+cached 6144/65516 token sequences
+cached 7168/65516 token sequences
+cached 8192/65516 token sequences
+cached 9216/65516 token sequences
+cached 10240/65516 token sequences
+cached 11264/65516 token sequences
+cached 12288/65516 token sequences
+cached 13312/65516 token sequences
+cached 14336/65516 token sequences
+cached 15360/65516 token sequences
+cached 16384/65516 token sequences
+cached 17408/65516 token sequences
+cached 18432/65516 token sequences
+cached 19456/65516 token sequences
+cached 20480/65516 token sequences
+cached 21504/65516 token sequences
+cached 22528/65516 token sequences
+cached 23552/65516 token sequences
+cached 24576/65516 token sequences
+cached 25600/65516 token sequences
+cached 26624/65516 token sequences
+cached 27648/65516 token sequences
+cached 28672/65516 token sequences
+cached 29696/65516 token sequences
+cached 30720/65516 token sequences
+cached 31744/65516 token sequences
+cached 32768/65516 token sequences
+cached 33792/65516 token sequences
+cached 34816/65516 token sequences
+cached 35840/65516 token sequences
+cached 36864/65516 token sequences
+cached 37888/65516 token sequences
+cached 38912/65516 token sequences
+cached 39936/65516 token sequences
+cached 40960/65516 token sequences
+cached 41984/65516 token sequences
+cached 43008/65516 token sequences
+cached 44032/65516 token sequences
+cached 45056/65516 token sequences
+cached 46080/65516 token sequences
+cached 47104/65516 token sequences
+cached 48128/65516 token sequences
+cached 49152/65516 token sequences
+cached 50176/65516 token sequences
+cached 51200/65516 token sequences
+cached 52224/65516 token sequences
+cached 53248/65516 token sequences
+cached 54272/65516 token sequences
+cached 55296/65516 token sequences
+cached 56320/65516 token sequences
+cached 57344/65516 token sequences
+cached 58368/65516 token sequences
+cached 59392/65516 token sequences
+cached 60416/65516 token sequences
+cached 61440/65516 token sequences
+cached 62464/65516 token sequences
+cached 63488/65516 token sequences
+cached 64512/65516 token sequences
+cached 65516/65516 token sequences
+{
+  "attention_mask_dtype": "uint8",
+  "cache_sha256": "ee701e2c5c105c14feed7af9dfc7a5e2a6dbf11f473fd84b6364c64fb9048fc3",
+  "completed_rows": 65516,
+  "feature_dtype": "float16",
+  "feature_shape": [
+    65516,
+    128,
+    768
+  ],
+  "forbidden_global_pooling_used": false,
+  "format": "dense_memmap_v1",
+  "hidden_dim": 768,
+  "hidden_size": 768,
+  "id_column": "id",
+  "input_ids_dtype": "int32",
+  "input_ids_shape": [
+    65516,
+    128
+  ],
+  "mask_shape": [
+    65516,
+    128
+  ],
+  "max_length": 128,
+  "model_checkpoint": "/root/autodl-tmp/matbert-base-cased",
+  "model_name": "/root/autodl-tmp/matbert-base-cased",
+  "num_samples": 65516,
+  "padding": "max_length",
+  "source_csv": "/dev/shm/final_10task_benchmark_current/MP-FormationEnergy/description_complete.csv",
+  "source_sha256": "b15e836bb15ae03ced96efc1fef850a3075f8d83983c6ee7443569f70382a71e",
+  "special_tokens_excluded": false,
+  "status": "complete",
+  "text_column": "text",
+  "tokenizer_class": "BertTokenizerFast",
+  "tokenizer_version": "4.38.2",
+  "truncation": true,
+  "uses_last_hidden_state": true
+}

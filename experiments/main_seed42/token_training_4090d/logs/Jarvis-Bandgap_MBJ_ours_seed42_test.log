@@ -1,0 +1,22 @@
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py test --task Jarvis-Bandgap_MBJ --model_name ours --seed 42 --token_cache /dev/shm/final_10task_ours_seed42_gpu4090d/Jarvis-Bandgap_MBJ/token_cache --output_root /root/final_10task_ours_seed42_20260810_tau05_gpu4090d --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda --num_workers 2
+dataset split: total=18172, train=14537, valid=1817, test=1818
+train range:(0.0,27.500999450683594)
+valid range:(0.0,23.900999069213867)
+test range:(0.0,14.498000144958496)
+mean:1.4889696836471558
+std:2.3161327838897705
+{
+  "best_valid_epoch": 219,
+  "checkpoint_sha256": "e4ae3cf4992eed99025bf0d8134409b58a37ee57984ffc0b881f2ad30b93c772",
+  "model_name": "ours",
+  "protocol_sha256": "1c0de7770307b627f62cf48e28cd65816b801b11574153f29af71667151fcb5f",
+  "seed": 42,
+  "selected_by": "Valid only",
+  "status": "test_complete",
+  "task": "Jarvis-Bandgap_MBJ",
+  "test_forward_count": 1,
+  "test_mae": 0.26065424225642475,
+  "test_size": 1818,
+  "token_cache_sha256": "d5b10c5de3c2bb9a520638f53c9c9624a1c0df0de9f403ee9390f71792803422",
+  "valid_mae": 0.24693807613475677
+}

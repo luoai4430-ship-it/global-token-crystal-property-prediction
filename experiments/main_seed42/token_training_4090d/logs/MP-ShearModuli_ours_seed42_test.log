@@ -1,0 +1,22 @@
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py test --task MP-ShearModuli --model_name ours --seed 42 --token_cache /dev/shm/final_10task_ours_seed42_gpu4090d/MP-ShearModuli/token_cache --output_root /root/final_10task_ours_seed42_20260810_tau05_gpu4090d --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda --num_workers 2
+dataset split: total=5830, train=4664, valid=583, test=583
+train range:(0.3010300099849701,2.7201592922210693)
+valid range:(0.4771212637424469,2.717670440673828)
+test range:(0.3010300099849701,2.5403294563293457)
+mean:1.6166967153549194
+std:0.36755993962287903
+{
+  "best_valid_epoch": 246,
+  "checkpoint_sha256": "6095b966a2e61bdd013da2644864896c3234ae0b23e269cc3eb86009a0af876f",
+  "model_name": "ours",
+  "protocol_sha256": "1c0de7770307b627f62cf48e28cd65816b801b11574153f29af71667151fcb5f",
+  "seed": 42,
+  "selected_by": "Valid only",
+  "status": "test_complete",
+  "task": "MP-ShearModuli",
+  "test_forward_count": 1,
+  "test_mae": 0.07116317176491686,
+  "test_size": 583,
+  "token_cache_sha256": "0663a554cd7601a38b088486ab866dd0e0258d117754eb69ff7234937b89b6a3",
+  "valid_mae": 0.06410893036202746
+}

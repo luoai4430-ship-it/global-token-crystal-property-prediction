@@ -1,0 +1,23 @@
+{
+  "required_task_count": 10,
+  "paired_task_count": 10,
+  "missing_task_count": 0,
+  "formal_10task_statistics_available": true,
+  "ensemble_wins_vs_original_paired": 10,
+  "ensemble_wins_vs_truetoken_paired": 10,
+  "ensemble_overall_best_paired": 10,
+  "jarvis_wins_vs_original": 6,
+  "mp_wins_vs_original": 4,
+  "paired_macro_gain_percent": 5.561595109523176,
+  "paired_jarvis_macro_gain_percent": 4.982174560922395,
+  "paired_mp_macro_gain_percent": 6.430725932424346,
+  "tasks_gain_ge_1_percent_paired": 10,
+  "tasks_gain_ge_3_percent_paired": 9,
+  "tasks_degraded_paired": 0,
+  "tasks_degraded_gt_1_percent_paired": 0,
+  "training_runs": 0,
+  "test_runs": 0,
+  "macro_gain_10task_percent": 5.561595109523176,
+  "jarvis_macro_gain_6task_percent": 4.982174560922395,
+  "mp_macro_gain_4task_percent": 6.430725932424346
+}

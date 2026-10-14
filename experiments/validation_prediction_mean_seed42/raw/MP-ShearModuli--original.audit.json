@@ -1,0 +1,15 @@
+{
+  "task": "MP-ShearModuli",
+  "seed": 42,
+  "split": "Valid",
+  "sample_count": 583,
+  "sample_id_order_match": true,
+  "duplicate_ids": 0,
+  "finite_predictions": true,
+  "valid_mae": 0.06581213738047238,
+  "summary_valid_mae": 0.06582852109218748,
+  "mae_match_tolerance": true,
+  "token_cache_sha256": "23a4dd3ae30d0d0fe9ec817980b5a07fa70d7d57f92e0371193f873c75b39459",
+  "test_forward_count": 0,
+  "training_runs": 0
+}

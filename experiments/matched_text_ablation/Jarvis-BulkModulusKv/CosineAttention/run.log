@@ -1,0 +1,58 @@
+Jarvis-BulkModulusKv CosineAttention epoch=1/300 valid_mae=17.33489387 best=17.33489387
+Jarvis-BulkModulusKv CosineAttention epoch=10/300 valid_mae=12.53616055 best=12.53616055
+Jarvis-BulkModulusKv CosineAttention epoch=20/300 valid_mae=11.74959919 best=11.74959919
+Jarvis-BulkModulusKv CosineAttention epoch=30/300 valid_mae=11.57627550 best=11.00751322
+Jarvis-BulkModulusKv CosineAttention epoch=40/300 valid_mae=10.89697204 best=10.78964224
+Jarvis-BulkModulusKv CosineAttention epoch=50/300 valid_mae=10.48231120 best=10.35468668
+Jarvis-BulkModulusKv CosineAttention epoch=60/300 valid_mae=10.30084270 best=10.23173015
+Jarvis-BulkModulusKv CosineAttention epoch=70/300 valid_mae=10.47170045 best=10.04081414
+Jarvis-BulkModulusKv CosineAttention epoch=80/300 valid_mae=11.43469199 best=10.03459768
+Jarvis-BulkModulusKv CosineAttention epoch=90/300 valid_mae=10.02094850 best=9.73998487
+Jarvis-BulkModulusKv CosineAttention epoch=100/300 valid_mae=10.38350169 best=9.73998487
+Jarvis-BulkModulusKv CosineAttention epoch=110/300 valid_mae=10.25162849 best=9.73998487
+Jarvis-BulkModulusKv CosineAttention epoch=120/300 valid_mae=10.23039878 best=9.51294580
+Jarvis-BulkModulusKv CosineAttention epoch=130/300 valid_mae=9.64261310 best=9.30223739
+Jarvis-BulkModulusKv CosineAttention epoch=140/300 valid_mae=9.36070560 best=9.30223739
+Jarvis-BulkModulusKv CosineAttention epoch=150/300 valid_mae=9.66463119 best=9.09509050
+Jarvis-BulkModulusKv CosineAttention epoch=160/300 valid_mae=9.46423250 best=9.09509050
+Jarvis-BulkModulusKv CosineAttention epoch=170/300 valid_mae=9.60990873 best=9.09509050
+Jarvis-BulkModulusKv CosineAttention epoch=180/300 valid_mae=9.37367658 best=9.09509050
+Jarvis-BulkModulusKv CosineAttention epoch=190/300 valid_mae=9.57866498 best=9.09509050
+Jarvis-BulkModulusKv CosineAttention epoch=200/300 valid_mae=9.36228633 best=9.09509050
+Jarvis-BulkModulusKv CosineAttention epoch=210/300 valid_mae=9.45345858 best=9.09509050
+Jarvis-BulkModulusKv CosineAttention epoch=220/300 valid_mae=9.17753521 best=9.09509050
+Jarvis-BulkModulusKv CosineAttention epoch=230/300 valid_mae=9.13749308 best=9.06177581
+Jarvis-BulkModulusKv CosineAttention epoch=240/300 valid_mae=9.17150341 best=9.06177581
+Jarvis-BulkModulusKv CosineAttention epoch=250/300 valid_mae=9.18788682 best=9.06177581
+Jarvis-BulkModulusKv CosineAttention epoch=260/300 valid_mae=9.16660131 best=9.06177581
+Jarvis-BulkModulusKv CosineAttention epoch=270/300 valid_mae=9.17787849 best=9.06177581
+Jarvis-BulkModulusKv CosineAttention epoch=280/300 valid_mae=9.15482994 best=9.06177581
+Jarvis-BulkModulusKv CosineAttention epoch=290/300 valid_mae=9.16314647 best=9.06177581
+Jarvis-BulkModulusKv CosineAttention epoch=300/300 valid_mae=9.14887803 best=9.06177581
+{
+  "task": "Jarvis-BulkModulusKv",
+  "dataset": "JARVIS",
+  "property_family": "Mechanical",
+  "variant": "CosineAttention",
+  "seed": 42,
+  "best_epoch": 226,
+  "best_valid_mae": 9.061775810468287,
+  "final_valid_mae": 9.148878031921454,
+  "mean": 84.35909870426829,
+  "std": 66.33599313040396,
+  "trainable_params": 2751458,
+  "checkpoint_path": "/root/autodl-tmp/TextResidualSHFMat/matched_ablation_runs/Jarvis-BulkModulusKv/CosineAttention/best_valid.pt",
+  "test_forward_count": 0,
+  "runtime_sec": 3929.274995326996,
+  "train_samples": 15744,
+  "valid_samples": 1968,
+  "mean_eligible_token_count": 120.1869918699187,
+  "median_eligible_token_count": 126.0,
+  "attention_entropy_mean": 4.019164568403872,
+  "attention_entropy_median": 4.024598836898804,
+  "attention_effective_token_count_mean": 56.850575052959286,
+  "attention_effective_token_count_median": 55.957856479668514,
+  "attention_mean_max": null,
+  "zero_text_fallback_count": 0,
+  "zero_text_fallback_ids": []
+}

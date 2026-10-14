@@ -1,0 +1,262 @@
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py preflight --task Jarvis-FormationEnergy --token_cache /dev/shm/pvin_stage_e2_seed42_20260909/Jarvis-FormationEnergy/token_cache --scratch /dev/shm/pvin_stage_e2_seed42_20260909/Jarvis-FormationEnergy --output_root /root/pvin_stage_e2_seed42_20260909 --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+Graph construction workers: 8
+Building graphs (parallel)...
+Merging results from workers...
+
+Time consumption for constructing graph data: 257.46873712539673s
+Traceback (most recent call last):
+  File "/root/autodl-tmp/micromamba/envs/sftmat/lib/python3.10/site-packages/torch/serialization.py", line 629, in save
+    _save(obj, opened_zipfile, pickle_module, pickle_protocol, _disable_byteorder_record)
+  File "/root/autodl-tmp/micromamba/envs/sftmat/lib/python3.10/site-packages/torch/serialization.py", line 863, in _save
+    zip_file.write_record(name, storage.data_ptr(), num_bytes)
+RuntimeError: [enforce fail at inline_container.cc:764] . PytorchStreamWriter failed writing file data/248145: file write failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py", line 1445, in <module>
+    main()
+  File "/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py", line 1431, in main
+    preflight_task(args)
+  File "/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py", line 591, in preflight_task
+    train_graphs, valid_graphs, test_graphs, mean, std = load_graph_splits(args.task)
+  File "/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py", line 352, in load_graph_splits
+    train_loader, valid_loader, test_loader, mean, std = get_dataloader()
+  File "/root/autodl-tmp/TextResidualSHFMat/data/dataset.py", line 458, in get_dataloader
+    torch.save(clean_data, Config.raw_data_cache_path())
+  File "/root/autodl-tmp/micromamba/envs/sftmat/lib/python3.10/site-packages/torch/serialization.py", line 628, in save
+    with _open_zipfile_writer(f) as opened_zipfile:
+  File "/root/autodl-tmp/micromamba/envs/sftmat/lib/python3.10/site-packages/torch/serialization.py", line 476, in __exit__
+    self.file_like.write_end_of_file()
+RuntimeError: [enforce fail at inline_container.cc:595] . unexpected pos 1036872576 vs 1036872404
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py preflight --task Jarvis-FormationEnergy --token_cache /dev/shm/pvin_stage_e2_seed42_20260909/Jarvis-FormationEnergy/token_cache --scratch /dev/shm/pvin_stage_e2_seed42_20260909/Jarvis-FormationEnergy --output_root /root/pvin_stage_e2_seed42_20260909 --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda
+Traceback (most recent call last):
+  File "/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py", line 1445, in <module>
+    main()
+  File "/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py", line 1431, in main
+    preflight_task(args)
+  File "/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py", line 591, in preflight_task
+    train_graphs, valid_graphs, test_graphs, mean, std = load_graph_splits(args.task)
+  File "/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py", line 352, in load_graph_splits
+    train_loader, valid_loader, test_loader, mean, std = get_dataloader()
+  File "/root/autodl-tmp/TextResidualSHFMat/data/dataset.py", line 460, in get_dataloader
+    clean_data = torch.load(Config.raw_data_cache_path())
+  File "/root/autodl-tmp/micromamba/envs/sftmat/lib/python3.10/site-packages/torch/serialization.py", line 1005, in load
+    with _open_zipfile_reader(opened_file) as opened_zipfile:
+  File "/root/autodl-tmp/micromamba/envs/sftmat/lib/python3.10/site-packages/torch/serialization.py", line 457, in __init__
+    super().__init__(torch._C.PyTorchFileReader(name_or_buffer))
+RuntimeError: PytorchStreamReader failed reading zip archive: failed finding central directory
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py preflight --task Jarvis-FormationEnergy --token_cache /dev/shm/pvin_stage_e2_seed42_20260909/Jarvis-FormationEnergy/token_cache --scratch /dev/shm/pvin_stage_e2_seed42_20260909/Jarvis-FormationEnergy --output_root /root/pvin_stage_e2_seed42_20260909 --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda
+Traceback (most recent call last):
+  File "/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py", line 1445, in <module>
+    main()
+  File "/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py", line 1431, in main
+    preflight_task(args)
+  File "/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py", line 591, in preflight_task
+    train_graphs, valid_graphs, test_graphs, mean, std = load_graph_splits(args.task)
+  File "/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py", line 352, in load_graph_splits
+    train_loader, valid_loader, test_loader, mean, std = get_dataloader()
+  File "/root/autodl-tmp/TextResidualSHFMat/data/dataset.py", line 460, in get_dataloader
+    clean_data = torch.load(Config.raw_data_cache_path())
+  File "/root/autodl-tmp/micromamba/envs/sftmat/lib/python3.10/site-packages/torch/serialization.py", line 1005, in load
+    with _open_zipfile_reader(opened_file) as opened_zipfile:
+  File "/root/autodl-tmp/micromamba/envs/sftmat/lib/python3.10/site-packages/torch/serialization.py", line 457, in __init__
+    super().__init__(torch._C.PyTorchFileReader(name_or_buffer))
+RuntimeError: PytorchStreamReader failed reading zip archive: failed finding central directory
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py preflight --task Jarvis-FormationEnergy --token_cache /dev/shm/pvin_stage_e2_seed42_20260909/Jarvis-FormationEnergy/token_cache --scratch /dev/shm/pvin_stage_e2_seed42_20260909/Jarvis-FormationEnergy --output_root /root/pvin_stage_e2_seed42_20260909 --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda
+Traceback (most recent call last):
+  File "/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py", line 1445, in <module>
+    main()
+  File "/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py", line 1431, in main
+    preflight_task(args)
+  File "/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py", line 591, in preflight_task
+    train_graphs, valid_graphs, test_graphs, mean, std = load_graph_splits(args.task)
+  File "/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py", line 352, in load_graph_splits
+    train_loader, valid_loader, test_loader, mean, std = get_dataloader()
+  File "/root/autodl-tmp/TextResidualSHFMat/data/dataset.py", line 460, in get_dataloader
+    clean_data = torch.load(Config.raw_data_cache_path())
+  File "/root/autodl-tmp/micromamba/envs/sftmat/lib/python3.10/site-packages/torch/serialization.py", line 1005, in load
+    with _open_zipfile_reader(opened_file) as opened_zipfile:
+  File "/root/autodl-tmp/micromamba/envs/sftmat/lib/python3.10/site-packages/torch/serialization.py", line 457, in __init__
+    super().__init__(torch._C.PyTorchFileReader(name_or_buffer))
+RuntimeError: PytorchStreamReader failed reading zip archive: failed finding central directory
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py preflight --task Jarvis-FormationEnergy --token_cache /dev/shm/pvin_stage_e2_seed42_20260909/Jarvis-FormationEnergy/token_cache --scratch /dev/shm/pvin_stage_e2_seed42_20260909/Jarvis-FormationEnergy --output_root /root/pvin_stage_e2_seed42_20260909 --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda
+Traceback (most recent call last):
+  File "/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py", line 1445, in <module>
+    main()
+  File "/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py", line 1431, in main
+    preflight_task(args)
+  File "/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py", line 591, in preflight_task
+    train_graphs, valid_graphs, test_graphs, mean, std = load_graph_splits(args.task)
+  File "/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py", line 352, in load_graph_splits
+    train_loader, valid_loader, test_loader, mean, std = get_dataloader()
+  File "/root/autodl-tmp/TextResidualSHFMat/data/dataset.py", line 460, in get_dataloader
+    clean_data = torch.load(Config.raw_data_cache_path())
+  File "/root/autodl-tmp/micromamba/envs/sftmat/lib/python3.10/site-packages/torch/serialization.py", line 1005, in load
+    with _open_zipfile_reader(opened_file) as opened_zipfile:
+  File "/root/autodl-tmp/micromamba/envs/sftmat/lib/python3.10/site-packages/torch/serialization.py", line 457, in __init__
+    super().__init__(torch._C.PyTorchFileReader(name_or_buffer))
+RuntimeError: PytorchStreamReader failed reading zip archive: failed finding central directory
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py preflight --task Jarvis-FormationEnergy --token_cache /dev/shm/pvin_stage_e2_seed42_20260909/Jarvis-FormationEnergy/token_cache --scratch /dev/shm/pvin_stage_e2_seed42_20260909/Jarvis-FormationEnergy --output_root /root/pvin_stage_e2_seed42_20260909 --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda
+Traceback (most recent call last):
+  File "/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py", line 1446, in <module>
+    main()
+  File "/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py", line 1432, in main
+    preflight_task(args)
+  File "/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py", line 592, in preflight_task
+    train_graphs, valid_graphs, test_graphs, mean, std = load_graph_splits(args.task)
+  File "/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py", line 353, in load_graph_splits
+    train_loader, valid_loader, test_loader, mean, std = get_dataloader()
+  File "/root/autodl-tmp/TextResidualSHFMat/data/dataset.py", line 460, in get_dataloader
+    clean_data = torch.load(Config.raw_data_cache_path())
+  File "/root/autodl-tmp/micromamba/envs/sftmat/lib/python3.10/site-packages/torch/serialization.py", line 1005, in load
+    with _open_zipfile_reader(opened_file) as opened_zipfile:
+  File "/root/autodl-tmp/micromamba/envs/sftmat/lib/python3.10/site-packages/torch/serialization.py", line 457, in __init__
+    super().__init__(torch._C.PyTorchFileReader(name_or_buffer))
+RuntimeError: PytorchStreamReader failed reading zip archive: failed finding central directory
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py preflight --task Jarvis-FormationEnergy --token_cache /dev/shm/pvin_stage_e2_seed42_20260909/Jarvis-FormationEnergy/token_cache --scratch /dev/shm/pvin_stage_e2_seed42_20260909/Jarvis-FormationEnergy --output_root /root/pvin_stage_e2_seed42_20260909 --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda
+Traceback (most recent call last):
+  File "/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py", line 1446, in <module>
+    main()
+  File "/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py", line 1432, in main
+    preflight_task(args)
+  File "/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py", line 592, in preflight_task
+    train_graphs, valid_graphs, test_graphs, mean, std = load_graph_splits(args.task)
+  File "/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py", line 353, in load_graph_splits
+    train_loader, valid_loader, test_loader, mean, std = get_dataloader()
+  File "/root/autodl-tmp/TextResidualSHFMat/data/dataset.py", line 460, in get_dataloader
+    clean_data = torch.load(Config.raw_data_cache_path())
+  File "/root/autodl-tmp/micromamba/envs/sftmat/lib/python3.10/site-packages/torch/serialization.py", line 1005, in load
+    with _open_zipfile_reader(opened_file) as opened_zipfile:
+  File "/root/autodl-tmp/micromamba/envs/sftmat/lib/python3.10/site-packages/torch/serialization.py", line 457, in __init__
+    super().__init__(torch._C.PyTorchFileReader(name_or_buffer))
+RuntimeError: PytorchStreamReader failed reading zip archive: failed finding central directory
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py preflight --task Jarvis-FormationEnergy --token_cache /dev/shm/pvin_stage_e2_seed42_20260909/Jarvis-FormationEnergy/token_cache --scratch /dev/shm/pvin_stage_e2_seed42_20260909/Jarvis-FormationEnergy --output_root /root/pvin_stage_e2_seed42_20260909 --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+Graph construction workers: 8
+Building graphs (parallel)...
+Processing...
+Merging results from workers...
+
+Time consumption for constructing graph data: 267.59231901168823s
+dataset split: total=55723, train=44578, valid=5572, test=5573
+train range:(-4.3855299949646,4.985750198364258)
+valid range:(-4.379370212554932,3.785399913787842)
+test range:(-4.42303991317749,3.307389974594116)
+mean:-0.831722617149353
+std:1.0806602239608765
+processing train data:   0%|          | 0/44578 [00:00<?, ?it/s]processing train data:   2%|▏         | 791/44578 [00:00<00:07, 5832.60it/s]processing train data:   3%|▎         | 1375/44578 [00:00<00:07, 5764.07it/s]processing train data:   4%|▍         | 1951/44578 [00:00<00:07, 5599.99it/s]processing train data:   6%|▌         | 2560/44578 [00:00<00:07, 5780.28it/s]processing train data:   7%|▋         | 3139/44578 [00:00<00:07, 5742.82it/s]processing train data:   8%|▊         | 3714/44578 [00:00<00:07, 5678.45it/s]processing train data:  10%|▉         | 4282/44578 [00:00<00:07, 5578.93it/s]processing train data:  11%|█         | 4910/44578 [00:00<00:06, 5794.12it/s]processing train data:  12%|█▏        | 5491/44578 [00:01<00:08, 4551.88it/s]processing train data:  13%|█▎        | 5995/44578 [00:01<00:08, 4675.80it/s]processing train data:  15%|█▍        | 6493/44578 [00:01<00:08, 4595.77it/s]processing train data:  16%|█▌        | 7026/44578 [00:01<00:07, 4793.20it/s]processing train data:  17%|█▋        | 7523/44578 [00:01<00:09, 3942.31it/s]processing train data:  18%|█▊        | 7952/44578 [00:01<00:09, 4015.85it/s]processing train data:  19%|█▉        | 8381/44578 [00:01<00:08, 4085.71it/s]processing train data:  20%|█▉        | 8809/44578 [00:01<00:08, 4116.07it/s]processing train data:  21%|██        | 9235/44578 [00:01<00:08, 4106.39it/s]processing train data:  22%|██▏       | 9656/44578 [00:02<00:10, 3315.99it/s]processing train data:  23%|██▎       | 10072/44578 [00:02<00:09, 3520.98it/s]processing train data:  23%|██▎       | 10450/44578 [00:02<00:09, 3585.42it/s]processing train data:  24%|██▍       | 10870/44578 [00:02<00:08, 3750.36it/s]processing train data:  25%|██▌       | 11327/44578 [00:02<00:08, 3977.29it/s]processing train data:  26%|██▋       | 11738/44578 [00:02<00:08, 3966.74it/s]processing train data:  27%|██▋       | 12144/44578 [00:02<00:08, 3952.88it/s]processing train data:  28%|██▊       | 12575/44578 [00:02<00:07, 4055.57it/s]processing train data:  29%|██▉       | 13030/44578 [00:02<00:07, 4199.15it/s]processing train data:  30%|███       | 13454/44578 [00:03<00:07, 4160.09it/s]processing train data:  31%|███▏      | 13949/44578 [00:03<00:06, 4391.46it/s]processing train data:  32%|███▏      | 14391/44578 [00:03<00:06, 4359.32it/s]processing train data:  33%|███▎      | 14829/44578 [00:03<00:06, 4309.56it/s]processing train data:  34%|███▍      | 15262/44578 [00:03<00:08, 3506.67it/s]processing train data:  35%|███▌      | 15660/44578 [00:03<00:07, 3626.80it/s]processing train data:  36%|███▌      | 16043/44578 [00:03<00:07, 3664.06it/s]processing train data:  37%|███▋      | 16459/44578 [00:03<00:07, 3799.94it/s]processing train data:  38%|███▊      | 16890/44578 [00:03<00:07, 3943.43it/s]processing train data:  39%|███▉      | 17293/44578 [00:04<00:06, 3946.74it/s]processing train data:  40%|███▉      | 17741/44578 [00:04<00:06, 4100.74it/s]processing train data:  41%|████      | 18156/44578 [00:04<00:06, 4075.02it/s]processing train data:  42%|████▏     | 18567/44578 [00:04<00:06, 4048.20it/s]processing train data:  43%|████▎     | 19022/44578 [00:04<00:06, 4194.95it/s]processing train data:  44%|████▍     | 19504/44578 [00:04<00:05, 4378.93it/s]processing train data:  45%|████▍     | 19949/44578 [00:04<00:05, 4399.33it/s]processing train data:  46%|████▌     | 20391/44578 [00:04<00:05, 4341.93it/s]processing train data:  47%|████▋     | 20827/44578 [00:04<00:06, 3423.29it/s]processing train data:  48%|████▊     | 21282/44578 [00:05<00:06, 3704.06it/s]processing train data:  49%|████▊     | 21680/44578 [00:05<00:06, 3754.97it/s]processing train data:  50%|████▉     | 22106/44578 [00:05<00:05, 3892.00it/s]processing train data:  51%|█████     | 22547/44578 [00:05<00:05, 4036.27it/s]processing train data:  52%|█████▏    | 22963/44578 [00:05<00:05, 4017.63it/s]processing train data:  53%|█████▎    | 23455/44578 [00:05<00:04, 4276.13it/s]processing train data:  54%|█████▎    | 23896/44578 [00:05<00:04, 4314.97it/s]processing train data:  55%|█████▍    | 24406/44578 [00:05<00:04, 4544.79it/s]processing train data:  56%|█████▌    | 24865/44578 [00:05<00:04, 4533.91it/s]processing train data:  57%|█████▋    | 25322/44578 [00:06<00:05, 3604.60it/s]processing train data:  58%|█████▊    | 25715/44578 [00:06<00:05, 3669.81it/s]processing train data:  59%|█████▊    | 26148/44578 [00:06<00:04, 3842.90it/s]processing train data:  60%|█████▉    | 26552/44578 [00:06<00:04, 3893.40it/s]processing train data:  60%|██████    | 26955/44578 [00:06<00:04, 3872.52it/s]processing train data:  61%|██████▏   | 27352/44578 [00:06<00:04, 3855.32it/s]processing train data:  62%|██████▏   | 27754/44578 [00:06<00:04, 3901.75it/s]processing train data:  63%|██████▎   | 28150/44578 [00:06<00:05, 3146.23it/s]processing train data:  64%|██████▍   | 28491/44578 [00:06<00:05, 3211.23it/s]processing train data:  65%|██████▍   | 28839/44578 [00:07<00:04, 3281.65it/s]processing train data:  66%|██████▌   | 29251/44578 [00:07<00:04, 3510.14it/s]processing train data:  67%|██████▋   | 29722/44578 [00:07<00:03, 3826.05it/s]processing train data:  68%|██████▊   | 30137/44578 [00:07<00:03, 3918.10it/s]processing train data:  69%|██████▊   | 30537/44578 [00:07<00:03, 3893.30it/s]processing train data:  70%|██████▉   | 31023/44578 [00:07<00:03, 4172.87it/s]processing train data:  71%|███████   | 31471/44578 [00:07<00:03, 4261.97it/s]processing train data:  72%|███████▏  | 31901/44578 [00:07<00:03, 4217.52it/s]processing train data:  73%|███████▎  | 32326/44578 [00:07<00:02, 4226.28it/s]processing train data:  74%|███████▎  | 32777/44578 [00:07<00:02, 4309.92it/s]processing train data:  74%|███████▍  | 33210/44578 [00:08<00:02, 4308.58it/s]processing train data:  76%|███████▌  | 33673/44578 [00:08<00:02, 4403.88it/s]processing train data:  77%|███████▋  | 34115/44578 [00:08<00:02, 4382.36it/s]processing train data:  78%|███████▊  | 34554/44578 [00:08<00:02, 4335.44it/s]processing train data:  79%|███████▊  | 35052/44578 [00:08<00:02, 4525.70it/s]processing train data:  80%|███████▉  | 35506/44578 [00:08<00:02, 3602.13it/s]processing train data:  81%|████████  | 35897/44578 [00:08<00:02, 3664.50it/s]processing train data:  81%|████████▏ | 36286/44578 [00:08<00:02, 3658.84it/s]processing train data:  82%|████████▏ | 36768/44578 [00:08<00:01, 3972.69it/s]processing train data:  83%|████████▎ | 37180/44578 [00:09<00:01, 3945.89it/s]processing train data:  84%|████████▍ | 37585/44578 [00:09<00:02, 3234.83it/s]processing train data:  85%|████████▌ | 38102/44578 [00:09<00:01, 3710.97it/s]processing train data:  86%|████████▋ | 38512/44578 [00:09<00:01, 3812.07it/s]processing train data:  87%|████████▋ | 38991/44578 [00:09<00:01, 4076.91it/s]processing train data:  89%|████████▉ | 39588/44578 [00:09<00:01, 4583.84it/s]processing train data:  90%|████████▉ | 40088/44578 [00:09<00:00, 4701.63it/s]processing train data:  91%|█████████ | 40570/44578 [00:09<00:00, 4664.11it/s]processing train data:  92%|█████████▏| 41045/44578 [00:09<00:00, 4623.89it/s]processing train data:  93%|█████████▎| 41514/44578 [00:10<00:00, 4549.85it/s]processing train data:  94%|█████████▍| 41974/44578 [00:10<00:00, 3683.47it/s]processing train data:  95%|█████████▌| 42512/44578 [00:10<00:00, 4106.16it/s]processing train data:  96%|█████████▋| 42952/44578 [00:10<00:00, 4151.03it/s]processing train data:  98%|█████████▊| 43576/44578 [00:10<00:00, 4717.54it/s]processing train data:  99%|█████████▉| 44123/44578 [00:10<00:00, 4927.59it/s]processing train data: 100%|██████████| 44578/44578 [00:10<00:00, 4150.66it/s]
+Done!
+Processing...
+processing valid data:   0%|          | 0/5572 [00:00<?, ?it/s]processing valid data:  16%|█▌        | 886/5572 [00:00<00:00, 6718.97it/s]processing valid data:  28%|██▊       | 1558/5572 [00:00<00:00, 6194.90it/s]processing valid data:  39%|███▉      | 2175/5572 [00:00<00:00, 4596.96it/s]processing valid data:  48%|████▊     | 2670/5572 [00:00<00:00, 4702.63it/s]processing valid data:  57%|█████▋    | 3161/5572 [00:00<00:00, 4660.87it/s]processing valid data:  65%|██████▌   | 3640/5572 [00:00<00:00, 4627.82it/s]processing valid data:  74%|███████▍  | 4111/5572 [00:00<00:00, 4575.59it/s]processing valid data:  82%|████████▏ | 4595/5572 [00:01<00:00, 3766.94it/s]processing valid data:  92%|█████████▏| 5110/5572 [00:01<00:00, 4116.01it/s]processing valid data: 100%|██████████| 5572/5572 [00:01<00:00, 4822.03it/s]
+Done!
+Processing...
+processing test data:   0%|          | 0/5573 [00:00<?, ?it/s]processing test data:  18%|█▊        | 1005/5573 [00:00<00:00, 6332.07it/s]processing test data:  29%|██▉       | 1639/5573 [00:00<00:00, 6100.24it/s]processing test data:  40%|████      | 2245/5573 [00:00<00:00, 4427.40it/s]processing test data:  49%|████▉     | 2717/5573 [00:00<00:00, 4428.19it/s]processing test data:  57%|█████▋    | 3177/5573 [00:00<00:00, 4405.23it/s]processing test data:  65%|██████▌   | 3629/5573 [00:00<00:00, 4433.49it/s]processing test data:  73%|███████▎  | 4080/5573 [00:00<00:00, 4443.78it/s]processing test data:  81%|████████▏ | 4530/5573 [00:00<00:00, 4434.25it/s]processing test data:  90%|████████▉ | 5012/5573 [00:01<00:00, 3668.68it/s]processing test data:  99%|█████████▉| 5512/5573 [00:01<00:00, 4005.49it/s]processing test data: 100%|██████████| 5573/5573 [00:01<00:00, 4414.61it/s]
+Done!
+{
+  "aliases": {
+    "aliases": [
+      {
+        "path": "/root/autodl-tmp/TextResidualSHFMat/Dataset/processed/Jarvis-FormationEnergy-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-train-CGCNN.pt",
+        "source": "existing_plain"
+      },
+      {
+        "path": "/root/autodl-tmp/TextResidualSHFMat/Dataset/processed/Jarvis-FormationEnergy-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-valid-CGCNN.pt",
+        "source": "existing_plain"
+      },
+      {
+        "path": "/root/autodl-tmp/TextResidualSHFMat/Dataset/processed/Jarvis-FormationEnergy-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-test-CGCNN.pt",
+        "source": "existing_plain"
+      },
+      {
+        "path": "/root/autodl-tmp/TextResidualSHFMat/Dataset/raw/Jarvis-FormationEnergy-cutoff4.0-maxNeibNum16-spheHarmL4-CIF_CSV-rawData.pt",
+        "source": "/root/pvin_stage_e2_graph_cache/Jarvis-FormationEnergy/Jarvis-FormationEnergy-cutoff4.0-maxNeibNum16-spheHarmL4-CIF_CSV-rawData.pt"
+      }
+    ],
+    "retargeted": null,
+    "task": "Jarvis-FormationEnergy"
+  },
+  "data_loader_workers": 2,
+  "dataset": "JARVIS",
+  "drop_last": false,
+  "graph_target_mean": -0.831722617149353,
+  "graph_target_std": 1.0806602239608765,
+  "graph_total": 55723,
+  "model_checks": {
+    "ours": {
+      "autocast_dtype": "bfloat16",
+      "effective_token_count_min": 124.56779479980469,
+      "k_norm_after_max_deviation": 1.1920928955078125e-07,
+      "padding_attention_max": 0.0,
+      "parameter_count": 2800739,
+      "prediction_finite": true,
+      "prediction_shape": [
+        4
+      ],
+      "q_norm_after_max_deviation": 5.960464477539063e-08,
+      "special_token_attention_max": 0.0,
+      "temperature": 0.5
+    }
+  },
+  "pin_memory": false,
+  "property": "FormationEnergy",
+  "protocol": {
+    "bandgap_nonnegative_clipping": true,
+    "batch_size": 32,
+    "checkpoint_selection": "best Valid MAE only",
+    "data_loader_workers": 2,
+    "drop_last": false,
+    "epochs": 300,
+    "eval_batch_size": 64,
+    "lr": 0.001,
+    "matbert_max_length": 128,
+    "max_lr": 0.001,
+    "models": [
+      "ours"
+    ],
+    "optimizer": "AdamW",
+    "original_loss": "MAE(property,target)",
+    "ours_loss": "MAE(final,target)+0.2*MAE(graph,target)",
+    "ours_temperature": 0.5,
+    "pin_memory": false,
+    "prefetch_factor": 1,
+    "scheduler": "OneCycleLR",
+    "seeds": [
+      42
+    ],
+    "tasks": [
+      "Jarvis-Bandgap_MBJ",
+      "Jarvis-Bandgap_OPT",
+      "Jarvis-FormationEnergy",
+      "Jarvis-TotalEnergy",
+      "Jarvis-BulkModulusKv",
+      "Jarvis-ShearModulusGv",
+      "MP-Bandgap",
+      "MP-FormationEnergy",
+      "MP-BulkModuli",
+      "MP-ShearModuli"
+    ],
+    "torch_multiprocessing_sharing_strategy": "file_system",
+    "training_dtype": "bfloat16",
+    "weight_decay": 0.0001
+  },
+  "protocol_sha256": "1c0de7770307b627f62cf48e28cd65816b801b11574153f29af71667151fcb5f",
+  "split_sizes": {
+    "test": 5573,
+    "train": 44578,
+    "valid": 5572
+  },
+  "status": "passed",
+  "task": "Jarvis-FormationEnergy",
+  "token_cache_rows": 55723,
+  "token_cache_sha256": "ad6d565e1270c8ec8dc5a8068249195b2307de7570fc1cf493b1d5438e288d26",
+  "token_cache_shape": [
+    55723,
+    128,
+    768
+  ],
+  "torch_multiprocessing_sharing_strategy": "file_system"
+}

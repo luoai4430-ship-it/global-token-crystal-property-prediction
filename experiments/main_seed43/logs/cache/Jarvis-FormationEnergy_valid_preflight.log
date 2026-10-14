@@ -1,0 +1,144 @@
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_seed43_benchmark.py preflight --task Jarvis-FormationEnergy --token_cache /dev/shm/dualview_seed43_20260830/Jarvis-FormationEnergy/token_cache --scratch /dev/shm/dualview_seed43_20260830/Jarvis-FormationEnergy --output_root /root/dualview_seed43_20260830 --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda
+Traceback (most recent call last):
+  File "/root/autodl-tmp/TextResidualSHFMat/scripts/run_seed43_benchmark.py", line 1445, in <module>
+    main()
+  File "/root/autodl-tmp/TextResidualSHFMat/scripts/run_seed43_benchmark.py", line 1431, in main
+    preflight_task(args)
+  File "/root/autodl-tmp/TextResidualSHFMat/scripts/run_seed43_benchmark.py", line 591, in preflight_task
+    train_graphs, valid_graphs, test_graphs, mean, std = load_graph_splits(args.task)
+  File "/root/autodl-tmp/TextResidualSHFMat/scripts/run_seed43_benchmark.py", line 352, in load_graph_splits
+    train_loader, valid_loader, test_loader, mean, std = get_dataloader()
+  File "/root/autodl-tmp/TextResidualSHFMat/data/dataset.py", line 460, in get_dataloader
+    clean_data = torch.load(Config.raw_data_cache_path())
+  File "/root/autodl-tmp/micromamba/envs/sftmat/lib/python3.10/site-packages/torch/serialization.py", line 1005, in load
+    with _open_zipfile_reader(opened_file) as opened_zipfile:
+  File "/root/autodl-tmp/micromamba/envs/sftmat/lib/python3.10/site-packages/torch/serialization.py", line 457, in __init__
+    super().__init__(torch._C.PyTorchFileReader(name_or_buffer))
+RuntimeError: PytorchStreamReader failed reading zip archive: failed finding central directory
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_seed43_benchmark.py preflight --task Jarvis-FormationEnergy --token_cache /dev/shm/dualview_seed43_20260830/Jarvis-FormationEnergy/token_cache --scratch /dev/shm/dualview_seed43_20260830/Jarvis-FormationEnergy --output_root /root/dualview_seed43_20260830 --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+Graph construction workers: 8
+Building graphs (parallel)...
+Merging results from workers...
+
+Time consumption for constructing graph data: 293.8062391281128s
+dataset split: total=55723, train=44578, valid=5572, test=5573
+train range:(-4.3855299949646,4.985750198364258)
+valid range:(-4.379370212554932,3.785399913787842)
+test range:(-4.42303991317749,3.307389974594116)
+mean:-0.831722617149353
+std:1.0806602239608765
+{
+  "aliases": {
+    "aliases": [
+      {
+        "path": "/root/autodl-tmp/TextResidualSHFMat/Dataset/processed/Jarvis-FormationEnergy-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-train-CGCNN.pt",
+        "source": "existing_plain"
+      },
+      {
+        "path": "/root/autodl-tmp/TextResidualSHFMat/Dataset/processed/Jarvis-FormationEnergy-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-valid-CGCNN.pt",
+        "source": "existing_plain"
+      },
+      {
+        "path": "/root/autodl-tmp/TextResidualSHFMat/Dataset/processed/Jarvis-FormationEnergy-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-test-CGCNN.pt",
+        "source": "existing_plain"
+      },
+      {
+        "path": "/root/autodl-tmp/TextResidualSHFMat/Dataset/raw/Jarvis-FormationEnergy-cutoff4.0-maxNeibNum16-spheHarmL4-CIF_CSV-rawData.pt",
+        "source": "/dev/shm/dualview_seed43_20260830/Jarvis-FormationEnergy/graph/Jarvis-FormationEnergy-cutoff4.0-maxNeibNum16-spheHarmL4-CIF_CSV-rawData.pt"
+      }
+    ],
+    "retargeted": null,
+    "task": "Jarvis-FormationEnergy"
+  },
+  "data_loader_workers": 2,
+  "dataset": "JARVIS",
+  "drop_last": false,
+  "graph_target_mean": -0.831722617149353,
+  "graph_target_std": 1.0806602239608765,
+  "graph_total": 55723,
+  "model_checks": {
+    "original_sftmat": {
+      "autocast_dtype": "bfloat16",
+      "parameter_count": 2661154,
+      "prediction_finite": true,
+      "prediction_shape": [
+        4
+      ]
+    },
+    "ours": {
+      "autocast_dtype": "bfloat16",
+      "effective_token_count_min": 124.34477233886719,
+      "k_norm_after_max_deviation": 1.1920928955078125e-07,
+      "padding_attention_max": 0.0,
+      "parameter_count": 2800739,
+      "prediction_finite": true,
+      "prediction_shape": [
+        4
+      ],
+      "q_norm_after_max_deviation": 5.960464477539063e-08,
+      "special_token_attention_max": 0.0,
+      "temperature": 0.5
+    }
+  },
+  "pin_memory": false,
+  "property": "FormationEnergy",
+  "protocol": {
+    "bandgap_nonnegative_clipping": true,
+    "batch_size": 32,
+    "checkpoint_selection": "best Valid MAE only",
+    "data_loader_workers": 2,
+    "drop_last": false,
+    "epochs": 300,
+    "eval_batch_size": 64,
+    "lr": 0.001,
+    "matbert_max_length": 128,
+    "max_lr": 0.001,
+    "models": [
+      "original_sftmat",
+      "ours"
+    ],
+    "optimizer": "AdamW",
+    "original_loss": "MAE(property,target)",
+    "ours_loss": "MAE(final,target)+0.2*MAE(graph,target)",
+    "ours_temperature": 0.5,
+    "pin_memory": false,
+    "prefetch_factor": 1,
+    "scheduler": "OneCycleLR",
+    "seeds": [
+      43
+    ],
+    "tasks": [
+      "Jarvis-Bandgap_MBJ",
+      "Jarvis-Bandgap_OPT",
+      "Jarvis-FormationEnergy",
+      "Jarvis-TotalEnergy",
+      "Jarvis-BulkModulusKv",
+      "Jarvis-ShearModulusGv",
+      "MP-Bandgap",
+      "MP-FormationEnergy",
+      "MP-BulkModuli",
+      "MP-ShearModuli"
+    ],
+    "torch_multiprocessing_sharing_strategy": "file_system",
+    "training_dtype": "bfloat16",
+    "weight_decay": 0.0001
+  },
+  "protocol_sha256": "adae888170a616d63ca455803e3c186d270cb62ae5bbd3ed70b55835dc8c674d",
+  "split_sizes": {
+    "test": 5573,
+    "train": 44578,
+    "valid": 5572
+  },
+  "status": "passed",
+  "task": "Jarvis-FormationEnergy",
+  "token_cache_rows": 55723,
+  "token_cache_sha256": "ad6d565e1270c8ec8dc5a8068249195b2307de7570fc1cf493b1d5438e288d26",
+  "token_cache_shape": [
+    55723,
+    128,
+    768
+  ],
+  "torch_multiprocessing_sharing_strategy": "file_system"
+}

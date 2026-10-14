@@ -1,0 +1,22 @@
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py test --task MP-BulkModuli --model_name ours --seed 42 --token_cache /dev/shm/final_10task_ours_seed42_gpu4090d/MP-BulkModuli/token_cache --output_root /root/final_10task_ours_seed42_20260810_tau05_gpu4090d --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda --num_workers 2
+dataset split: total=5830, train=4664, valid=583, test=583
+train range:(0.4771212637424469,2.63948655128479)
+valid range:(0.6020600199699402,2.63948655128479)
+test range:(0.6020600199699402,2.5774917602539062)
+mean:1.9345861673355103
+std:0.3619743585586548
+{
+  "best_valid_epoch": 218,
+  "checkpoint_sha256": "b018e587e4207a54d11c6d88fc6118c6cce7f2670ea5d5c7e5d8d84a9cd22838",
+  "model_name": "ours",
+  "protocol_sha256": "1c0de7770307b627f62cf48e28cd65816b801b11574153f29af71667151fcb5f",
+  "seed": 42,
+  "selected_by": "Valid only",
+  "status": "test_complete",
+  "task": "MP-BulkModuli",
+  "test_forward_count": 1,
+  "test_mae": 0.03587196028661973,
+  "test_size": 583,
+  "token_cache_sha256": "0663a554cd7601a38b088486ab866dd0e0258d117754eb69ff7234937b89b6a3",
+  "valid_mae": 0.0349640228736053
+}

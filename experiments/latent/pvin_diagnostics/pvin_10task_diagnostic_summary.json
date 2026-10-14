@@ -1,0 +1,132 @@
+{
+  "diagnostic_label": "GT_DOMINANT_SIGNAL",
+  "training_run_count_new": 0,
+  "test_forward_count": 0,
+  "branch_positive_counts": {
+    "GC_contribution_pct": 7,
+    "GT_contribution_pct": 10,
+    "CT_contribution_pct": 9,
+    "ALL_contribution_pct": 10
+  },
+  "branch_contribution_stats": {
+    "GC_contribution_pct": {
+      "mean": 0.5358186354518357,
+      "std": 0.7345470240241512,
+      "median": 0.31515638769674426,
+      "P10": -0.1255945187175748,
+      "P25": 0.003888603716891304,
+      "P75": 0.8967976162947875,
+      "P90": 1.3460750569563744,
+      "max": 2.2716668613600244
+    },
+    "GT_contribution_pct": {
+      "mean": 1.3751110534247388,
+      "std": 1.2120043714110031,
+      "median": 0.9660869997780993,
+      "P10": 0.22655242351681804,
+      "P25": 0.31707944445387803,
+      "P75": 2.0135674351661406,
+      "P90": 3.0426523825590563,
+      "max": 3.8353633546098824
+    },
+    "CT_contribution_pct": {
+      "mean": 0.4407586766023582,
+      "std": 0.5688675354314747,
+      "median": 0.22889024669351388,
+      "P10": -0.02177095193897373,
+      "P25": 0.10380602718713737,
+      "P75": 0.8693661779899017,
+      "P90": 1.1971792824548353,
+      "max": 1.4770944760390667
+    },
+    "ALL_contribution_pct": {
+      "mean": 3.49411435881307,
+      "std": 3.4044852000173598,
+      "median": 2.2008799733616575,
+      "P10": 0.5458897803707801,
+      "P25": 0.6418779494575861,
+      "P75": 6.50850257923177,
+      "P90": 8.044642477520698,
+      "max": 9.837292413360162
+    }
+  },
+  "group_stats": {
+    "Dataset": {
+      "JARVIS": {
+        "P1_vs_P0_macro_gain_pct": 1.0009987686437516,
+        "GC_contribution_pct": 0.6823234156239141,
+        "GT_contribution_pct": 1.4358822398624638,
+        "CT_contribution_pct": 0.5063051547678801,
+        "ALL_contribution_pct": 3.6852235986781037
+      },
+      "MP": {
+        "P1_vs_P0_macro_gain_pct": 0.6618689126349402,
+        "GC_contribution_pct": 0.31606146519371825,
+        "GT_contribution_pct": 1.2839542737681513,
+        "CT_contribution_pct": 0.3424389593540753,
+        "ALL_contribution_pct": 3.207450499015521
+      }
+    },
+    "Property_group": {
+      "Electronic": {
+        "P1_vs_P0_macro_gain_pct": 0.48526845778490874,
+        "GC_contribution_pct": 1.166085995845285,
+        "GT_contribution_pct": 2.947276973694818,
+        "CT_contribution_pct": 1.009013165410441,
+        "ALL_contribution_pct": 6.7960059648930615
+      },
+      "Energetic": {
+        "P1_vs_P0_macro_gain_pct": -0.25144822987955445,
+        "GC_contribution_pct": 0.07980862338678887,
+        "GT_contribution_pct": 0.2702687850168289,
+        "CT_contribution_pct": 0.10930428749258884,
+        "ALL_contribution_pct": 0.5747417363034133
+      },
+      "Mechanical": {
+        "P1_vs_P0_macro_gain_pct": 1.9880018946715516,
+        "GC_contribution_pct": 0.4051256242055339,
+        "GT_contribution_pct": 1.0246183145281118,
+        "CT_contribution_pct": 0.26315860182862294,
+        "ALL_contribution_pct": 3.2072251211353207
+      }
+    }
+  },
+  "magnitude_correlations": {
+    "gain_vs_mean_u_gc_norm": {
+      "pearson": -0.1198240826052862,
+      "spearman": 0.09090909090909088,
+      "n": 10
+    },
+    "gain_vs_mean_M_gc": {
+      "pearson": -0.10311459918852953,
+      "spearman": 0.09090909090909088,
+      "n": 10
+    },
+    "gain_vs_mean_u_gt_norm": {
+      "pearson": -0.08405405329926938,
+      "spearman": 0.09090909090909088,
+      "n": 10
+    },
+    "gain_vs_mean_M_gt": {
+      "pearson": -0.07733372166105279,
+      "spearman": 0.17575757575757575,
+      "n": 10
+    },
+    "gain_vs_mean_u_ct_norm": {
+      "pearson": 0.12791055632273485,
+      "spearman": 0.13939393939393938,
+      "n": 10
+    },
+    "gain_vs_mean_M_ct": {
+      "pearson": 0.17289969201480349,
+      "spearman": 0.1515151515151515,
+      "n": 10
+    }
+  },
+  "sample_helpful_fraction_mean": {
+    "GC": 0.27765397351207927,
+    "GT": 0.2920176364519767,
+    "CT": 0.2533000283269252,
+    "ALL": 0.32541675711868656
+  }
+}

@@ -1,0 +1,14 @@
+2026-09-12 11:34:28 queue started pending=['Jarvis-Bandgap_OPT', 'Jarvis-TotalEnergy', 'Jarvis-BulkModulusKv', 'Jarvis-ShearModulusGv', 'MP-BulkModuli', 'MP-ShearModuli'] completed_existing=[]
+2026-09-12 11:34:28 launched Jarvis-Bandgap_OPT pid=191641
+2026-09-12 11:34:28 launched Jarvis-TotalEnergy pid=191642
+2026-09-12 16:15:43 completed Jarvis-Bandgap_OPT
+2026-09-12 16:15:43 completed Jarvis-TotalEnergy
+2026-09-12 16:15:43 launched Jarvis-BulkModulusKv pid=275113
+2026-09-12 16:15:43 launched Jarvis-ShearModulusGv pid=275114
+2026-09-12 17:39:47 completed Jarvis-BulkModulusKv
+2026-09-12 17:39:47 completed Jarvis-ShearModulusGv
+2026-09-12 17:39:47 launched MP-BulkModuli pid=356305
+2026-09-12 17:39:47 launched MP-ShearModuli pid=356306
+2026-09-12 18:09:49 completed MP-BulkModuli
+2026-09-12 18:09:49 completed MP-ShearModuli
+2026-09-12 18:09:49 queue complete

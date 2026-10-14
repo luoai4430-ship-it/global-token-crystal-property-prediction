@@ -1,0 +1,15 @@
+{
+  "parameter_count_sec_sft": 2775713,
+  "per_task_training_time_seconds": {
+    "Jarvis-Bandgap_MBJ": 3870.6687996014953,
+    "Jarvis-Bandgap_OPT": 16664.51998396963,
+    "Jarvis-FormationEnergy": 12534.892509482801,
+    "Jarvis-TotalEnergy": 16631.87017057091,
+    "Jarvis-BulkModulusKv": 4913.80335431546,
+    "Jarvis-ShearModulusGv": 4909.524086549878,
+    "MP-Bandgap": 41222.83062688261,
+    "MP-FormationEnergy": 39111.623375341296,
+    "MP-BulkModuli": 1738.8686937764287,
+    "MP-ShearModuli": 1745.9802093952894
+  }
+}

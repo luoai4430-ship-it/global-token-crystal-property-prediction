@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/root/run_seed43_dualview_queue_parallel.py", line 326, in <module>
+    main()
+  File "/root/run_seed43_dualview_queue_parallel.py", line 285, in main
+    run_phase("valid")
+  File "/root/run_seed43_dualview_queue_parallel.py", line 271, in run_phase
+    execute_pair(task, token_cache, phase)
+  File "/root/run_seed43_dualview_queue_parallel.py", line 238, in execute_pair
+    raise RuntimeError(
+RuntimeError: Jarvis-Bandgap_MBJ/original_sftmat/valid exited with 1; see /root/dualview_seed43_20260830/logs/Jarvis-Bandgap_MBJ_original_sftmat_seed43_valid.log

@@ -1,0 +1,20 @@
+{
+  "active": [],
+  "completed_test": 0,
+  "completed_valid": 0,
+  "current_task": "Jarvis-Bandgap_MBJ",
+  "expected_test": 100,
+  "expected_valid": 100,
+  "failed": [
+    {
+      "error": "valid failed for Jarvis-Bandgap_MBJ/original_sftmat/seed42 with exit 1; see /root/final_10task_benchmark_20260809_tau05/logs/Jarvis-Bandgap_MBJ_original_sftmat_seed42_valid.log",
+      "error_type": "RuntimeError",
+      "failed_at_unix": 1786292253.2778325,
+      "traceback": "Traceback (most recent call last):\n  File \"/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_queue.py\", line 369, in main\n    execute_pairs(task, token_cache, \"valid\")\n  File \"/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_queue.py\", line 339, in execute_pairs\n    raise RuntimeError(\nRuntimeError: valid failed for Jarvis-Bandgap_MBJ/original_sftmat/seed42 with exit 1; see /root/final_10task_benchmark_20260809_tau05/logs/Jarvis-Bandgap_MBJ_original_sftmat_seed42_valid.log\n"
+    }
+  ],
+  "phase": "valid",
+  "started_at_unix": 1786287555.4160511,
+  "status": "FAILED",
+  "updated_at_unix": 1786292253.2786694
+}

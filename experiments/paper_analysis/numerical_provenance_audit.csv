@@ -1,0 +1,5 @@
+metric,value,split,seed_or_run,model,source_file,source_field,status,notes
+post-hoc same-view Global normalized macro,1.000000,test,two-run descriptive,Global,dualview_test_seed42_20260826 paired predictions; user-supplied calculation,descriptive aggregation,descriptive_only,No selection or weight tuning.
+post-hoc same-view GG normalized macro,0.956587,test,two-run descriptive,Global+Global,dualview_test_seed42_20260826 paired predictions; user-supplied calculation,descriptive aggregation,descriptive_only,Average predictions across runs.
+post-hoc same-view TT normalized macro,0.935789,test,two-run descriptive,Token+Token,dualview_test_seed42_20260826 paired predictions; user-supplied calculation,descriptive aggregation,descriptive_only,Average predictions across runs.
+post-hoc same-view GT normalized macro,0.941171,test,two-run descriptive,Global+Token,dualview_test_seed42_20260826 paired predictions; user-supplied calculation,descriptive aggregation,descriptive_only,Run-matched mean then run average; not used for selection.

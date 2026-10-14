@@ -1,0 +1,169 @@
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_gctr_fast_screen.py train --task MP-Bandgap --variant B1_NaiveConcat --seed 42 --token_cache /dev/shm/gctr_fast_screen_seed42_20260906/MP-Bandgap/token_cache --output_dir /root/gctr_fast_screen_seed42_20260906/runs/MP-Bandgap/B1_NaiveConcat/seed_42 --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda --num_workers 2 --epochs 100 --patience 20
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+dataset split: total=65516, train=60000, valid=5000, test=516
+train range:(0.0,17.891399383544922)
+valid range:(0.0,8.311300277709961)
+test range:(0.0,7.539400100708008)
+mean:1.350268006324768
+std:1.6265326738357544
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=1/100 loss=0.69966468 valid_mae=0.58693203 best=0.58693203 best_epoch=1 stale=0/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=2/100 loss=0.56191838 valid_mae=0.50405396 best=0.50405396 best_epoch=2 stale=0/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=3/100 loss=0.49960098 valid_mae=0.45983267 best=0.45983267 best_epoch=3 stale=0/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=4/100 loss=0.46571687 valid_mae=0.45858035 best=0.45858035 best_epoch=4 stale=0/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=5/100 loss=0.44422694 valid_mae=0.43068151 best=0.43068151 best_epoch=5 stale=0/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=6/100 loss=0.42935521 valid_mae=0.42980674 best=0.42980674 best_epoch=6 stale=0/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=7/100 loss=0.41780682 valid_mae=0.42606671 best=0.42606671 best_epoch=7 stale=0/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=8/100 loss=0.41371965 valid_mae=0.38923075 best=0.38923075 best_epoch=8 stale=0/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=9/100 loss=0.40889591 valid_mae=0.40861216 best=0.38923075 best_epoch=8 stale=1/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=10/100 loss=0.40665242 valid_mae=0.41905141 best=0.38923075 best_epoch=8 stale=2/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=11/100 loss=0.40458789 valid_mae=0.40162862 best=0.38923075 best_epoch=8 stale=3/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=12/100 loss=0.39764571 valid_mae=0.39405488 best=0.38923075 best_epoch=8 stale=4/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=13/100 loss=0.39088388 valid_mae=0.40349247 best=0.38923075 best_epoch=8 stale=5/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=14/100 loss=0.38440923 valid_mae=0.36662334 best=0.36662334 best_epoch=14 stale=0/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=15/100 loss=0.37914228 valid_mae=0.39560844 best=0.36662334 best_epoch=14 stale=1/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=16/100 loss=0.37231769 valid_mae=0.42813349 best=0.36662334 best_epoch=14 stale=2/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=17/100 loss=0.37527965 valid_mae=0.36890069 best=0.36662334 best_epoch=14 stale=3/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=18/100 loss=0.36339721 valid_mae=0.38325929 best=0.36662334 best_epoch=14 stale=4/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=19/100 loss=0.35206349 valid_mae=0.35167988 best=0.35167988 best_epoch=19 stale=0/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=20/100 loss=0.34939550 valid_mae=0.35941659 best=0.35167988 best_epoch=19 stale=1/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=21/100 loss=0.34664593 valid_mae=0.38066650 best=0.35167988 best_epoch=19 stale=2/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=22/100 loss=0.33267664 valid_mae=0.33826092 best=0.33826092 best_epoch=22 stale=0/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=23/100 loss=0.33001428 valid_mae=0.37826281 best=0.33826092 best_epoch=22 stale=1/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=24/100 loss=0.32225314 valid_mae=0.34603834 best=0.33826092 best_epoch=22 stale=2/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=25/100 loss=0.32881840 valid_mae=0.34701202 best=0.33826092 best_epoch=22 stale=3/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=26/100 loss=0.32171263 valid_mae=0.33080930 best=0.33080930 best_epoch=26 stale=0/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=27/100 loss=0.30974247 valid_mae=0.34429174 best=0.33080930 best_epoch=26 stale=1/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=28/100 loss=0.30740965 valid_mae=0.32369432 best=0.32369432 best_epoch=28 stale=0/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=29/100 loss=0.29605602 valid_mae=0.31951437 best=0.31951437 best_epoch=29 stale=0/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=30/100 loss=0.29985029 valid_mae=0.33599817 best=0.31951437 best_epoch=29 stale=1/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=31/100 loss=0.28971365 valid_mae=0.31004328 best=0.31004328 best_epoch=31 stale=0/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=32/100 loss=0.28014025 valid_mae=0.33689261 best=0.31004328 best_epoch=31 stale=1/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=33/100 loss=0.27753715 valid_mae=0.30237902 best=0.30237902 best_epoch=33 stale=0/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=34/100 loss=0.27244985 valid_mae=0.30606436 best=0.30237902 best_epoch=33 stale=1/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=35/100 loss=0.26596823 valid_mae=0.29985029 best=0.29985029 best_epoch=35 stale=0/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=36/100 loss=0.26516110 valid_mae=0.28951218 best=0.28951218 best_epoch=36 stale=0/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=37/100 loss=0.26270248 valid_mae=0.29033427 best=0.28951218 best_epoch=36 stale=1/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=38/100 loss=0.25507001 valid_mae=0.29743759 best=0.28951218 best_epoch=36 stale=2/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=39/100 loss=0.25340250 valid_mae=0.30024152 best=0.28951218 best_epoch=36 stale=3/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=40/100 loss=0.24739778 valid_mae=0.28328848 best=0.28328848 best_epoch=40 stale=0/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=41/100 loss=0.24329669 valid_mae=0.28477643 best=0.28328848 best_epoch=40 stale=1/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=42/100 loss=0.24179371 valid_mae=0.29304234 best=0.28328848 best_epoch=40 stale=2/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=43/100 loss=0.23373794 valid_mae=0.27284388 best=0.27284388 best_epoch=43 stale=0/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=44/100 loss=0.23237395 valid_mae=0.28085446 best=0.27284388 best_epoch=43 stale=1/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=45/100 loss=0.23874808 valid_mae=0.27054170 best=0.27054170 best_epoch=45 stale=0/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=46/100 loss=0.22454497 valid_mae=0.27194912 best=0.27054170 best_epoch=45 stale=1/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=47/100 loss=0.22284351 valid_mae=0.28263375 best=0.27054170 best_epoch=45 stale=2/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=48/100 loss=0.22069286 valid_mae=0.27449290 best=0.27054170 best_epoch=45 stale=3/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=49/100 loss=0.21265753 valid_mae=0.25462479 best=0.25462479 best_epoch=49 stale=0/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=50/100 loss=0.21192905 valid_mae=0.26418926 best=0.25462479 best_epoch=49 stale=1/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=51/100 loss=0.20700994 valid_mae=0.26051276 best=0.25462479 best_epoch=49 stale=2/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=52/100 loss=0.20388316 valid_mae=0.25796841 best=0.25462479 best_epoch=49 stale=3/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=53/100 loss=0.19856070 valid_mae=0.25763518 best=0.25462479 best_epoch=49 stale=4/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=54/100 loss=0.19649643 valid_mae=0.27861172 best=0.25462479 best_epoch=49 stale=5/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=55/100 loss=0.19327216 valid_mae=0.25548837 best=0.25462479 best_epoch=49 stale=6/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=56/100 loss=0.18699664 valid_mae=0.25813791 best=0.25462479 best_epoch=49 stale=7/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=57/100 loss=0.18463344 valid_mae=0.25657059 best=0.25462479 best_epoch=49 stale=8/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=58/100 loss=0.18129570 valid_mae=0.24773109 best=0.24773109 best_epoch=58 stale=0/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=59/100 loss=0.17554370 valid_mae=0.24957096 best=0.24773109 best_epoch=58 stale=1/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=60/100 loss=0.17176224 valid_mae=0.25574640 best=0.24773109 best_epoch=58 stale=2/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=61/100 loss=0.16802440 valid_mae=0.24486344 best=0.24486344 best_epoch=61 stale=0/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=62/100 loss=0.16473834 valid_mae=0.24822499 best=0.24486344 best_epoch=61 stale=1/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=63/100 loss=0.16205706 valid_mae=0.24770854 best=0.24486344 best_epoch=61 stale=2/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=64/100 loss=0.15749594 valid_mae=0.23998840 best=0.23998840 best_epoch=64 stale=0/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=65/100 loss=0.15373590 valid_mae=0.24022152 best=0.23998840 best_epoch=64 stale=1/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=66/100 loss=0.15108161 valid_mae=0.23908802 best=0.23908802 best_epoch=66 stale=0/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=67/100 loss=0.14692449 valid_mae=0.24177171 best=0.23908802 best_epoch=66 stale=1/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=68/100 loss=0.14317441 valid_mae=0.23997095 best=0.23908802 best_epoch=66 stale=2/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=69/100 loss=0.14051065 valid_mae=0.23589318 best=0.23589318 best_epoch=69 stale=0/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=70/100 loss=0.13703647 valid_mae=0.23783555 best=0.23589318 best_epoch=69 stale=1/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=71/100 loss=0.13253058 valid_mae=0.23114908 best=0.23114908 best_epoch=71 stale=0/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=72/100 loss=0.13024626 valid_mae=0.23331855 best=0.23114908 best_epoch=71 stale=1/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=73/100 loss=0.12691498 valid_mae=0.23365425 best=0.23114908 best_epoch=71 stale=2/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=74/100 loss=0.12464102 valid_mae=0.22937522 best=0.22937522 best_epoch=74 stale=0/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=75/100 loss=0.12056557 valid_mae=0.23158744 best=0.22937522 best_epoch=74 stale=1/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=76/100 loss=0.11804943 valid_mae=0.22838280 best=0.22838280 best_epoch=76 stale=0/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=77/100 loss=0.11543666 valid_mae=0.22964095 best=0.22838280 best_epoch=76 stale=1/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=78/100 loss=0.11214299 valid_mae=0.22434869 best=0.22434869 best_epoch=78 stale=0/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=79/100 loss=0.10984584 valid_mae=0.22647235 best=0.22434869 best_epoch=78 stale=1/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=80/100 loss=0.10788342 valid_mae=0.22833927 best=0.22434869 best_epoch=78 stale=2/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=81/100 loss=0.10493801 valid_mae=0.22618562 best=0.22434869 best_epoch=78 stale=3/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=82/100 loss=0.10230766 valid_mae=0.22615479 best=0.22434869 best_epoch=78 stale=4/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=83/100 loss=0.10039529 valid_mae=0.22582494 best=0.22434869 best_epoch=78 stale=5/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=84/100 loss=0.09799564 valid_mae=0.22519193 best=0.22434869 best_epoch=78 stale=6/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=85/100 loss=0.09633187 valid_mae=0.22464757 best=0.22434869 best_epoch=78 stale=7/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=86/100 loss=0.09419654 valid_mae=0.22457697 best=0.22434869 best_epoch=78 stale=8/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=87/100 loss=0.09239302 valid_mae=0.22212351 best=0.22212351 best_epoch=87 stale=0/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=88/100 loss=0.09120763 valid_mae=0.22438206 best=0.22212351 best_epoch=87 stale=1/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=89/100 loss=0.08978119 valid_mae=0.22358199 best=0.22212351 best_epoch=87 stale=2/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=90/100 loss=0.08846178 valid_mae=0.22433718 best=0.22212351 best_epoch=87 stale=3/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=91/100 loss=0.08719535 valid_mae=0.22347510 best=0.22212351 best_epoch=87 stale=4/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=92/100 loss=0.08595512 valid_mae=0.22301768 best=0.22212351 best_epoch=87 stale=5/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=93/100 loss=0.08511549 valid_mae=0.22190221 best=0.22190221 best_epoch=93 stale=0/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=94/100 loss=0.08471427 valid_mae=0.22219142 best=0.22190221 best_epoch=93 stale=1/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=95/100 loss=0.08413694 valid_mae=0.22264536 best=0.22190221 best_epoch=93 stale=2/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=96/100 loss=0.08359282 valid_mae=0.22429233 best=0.22190221 best_epoch=93 stale=3/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=97/100 loss=0.08354161 valid_mae=0.22276384 best=0.22190221 best_epoch=93 stale=4/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=98/100 loss=0.08291804 valid_mae=0.22142363 best=0.22142363 best_epoch=98 stale=0/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=99/100 loss=0.08281559 valid_mae=0.22283656 best=0.22142363 best_epoch=98 stale=1/20
+[MP-Bandgap:B1_NaiveConcat:seed42] epoch=100/100 loss=0.08294934 valid_mae=0.22258242 best=0.22142363 best_epoch=98 stale=2/20
+{
+  "attention_entropy_mean": 4.297936407518387,
+  "best_valid_epoch": 98,
+  "checkpoint_reload_state_exact": true,
+  "checkpoint_reselection": 0,
+  "checkpoint_sha256": "53bd05a77b4a62093e8b136453aeffb366e11143927c90c1c71aaac63da252f9",
+  "cos_ht_ht_refined_mean": null,
+  "cos_ht_ht_refined_median": null,
+  "data_loader_workers": 2,
+  "dataset": "MP",
+  "drop_last": false,
+  "early_stopped": false,
+  "effective_token_count_mean": 74.97131684265136,
+  "feature_l2_distance_mean": null,
+  "feature_l2_distance_median": null,
+  "film_controls": null,
+  "gradient_definition": "L2 norm of full-validation raw-MAE gradient",
+  "gradient_norm_Wc": 0.0031872130243133815,
+  "gradient_norm_film_beta": null,
+  "gradient_norm_film_gamma": null,
+  "gradient_norm_refine_norm": null,
+  "loss_weight_search": 0,
+  "max_epochs": 100,
+  "mean_abs_beta": null,
+  "mean_abs_gamma_minus_one": null,
+  "mean_max_attention": 0.08351251512952149,
+  "median_abs_gamma_minus_one": null,
+  "median_max_attention": 0.08269155770540237,
+  "padding_attention_max": 0.0,
+  "parameter_count": 2882658,
+  "patience": 20,
+  "property": "Bandgap",
+  "protocol_sha256": "ad0eb26ebe3ec10f94c8b275163587975ee6b1bea797ae75fd9d6904d6f89cf3",
+  "refinement_ratio_mean": null,
+  "refinement_ratio_median": null,
+  "seed": 42,
+  "special_token_attention_max": 0.0,
+  "status": "valid_complete",
+  "std_gamma_mean": null,
+  "stopped_epoch": 100,
+  "target_mean": 1.350268006324768,
+  "target_std": 1.6265326738357544,
+  "task": "MP-Bandgap",
+  "tau_search": 0,
+  "temperature": 0.5,
+  "test_forward_count": 0,
+  "token_cache_sha256": "ee701e2c5c105c14feed7af9dfc7a5e2a6dbf11f473fd84b6364c64fb9048fc3",
+  "train_size": 60000,
+  "training_autocast_dtype": "bfloat16",
+  "training_runs": 1,
+  "training_time_seconds": 10457.61439297907,
+  "unit": "eV",
+  "valid_mae": 0.22147668333053588,
+  "valid_size": 5000,
+  "variant": "B1_NaiveConcat"
+}

@@ -1,0 +1,3 @@
+task,original_valid_mae,sec_sft_valid_mae,residual_sec_sft_valid_mae,residual_vs_original_gain_pct,residual_vs_sec_sft_recovery_pct,best_valid_epoch,test_forward_count
+MP-BulkModuli,0.037894987937312184,0.03935184507386353,0.03717688896643768,1.8949708390524413,5.526948236717878,225,0
+MP-ShearModuli,0.06582852109218748,0.0694838954490413,0.06564737265964724,0.2751822911023052,5.521456108067115,273,0

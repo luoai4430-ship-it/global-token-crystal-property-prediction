@@ -1,0 +1,20 @@
+{
+  "experiment": "GCTA_fast_screen_seed42",
+  "status": "complete_and_verified_locally",
+  "validation_runs": 4,
+  "test_forward_count": 0,
+  "remote_archive_sha256": "3a0c1304aad2a850e8d418e7396d66b0690c338694ce269510980960bcbcc6c1",
+  "copied_manifest_files_verified": 57,
+  "decision": "WEAK_GLOBAL_CONDITIONING_SIGNAL",
+  "macro_gain_pct": 0.47263378828649943,
+  "wins_vs_b1": 2,
+  "no_other_experiment_process_observed_before_shutdown": true,
+  "gpu_compute_processes_before_shutdown": 0,
+  "poweroff_attempted": true,
+  "poweroff_result": "rejected: systemd is not PID 1; failed to talk to init daemon",
+  "authenticated_ssh_reachable_after_poweroff": true,
+  "shutdown_verified": false,
+  "required_action": "Close the container from the SeeTacloud control panel.",
+  "automation_id": "monitor-gcta-fast-screen",
+  "automation_deleted": true
+}

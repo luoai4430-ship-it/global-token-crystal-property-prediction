@@ -1,0 +1,15 @@
+{
+  "task": "Jarvis-Bandgap_OPT",
+  "seed": 42,
+  "split": "Valid",
+  "sample_count": 5572,
+  "sample_id_order_match": true,
+  "duplicate_ids": 0,
+  "finite_predictions": true,
+  "valid_mae": 0.12560113777232015,
+  "summary_valid_mae": 0.1255375017216115,
+  "mae_match_tolerance_1e4": true,
+  "token_cache_sha256": "ebbed3aaa94fd2bfba0327cf3976f1d44ce1b3255d27e738e863565c5dd76be6",
+  "test_forward_count": 0,
+  "training_runs": 0
+}

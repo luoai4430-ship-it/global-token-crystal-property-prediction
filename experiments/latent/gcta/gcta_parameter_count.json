@@ -1,0 +1,11 @@
+{
+  "p2_added_params_vs_b1": 16384,
+  "p2_added_params_vs_b1_pct": 0.5683643359704827,
+  "parameter_counts": {
+    "B1_NaiveConcat": 2882658,
+    "P2_GCTA": 2899042
+  },
+  "protocol_sha256": "919c84390774abec61ac52edabac1eb581f72bb05e9d21d02e93e03f3434be98",
+  "test_forward_count": 0,
+  "under_5_percent": true
+}

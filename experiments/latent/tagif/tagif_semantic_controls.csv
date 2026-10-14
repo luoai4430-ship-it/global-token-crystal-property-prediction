@@ -1,0 +1,7 @@
+task,control,valid_mae,selected_checkpoint_unchanged,graph_unchanged,token_attention_input_unchanged,test_forward_count
+Jarvis-Bandgap_MBJ,correct_cls,0.29873089693244764,True,True,True,0
+Jarvis-Bandgap_MBJ,shuffled_cls,0.41742436755930384,True,True,True,0
+Jarvis-Bandgap_MBJ,zero_cls,0.3637562540775482,True,True,True,0
+MP-Bandgap,correct_cls,0.2199256022453308,True,True,True,0
+MP-Bandgap,shuffled_cls,0.29388742170333865,True,True,True,0
+MP-Bandgap,zero_cls,0.27075790910720826,True,True,True,0

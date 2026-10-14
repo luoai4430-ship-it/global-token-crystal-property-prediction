@@ -1,0 +1,346 @@
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py train --task Jarvis-TotalEnergy --model_name ours --seed 42 --token_cache /dev/shm/final_10task_ours_seed42_gpu4090d/Jarvis-TotalEnergy/token_cache --output_dir /root/final_10task_ours_seed42_20260810_tau05_gpu4090d/runs/Jarvis-TotalEnergy/ours/seed_42 --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda --num_workers 2 --epochs 300 --batch_size 32
+dataset split: total=55723, train=44578, valid=5572, test=5573
+train range:(-10.500269889831543,3.3935000896453857)
+valid range:(-10.327210426330566,2.532370090484619)
+test range:(-10.498250007629395,2.5189900398254395)
+mean:-3.214447259902954
+std:2.1312344074249268
+[Jarvis-TotalEnergy:ours:seed42] epoch=1/300 loss=0.58463516 valid_mae=0.28753441 best=0.28753441 best_epoch=1
+[Jarvis-TotalEnergy:ours:seed42] epoch=2/300 loss=0.35333781 valid_mae=0.23552085 best=0.23552085 best_epoch=2
+[Jarvis-TotalEnergy:ours:seed42] epoch=3/300 loss=0.28542502 valid_mae=0.19248678 best=0.19248678 best_epoch=3
+[Jarvis-TotalEnergy:ours:seed42] epoch=4/300 loss=0.24420459 valid_mae=0.17370722 best=0.17370722 best_epoch=4
+[Jarvis-TotalEnergy:ours:seed42] epoch=5/300 loss=0.22572603 valid_mae=0.17437401 best=0.17370722 best_epoch=4
+[Jarvis-TotalEnergy:ours:seed42] epoch=6/300 loss=0.20908339 valid_mae=0.14941060 best=0.14941060 best_epoch=6
+[Jarvis-TotalEnergy:ours:seed42] epoch=7/300 loss=0.19539765 valid_mae=0.15157699 best=0.14941060 best_epoch=6
+[Jarvis-TotalEnergy:ours:seed42] epoch=8/300 loss=0.18353845 valid_mae=0.13899299 best=0.13899299 best_epoch=8
+[Jarvis-TotalEnergy:ours:seed42] epoch=9/300 loss=0.17856217 valid_mae=0.14853336 best=0.13899299 best_epoch=8
+[Jarvis-TotalEnergy:ours:seed42] epoch=10/300 loss=0.17060121 valid_mae=0.12410788 best=0.12410788 best_epoch=10
+[Jarvis-TotalEnergy:ours:seed42] epoch=11/300 loss=0.16539606 valid_mae=0.12150384 best=0.12150384 best_epoch=11
+[Jarvis-TotalEnergy:ours:seed42] epoch=12/300 loss=0.15535847 valid_mae=0.13508280 best=0.12150384 best_epoch=11
+[Jarvis-TotalEnergy:ours:seed42] epoch=13/300 loss=0.15218431 valid_mae=0.12415681 best=0.12150384 best_epoch=11
+[Jarvis-TotalEnergy:ours:seed42] epoch=14/300 loss=0.14512181 valid_mae=0.11738274 best=0.11738274 best_epoch=14
+[Jarvis-TotalEnergy:ours:seed42] epoch=15/300 loss=0.14112245 valid_mae=0.10765650 best=0.10765650 best_epoch=15
+[Jarvis-TotalEnergy:ours:seed42] epoch=16/300 loss=0.13960024 valid_mae=0.11698147 best=0.10765650 best_epoch=15
+[Jarvis-TotalEnergy:ours:seed42] epoch=17/300 loss=0.13765391 valid_mae=0.10227418 best=0.10227418 best_epoch=17
+[Jarvis-TotalEnergy:ours:seed42] epoch=18/300 loss=0.13077935 valid_mae=0.10277840 best=0.10227418 best_epoch=17
+[Jarvis-TotalEnergy:ours:seed42] epoch=19/300 loss=0.13006465 valid_mae=0.09232686 best=0.09232686 best_epoch=19
+[Jarvis-TotalEnergy:ours:seed42] epoch=20/300 loss=0.12909474 valid_mae=0.10786901 best=0.09232686 best_epoch=19
+[Jarvis-TotalEnergy:ours:seed42] epoch=21/300 loss=0.12385750 valid_mae=0.09509963 best=0.09232686 best_epoch=19
+[Jarvis-TotalEnergy:ours:seed42] epoch=22/300 loss=0.12366157 valid_mae=0.09597980 best=0.09232686 best_epoch=19
+[Jarvis-TotalEnergy:ours:seed42] epoch=23/300 loss=0.12076473 valid_mae=0.09717328 best=0.09232686 best_epoch=19
+[Jarvis-TotalEnergy:ours:seed42] epoch=24/300 loss=0.11843471 valid_mae=0.09327089 best=0.09232686 best_epoch=19
+[Jarvis-TotalEnergy:ours:seed42] epoch=25/300 loss=0.11947247 valid_mae=0.10978466 best=0.09232686 best_epoch=19
+[Jarvis-TotalEnergy:ours:seed42] epoch=26/300 loss=0.11662729 valid_mae=0.09369897 best=0.09232686 best_epoch=19
+[Jarvis-TotalEnergy:ours:seed42] epoch=27/300 loss=0.11489380 valid_mae=0.08979332 best=0.08979332 best_epoch=27
+[Jarvis-TotalEnergy:ours:seed42] epoch=28/300 loss=0.11497847 valid_mae=0.09562999 best=0.08979332 best_epoch=27
+[Jarvis-TotalEnergy:ours:seed42] epoch=29/300 loss=0.11340118 valid_mae=0.07825084 best=0.07825084 best_epoch=29
+[Jarvis-TotalEnergy:ours:seed42] epoch=30/300 loss=0.11169944 valid_mae=0.09941807 best=0.07825084 best_epoch=29
+[Jarvis-TotalEnergy:ours:seed42] epoch=31/300 loss=0.11121990 valid_mae=0.08390117 best=0.07825084 best_epoch=29
+[Jarvis-TotalEnergy:ours:seed42] epoch=32/300 loss=0.11001522 valid_mae=0.13577183 best=0.07825084 best_epoch=29
+[Jarvis-TotalEnergy:ours:seed42] epoch=33/300 loss=0.10925181 valid_mae=0.08323379 best=0.07825084 best_epoch=29
+[Jarvis-TotalEnergy:ours:seed42] epoch=34/300 loss=0.10845692 valid_mae=0.09257269 best=0.07825084 best_epoch=29
+[Jarvis-TotalEnergy:ours:seed42] epoch=35/300 loss=0.10428678 valid_mae=0.14935734 best=0.07825084 best_epoch=29
+[Jarvis-TotalEnergy:ours:seed42] epoch=36/300 loss=0.10664065 valid_mae=0.13066624 best=0.07825084 best_epoch=29
+[Jarvis-TotalEnergy:ours:seed42] epoch=37/300 loss=0.10213243 valid_mae=0.07768623 best=0.07768623 best_epoch=37
+[Jarvis-TotalEnergy:ours:seed42] epoch=38/300 loss=0.10282417 valid_mae=0.09896913 best=0.07768623 best_epoch=37
+[Jarvis-TotalEnergy:ours:seed42] epoch=39/300 loss=0.10253703 valid_mae=0.08759244 best=0.07768623 best_epoch=37
+[Jarvis-TotalEnergy:ours:seed42] epoch=40/300 loss=0.09875878 valid_mae=0.08625424 best=0.07768623 best_epoch=37
+[Jarvis-TotalEnergy:ours:seed42] epoch=41/300 loss=0.10033440 valid_mae=0.09592375 best=0.07768623 best_epoch=37
+[Jarvis-TotalEnergy:ours:seed42] epoch=42/300 loss=0.09983390 valid_mae=0.07630769 best=0.07630769 best_epoch=42
+[Jarvis-TotalEnergy:ours:seed42] epoch=43/300 loss=0.09736613 valid_mae=0.09083522 best=0.07630769 best_epoch=42
+[Jarvis-TotalEnergy:ours:seed42] epoch=44/300 loss=0.09438294 valid_mae=0.12753628 best=0.07630769 best_epoch=42
+[Jarvis-TotalEnergy:ours:seed42] epoch=45/300 loss=0.09505411 valid_mae=0.08299153 best=0.07630769 best_epoch=42
+[Jarvis-TotalEnergy:ours:seed42] epoch=46/300 loss=0.09481707 valid_mae=0.14562455 best=0.07630769 best_epoch=42
+[Jarvis-TotalEnergy:ours:seed42] epoch=47/300 loss=0.09183574 valid_mae=0.07373912 best=0.07373912 best_epoch=47
+[Jarvis-TotalEnergy:ours:seed42] epoch=48/300 loss=0.09312323 valid_mae=0.07956664 best=0.07373912 best_epoch=47
+[Jarvis-TotalEnergy:ours:seed42] epoch=49/300 loss=0.09091947 valid_mae=0.06902699 best=0.06902699 best_epoch=49
+[Jarvis-TotalEnergy:ours:seed42] epoch=50/300 loss=0.08963794 valid_mae=0.07549891 best=0.06902699 best_epoch=49
+[Jarvis-TotalEnergy:ours:seed42] epoch=51/300 loss=0.08931310 valid_mae=0.07244125 best=0.06902699 best_epoch=49
+[Jarvis-TotalEnergy:ours:seed42] epoch=52/300 loss=0.08640580 valid_mae=0.07074559 best=0.06902699 best_epoch=49
+[Jarvis-TotalEnergy:ours:seed42] epoch=53/300 loss=0.08760161 valid_mae=0.10239646 best=0.06902699 best_epoch=49
+[Jarvis-TotalEnergy:ours:seed42] epoch=54/300 loss=0.08599643 valid_mae=0.06838029 best=0.06838029 best_epoch=54
+[Jarvis-TotalEnergy:ours:seed42] epoch=55/300 loss=0.08566673 valid_mae=0.09094439 best=0.06838029 best_epoch=54
+[Jarvis-TotalEnergy:ours:seed42] epoch=56/300 loss=0.08503311 valid_mae=0.06633701 best=0.06633701 best_epoch=56
+[Jarvis-TotalEnergy:ours:seed42] epoch=57/300 loss=0.08223751 valid_mae=0.07461742 best=0.06633701 best_epoch=56
+[Jarvis-TotalEnergy:ours:seed42] epoch=58/300 loss=0.08395850 valid_mae=0.06494708 best=0.06494708 best_epoch=58
+[Jarvis-TotalEnergy:ours:seed42] epoch=59/300 loss=0.08219775 valid_mae=0.09845091 best=0.06494708 best_epoch=58
+[Jarvis-TotalEnergy:ours:seed42] epoch=60/300 loss=0.08194946 valid_mae=0.07131725 best=0.06494708 best_epoch=58
+[Jarvis-TotalEnergy:ours:seed42] epoch=61/300 loss=0.07981865 valid_mae=0.06858258 best=0.06494708 best_epoch=58
+[Jarvis-TotalEnergy:ours:seed42] epoch=62/300 loss=0.08062677 valid_mae=0.07150055 best=0.06494708 best_epoch=58
+[Jarvis-TotalEnergy:ours:seed42] epoch=63/300 loss=0.07886260 valid_mae=0.06904944 best=0.06494708 best_epoch=58
+[Jarvis-TotalEnergy:ours:seed42] epoch=64/300 loss=0.07824147 valid_mae=0.06313641 best=0.06313641 best_epoch=64
+[Jarvis-TotalEnergy:ours:seed42] epoch=65/300 loss=0.07660257 valid_mae=0.09587396 best=0.06313641 best_epoch=64
+[Jarvis-TotalEnergy:ours:seed42] epoch=66/300 loss=0.07797855 valid_mae=0.06171572 best=0.06171572 best_epoch=66
+[Jarvis-TotalEnergy:ours:seed42] epoch=67/300 loss=0.07591880 valid_mae=0.06595259 best=0.06171572 best_epoch=66
+[Jarvis-TotalEnergy:ours:seed42] epoch=68/300 loss=0.07509539 valid_mae=0.07263352 best=0.06171572 best_epoch=66
+[Jarvis-TotalEnergy:ours:seed42] epoch=69/300 loss=0.07438936 valid_mae=0.06149901 best=0.06149901 best_epoch=69
+[Jarvis-TotalEnergy:ours:seed42] epoch=70/300 loss=0.07464930 valid_mae=0.06141935 best=0.06141935 best_epoch=70
+[Jarvis-TotalEnergy:ours:seed42] epoch=71/300 loss=0.07457711 valid_mae=0.07577308 best=0.06141935 best_epoch=70
+[Jarvis-TotalEnergy:ours:seed42] epoch=72/300 loss=0.07293545 valid_mae=0.06959044 best=0.06141935 best_epoch=70
+[Jarvis-TotalEnergy:ours:seed42] epoch=73/300 loss=0.07168023 valid_mae=0.07489833 best=0.06141935 best_epoch=70
+[Jarvis-TotalEnergy:ours:seed42] epoch=74/300 loss=0.07221383 valid_mae=0.06453461 best=0.06141935 best_epoch=70
+[Jarvis-TotalEnergy:ours:seed42] epoch=75/300 loss=0.07016300 valid_mae=0.08316910 best=0.06141935 best_epoch=70
+[Jarvis-TotalEnergy:ours:seed42] epoch=76/300 loss=0.07115592 valid_mae=0.07807837 best=0.06141935 best_epoch=70
+[Jarvis-TotalEnergy:ours:seed42] epoch=77/300 loss=0.07215208 valid_mae=0.08814498 best=0.06141935 best_epoch=70
+[Jarvis-TotalEnergy:ours:seed42] epoch=78/300 loss=0.06946608 valid_mae=0.05887213 best=0.05887213 best_epoch=78
+[Jarvis-TotalEnergy:ours:seed42] epoch=79/300 loss=0.07039093 valid_mae=0.08415706 best=0.05887213 best_epoch=78
+[Jarvis-TotalEnergy:ours:seed42] epoch=80/300 loss=0.07091346 valid_mae=0.06194637 best=0.05887213 best_epoch=78
+[Jarvis-TotalEnergy:ours:seed42] epoch=81/300 loss=0.06855849 valid_mae=0.09844653 best=0.05887213 best_epoch=78
+[Jarvis-TotalEnergy:ours:seed42] epoch=82/300 loss=0.06882372 valid_mae=0.07478703 best=0.05887213 best_epoch=78
+[Jarvis-TotalEnergy:ours:seed42] epoch=83/300 loss=0.06819397 valid_mae=0.06524930 best=0.05887213 best_epoch=78
+[Jarvis-TotalEnergy:ours:seed42] epoch=84/300 loss=0.06689669 valid_mae=0.07930571 best=0.05887213 best_epoch=78
+[Jarvis-TotalEnergy:ours:seed42] epoch=85/300 loss=0.06784043 valid_mae=0.07212054 best=0.05887213 best_epoch=78
+[Jarvis-TotalEnergy:ours:seed42] epoch=86/300 loss=0.06439356 valid_mae=0.07882116 best=0.05887213 best_epoch=78
+[Jarvis-TotalEnergy:ours:seed42] epoch=87/300 loss=0.06646743 valid_mae=0.06935560 best=0.05887213 best_epoch=78
+[Jarvis-TotalEnergy:ours:seed42] epoch=88/300 loss=0.06542306 valid_mae=0.06871334 best=0.05887213 best_epoch=78
+[Jarvis-TotalEnergy:ours:seed42] epoch=89/300 loss=0.06443481 valid_mae=0.06090264 best=0.05887213 best_epoch=78
+[Jarvis-TotalEnergy:ours:seed42] epoch=90/300 loss=0.06449969 valid_mae=0.07662508 best=0.05887213 best_epoch=78
+[Jarvis-TotalEnergy:ours:seed42] epoch=91/300 loss=0.06511052 valid_mae=0.07274782 best=0.05887213 best_epoch=78
+[Jarvis-TotalEnergy:ours:seed42] epoch=92/300 loss=0.06324228 valid_mae=0.05531113 best=0.05531113 best_epoch=92
+[Jarvis-TotalEnergy:ours:seed42] epoch=93/300 loss=0.06214727 valid_mae=0.05427576 best=0.05427576 best_epoch=93
+[Jarvis-TotalEnergy:ours:seed42] epoch=94/300 loss=0.06171440 valid_mae=0.05187698 best=0.05187698 best_epoch=94
+[Jarvis-TotalEnergy:ours:seed42] epoch=95/300 loss=0.06207047 valid_mae=0.06950358 best=0.05187698 best_epoch=94
+[Jarvis-TotalEnergy:ours:seed42] epoch=96/300 loss=0.06281583 valid_mae=0.06596920 best=0.05187698 best_epoch=94
+[Jarvis-TotalEnergy:ours:seed42] epoch=97/300 loss=0.06157305 valid_mae=0.07268249 best=0.05187698 best_epoch=94
+[Jarvis-TotalEnergy:ours:seed42] epoch=98/300 loss=0.06064732 valid_mae=0.06279527 best=0.05187698 best_epoch=94
+[Jarvis-TotalEnergy:ours:seed42] epoch=99/300 loss=0.06040554 valid_mae=0.07348925 best=0.05187698 best_epoch=94
+[Jarvis-TotalEnergy:ours:seed42] epoch=100/300 loss=0.06009669 valid_mae=0.06020915 best=0.05187698 best_epoch=94
+[Jarvis-TotalEnergy:ours:seed42] epoch=101/300 loss=0.06039168 valid_mae=0.05170328 best=0.05170328 best_epoch=101
+[Jarvis-TotalEnergy:ours:seed42] epoch=102/300 loss=0.06005912 valid_mae=0.05529882 best=0.05170328 best_epoch=101
+[Jarvis-TotalEnergy:ours:seed42] epoch=103/300 loss=0.05963990 valid_mae=0.06644017 best=0.05170328 best_epoch=101
+[Jarvis-TotalEnergy:ours:seed42] epoch=104/300 loss=0.05888267 valid_mae=0.06797729 best=0.05170328 best_epoch=101
+[Jarvis-TotalEnergy:ours:seed42] epoch=105/300 loss=0.05817850 valid_mae=0.05769132 best=0.05170328 best_epoch=101
+[Jarvis-TotalEnergy:ours:seed42] epoch=106/300 loss=0.05863229 valid_mae=0.06067776 best=0.05170328 best_epoch=101
+[Jarvis-TotalEnergy:ours:seed42] epoch=107/300 loss=0.05705686 valid_mae=0.05267539 best=0.05170328 best_epoch=101
+[Jarvis-TotalEnergy:ours:seed42] epoch=108/300 loss=0.05667312 valid_mae=0.05327144 best=0.05170328 best_epoch=101
+[Jarvis-TotalEnergy:ours:seed42] epoch=109/300 loss=0.05595256 valid_mae=0.05572677 best=0.05170328 best_epoch=101
+[Jarvis-TotalEnergy:ours:seed42] epoch=110/300 loss=0.05662108 valid_mae=0.05925797 best=0.05170328 best_epoch=101
+[Jarvis-TotalEnergy:ours:seed42] epoch=111/300 loss=0.05533466 valid_mae=0.05380510 best=0.05170328 best_epoch=101
+[Jarvis-TotalEnergy:ours:seed42] epoch=112/300 loss=0.05548885 valid_mae=0.05217486 best=0.05170328 best_epoch=101
+[Jarvis-TotalEnergy:ours:seed42] epoch=113/300 loss=0.05501492 valid_mae=0.06799916 best=0.05170328 best_epoch=101
+[Jarvis-TotalEnergy:ours:seed42] epoch=114/300 loss=0.05526206 valid_mae=0.05480353 best=0.05170328 best_epoch=101
+[Jarvis-TotalEnergy:ours:seed42] epoch=115/300 loss=0.05492429 valid_mae=0.06679930 best=0.05170328 best_epoch=101
+[Jarvis-TotalEnergy:ours:seed42] epoch=116/300 loss=0.05429544 valid_mae=0.05299746 best=0.05170328 best_epoch=101
+[Jarvis-TotalEnergy:ours:seed42] epoch=117/300 loss=0.05440625 valid_mae=0.05400040 best=0.05170328 best_epoch=101
+[Jarvis-TotalEnergy:ours:seed42] epoch=118/300 loss=0.05499322 valid_mae=0.04778637 best=0.04778637 best_epoch=118
+[Jarvis-TotalEnergy:ours:seed42] epoch=119/300 loss=0.05308567 valid_mae=0.05434439 best=0.04778637 best_epoch=118
+[Jarvis-TotalEnergy:ours:seed42] epoch=120/300 loss=0.05247034 valid_mae=0.06158371 best=0.04778637 best_epoch=118
+[Jarvis-TotalEnergy:ours:seed42] epoch=121/300 loss=0.05209031 valid_mae=0.07298190 best=0.04778637 best_epoch=118
+[Jarvis-TotalEnergy:ours:seed42] epoch=122/300 loss=0.05179520 valid_mae=0.07044708 best=0.04778637 best_epoch=118
+[Jarvis-TotalEnergy:ours:seed42] epoch=123/300 loss=0.05184864 valid_mae=0.05341671 best=0.04778637 best_epoch=118
+[Jarvis-TotalEnergy:ours:seed42] epoch=124/300 loss=0.05143800 valid_mae=0.05090176 best=0.04778637 best_epoch=118
+[Jarvis-TotalEnergy:ours:seed42] epoch=125/300 loss=0.05162071 valid_mae=0.05677628 best=0.04778637 best_epoch=118
+[Jarvis-TotalEnergy:ours:seed42] epoch=126/300 loss=0.05053001 valid_mae=0.05603774 best=0.04778637 best_epoch=118
+[Jarvis-TotalEnergy:ours:seed42] epoch=127/300 loss=0.05020672 valid_mae=0.04884761 best=0.04778637 best_epoch=118
+[Jarvis-TotalEnergy:ours:seed42] epoch=128/300 loss=0.05036232 valid_mae=0.05998008 best=0.04778637 best_epoch=118
+[Jarvis-TotalEnergy:ours:seed42] epoch=129/300 loss=0.05062012 valid_mae=0.04605579 best=0.04605579 best_epoch=129
+[Jarvis-TotalEnergy:ours:seed42] epoch=130/300 loss=0.04907131 valid_mae=0.04882516 best=0.04605579 best_epoch=129
+[Jarvis-TotalEnergy:ours:seed42] epoch=131/300 loss=0.04942473 valid_mae=0.04757679 best=0.04605579 best_epoch=129
+[Jarvis-TotalEnergy:ours:seed42] epoch=132/300 loss=0.04831772 valid_mae=0.05392886 best=0.04605579 best_epoch=129
+[Jarvis-TotalEnergy:ours:seed42] epoch=133/300 loss=0.04812750 valid_mae=0.05657509 best=0.04605579 best_epoch=129
+[Jarvis-TotalEnergy:ours:seed42] epoch=134/300 loss=0.04857939 valid_mae=0.06098993 best=0.04605579 best_epoch=129
+[Jarvis-TotalEnergy:ours:seed42] epoch=135/300 loss=0.04736448 valid_mae=0.05263821 best=0.04605579 best_epoch=129
+[Jarvis-TotalEnergy:ours:seed42] epoch=136/300 loss=0.04828335 valid_mae=0.05556976 best=0.04605579 best_epoch=129
+[Jarvis-TotalEnergy:ours:seed42] epoch=137/300 loss=0.04776448 valid_mae=0.05153738 best=0.04605579 best_epoch=129
+[Jarvis-TotalEnergy:ours:seed42] epoch=138/300 loss=0.04712330 valid_mae=0.05495889 best=0.04605579 best_epoch=129
+[Jarvis-TotalEnergy:ours:seed42] epoch=139/300 loss=0.04634603 valid_mae=0.04800213 best=0.04605579 best_epoch=129
+[Jarvis-TotalEnergy:ours:seed42] epoch=140/300 loss=0.04556891 valid_mae=0.04422622 best=0.04422622 best_epoch=140
+[Jarvis-TotalEnergy:ours:seed42] epoch=141/300 loss=0.04609478 valid_mae=0.04928350 best=0.04422622 best_epoch=140
+[Jarvis-TotalEnergy:ours:seed42] epoch=142/300 loss=0.04528952 valid_mae=0.04273275 best=0.04273275 best_epoch=142
+[Jarvis-TotalEnergy:ours:seed42] epoch=143/300 loss=0.04506381 valid_mae=0.04530396 best=0.04273275 best_epoch=142
+[Jarvis-TotalEnergy:ours:seed42] epoch=144/300 loss=0.04474355 valid_mae=0.06048162 best=0.04273275 best_epoch=142
+[Jarvis-TotalEnergy:ours:seed42] epoch=145/300 loss=0.04449827 valid_mae=0.04704673 best=0.04273275 best_epoch=142
+[Jarvis-TotalEnergy:ours:seed42] epoch=146/300 loss=0.04492629 valid_mae=0.04677044 best=0.04273275 best_epoch=142
+[Jarvis-TotalEnergy:ours:seed42] epoch=147/300 loss=0.04389723 valid_mae=0.04985055 best=0.04273275 best_epoch=142
+[Jarvis-TotalEnergy:ours:seed42] epoch=148/300 loss=0.04323903 valid_mae=0.04728090 best=0.04273275 best_epoch=142
+[Jarvis-TotalEnergy:ours:seed42] epoch=149/300 loss=0.04313183 valid_mae=0.05383094 best=0.04273275 best_epoch=142
+[Jarvis-TotalEnergy:ours:seed42] epoch=150/300 loss=0.04296735 valid_mae=0.04935837 best=0.04273275 best_epoch=142
+[Jarvis-TotalEnergy:ours:seed42] epoch=151/300 loss=0.04305792 valid_mae=0.04586837 best=0.04273275 best_epoch=142
+[Jarvis-TotalEnergy:ours:seed42] epoch=152/300 loss=0.04233304 valid_mae=0.04350751 best=0.04273275 best_epoch=142
+[Jarvis-TotalEnergy:ours:seed42] epoch=153/300 loss=0.04160993 valid_mae=0.05277309 best=0.04273275 best_epoch=142
+[Jarvis-TotalEnergy:ours:seed42] epoch=154/300 loss=0.04173130 valid_mae=0.05413863 best=0.04273275 best_epoch=142
+[Jarvis-TotalEnergy:ours:seed42] epoch=155/300 loss=0.04106170 valid_mae=0.04901570 best=0.04273275 best_epoch=142
+[Jarvis-TotalEnergy:ours:seed42] epoch=156/300 loss=0.04131805 valid_mae=0.04662692 best=0.04273275 best_epoch=142
+[Jarvis-TotalEnergy:ours:seed42] epoch=157/300 loss=0.04060588 valid_mae=0.04049129 best=0.04049129 best_epoch=157
+[Jarvis-TotalEnergy:ours:seed42] epoch=158/300 loss=0.04033427 valid_mae=0.05143997 best=0.04049129 best_epoch=157
+[Jarvis-TotalEnergy:ours:seed42] epoch=159/300 loss=0.04067348 valid_mae=0.04381730 best=0.04049129 best_epoch=157
+[Jarvis-TotalEnergy:ours:seed42] epoch=160/300 loss=0.04057522 valid_mae=0.04293693 best=0.04049129 best_epoch=157
+[Jarvis-TotalEnergy:ours:seed42] epoch=161/300 loss=0.03996136 valid_mae=0.04349685 best=0.04049129 best_epoch=157
+[Jarvis-TotalEnergy:ours:seed42] epoch=162/300 loss=0.03895571 valid_mae=0.04244564 best=0.04049129 best_epoch=157
+[Jarvis-TotalEnergy:ours:seed42] epoch=163/300 loss=0.03852052 valid_mae=0.04320643 best=0.04049129 best_epoch=157
+[Jarvis-TotalEnergy:ours:seed42] epoch=164/300 loss=0.03889785 valid_mae=0.04990829 best=0.04049129 best_epoch=157
+[Jarvis-TotalEnergy:ours:seed42] epoch=165/300 loss=0.03849654 valid_mae=0.03961525 best=0.03961525 best_epoch=165
+[Jarvis-TotalEnergy:ours:seed42] epoch=166/300 loss=0.03796267 valid_mae=0.04314293 best=0.03961525 best_epoch=165
+[Jarvis-TotalEnergy:ours:seed42] epoch=167/300 loss=0.03771464 valid_mae=0.04530517 best=0.03961525 best_epoch=165
+[Jarvis-TotalEnergy:ours:seed42] epoch=168/300 loss=0.03716209 valid_mae=0.04510209 best=0.03961525 best_epoch=165
+[Jarvis-TotalEnergy:ours:seed42] epoch=169/300 loss=0.03744813 valid_mae=0.03924008 best=0.03924008 best_epoch=169
+[Jarvis-TotalEnergy:ours:seed42] epoch=170/300 loss=0.03703769 valid_mae=0.05092406 best=0.03924008 best_epoch=169
+[Jarvis-TotalEnergy:ours:seed42] epoch=171/300 loss=0.03648515 valid_mae=0.04190593 best=0.03924008 best_epoch=169
+[Jarvis-TotalEnergy:ours:seed42] epoch=172/300 loss=0.03626834 valid_mae=0.04116630 best=0.03924008 best_epoch=169
+[Jarvis-TotalEnergy:ours:seed42] epoch=173/300 loss=0.03602999 valid_mae=0.04187744 best=0.03924008 best_epoch=169
+[Jarvis-TotalEnergy:ours:seed42] epoch=174/300 loss=0.03576076 valid_mae=0.03911854 best=0.03911854 best_epoch=174
+[Jarvis-TotalEnergy:ours:seed42] epoch=175/300 loss=0.03529702 valid_mae=0.04192817 best=0.03911854 best_epoch=174
+[Jarvis-TotalEnergy:ours:seed42] epoch=176/300 loss=0.03503600 valid_mae=0.03819306 best=0.03819306 best_epoch=176
+[Jarvis-TotalEnergy:ours:seed42] epoch=177/300 loss=0.03519515 valid_mae=0.04400659 best=0.03819306 best_epoch=176
+[Jarvis-TotalEnergy:ours:seed42] epoch=178/300 loss=0.03511426 valid_mae=0.03795993 best=0.03795993 best_epoch=178
+[Jarvis-TotalEnergy:ours:seed42] epoch=179/300 loss=0.03442111 valid_mae=0.03802690 best=0.03795993 best_epoch=178
+[Jarvis-TotalEnergy:ours:seed42] epoch=180/300 loss=0.03366176 valid_mae=0.04255596 best=0.03795993 best_epoch=178
+[Jarvis-TotalEnergy:ours:seed42] epoch=181/300 loss=0.03347981 valid_mae=0.03911508 best=0.03795993 best_epoch=178
+[Jarvis-TotalEnergy:ours:seed42] epoch=182/300 loss=0.03305837 valid_mae=0.03874630 best=0.03795993 best_epoch=178
+[Jarvis-TotalEnergy:ours:seed42] epoch=183/300 loss=0.03241574 valid_mae=0.04209441 best=0.03795993 best_epoch=178
+[Jarvis-TotalEnergy:ours:seed42] epoch=184/300 loss=0.03226555 valid_mae=0.04068243 best=0.03795993 best_epoch=178
+[Jarvis-TotalEnergy:ours:seed42] epoch=185/300 loss=0.03214192 valid_mae=0.03831933 best=0.03795993 best_epoch=178
+[Jarvis-TotalEnergy:ours:seed42] epoch=186/300 loss=0.03157449 valid_mae=0.03819867 best=0.03795993 best_epoch=178
+[Jarvis-TotalEnergy:ours:seed42] epoch=187/300 loss=0.03166000 valid_mae=0.04503278 best=0.03795993 best_epoch=178
+[Jarvis-TotalEnergy:ours:seed42] epoch=188/300 loss=0.03206422 valid_mae=0.03908045 best=0.03795993 best_epoch=178
+[Jarvis-TotalEnergy:ours:seed42] epoch=189/300 loss=0.03073657 valid_mae=0.03933911 best=0.03795993 best_epoch=178
+[Jarvis-TotalEnergy:ours:seed42] epoch=190/300 loss=0.03134289 valid_mae=0.03920444 best=0.03795993 best_epoch=178
+[Jarvis-TotalEnergy:ours:seed42] epoch=191/300 loss=0.03070756 valid_mae=0.03907908 best=0.03795993 best_epoch=178
+[Jarvis-TotalEnergy:ours:seed42] epoch=192/300 loss=0.03003407 valid_mae=0.03839424 best=0.03795993 best_epoch=178
+[Jarvis-TotalEnergy:ours:seed42] epoch=193/300 loss=0.02997153 valid_mae=0.03927977 best=0.03795993 best_epoch=178
+[Jarvis-TotalEnergy:ours:seed42] epoch=194/300 loss=0.03002443 valid_mae=0.04016283 best=0.03795993 best_epoch=178
+[Jarvis-TotalEnergy:ours:seed42] epoch=195/300 loss=0.02967612 valid_mae=0.03813820 best=0.03795993 best_epoch=178
+[Jarvis-TotalEnergy:ours:seed42] epoch=196/300 loss=0.02936675 valid_mae=0.03953689 best=0.03795993 best_epoch=178
+[Jarvis-TotalEnergy:ours:seed42] epoch=197/300 loss=0.02924704 valid_mae=0.04459967 best=0.03795993 best_epoch=178
+[Jarvis-TotalEnergy:ours:seed42] epoch=198/300 loss=0.02869758 valid_mae=0.03682864 best=0.03682864 best_epoch=198
+[Jarvis-TotalEnergy:ours:seed42] epoch=199/300 loss=0.02877642 valid_mae=0.03748441 best=0.03682864 best_epoch=198
+[Jarvis-TotalEnergy:ours:seed42] epoch=200/300 loss=0.02838037 valid_mae=0.03732072 best=0.03682864 best_epoch=198
+[Jarvis-TotalEnergy:ours:seed42] epoch=201/300 loss=0.02854486 valid_mae=0.03599190 best=0.03599190 best_epoch=201
+[Jarvis-TotalEnergy:ours:seed42] epoch=202/300 loss=0.02782463 valid_mae=0.03512330 best=0.03512330 best_epoch=202
+[Jarvis-TotalEnergy:ours:seed42] epoch=203/300 loss=0.02743588 valid_mae=0.03697434 best=0.03512330 best_epoch=202
+[Jarvis-TotalEnergy:ours:seed42] epoch=204/300 loss=0.02759244 valid_mae=0.03546092 best=0.03512330 best_epoch=202
+[Jarvis-TotalEnergy:ours:seed42] epoch=205/300 loss=0.02742299 valid_mae=0.04288742 best=0.03512330 best_epoch=202
+[Jarvis-TotalEnergy:ours:seed42] epoch=206/300 loss=0.02663306 valid_mae=0.03488076 best=0.03488076 best_epoch=206
+[Jarvis-TotalEnergy:ours:seed42] epoch=207/300 loss=0.02687382 valid_mae=0.03595764 best=0.03488076 best_epoch=206
+[Jarvis-TotalEnergy:ours:seed42] epoch=208/300 loss=0.02612412 valid_mae=0.05713290 best=0.03488076 best_epoch=206
+[Jarvis-TotalEnergy:ours:seed42] epoch=209/300 loss=0.02571397 valid_mae=0.03500815 best=0.03488076 best_epoch=206
+[Jarvis-TotalEnergy:ours:seed42] epoch=210/300 loss=0.02549068 valid_mae=0.03630392 best=0.03488076 best_epoch=206
+[Jarvis-TotalEnergy:ours:seed42] epoch=211/300 loss=0.02582185 valid_mae=0.04192665 best=0.03488076 best_epoch=206
+[Jarvis-TotalEnergy:ours:seed42] epoch=212/300 loss=0.02554303 valid_mae=0.03861614 best=0.03488076 best_epoch=206
+[Jarvis-TotalEnergy:ours:seed42] epoch=213/300 loss=0.02519681 valid_mae=1.00195450 best=0.03488076 best_epoch=206
+[Jarvis-TotalEnergy:ours:seed42] epoch=214/300 loss=0.02435097 valid_mae=0.03481318 best=0.03481318 best_epoch=214
+[Jarvis-TotalEnergy:ours:seed42] epoch=215/300 loss=0.02454347 valid_mae=0.03689377 best=0.03481318 best_epoch=214
+[Jarvis-TotalEnergy:ours:seed42] epoch=216/300 loss=0.02431217 valid_mae=0.03520227 best=0.03481318 best_epoch=214
+[Jarvis-TotalEnergy:ours:seed42] epoch=217/300 loss=0.02423301 valid_mae=0.03542904 best=0.03481318 best_epoch=214
+[Jarvis-TotalEnergy:ours:seed42] epoch=218/300 loss=0.02370825 valid_mae=0.03837968 best=0.03481318 best_epoch=214
+[Jarvis-TotalEnergy:ours:seed42] epoch=219/300 loss=0.02372087 valid_mae=0.03430795 best=0.03430795 best_epoch=219
+[Jarvis-TotalEnergy:ours:seed42] epoch=220/300 loss=0.02340616 valid_mae=0.03535964 best=0.03430795 best_epoch=219
+[Jarvis-TotalEnergy:ours:seed42] epoch=221/300 loss=0.02297169 valid_mae=0.04059327 best=0.03430795 best_epoch=219
+[Jarvis-TotalEnergy:ours:seed42] epoch=222/300 loss=0.02280932 valid_mae=0.03354792 best=0.03354792 best_epoch=222
+[Jarvis-TotalEnergy:ours:seed42] epoch=223/300 loss=0.02268115 valid_mae=0.03563188 best=0.03354792 best_epoch=222
+[Jarvis-TotalEnergy:ours:seed42] epoch=224/300 loss=0.02272961 valid_mae=0.03684361 best=0.03354792 best_epoch=222
+[Jarvis-TotalEnergy:ours:seed42] epoch=225/300 loss=0.02200186 valid_mae=0.04035551 best=0.03354792 best_epoch=222
+[Jarvis-TotalEnergy:ours:seed42] epoch=226/300 loss=0.02223622 valid_mae=0.03948945 best=0.03354792 best_epoch=222
+[Jarvis-TotalEnergy:ours:seed42] epoch=227/300 loss=0.02176873 valid_mae=0.03357378 best=0.03354792 best_epoch=222
+[Jarvis-TotalEnergy:ours:seed42] epoch=228/300 loss=0.02151938 valid_mae=0.03409482 best=0.03354792 best_epoch=222
+[Jarvis-TotalEnergy:ours:seed42] epoch=229/300 loss=0.02129072 valid_mae=0.91985087 best=0.03354792 best_epoch=222
+[Jarvis-TotalEnergy:ours:seed42] epoch=230/300 loss=0.02165065 valid_mae=0.03319509 best=0.03319509 best_epoch=230
+[Jarvis-TotalEnergy:ours:seed42] epoch=231/300 loss=0.02099767 valid_mae=0.03464967 best=0.03319509 best_epoch=230
+[Jarvis-TotalEnergy:ours:seed42] epoch=232/300 loss=0.02082390 valid_mae=0.03385047 best=0.03319509 best_epoch=230
+[Jarvis-TotalEnergy:ours:seed42] epoch=233/300 loss=0.02030719 valid_mae=0.03630318 best=0.03319509 best_epoch=230
+[Jarvis-TotalEnergy:ours:seed42] epoch=234/300 loss=0.02044262 valid_mae=0.03582703 best=0.03319509 best_epoch=230
+[Jarvis-TotalEnergy:ours:seed42] epoch=235/300 loss=0.02036176 valid_mae=0.03212990 best=0.03212990 best_epoch=235
+[Jarvis-TotalEnergy:ours:seed42] epoch=236/300 loss=0.02018993 valid_mae=0.03494442 best=0.03212990 best_epoch=235
+[Jarvis-TotalEnergy:ours:seed42] epoch=237/300 loss=0.01975991 valid_mae=0.03173576 best=0.03173576 best_epoch=237
+[Jarvis-TotalEnergy:ours:seed42] epoch=238/300 loss=0.01990878 valid_mae=0.03469232 best=0.03173576 best_epoch=237
+[Jarvis-TotalEnergy:ours:seed42] epoch=239/300 loss=0.01963738 valid_mae=0.03219173 best=0.03173576 best_epoch=237
+[Jarvis-TotalEnergy:ours:seed42] epoch=240/300 loss=0.01954941 valid_mae=0.03506362 best=0.03173576 best_epoch=237
+[Jarvis-TotalEnergy:ours:seed42] epoch=241/300 loss=0.01954219 valid_mae=0.03654548 best=0.03173576 best_epoch=237
+[Jarvis-TotalEnergy:ours:seed42] epoch=242/300 loss=0.01884176 valid_mae=0.03316258 best=0.03173576 best_epoch=237
+[Jarvis-TotalEnergy:ours:seed42] epoch=243/300 loss=0.01888978 valid_mae=0.03197245 best=0.03173576 best_epoch=237
+[Jarvis-TotalEnergy:ours:seed42] epoch=244/300 loss=0.01858296 valid_mae=0.03164318 best=0.03164318 best_epoch=244
+[Jarvis-TotalEnergy:ours:seed42] epoch=245/300 loss=0.01849605 valid_mae=0.03265221 best=0.03164318 best_epoch=244
+[Jarvis-TotalEnergy:ours:seed42] epoch=246/300 loss=0.01843593 valid_mae=0.03402577 best=0.03164318 best_epoch=244
+[Jarvis-TotalEnergy:ours:seed42] epoch=247/300 loss=0.01815964 valid_mae=0.03194256 best=0.03164318 best_epoch=244
+[Jarvis-TotalEnergy:ours:seed42] epoch=248/300 loss=0.01788056 valid_mae=0.03514175 best=0.03164318 best_epoch=244
+[Jarvis-TotalEnergy:ours:seed42] epoch=249/300 loss=0.01809967 valid_mae=0.03249362 best=0.03164318 best_epoch=244
+[Jarvis-TotalEnergy:ours:seed42] epoch=250/300 loss=0.01778523 valid_mae=0.03438527 best=0.03164318 best_epoch=244
+[Jarvis-TotalEnergy:ours:seed42] epoch=251/300 loss=0.01726321 valid_mae=0.03507335 best=0.03164318 best_epoch=244
+[Jarvis-TotalEnergy:ours:seed42] epoch=252/300 loss=0.01733218 valid_mae=0.03245731 best=0.03164318 best_epoch=244
+[Jarvis-TotalEnergy:ours:seed42] epoch=253/300 loss=0.01741457 valid_mae=0.03188468 best=0.03164318 best_epoch=244
+[Jarvis-TotalEnergy:ours:seed42] epoch=254/300 loss=0.01716794 valid_mae=0.03197830 best=0.03164318 best_epoch=244
+[Jarvis-TotalEnergy:ours:seed42] epoch=255/300 loss=0.01713642 valid_mae=0.03416575 best=0.03164318 best_epoch=244
+[Jarvis-TotalEnergy:ours:seed42] epoch=256/300 loss=0.01686681 valid_mae=0.03190044 best=0.03164318 best_epoch=244
+[Jarvis-TotalEnergy:ours:seed42] epoch=257/300 loss=0.01685901 valid_mae=0.03277525 best=0.03164318 best_epoch=244
+[Jarvis-TotalEnergy:ours:seed42] epoch=258/300 loss=0.01662361 valid_mae=0.03505157 best=0.03164318 best_epoch=244
+[Jarvis-TotalEnergy:ours:seed42] epoch=259/300 loss=0.01661913 valid_mae=0.03139937 best=0.03139937 best_epoch=259
+[Jarvis-TotalEnergy:ours:seed42] epoch=260/300 loss=0.01649668 valid_mae=0.03140490 best=0.03139937 best_epoch=259
+[Jarvis-TotalEnergy:ours:seed42] epoch=261/300 loss=0.01634619 valid_mae=0.03439325 best=0.03139937 best_epoch=259
+[Jarvis-TotalEnergy:ours:seed42] epoch=262/300 loss=0.01612072 valid_mae=0.03097783 best=0.03097783 best_epoch=262
+[Jarvis-TotalEnergy:ours:seed42] epoch=263/300 loss=0.01611949 valid_mae=0.03402483 best=0.03097783 best_epoch=262
+[Jarvis-TotalEnergy:ours:seed42] epoch=264/300 loss=0.01614372 valid_mae=0.03417451 best=0.03097783 best_epoch=262
+[Jarvis-TotalEnergy:ours:seed42] epoch=265/300 loss=0.01596453 valid_mae=0.03314312 best=0.03097783 best_epoch=262
+[Jarvis-TotalEnergy:ours:seed42] epoch=266/300 loss=0.01587154 valid_mae=0.03789189 best=0.03097783 best_epoch=262
+[Jarvis-TotalEnergy:ours:seed42] epoch=267/300 loss=0.01581876 valid_mae=0.03102648 best=0.03097783 best_epoch=262
+[Jarvis-TotalEnergy:ours:seed42] epoch=268/300 loss=0.01554990 valid_mae=0.03107032 best=0.03097783 best_epoch=262
+[Jarvis-TotalEnergy:ours:seed42] epoch=269/300 loss=0.01548187 valid_mae=0.03165582 best=0.03097783 best_epoch=262
+[Jarvis-TotalEnergy:ours:seed42] epoch=270/300 loss=0.01547732 valid_mae=0.03141966 best=0.03097783 best_epoch=262
+[Jarvis-TotalEnergy:ours:seed42] epoch=271/300 loss=0.01537942 valid_mae=0.03258054 best=0.03097783 best_epoch=262
+[Jarvis-TotalEnergy:ours:seed42] epoch=272/300 loss=0.01515933 valid_mae=0.03161197 best=0.03097783 best_epoch=262
+[Jarvis-TotalEnergy:ours:seed42] epoch=273/300 loss=0.01521199 valid_mae=0.03045650 best=0.03045650 best_epoch=273
+[Jarvis-TotalEnergy:ours:seed42] epoch=274/300 loss=0.01529661 valid_mae=0.03412397 best=0.03045650 best_epoch=273
+[Jarvis-TotalEnergy:ours:seed42] epoch=275/300 loss=0.01509834 valid_mae=0.03109990 best=0.03045650 best_epoch=273
+[Jarvis-TotalEnergy:ours:seed42] epoch=276/300 loss=0.01519830 valid_mae=0.03132982 best=0.03045650 best_epoch=273
+[Jarvis-TotalEnergy:ours:seed42] epoch=277/300 loss=0.01490897 valid_mae=0.03078278 best=0.03045650 best_epoch=273
+[Jarvis-TotalEnergy:ours:seed42] epoch=278/300 loss=0.01479497 valid_mae=0.03160758 best=0.03045650 best_epoch=273
+[Jarvis-TotalEnergy:ours:seed42] epoch=279/300 loss=0.01473759 valid_mae=0.03242643 best=0.03045650 best_epoch=273
+[Jarvis-TotalEnergy:ours:seed42] epoch=280/300 loss=0.01484005 valid_mae=0.03457686 best=0.03045650 best_epoch=273
+[Jarvis-TotalEnergy:ours:seed42] epoch=281/300 loss=0.01486121 valid_mae=0.03088331 best=0.03045650 best_epoch=273
+[Jarvis-TotalEnergy:ours:seed42] epoch=282/300 loss=0.01470113 valid_mae=0.03153469 best=0.03045650 best_epoch=273
+[Jarvis-TotalEnergy:ours:seed42] epoch=283/300 loss=0.01457567 valid_mae=0.04574044 best=0.03045650 best_epoch=273
+[Jarvis-TotalEnergy:ours:seed42] epoch=284/300 loss=0.01455252 valid_mae=0.03192777 best=0.03045650 best_epoch=273
+[Jarvis-TotalEnergy:ours:seed42] epoch=285/300 loss=0.01455987 valid_mae=0.03935875 best=0.03045650 best_epoch=273
+[Jarvis-TotalEnergy:ours:seed42] epoch=286/300 loss=0.01463045 valid_mae=0.03150881 best=0.03045650 best_epoch=273
+[Jarvis-TotalEnergy:ours:seed42] epoch=287/300 loss=0.01446468 valid_mae=0.03334491 best=0.03045650 best_epoch=273
+[Jarvis-TotalEnergy:ours:seed42] epoch=288/300 loss=0.01447794 valid_mae=0.03082633 best=0.03045650 best_epoch=273
+[Jarvis-TotalEnergy:ours:seed42] epoch=289/300 loss=0.01445020 valid_mae=0.03064839 best=0.03045650 best_epoch=273
+[Jarvis-TotalEnergy:ours:seed42] epoch=290/300 loss=0.01435846 valid_mae=0.03098825 best=0.03045650 best_epoch=273
+[Jarvis-TotalEnergy:ours:seed42] epoch=291/300 loss=0.01431490 valid_mae=0.03033872 best=0.03033872 best_epoch=291
+[Jarvis-TotalEnergy:ours:seed42] epoch=292/300 loss=0.01435371 valid_mae=0.03111069 best=0.03033872 best_epoch=291
+[Jarvis-TotalEnergy:ours:seed42] epoch=293/300 loss=0.01439670 valid_mae=0.03083430 best=0.03033872 best_epoch=291
+[Jarvis-TotalEnergy:ours:seed42] epoch=294/300 loss=0.01440612 valid_mae=0.03262972 best=0.03033872 best_epoch=291
+[Jarvis-TotalEnergy:ours:seed42] epoch=295/300 loss=0.01440798 valid_mae=0.03070107 best=0.03033872 best_epoch=291
+[Jarvis-TotalEnergy:ours:seed42] epoch=296/300 loss=0.01441193 valid_mae=0.03166562 best=0.03033872 best_epoch=291
+[Jarvis-TotalEnergy:ours:seed42] epoch=297/300 loss=0.01432501 valid_mae=0.03225499 best=0.03033872 best_epoch=291
+[Jarvis-TotalEnergy:ours:seed42] epoch=298/300 loss=0.01432329 valid_mae=0.03026099 best=0.03026099 best_epoch=298
+[Jarvis-TotalEnergy:ours:seed42] epoch=299/300 loss=0.01435932 valid_mae=0.03040510 best=0.03026099 best_epoch=298
+[Jarvis-TotalEnergy:ours:seed42] epoch=300/300 loss=0.01402299 valid_mae=0.03092117 best=0.03026099 best_epoch=298
+{
+  "attention_entropy": 4.303592400848651,
+  "bandgap_nonnegative_clipping": false,
+  "best_valid_epoch": 298,
+  "checkpoint_reload_atol": 0.03125,
+  "checkpoint_reload_max_abs": 0.0009765625,
+  "checkpoint_reload_passed": true,
+  "checkpoint_reload_rtol": 0.03125,
+  "checkpoint_reload_state_exact": true,
+  "checkpoint_sha256": "45baf09066e150bdcccaa4b270461139fd7c2e7f432b21adb8b6a89df60d9f94",
+  "data_loader_workers": 2,
+  "dataset": "JARVIS",
+  "drop_last": false,
+  "effective_token_count": 76.46374116282796,
+  "epochs": 300,
+  "graph_valid_mae": 0.030840879302185726,
+  "mean_abs_residual": 0.004782964737366481,
+  "mean_max_attention": 0.07929127872386668,
+  "median_max_attention": 0.07806539908051491,
+  "model_name": "ours",
+  "padding_attention_max": 0.0,
+  "parameter_count": 2800739,
+  "pin_memory": false,
+  "property": "TotalEnergy",
+  "protocol_sha256": "1c0de7770307b627f62cf48e28cd65816b801b11574153f29af71667151fcb5f",
+  "seed": 42,
+  "special_token_attention_max": 0.0,
+  "status": "valid_complete",
+  "task": "Jarvis-TotalEnergy",
+  "test_forward_count": 0,
+  "token_cache_sha256": "ff954528fa76b37446eddf571ac8ea3c480788d2e90d1927882be4e0e43f578b",
+  "torch_multiprocessing_sharing_strategy": "file_system",
+  "train_size": 44578,
+  "training_autocast_dtype": "bfloat16",
+  "training_time_seconds": 12813.490165688097,
+  "unit": "eV/atom",
+  "valid_mae": 0.030174894398780325,
+  "valid_size": 5572
+}

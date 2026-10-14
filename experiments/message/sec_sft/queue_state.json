@@ -1,0 +1,19 @@
+{
+  "active": [],
+  "current_model": "sec_sft",
+  "current_task": "MP-Bandgap",
+  "phase": "valid_preparing",
+  "seed": 42,
+  "stage": "SEC-SFT S1",
+  "started_at_unix": 1789114379.6787953,
+  "status": "RUNNING",
+  "tasks": [
+    "Jarvis-Bandgap_MBJ",
+    "Jarvis-FormationEnergy",
+    "MP-Bandgap",
+    "MP-FormationEnergy"
+  ],
+  "test_forward_count": 0,
+  "test_loader_call_count": 0,
+  "updated_at_unix": 1789215211.7515845
+}

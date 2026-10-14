@@ -1,0 +1,6 @@
+{
+  "error": "command failed (1); see /root/tagif_fast_screen_seed42_20260902/logs/cache/Jarvis-Bandgap_MBJ_valid_preflight.log",
+  "error_type": "RuntimeError",
+  "failed_at_unix": 1788327356.8736048,
+  "traceback": "Traceback (most recent call last):\n  File \"/root/run_tagif_fast_queue.py\", line 250, in main\n    scratch, token_cache = prepare(task)\n  File \"/root/run_tagif_fast_queue.py\", line 97, in prepare\n    return cache_common.prepare_task(task, \"valid\")\n  File \"/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_queue.py\", line 253, in prepare_task\n    run_checked(\n  File \"/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_queue.py\", line 228, in run_checked\n    raise RuntimeError(f\"command failed ({result.returncode}); see {log_path}\")\nRuntimeError: command failed (1); see /root/tagif_fast_screen_seed42_20260902/logs/cache/Jarvis-Bandgap_MBJ_valid_preflight.log\n"
+}

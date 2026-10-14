@@ -1,0 +1,7 @@
+task,control,valid_mae,selected_checkpoint_unchanged,graph_unchanged,token_attention_unchanged,prediction_head_cls_correct,zero_control_definition,test_forward_count
+Jarvis-Bandgap_MBJ,film_cls_shuffled,0.28944488771026056,True,True,True,True,FiLM conditioning CLS=0; prediction_head_cls=correct,0
+Jarvis-Bandgap_MBJ,film_cls_zero,0.28957846955932887,True,True,True,True,FiLM conditioning CLS=0; prediction_head_cls=correct,0
+Jarvis-Bandgap_MBJ,normal,0.2895280038122955,True,True,True,True,FiLM conditioning CLS=0; prediction_head_cls=correct,0
+MP-Bandgap,film_cls_shuffled,0.2175953136920929,True,True,True,True,FiLM conditioning CLS=0; prediction_head_cls=correct,0
+MP-Bandgap,film_cls_zero,0.21747015047073365,True,True,True,True,FiLM conditioning CLS=0; prediction_head_cls=correct,0
+MP-Bandgap,normal,0.21741163573265077,True,True,True,True,FiLM conditioning CLS=0; prediction_head_cls=correct,0

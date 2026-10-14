@@ -1,0 +1,16 @@
+{
+  "checkpoint_reselection": 0,
+  "checkpoint_sha256": "7bb9d3f7387fa75936e2e743d05e81e4f1fec607df11cc139eb491648fab988d",
+  "mapping_kind": "seeded cyclic derangement",
+  "mapping_sha256": "8e408f75afb126b9d54802c923b0852d38c7eb60d9cffc208e9a8d06807ecd7a",
+  "normal_better_than_shuffled": true,
+  "normal_better_than_zero": true,
+  "normal_mae": 0.2854846867481036,
+  "query_cls_shuffled_mae": 0.2923264202995489,
+  "query_cls_zero_mae": 0.2884736744728991,
+  "selection_use": false,
+  "test_forward_count": 0,
+  "training_runs": 0,
+  "zero_control_definition": "qc=0; q=normalize(qg); prediction_head_cls=correct",
+  "zero_qc_qg_ratio_mean": 0.0
+}

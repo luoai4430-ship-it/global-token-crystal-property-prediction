@@ -1,0 +1,24 @@
+{
+  "complete_sha256": "3b87e15c21fe996c69c8b320fae288129c2493f48e7c1bb7accf94b27e9120e9",
+  "complete_unique_coverage": true,
+  "description_generator": "original source plus deterministic CIF fallback only for missing rows",
+  "dropped_source_count": 0,
+  "expected_samples": 18172,
+  "generated_missing_count": 8,
+  "generated_missing_ids": [
+    "4999",
+    "9999",
+    "12750",
+    "13165",
+    "13245",
+    "13670",
+    "14999",
+    "16174"
+  ],
+  "id_column": "Id",
+  "source_csv": "/root/autodl-tmp/dataset1/dataset/jarvis/mbj_bandgap/description.csv",
+  "source_samples": 18164,
+  "source_sha256": "245c74b29b8123e9897a427acd193412c06648d39a1426787303ca49cea67263",
+  "task": "Jarvis-Bandgap_MBJ",
+  "text_column": "Description"
+}

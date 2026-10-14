@@ -1,0 +1,11 @@
+{
+  "attention_changed": true,
+  "decision": "WEAK_GLOBAL_CONDITIONING_SIGNAL",
+  "macro_gain_vs_b1_pct": 0.47263378828649727,
+  "no_task_degradation_gt_0p5pct": true,
+  "parameter_gate": true,
+  "query_active": true,
+  "query_semantic_both_tasks": true,
+  "test_forward_count": 0,
+  "wins_vs_b1": 2
+}

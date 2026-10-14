@@ -1,0 +1,22 @@
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_seed43_benchmark.py test --task Jarvis-TotalEnergy --model_name original_sftmat --seed 43 --token_cache /dev/shm/dualview_seed43_20260830/Jarvis-TotalEnergy/token_cache --output_root /root/dualview_seed43_20260830 --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda --num_workers 2
+dataset split: total=55723, train=44578, valid=5572, test=5573
+train range:(-10.500269889831543,3.3935000896453857)
+valid range:(-10.327210426330566,2.532370090484619)
+test range:(-10.498250007629395,2.5189900398254395)
+mean:-3.214447259902954
+std:2.1312344074249268
+{
+  "best_valid_epoch": 285,
+  "checkpoint_sha256": "3b09ebf19d192e667c10f9ffaeadb71a3421c5590661f1814bf04180e43ec3d6",
+  "model_name": "original_sftmat",
+  "protocol_sha256": "adae888170a616d63ca455803e3c186d270cb62ae5bbd3ed70b55835dc8c674d",
+  "seed": 43,
+  "selected_by": "Valid only",
+  "status": "test_complete",
+  "task": "Jarvis-TotalEnergy",
+  "test_forward_count": 1,
+  "test_mae": 0.032581543956649126,
+  "test_size": 5573,
+  "token_cache_sha256": "74c804c038fc081aafba6f47ef2d9f91a6ee8ba295f55d18ebf1695ea47120a5",
+  "valid_mae": 0.031262843132190195
+}

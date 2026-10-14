@@ -1,0 +1,58 @@
+Jarvis-Bandgap_MBJ CLS epoch=1/300 valid_mae=0.71870249 best=0.71870249
+Jarvis-Bandgap_MBJ CLS epoch=10/300 valid_mae=0.47201384 best=0.47201384
+Jarvis-Bandgap_MBJ CLS epoch=20/300 valid_mae=0.48715136 best=0.44966914
+Jarvis-Bandgap_MBJ CLS epoch=30/300 valid_mae=0.54983686 best=0.40313984
+Jarvis-Bandgap_MBJ CLS epoch=40/300 valid_mae=0.41865394 best=0.40248187
+Jarvis-Bandgap_MBJ CLS epoch=50/300 valid_mae=0.37984235 best=0.37155686
+Jarvis-Bandgap_MBJ CLS epoch=60/300 valid_mae=0.42184623 best=0.35695657
+Jarvis-Bandgap_MBJ CLS epoch=70/300 valid_mae=0.35018384 best=0.33872321
+Jarvis-Bandgap_MBJ CLS epoch=80/300 valid_mae=0.37259775 best=0.31237576
+Jarvis-Bandgap_MBJ CLS epoch=90/300 valid_mae=0.35422934 best=0.31162100
+Jarvis-Bandgap_MBJ CLS epoch=100/300 valid_mae=0.39382984 best=0.30663968
+Jarvis-Bandgap_MBJ CLS epoch=110/300 valid_mae=0.32344802 best=0.29331286
+Jarvis-Bandgap_MBJ CLS epoch=120/300 valid_mae=0.31600527 best=0.28748998
+Jarvis-Bandgap_MBJ CLS epoch=130/300 valid_mae=0.29627262 best=0.27776577
+Jarvis-Bandgap_MBJ CLS epoch=140/300 valid_mae=0.28984895 best=0.27776577
+Jarvis-Bandgap_MBJ CLS epoch=150/300 valid_mae=0.35861066 best=0.27776577
+Jarvis-Bandgap_MBJ CLS epoch=160/300 valid_mae=0.29350250 best=0.26432521
+Jarvis-Bandgap_MBJ CLS epoch=170/300 valid_mae=0.25334125 best=0.25334125
+Jarvis-Bandgap_MBJ CLS epoch=180/300 valid_mae=0.27520071 best=0.25334125
+Jarvis-Bandgap_MBJ CLS epoch=190/300 valid_mae=0.26612450 best=0.25334125
+Jarvis-Bandgap_MBJ CLS epoch=200/300 valid_mae=0.29744207 best=0.25334125
+Jarvis-Bandgap_MBJ CLS epoch=210/300 valid_mae=0.27756241 best=0.25334125
+Jarvis-Bandgap_MBJ CLS epoch=220/300 valid_mae=0.26966813 best=0.25334125
+Jarvis-Bandgap_MBJ CLS epoch=230/300 valid_mae=0.26036901 best=0.25162610
+Jarvis-Bandgap_MBJ CLS epoch=240/300 valid_mae=0.24939321 best=0.24660459
+Jarvis-Bandgap_MBJ CLS epoch=250/300 valid_mae=0.25937298 best=0.24660459
+Jarvis-Bandgap_MBJ CLS epoch=260/300 valid_mae=0.24933764 best=0.24660459
+Jarvis-Bandgap_MBJ CLS epoch=270/300 valid_mae=0.25277206 best=0.24660459
+Jarvis-Bandgap_MBJ CLS epoch=280/300 valid_mae=0.25996030 best=0.24660459
+Jarvis-Bandgap_MBJ CLS epoch=290/300 valid_mae=0.25463397 best=0.24660459
+Jarvis-Bandgap_MBJ CLS epoch=300/300 valid_mae=0.25930693 best=0.24660459
+{
+  "task": "Jarvis-Bandgap_MBJ",
+  "dataset": "JARVIS",
+  "property_family": "Electronic",
+  "variant": "CLS",
+  "seed": 42,
+  "best_epoch": 231,
+  "best_valid_mae": 0.24660458552605433,
+  "final_valid_mae": 0.2593069346460187,
+  "mean": 1.4889696636169774,
+  "std": 2.3161328992268473,
+  "trainable_params": 2636514,
+  "checkpoint_path": "/root/autodl-tmp/TextResidualSHFMat/matched_ablation_runs/Jarvis-Bandgap_MBJ/CLS/best_valid.pt",
+  "test_forward_count": 0,
+  "runtime_sec": 3557.310425043106,
+  "train_samples": 14537,
+  "valid_samples": 1817,
+  "mean_eligible_token_count": 121.43973582828839,
+  "median_eligible_token_count": 126.0,
+  "attention_entropy_mean": null,
+  "attention_entropy_median": null,
+  "attention_effective_token_count_mean": null,
+  "attention_effective_token_count_median": null,
+  "attention_mean_max": null,
+  "zero_text_fallback_count": 0,
+  "zero_text_fallback_ids": []
+}

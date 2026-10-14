@@ -1,0 +1,13 @@
+{
+  "active": [],
+  "completed_test": 0,
+  "completed_valid": 0,
+  "current_task": "MP-Bandgap",
+  "expected_test": 100,
+  "expected_valid": 100,
+  "failed": [],
+  "phase": "valid_preparing",
+  "started_at_unix": 1788625675.5032632,
+  "status": "RUNNING",
+  "updated_at_unix": 1788625734.556676
+}

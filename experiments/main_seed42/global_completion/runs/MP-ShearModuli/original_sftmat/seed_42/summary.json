@@ -1,0 +1,15 @@
+{
+  "best_valid_epoch": 249,
+  "checkpoint_sha256": "4427db31845e6ff79b14a9a5e211183de15d685d42447e964f59689497c04587",
+  "epochs": 300,
+  "mean": 1.6166967153549194,
+  "model_name": "original_sftmat",
+  "seed": 42,
+  "status": "valid_complete",
+  "std": 0.36755993962287903,
+  "task": "MP-ShearModuli",
+  "test_forward_count": 0,
+  "token_cache_sha256": "23a4dd3ae30d0d0fe9ec817980b5a07fa70d7d57f92e0371193f873c75b39459",
+  "training_time_seconds": 2206.708796288818,
+  "valid_mae": 0.06582852109218748
+}

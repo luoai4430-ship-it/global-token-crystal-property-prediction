@@ -1,0 +1,39 @@
+{
+  "active": [],
+  "completed_at_unix": 1789020725.1950552,
+  "completed_training_runs": 11,
+  "completed_training_runs_new": 12,
+  "current_task": "MP-ShearModuli",
+  "current_variant": "P1_PVIN",
+  "decision": "WEAK_PVIN_10TASK_SIGNAL",
+  "done_tasks_reused": [
+    "Jarvis-Bandgap_MBJ",
+    "Jarvis-BulkModulusKv",
+    "MP-Bandgap",
+    "MP-BulkModuli"
+  ],
+  "error": "RuntimeError('command failed (-15); see /root/pvin_stage_e2_seed42_20260909/logs/cache/MP-FormationEnergy_valid_preflight.log')",
+  "expected_training_runs_new": 12,
+  "failed": [],
+  "failed_at_unix": 1788997499.479587,
+  "max_training_processes": 1,
+  "new_tasks": [
+    "Jarvis-Bandgap_OPT",
+    "Jarvis-FormationEnergy",
+    "Jarvis-TotalEnergy",
+    "Jarvis-ShearModulusGv",
+    "MP-FormationEnergy",
+    "MP-ShearModuli"
+  ],
+  "phase": "complete",
+  "seed": 42,
+  "started_at_unix": 1788926851.6603746,
+  "status": "COMPLETED",
+  "test_forward_count": 0,
+  "traceback": "Traceback (most recent call last):\n  File \"/root/run_pvin_stage_e2_queue.py\", line 443, in main\n    scratch, token_cache = fast.cache_common.prepare_task(task, \"valid\")\n  File \"/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_queue.py\", line 253, in prepare_task\n    run_checked(\n  File \"/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_queue.py\", line 228, in run_checked\n    raise RuntimeError(f\"command failed ({result.returncode}); see {log_path}\")\nRuntimeError: command failed (-15); see /root/pvin_stage_e2_seed42_20260909/logs/cache/MP-FormationEnergy_valid_preflight.log\n",
+  "updated_at_unix": 1789020725.1954002,
+  "variants": [
+    "P0_AuxConcat",
+    "P1_PVIN"
+  ]
+}

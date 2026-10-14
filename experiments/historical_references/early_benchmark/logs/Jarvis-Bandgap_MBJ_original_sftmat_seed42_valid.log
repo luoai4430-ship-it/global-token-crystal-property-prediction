@@ -1,0 +1,23 @@
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py train --task Jarvis-Bandgap_MBJ --model_name original_sftmat --seed 42 --token_cache /dev/shm/final_10task_benchmark_current/Jarvis-Bandgap_MBJ/token_cache --output_dir /root/final_10task_benchmark_20260809_tau05/runs/Jarvis-Bandgap_MBJ/original_sftmat/seed_42 --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda --num_workers 0 --epochs 300 --batch_size 32
+dataset split: total=18172, train=14537, valid=1817, test=1818
+train range:(0.0,27.500999450683594)
+valid range:(0.0,23.900999069213867)
+test range:(0.0,14.498000144958496)
+mean:1.4889696836471558
+std:2.3161327838897705
+[Jarvis-Bandgap_MBJ:original_sftmat:seed42] epoch=1/300 loss=0.87571542 valid_mae=0.68523192 best=0.68523192 best_epoch=1
+[Jarvis-Bandgap_MBJ:original_sftmat:seed42] epoch=2/300 loss=0.70438148 valid_mae=0.60672008 best=0.60672008 best_epoch=2
+[Jarvis-Bandgap_MBJ:original_sftmat:seed42] epoch=3/300 loss=0.61231461 valid_mae=0.56466755 best=0.56466755 best_epoch=3
+[Jarvis-Bandgap_MBJ:original_sftmat:seed42] epoch=4/300 loss=0.58075829 valid_mae=0.53560481 best=0.53560481 best_epoch=4
+[Jarvis-Bandgap_MBJ:original_sftmat:seed42] epoch=5/300 loss=0.54715732 valid_mae=0.50688949 best=0.50688949 best_epoch=5
+[Jarvis-Bandgap_MBJ:original_sftmat:seed42] epoch=6/300 loss=0.52430372 valid_mae=0.49430908 best=0.49430908 best_epoch=6
+[Jarvis-Bandgap_MBJ:original_sftmat:seed42] epoch=7/300 loss=0.51714268 valid_mae=0.53367383 best=0.49430908 best_epoch=6
+[Jarvis-Bandgap_MBJ:original_sftmat:seed42] epoch=8/300 loss=0.50090436 valid_mae=0.51415750 best=0.49430908 best_epoch=6
+[Jarvis-Bandgap_MBJ:original_sftmat:seed42] epoch=9/300 loss=0.48237204 valid_mae=0.52309329 best=0.49430908 best_epoch=6
+[Jarvis-Bandgap_MBJ:original_sftmat:seed42] epoch=10/300 loss=0.48043839 valid_mae=0.47601738 best=0.47601738 best_epoch=10
+[Jarvis-Bandgap_MBJ:original_sftmat:seed42] epoch=11/300 loss=0.47778582 valid_mae=0.46179912 best=0.46179912 best_epoch=11
+[Jarvis-Bandgap_MBJ:original_sftmat:seed42] epoch=12/300 loss=0.45987125 valid_mae=0.46060179 best=0.46060179 best_epoch=12
+[Jarvis-Bandgap_MBJ:original_sftmat:seed42] epoch=13/300 loss=0.45156296 valid_mae=0.48174995 best=0.46060179 best_epoch=12
+[Jarvis-Bandgap_MBJ:original_sftmat:seed42] epoch=14/300 loss=0.44932452 valid_mae=0.52237554 best=0.46060179 best_epoch=12
+[Jarvis-Bandgap_MBJ:original_sftmat:seed42] epoch=15/300 loss=0.44981066 valid_mae=0.47737893 best=0.46060179 best_epoch=12
+[Jarvis-Bandgap_MBJ:original_sftmat:seed42] epoch=16/300 loss=0.42878712 valid_mae=0.45321672 best=0.45321672 best_epoch=16

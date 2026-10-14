@@ -1,0 +1,58 @@
+Jarvis-FormationEnergy MaskedMean epoch=1/300 valid_mae=0.19537361 best=0.19537361
+Jarvis-FormationEnergy MaskedMean epoch=10/300 valid_mae=0.09836077 best=0.09836077
+Jarvis-FormationEnergy MaskedMean epoch=20/300 valid_mae=0.08298938 best=0.07779319
+Jarvis-FormationEnergy MaskedMean epoch=30/300 valid_mae=0.07557852 best=0.07121172
+Jarvis-FormationEnergy MaskedMean epoch=40/300 valid_mae=0.06178817 best=0.06178817
+Jarvis-FormationEnergy MaskedMean epoch=50/300 valid_mae=0.06688843 best=0.06017170
+Jarvis-FormationEnergy MaskedMean epoch=60/300 valid_mae=0.05409742 best=0.05409742
+Jarvis-FormationEnergy MaskedMean epoch=70/300 valid_mae=0.05448112 best=0.04868739
+Jarvis-FormationEnergy MaskedMean epoch=80/300 valid_mae=0.05222816 best=0.04868739
+Jarvis-FormationEnergy MaskedMean epoch=90/300 valid_mae=0.04959915 best=0.04790673
+Jarvis-FormationEnergy MaskedMean epoch=100/300 valid_mae=0.05223112 best=0.04536702
+Jarvis-FormationEnergy MaskedMean epoch=110/300 valid_mae=0.04548167 best=0.04352237
+Jarvis-FormationEnergy MaskedMean epoch=120/300 valid_mae=0.04233795 best=0.04233795
+Jarvis-FormationEnergy MaskedMean epoch=130/300 valid_mae=0.04159445 best=0.04114498
+Jarvis-FormationEnergy MaskedMean epoch=140/300 valid_mae=0.04185268 best=0.03966324
+Jarvis-FormationEnergy MaskedMean epoch=150/300 valid_mae=0.03937527 best=0.03809077
+Jarvis-FormationEnergy MaskedMean epoch=160/300 valid_mae=0.03745397 best=0.03744418
+Jarvis-FormationEnergy MaskedMean epoch=170/300 valid_mae=0.03597493 best=0.03504836
+Jarvis-FormationEnergy MaskedMean epoch=180/300 valid_mae=0.03496938 best=0.03457274
+Jarvis-FormationEnergy MaskedMean epoch=190/300 valid_mae=0.03410981 best=0.03378620
+Jarvis-FormationEnergy MaskedMean epoch=200/300 valid_mae=0.03249187 best=0.03249187
+Jarvis-FormationEnergy MaskedMean epoch=210/300 valid_mae=0.03290523 best=0.03236798
+Jarvis-FormationEnergy MaskedMean epoch=220/300 valid_mae=0.03270898 best=0.03133745
+Jarvis-FormationEnergy MaskedMean epoch=230/300 valid_mae=0.03123513 best=0.03061427
+Jarvis-FormationEnergy MaskedMean epoch=240/300 valid_mae=0.03053867 best=0.03010389
+Jarvis-FormationEnergy MaskedMean epoch=250/300 valid_mae=0.03006229 best=0.03006229
+Jarvis-FormationEnergy MaskedMean epoch=260/300 valid_mae=0.02990859 best=0.02983692
+Jarvis-FormationEnergy MaskedMean epoch=270/300 valid_mae=0.02958669 best=0.02950223
+Jarvis-FormationEnergy MaskedMean epoch=280/300 valid_mae=0.02972271 best=0.02934471
+Jarvis-FormationEnergy MaskedMean epoch=290/300 valid_mae=0.02919248 best=0.02919248
+Jarvis-FormationEnergy MaskedMean epoch=300/300 valid_mae=0.02939726 best=0.02919248
+{
+  "task": "Jarvis-FormationEnergy",
+  "dataset": "JARVIS",
+  "property_family": "Energetic",
+  "variant": "MaskedMean",
+  "seed": 42,
+  "best_epoch": 290,
+  "best_valid_mae": 0.029192478670664903,
+  "final_valid_mae": 0.029397259447702953,
+  "mean": -0.8317226277536003,
+  "std": 1.0806602652341355,
+  "trainable_params": 2636514,
+  "checkpoint_path": "/root/autodl-tmp/TextResidualSHFMat/matched_ablation_runs/Jarvis-FormationEnergy/MaskedMean/best_valid.pt",
+  "test_forward_count": 0,
+  "runtime_sec": 11493.22487449646,
+  "train_samples": 44578,
+  "valid_samples": 5572,
+  "mean_eligible_token_count": 122.4294687724336,
+  "median_eligible_token_count": 126.0,
+  "attention_entropy_mean": null,
+  "attention_entropy_median": null,
+  "attention_effective_token_count_mean": null,
+  "attention_effective_token_count_median": null,
+  "attention_mean_max": null,
+  "zero_text_fallback_count": 0,
+  "zero_text_fallback_ids": []
+}

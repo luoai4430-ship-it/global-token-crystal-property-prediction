@@ -1,0 +1,346 @@
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py train --task MP-BulkModuli --model_name ours --seed 42 --token_cache /dev/shm/final_10task_ours_seed42_gpu4090d/MP-BulkModuli/token_cache --output_dir /root/final_10task_ours_seed42_20260810_tau05_gpu4090d/runs/MP-BulkModuli/ours/seed_42 --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda --num_workers 2 --epochs 300 --batch_size 32
+dataset split: total=5830, train=4664, valid=583, test=583
+train range:(0.4771212637424469,2.63948655128479)
+valid range:(0.6020600199699402,2.63948655128479)
+test range:(0.6020600199699402,2.5774917602539062)
+mean:1.9345861673355103
+std:0.3619743585586548
+[MP-BulkModuli:ours:seed42] epoch=1/300 loss=0.20906912 valid_mae=0.11792847 best=0.11792847 best_epoch=1
+[MP-BulkModuli:ours:seed42] epoch=2/300 loss=0.13830837 valid_mae=0.09569660 best=0.09569660 best_epoch=2
+[MP-BulkModuli:ours:seed42] epoch=3/300 loss=0.11957649 valid_mae=0.08778733 best=0.08778733 best_epoch=3
+[MP-BulkModuli:ours:seed42] epoch=4/300 loss=0.11080925 valid_mae=0.08584481 best=0.08584481 best_epoch=4
+[MP-BulkModuli:ours:seed42] epoch=5/300 loss=0.10344105 valid_mae=0.07507649 best=0.07507649 best_epoch=5
+[MP-BulkModuli:ours:seed42] epoch=6/300 loss=0.09532775 valid_mae=0.06883371 best=0.06883371 best_epoch=6
+[MP-BulkModuli:ours:seed42] epoch=7/300 loss=0.09469828 valid_mae=0.06911091 best=0.06883371 best_epoch=6
+[MP-BulkModuli:ours:seed42] epoch=8/300 loss=0.09133535 valid_mae=0.06854683 best=0.06854683 best_epoch=8
+[MP-BulkModuli:ours:seed42] epoch=9/300 loss=0.08874839 valid_mae=0.07401624 best=0.06854683 best_epoch=8
+[MP-BulkModuli:ours:seed42] epoch=10/300 loss=0.09310022 valid_mae=0.07084466 best=0.06854683 best_epoch=8
+[MP-BulkModuli:ours:seed42] epoch=11/300 loss=0.08719892 valid_mae=0.06500396 best=0.06500396 best_epoch=11
+[MP-BulkModuli:ours:seed42] epoch=12/300 loss=0.08290963 valid_mae=0.06540125 best=0.06500396 best_epoch=11
+[MP-BulkModuli:ours:seed42] epoch=13/300 loss=0.08438152 valid_mae=0.06608951 best=0.06500396 best_epoch=11
+[MP-BulkModuli:ours:seed42] epoch=14/300 loss=0.08033930 valid_mae=0.06158855 best=0.06158855 best_epoch=14
+[MP-BulkModuli:ours:seed42] epoch=15/300 loss=0.07740983 valid_mae=0.05625087 best=0.05625087 best_epoch=15
+[MP-BulkModuli:ours:seed42] epoch=16/300 loss=0.07661874 valid_mae=0.07272887 best=0.05625087 best_epoch=15
+[MP-BulkModuli:ours:seed42] epoch=17/300 loss=0.07772132 valid_mae=0.05908020 best=0.05625087 best_epoch=15
+[MP-BulkModuli:ours:seed42] epoch=18/300 loss=0.07442712 valid_mae=0.07213363 best=0.05625087 best_epoch=15
+[MP-BulkModuli:ours:seed42] epoch=19/300 loss=0.07547865 valid_mae=0.05592692 best=0.05592692 best_epoch=19
+[MP-BulkModuli:ours:seed42] epoch=20/300 loss=0.07305161 valid_mae=0.06307049 best=0.05592692 best_epoch=19
+[MP-BulkModuli:ours:seed42] epoch=21/300 loss=0.07003485 valid_mae=0.06166086 best=0.05592692 best_epoch=19
+[MP-BulkModuli:ours:seed42] epoch=22/300 loss=0.07254525 valid_mae=0.05756334 best=0.05592692 best_epoch=19
+[MP-BulkModuli:ours:seed42] epoch=23/300 loss=0.07097748 valid_mae=0.06346446 best=0.05592692 best_epoch=19
+[MP-BulkModuli:ours:seed42] epoch=24/300 loss=0.07132950 valid_mae=0.06114131 best=0.05592692 best_epoch=19
+[MP-BulkModuli:ours:seed42] epoch=25/300 loss=0.07214248 valid_mae=0.06407767 best=0.05592692 best_epoch=19
+[MP-BulkModuli:ours:seed42] epoch=26/300 loss=0.06926577 valid_mae=0.05745311 best=0.05592692 best_epoch=19
+[MP-BulkModuli:ours:seed42] epoch=27/300 loss=0.06606695 valid_mae=0.07619782 best=0.05592692 best_epoch=19
+[MP-BulkModuli:ours:seed42] epoch=28/300 loss=0.06769400 valid_mae=0.05630662 best=0.05592692 best_epoch=19
+[MP-BulkModuli:ours:seed42] epoch=29/300 loss=0.06368482 valid_mae=0.05620497 best=0.05592692 best_epoch=19
+[MP-BulkModuli:ours:seed42] epoch=30/300 loss=0.06895960 valid_mae=0.05730213 best=0.05592692 best_epoch=19
+[MP-BulkModuli:ours:seed42] epoch=31/300 loss=0.06627849 valid_mae=0.05772612 best=0.05592692 best_epoch=19
+[MP-BulkModuli:ours:seed42] epoch=32/300 loss=0.06967340 valid_mae=0.05736991 best=0.05592692 best_epoch=19
+[MP-BulkModuli:ours:seed42] epoch=33/300 loss=0.06419858 valid_mae=0.05422212 best=0.05422212 best_epoch=33
+[MP-BulkModuli:ours:seed42] epoch=34/300 loss=0.06482819 valid_mae=0.05564083 best=0.05422212 best_epoch=33
+[MP-BulkModuli:ours:seed42] epoch=35/300 loss=0.06255050 valid_mae=0.05334528 best=0.05334528 best_epoch=35
+[MP-BulkModuli:ours:seed42] epoch=36/300 loss=0.06632422 valid_mae=0.06864207 best=0.05334528 best_epoch=35
+[MP-BulkModuli:ours:seed42] epoch=37/300 loss=0.06123562 valid_mae=0.05081073 best=0.05081073 best_epoch=37
+[MP-BulkModuli:ours:seed42] epoch=38/300 loss=0.06085330 valid_mae=0.05283767 best=0.05081073 best_epoch=37
+[MP-BulkModuli:ours:seed42] epoch=39/300 loss=0.06016309 valid_mae=0.05758490 best=0.05081073 best_epoch=37
+[MP-BulkModuli:ours:seed42] epoch=40/300 loss=0.05921810 valid_mae=0.04821503 best=0.04821503 best_epoch=40
+[MP-BulkModuli:ours:seed42] epoch=41/300 loss=0.06141147 valid_mae=0.05590630 best=0.04821503 best_epoch=40
+[MP-BulkModuli:ours:seed42] epoch=42/300 loss=0.05896786 valid_mae=0.05064828 best=0.04821503 best_epoch=40
+[MP-BulkModuli:ours:seed42] epoch=43/300 loss=0.05763621 valid_mae=0.04973401 best=0.04821503 best_epoch=40
+[MP-BulkModuli:ours:seed42] epoch=44/300 loss=0.05830782 valid_mae=0.05494384 best=0.04821503 best_epoch=40
+[MP-BulkModuli:ours:seed42] epoch=45/300 loss=0.06052909 valid_mae=0.05066144 best=0.04821503 best_epoch=40
+[MP-BulkModuli:ours:seed42] epoch=46/300 loss=0.05493159 valid_mae=0.05971226 best=0.04821503 best_epoch=40
+[MP-BulkModuli:ours:seed42] epoch=47/300 loss=0.05580215 valid_mae=0.05482099 best=0.04821503 best_epoch=40
+[MP-BulkModuli:ours:seed42] epoch=48/300 loss=0.05693979 valid_mae=0.05139893 best=0.04821503 best_epoch=40
+[MP-BulkModuli:ours:seed42] epoch=49/300 loss=0.05490155 valid_mae=0.05811342 best=0.04821503 best_epoch=40
+[MP-BulkModuli:ours:seed42] epoch=50/300 loss=0.05871557 valid_mae=0.05068351 best=0.04821503 best_epoch=40
+[MP-BulkModuli:ours:seed42] epoch=51/300 loss=0.05503567 valid_mae=0.05347654 best=0.04821503 best_epoch=40
+[MP-BulkModuli:ours:seed42] epoch=52/300 loss=0.05388510 valid_mae=0.05174420 best=0.04821503 best_epoch=40
+[MP-BulkModuli:ours:seed42] epoch=53/300 loss=0.05531271 valid_mae=0.04974148 best=0.04821503 best_epoch=40
+[MP-BulkModuli:ours:seed42] epoch=54/300 loss=0.05742624 valid_mae=0.05584940 best=0.04821503 best_epoch=40
+[MP-BulkModuli:ours:seed42] epoch=55/300 loss=0.05300826 valid_mae=0.05114697 best=0.04821503 best_epoch=40
+[MP-BulkModuli:ours:seed42] epoch=56/300 loss=0.05459424 valid_mae=0.05305584 best=0.04821503 best_epoch=40
+[MP-BulkModuli:ours:seed42] epoch=57/300 loss=0.05516414 valid_mae=0.05694924 best=0.04821503 best_epoch=40
+[MP-BulkModuli:ours:seed42] epoch=58/300 loss=0.05185311 valid_mae=0.05845828 best=0.04821503 best_epoch=40
+[MP-BulkModuli:ours:seed42] epoch=59/300 loss=0.05185962 valid_mae=0.04924150 best=0.04821503 best_epoch=40
+[MP-BulkModuli:ours:seed42] epoch=60/300 loss=0.05363571 valid_mae=0.05616440 best=0.04821503 best_epoch=40
+[MP-BulkModuli:ours:seed42] epoch=61/300 loss=0.05109522 valid_mae=0.06328790 best=0.04821503 best_epoch=40
+[MP-BulkModuli:ours:seed42] epoch=62/300 loss=0.05197922 valid_mae=0.06071983 best=0.04821503 best_epoch=40
+[MP-BulkModuli:ours:seed42] epoch=63/300 loss=0.05315413 valid_mae=0.07407488 best=0.04821503 best_epoch=40
+[MP-BulkModuli:ours:seed42] epoch=64/300 loss=0.05062633 valid_mae=0.05122026 best=0.04821503 best_epoch=40
+[MP-BulkModuli:ours:seed42] epoch=65/300 loss=0.05044364 valid_mae=0.05774724 best=0.04821503 best_epoch=40
+[MP-BulkModuli:ours:seed42] epoch=66/300 loss=0.04799146 valid_mae=0.04863930 best=0.04821503 best_epoch=40
+[MP-BulkModuli:ours:seed42] epoch=67/300 loss=0.04780164 valid_mae=0.05262344 best=0.04821503 best_epoch=40
+[MP-BulkModuli:ours:seed42] epoch=68/300 loss=0.04608722 valid_mae=0.04778322 best=0.04778322 best_epoch=68
+[MP-BulkModuli:ours:seed42] epoch=69/300 loss=0.04977784 valid_mae=0.05147611 best=0.04778322 best_epoch=68
+[MP-BulkModuli:ours:seed42] epoch=70/300 loss=0.05076868 valid_mae=0.05412378 best=0.04778322 best_epoch=68
+[MP-BulkModuli:ours:seed42] epoch=71/300 loss=0.04893592 valid_mae=0.04828266 best=0.04778322 best_epoch=68
+[MP-BulkModuli:ours:seed42] epoch=72/300 loss=0.04593201 valid_mae=0.04685548 best=0.04685548 best_epoch=72
+[MP-BulkModuli:ours:seed42] epoch=73/300 loss=0.04520489 valid_mae=0.05820599 best=0.04685548 best_epoch=72
+[MP-BulkModuli:ours:seed42] epoch=74/300 loss=0.04510540 valid_mae=0.04662503 best=0.04662503 best_epoch=74
+[MP-BulkModuli:ours:seed42] epoch=75/300 loss=0.04538714 valid_mae=0.04981766 best=0.04662503 best_epoch=74
+[MP-BulkModuli:ours:seed42] epoch=76/300 loss=0.04456506 valid_mae=0.04766374 best=0.04662503 best_epoch=74
+[MP-BulkModuli:ours:seed42] epoch=77/300 loss=0.04384120 valid_mae=0.05235387 best=0.04662503 best_epoch=74
+[MP-BulkModuli:ours:seed42] epoch=78/300 loss=0.04223414 valid_mae=0.04679837 best=0.04662503 best_epoch=74
+[MP-BulkModuli:ours:seed42] epoch=79/300 loss=0.04276194 valid_mae=0.05344232 best=0.04662503 best_epoch=74
+[MP-BulkModuli:ours:seed42] epoch=80/300 loss=0.04233959 valid_mae=0.04942076 best=0.04662503 best_epoch=74
+[MP-BulkModuli:ours:seed42] epoch=81/300 loss=0.04280846 valid_mae=0.05293227 best=0.04662503 best_epoch=74
+[MP-BulkModuli:ours:seed42] epoch=82/300 loss=0.04359093 valid_mae=0.04370591 best=0.04370591 best_epoch=82
+[MP-BulkModuli:ours:seed42] epoch=83/300 loss=0.04182062 valid_mae=0.04715507 best=0.04370591 best_epoch=82
+[MP-BulkModuli:ours:seed42] epoch=84/300 loss=0.04171397 valid_mae=0.04826710 best=0.04370591 best_epoch=82
+[MP-BulkModuli:ours:seed42] epoch=85/300 loss=0.04046758 valid_mae=0.04909850 best=0.04370591 best_epoch=82
+[MP-BulkModuli:ours:seed42] epoch=86/300 loss=0.04102389 valid_mae=0.04264772 best=0.04264772 best_epoch=86
+[MP-BulkModuli:ours:seed42] epoch=87/300 loss=0.04052991 valid_mae=0.05110423 best=0.04264772 best_epoch=86
+[MP-BulkModuli:ours:seed42] epoch=88/300 loss=0.03840943 valid_mae=0.04369763 best=0.04264772 best_epoch=86
+[MP-BulkModuli:ours:seed42] epoch=89/300 loss=0.03772012 valid_mae=0.04173865 best=0.04173865 best_epoch=89
+[MP-BulkModuli:ours:seed42] epoch=90/300 loss=0.03886772 valid_mae=0.04564618 best=0.04173865 best_epoch=89
+[MP-BulkModuli:ours:seed42] epoch=91/300 loss=0.03798543 valid_mae=0.04461010 best=0.04173865 best_epoch=89
+[MP-BulkModuli:ours:seed42] epoch=92/300 loss=0.03817080 valid_mae=0.05132971 best=0.04173865 best_epoch=89
+[MP-BulkModuli:ours:seed42] epoch=93/300 loss=0.03668911 valid_mae=0.04471406 best=0.04173865 best_epoch=89
+[MP-BulkModuli:ours:seed42] epoch=94/300 loss=0.03526239 valid_mae=0.05241746 best=0.04173865 best_epoch=89
+[MP-BulkModuli:ours:seed42] epoch=95/300 loss=0.03777765 valid_mae=0.04415254 best=0.04173865 best_epoch=89
+[MP-BulkModuli:ours:seed42] epoch=96/300 loss=0.03555027 valid_mae=0.04766618 best=0.04173865 best_epoch=89
+[MP-BulkModuli:ours:seed42] epoch=97/300 loss=0.03615481 valid_mae=0.04260766 best=0.04173865 best_epoch=89
+[MP-BulkModuli:ours:seed42] epoch=98/300 loss=0.03525962 valid_mae=0.04282652 best=0.04173865 best_epoch=89
+[MP-BulkModuli:ours:seed42] epoch=99/300 loss=0.03373909 valid_mae=0.04908232 best=0.04173865 best_epoch=89
+[MP-BulkModuli:ours:seed42] epoch=100/300 loss=0.03494501 valid_mae=0.04381520 best=0.04173865 best_epoch=89
+[MP-BulkModuli:ours:seed42] epoch=101/300 loss=0.03401531 valid_mae=0.04333869 best=0.04173865 best_epoch=89
+[MP-BulkModuli:ours:seed42] epoch=102/300 loss=0.03398629 valid_mae=0.04260961 best=0.04173865 best_epoch=89
+[MP-BulkModuli:ours:seed42] epoch=103/300 loss=0.03207392 valid_mae=0.04443881 best=0.04173865 best_epoch=89
+[MP-BulkModuli:ours:seed42] epoch=104/300 loss=0.03224994 valid_mae=0.04503482 best=0.04173865 best_epoch=89
+[MP-BulkModuli:ours:seed42] epoch=105/300 loss=0.03226649 valid_mae=0.04274321 best=0.04173865 best_epoch=89
+[MP-BulkModuli:ours:seed42] epoch=106/300 loss=0.03367512 valid_mae=0.04033449 best=0.04033449 best_epoch=106
+[MP-BulkModuli:ours:seed42] epoch=107/300 loss=0.03189364 valid_mae=0.04510394 best=0.04033449 best_epoch=106
+[MP-BulkModuli:ours:seed42] epoch=108/300 loss=0.03090611 valid_mae=0.04030701 best=0.04030701 best_epoch=108
+[MP-BulkModuli:ours:seed42] epoch=109/300 loss=0.03007958 valid_mae=0.03981858 best=0.03981858 best_epoch=109
+[MP-BulkModuli:ours:seed42] epoch=110/300 loss=0.03006757 valid_mae=0.04216406 best=0.03981858 best_epoch=109
+[MP-BulkModuli:ours:seed42] epoch=111/300 loss=0.03030266 valid_mae=0.03906996 best=0.03906996 best_epoch=111
+[MP-BulkModuli:ours:seed42] epoch=112/300 loss=0.03073583 valid_mae=0.04026651 best=0.03906996 best_epoch=111
+[MP-BulkModuli:ours:seed42] epoch=113/300 loss=0.02843930 valid_mae=0.04528530 best=0.03906996 best_epoch=111
+[MP-BulkModuli:ours:seed42] epoch=114/300 loss=0.02950438 valid_mae=0.04907098 best=0.03906996 best_epoch=111
+[MP-BulkModuli:ours:seed42] epoch=115/300 loss=0.02954940 valid_mae=0.04075780 best=0.03906996 best_epoch=111
+[MP-BulkModuli:ours:seed42] epoch=116/300 loss=0.02884079 valid_mae=0.04251571 best=0.03906996 best_epoch=111
+[MP-BulkModuli:ours:seed42] epoch=117/300 loss=0.02887669 valid_mae=0.03957935 best=0.03906996 best_epoch=111
+[MP-BulkModuli:ours:seed42] epoch=118/300 loss=0.02857582 valid_mae=0.04266328 best=0.03906996 best_epoch=111
+[MP-BulkModuli:ours:seed42] epoch=119/300 loss=0.02802848 valid_mae=0.04368709 best=0.03906996 best_epoch=111
+[MP-BulkModuli:ours:seed42] epoch=120/300 loss=0.02698681 valid_mae=0.04124445 best=0.03906996 best_epoch=111
+[MP-BulkModuli:ours:seed42] epoch=121/300 loss=0.02700861 valid_mae=0.04009007 best=0.03906996 best_epoch=111
+[MP-BulkModuli:ours:seed42] epoch=122/300 loss=0.02653728 valid_mae=0.03986477 best=0.03906996 best_epoch=111
+[MP-BulkModuli:ours:seed42] epoch=123/300 loss=0.02587865 valid_mae=0.04467795 best=0.03906996 best_epoch=111
+[MP-BulkModuli:ours:seed42] epoch=124/300 loss=0.02724569 valid_mae=0.04160778 best=0.03906996 best_epoch=111
+[MP-BulkModuli:ours:seed42] epoch=125/300 loss=0.02578352 valid_mae=0.03877057 best=0.03877057 best_epoch=125
+[MP-BulkModuli:ours:seed42] epoch=126/300 loss=0.02617931 valid_mae=0.04018026 best=0.03877057 best_epoch=125
+[MP-BulkModuli:ours:seed42] epoch=127/300 loss=0.02508130 valid_mae=0.04523098 best=0.03877057 best_epoch=125
+[MP-BulkModuli:ours:seed42] epoch=128/300 loss=0.02570397 valid_mae=0.04152376 best=0.03877057 best_epoch=125
+[MP-BulkModuli:ours:seed42] epoch=129/300 loss=0.02686743 valid_mae=0.03790573 best=0.03790573 best_epoch=129
+[MP-BulkModuli:ours:seed42] epoch=130/300 loss=0.02458499 valid_mae=0.03835773 best=0.03790573 best_epoch=129
+[MP-BulkModuli:ours:seed42] epoch=131/300 loss=0.02434983 valid_mae=0.03911263 best=0.03790573 best_epoch=129
+[MP-BulkModuli:ours:seed42] epoch=132/300 loss=0.02470725 valid_mae=0.03802246 best=0.03790573 best_epoch=129
+[MP-BulkModuli:ours:seed42] epoch=133/300 loss=0.02455731 valid_mae=0.04240129 best=0.03790573 best_epoch=129
+[MP-BulkModuli:ours:seed42] epoch=134/300 loss=0.02412659 valid_mae=0.03947163 best=0.03790573 best_epoch=129
+[MP-BulkModuli:ours:seed42] epoch=135/300 loss=0.02370340 valid_mae=0.03987843 best=0.03790573 best_epoch=129
+[MP-BulkModuli:ours:seed42] epoch=136/300 loss=0.02270476 valid_mae=0.03883339 best=0.03790573 best_epoch=129
+[MP-BulkModuli:ours:seed42] epoch=137/300 loss=0.02293786 valid_mae=0.04050684 best=0.03790573 best_epoch=129
+[MP-BulkModuli:ours:seed42] epoch=138/300 loss=0.02320646 valid_mae=0.03702693 best=0.03702693 best_epoch=138
+[MP-BulkModuli:ours:seed42] epoch=139/300 loss=0.02227795 valid_mae=0.03843213 best=0.03702693 best_epoch=138
+[MP-BulkModuli:ours:seed42] epoch=140/300 loss=0.02199577 valid_mae=0.03765508 best=0.03702693 best_epoch=138
+[MP-BulkModuli:ours:seed42] epoch=141/300 loss=0.02280431 valid_mae=0.04003229 best=0.03702693 best_epoch=138
+[MP-BulkModuli:ours:seed42] epoch=142/300 loss=0.02204002 valid_mae=0.04395230 best=0.03702693 best_epoch=138
+[MP-BulkModuli:ours:seed42] epoch=143/300 loss=0.02246137 valid_mae=0.03800534 best=0.03702693 best_epoch=138
+[MP-BulkModuli:ours:seed42] epoch=144/300 loss=0.02095696 valid_mae=0.03800343 best=0.03702693 best_epoch=138
+[MP-BulkModuli:ours:seed42] epoch=145/300 loss=0.02159704 valid_mae=0.03980273 best=0.03702693 best_epoch=138
+[MP-BulkModuli:ours:seed42] epoch=146/300 loss=0.02071269 valid_mae=0.03902707 best=0.03702693 best_epoch=138
+[MP-BulkModuli:ours:seed42] epoch=147/300 loss=0.02009977 valid_mae=0.03736090 best=0.03702693 best_epoch=138
+[MP-BulkModuli:ours:seed42] epoch=148/300 loss=0.02039402 valid_mae=0.03786232 best=0.03702693 best_epoch=138
+[MP-BulkModuli:ours:seed42] epoch=149/300 loss=0.02101000 valid_mae=0.03707774 best=0.03702693 best_epoch=138
+[MP-BulkModuli:ours:seed42] epoch=150/300 loss=0.02029648 valid_mae=0.03819713 best=0.03702693 best_epoch=138
+[MP-BulkModuli:ours:seed42] epoch=151/300 loss=0.02012950 valid_mae=0.03894289 best=0.03702693 best_epoch=138
+[MP-BulkModuli:ours:seed42] epoch=152/300 loss=0.01957955 valid_mae=0.03966083 best=0.03702693 best_epoch=138
+[MP-BulkModuli:ours:seed42] epoch=153/300 loss=0.01882586 valid_mae=0.03766358 best=0.03702693 best_epoch=138
+[MP-BulkModuli:ours:seed42] epoch=154/300 loss=0.01996904 valid_mae=0.03976925 best=0.03702693 best_epoch=138
+[MP-BulkModuli:ours:seed42] epoch=155/300 loss=0.01963652 valid_mae=0.03725453 best=0.03702693 best_epoch=138
+[MP-BulkModuli:ours:seed42] epoch=156/300 loss=0.01984790 valid_mae=0.03900119 best=0.03702693 best_epoch=138
+[MP-BulkModuli:ours:seed42] epoch=157/300 loss=0.01922471 valid_mae=0.03870476 best=0.03702693 best_epoch=138
+[MP-BulkModuli:ours:seed42] epoch=158/300 loss=0.01907428 valid_mae=0.03693868 best=0.03693868 best_epoch=158
+[MP-BulkModuli:ours:seed42] epoch=159/300 loss=0.01822525 valid_mae=0.03948253 best=0.03693868 best_epoch=158
+[MP-BulkModuli:ours:seed42] epoch=160/300 loss=0.01900905 valid_mae=0.03918748 best=0.03693868 best_epoch=158
+[MP-BulkModuli:ours:seed42] epoch=161/300 loss=0.01825868 valid_mae=0.03690577 best=0.03690577 best_epoch=161
+[MP-BulkModuli:ours:seed42] epoch=162/300 loss=0.01833460 valid_mae=0.03690496 best=0.03690496 best_epoch=162
+[MP-BulkModuli:ours:seed42] epoch=163/300 loss=0.01803581 valid_mae=0.03867964 best=0.03690496 best_epoch=162
+[MP-BulkModuli:ours:seed42] epoch=164/300 loss=0.01798134 valid_mae=0.03750903 best=0.03690496 best_epoch=162
+[MP-BulkModuli:ours:seed42] epoch=165/300 loss=0.01772735 valid_mae=0.03766137 best=0.03690496 best_epoch=162
+[MP-BulkModuli:ours:seed42] epoch=166/300 loss=0.01733986 valid_mae=0.03946618 best=0.03690496 best_epoch=162
+[MP-BulkModuli:ours:seed42] epoch=167/300 loss=0.01698697 valid_mae=0.03747208 best=0.03690496 best_epoch=162
+[MP-BulkModuli:ours:seed42] epoch=168/300 loss=0.01681016 valid_mae=0.03612716 best=0.03612716 best_epoch=168
+[MP-BulkModuli:ours:seed42] epoch=169/300 loss=0.01658962 valid_mae=0.03683812 best=0.03612716 best_epoch=168
+[MP-BulkModuli:ours:seed42] epoch=170/300 loss=0.01654244 valid_mae=0.03783397 best=0.03612716 best_epoch=168
+[MP-BulkModuli:ours:seed42] epoch=171/300 loss=0.01674258 valid_mae=0.03703753 best=0.03612716 best_epoch=168
+[MP-BulkModuli:ours:seed42] epoch=172/300 loss=0.01634684 valid_mae=0.03655254 best=0.03612716 best_epoch=168
+[MP-BulkModuli:ours:seed42] epoch=173/300 loss=0.01625366 valid_mae=0.03596983 best=0.03596983 best_epoch=173
+[MP-BulkModuli:ours:seed42] epoch=174/300 loss=0.01561013 valid_mae=0.03749779 best=0.03596983 best_epoch=173
+[MP-BulkModuli:ours:seed42] epoch=175/300 loss=0.01580527 valid_mae=0.03689918 best=0.03596983 best_epoch=173
+[MP-BulkModuli:ours:seed42] epoch=176/300 loss=0.01506329 valid_mae=0.03756472 best=0.03596983 best_epoch=173
+[MP-BulkModuli:ours:seed42] epoch=177/300 loss=0.01488376 valid_mae=0.03792435 best=0.03596983 best_epoch=173
+[MP-BulkModuli:ours:seed42] epoch=178/300 loss=0.01455406 valid_mae=0.03739911 best=0.03596983 best_epoch=173
+[MP-BulkModuli:ours:seed42] epoch=179/300 loss=0.01443537 valid_mae=0.03672478 best=0.03596983 best_epoch=173
+[MP-BulkModuli:ours:seed42] epoch=180/300 loss=0.01456891 valid_mae=0.03817879 best=0.03596983 best_epoch=173
+[MP-BulkModuli:ours:seed42] epoch=181/300 loss=0.01450128 valid_mae=0.03718372 best=0.03596983 best_epoch=173
+[MP-BulkModuli:ours:seed42] epoch=182/300 loss=0.01490486 valid_mae=0.03794704 best=0.03596983 best_epoch=173
+[MP-BulkModuli:ours:seed42] epoch=183/300 loss=0.01450491 valid_mae=0.03682189 best=0.03596983 best_epoch=173
+[MP-BulkModuli:ours:seed42] epoch=184/300 loss=0.01475113 valid_mae=0.03916278 best=0.03596983 best_epoch=173
+[MP-BulkModuli:ours:seed42] epoch=185/300 loss=0.01480668 valid_mae=0.03653663 best=0.03596983 best_epoch=173
+[MP-BulkModuli:ours:seed42] epoch=186/300 loss=0.01433491 valid_mae=0.03774747 best=0.03596983 best_epoch=173
+[MP-BulkModuli:ours:seed42] epoch=187/300 loss=0.01377067 valid_mae=0.03722664 best=0.03596983 best_epoch=173
+[MP-BulkModuli:ours:seed42] epoch=188/300 loss=0.01345846 valid_mae=0.03693896 best=0.03596983 best_epoch=173
+[MP-BulkModuli:ours:seed42] epoch=189/300 loss=0.01396167 valid_mae=0.03730107 best=0.03596983 best_epoch=173
+[MP-BulkModuli:ours:seed42] epoch=190/300 loss=0.01364282 valid_mae=0.03671361 best=0.03596983 best_epoch=173
+[MP-BulkModuli:ours:seed42] epoch=191/300 loss=0.01312141 valid_mae=0.03607113 best=0.03596983 best_epoch=173
+[MP-BulkModuli:ours:seed42] epoch=192/300 loss=0.01293106 valid_mae=0.03737000 best=0.03596983 best_epoch=173
+[MP-BulkModuli:ours:seed42] epoch=193/300 loss=0.01243105 valid_mae=0.03653462 best=0.03596983 best_epoch=173
+[MP-BulkModuli:ours:seed42] epoch=194/300 loss=0.01250267 valid_mae=0.03695775 best=0.03596983 best_epoch=173
+[MP-BulkModuli:ours:seed42] epoch=195/300 loss=0.01214019 valid_mae=0.03676397 best=0.03596983 best_epoch=173
+[MP-BulkModuli:ours:seed42] epoch=196/300 loss=0.01240804 valid_mae=0.03671912 best=0.03596983 best_epoch=173
+[MP-BulkModuli:ours:seed42] epoch=197/300 loss=0.01238207 valid_mae=0.03705067 best=0.03596983 best_epoch=173
+[MP-BulkModuli:ours:seed42] epoch=198/300 loss=0.01194567 valid_mae=0.03680683 best=0.03596983 best_epoch=173
+[MP-BulkModuli:ours:seed42] epoch=199/300 loss=0.01244058 valid_mae=0.03625129 best=0.03596983 best_epoch=173
+[MP-BulkModuli:ours:seed42] epoch=200/300 loss=0.01144089 valid_mae=0.03611044 best=0.03596983 best_epoch=173
+[MP-BulkModuli:ours:seed42] epoch=201/300 loss=0.01131170 valid_mae=0.03649367 best=0.03596983 best_epoch=173
+[MP-BulkModuli:ours:seed42] epoch=202/300 loss=0.01195230 valid_mae=0.03760874 best=0.03596983 best_epoch=173
+[MP-BulkModuli:ours:seed42] epoch=203/300 loss=0.01200526 valid_mae=0.03712100 best=0.03596983 best_epoch=173
+[MP-BulkModuli:ours:seed42] epoch=204/300 loss=0.01150761 valid_mae=0.03632874 best=0.03596983 best_epoch=173
+[MP-BulkModuli:ours:seed42] epoch=205/300 loss=0.01113619 valid_mae=0.03558500 best=0.03558500 best_epoch=205
+[MP-BulkModuli:ours:seed42] epoch=206/300 loss=0.01103153 valid_mae=0.03618844 best=0.03558500 best_epoch=205
+[MP-BulkModuli:ours:seed42] epoch=207/300 loss=0.01141189 valid_mae=0.03615472 best=0.03558500 best_epoch=205
+[MP-BulkModuli:ours:seed42] epoch=208/300 loss=0.01082309 valid_mae=0.03787041 best=0.03558500 best_epoch=205
+[MP-BulkModuli:ours:seed42] epoch=209/300 loss=0.01068218 valid_mae=0.03625308 best=0.03558500 best_epoch=205
+[MP-BulkModuli:ours:seed42] epoch=210/300 loss=0.01025048 valid_mae=0.03774288 best=0.03558500 best_epoch=205
+[MP-BulkModuli:ours:seed42] epoch=211/300 loss=0.01021200 valid_mae=0.03611447 best=0.03558500 best_epoch=205
+[MP-BulkModuli:ours:seed42] epoch=212/300 loss=0.00979036 valid_mae=0.03607235 best=0.03558500 best_epoch=205
+[MP-BulkModuli:ours:seed42] epoch=213/300 loss=0.01005622 valid_mae=0.03615741 best=0.03558500 best_epoch=205
+[MP-BulkModuli:ours:seed42] epoch=214/300 loss=0.00994764 valid_mae=0.03738128 best=0.03558500 best_epoch=205
+[MP-BulkModuli:ours:seed42] epoch=215/300 loss=0.00965324 valid_mae=0.03503540 best=0.03503540 best_epoch=215
+[MP-BulkModuli:ours:seed42] epoch=216/300 loss=0.00928243 valid_mae=0.03629141 best=0.03503540 best_epoch=215
+[MP-BulkModuli:ours:seed42] epoch=217/300 loss=0.00930129 valid_mae=0.03551678 best=0.03503540 best_epoch=215
+[MP-BulkModuli:ours:seed42] epoch=218/300 loss=0.00971796 valid_mae=0.03493763 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=219/300 loss=0.00893396 valid_mae=0.03545244 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=220/300 loss=0.00883913 valid_mae=0.03547392 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=221/300 loss=0.00902547 valid_mae=0.03549571 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=222/300 loss=0.00919908 valid_mae=0.03608551 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=223/300 loss=0.00881858 valid_mae=0.03550716 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=224/300 loss=0.00829647 valid_mae=0.03615419 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=225/300 loss=0.00890980 valid_mae=0.03584528 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=226/300 loss=0.00861497 valid_mae=0.03514327 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=227/300 loss=0.00836869 valid_mae=0.03535635 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=228/300 loss=0.00821988 valid_mae=0.03571881 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=229/300 loss=0.00865966 valid_mae=0.03632054 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=230/300 loss=0.00877188 valid_mae=0.03603093 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=231/300 loss=0.00799634 valid_mae=0.03578777 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=232/300 loss=0.00818624 valid_mae=0.03556317 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=233/300 loss=0.00778349 valid_mae=0.03590049 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=234/300 loss=0.00758442 valid_mae=0.03581743 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=235/300 loss=0.00762910 valid_mae=0.03509383 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=236/300 loss=0.00771135 valid_mae=0.03543336 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=237/300 loss=0.00721774 valid_mae=0.03533724 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=238/300 loss=0.00731944 valid_mae=0.03516346 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=239/300 loss=0.00744501 valid_mae=0.03573857 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=240/300 loss=0.00725978 valid_mae=0.03539864 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=241/300 loss=0.00723695 valid_mae=0.03562690 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=242/300 loss=0.00711090 valid_mae=0.03553343 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=243/300 loss=0.00706546 valid_mae=0.03520486 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=244/300 loss=0.00678059 valid_mae=0.03546684 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=245/300 loss=0.00691170 valid_mae=0.03503626 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=246/300 loss=0.00660778 valid_mae=0.03520750 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=247/300 loss=0.00663722 valid_mae=0.03532406 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=248/300 loss=0.00671629 valid_mae=0.03514570 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=249/300 loss=0.00673310 valid_mae=0.03586485 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=250/300 loss=0.00657453 valid_mae=0.03526427 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=251/300 loss=0.00608558 valid_mae=0.03536757 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=252/300 loss=0.00644968 valid_mae=0.03565365 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=253/300 loss=0.00618353 valid_mae=0.03559665 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=254/300 loss=0.00641612 valid_mae=0.03519801 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=255/300 loss=0.00617888 valid_mae=0.03552613 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=256/300 loss=0.00615990 valid_mae=0.03562892 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=257/300 loss=0.00588681 valid_mae=0.03533397 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=258/300 loss=0.00597631 valid_mae=0.03549453 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=259/300 loss=0.00570113 valid_mae=0.03547666 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=260/300 loss=0.00569265 valid_mae=0.03541031 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=261/300 loss=0.00576573 valid_mae=0.03544762 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=262/300 loss=0.00572335 valid_mae=0.03524060 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=263/300 loss=0.00541191 valid_mae=0.03511984 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=264/300 loss=0.00585021 valid_mae=0.03543060 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=265/300 loss=0.00553695 valid_mae=0.03537902 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=266/300 loss=0.00532010 valid_mae=0.03542810 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=267/300 loss=0.00544250 valid_mae=0.03542913 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=268/300 loss=0.00555217 valid_mae=0.03526352 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=269/300 loss=0.00537482 valid_mae=0.03523381 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=270/300 loss=0.00557142 valid_mae=0.03524292 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=271/300 loss=0.00530345 valid_mae=0.03534601 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=272/300 loss=0.00521255 valid_mae=0.03561780 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=273/300 loss=0.00526825 valid_mae=0.03515961 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=274/300 loss=0.00522047 valid_mae=0.03535054 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=275/300 loss=0.00527218 valid_mae=0.03557506 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=276/300 loss=0.00504878 valid_mae=0.03550810 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=277/300 loss=0.00499664 valid_mae=0.03524716 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=278/300 loss=0.00490947 valid_mae=0.03529176 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=279/300 loss=0.00507822 valid_mae=0.03537073 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=280/300 loss=0.00491047 valid_mae=0.03548474 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=281/300 loss=0.00492289 valid_mae=0.03517718 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=282/300 loss=0.00497815 valid_mae=0.03520795 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=283/300 loss=0.00491744 valid_mae=0.03533148 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=284/300 loss=0.00483964 valid_mae=0.03543258 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=285/300 loss=0.00499097 valid_mae=0.03518806 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=286/300 loss=0.00481212 valid_mae=0.03519807 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=287/300 loss=0.00481402 valid_mae=0.03518586 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=288/300 loss=0.00491236 valid_mae=0.03519299 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=289/300 loss=0.00476196 valid_mae=0.03516891 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=290/300 loss=0.00471555 valid_mae=0.03516287 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=291/300 loss=0.00482583 valid_mae=0.03518774 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=292/300 loss=0.00476209 valid_mae=0.03514209 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=293/300 loss=0.00473926 valid_mae=0.03514769 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=294/300 loss=0.00494303 valid_mae=0.03520508 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=295/300 loss=0.00471848 valid_mae=0.03505303 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=296/300 loss=0.00478553 valid_mae=0.03519338 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=297/300 loss=0.00477714 valid_mae=0.03515523 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=298/300 loss=0.00475083 valid_mae=0.03517771 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=299/300 loss=0.00476943 valid_mae=0.03524162 best=0.03493763 best_epoch=218
+[MP-BulkModuli:ours:seed42] epoch=300/300 loss=0.00471802 valid_mae=0.03503943 best=0.03493763 best_epoch=218
+{
+  "attention_entropy": 3.969549584756789,
+  "bandgap_nonnegative_clipping": false,
+  "best_valid_epoch": 218,
+  "checkpoint_reload_atol": 0.03125,
+  "checkpoint_reload_max_abs": 0.00390625,
+  "checkpoint_reload_passed": true,
+  "checkpoint_reload_rtol": 0.03125,
+  "checkpoint_reload_state_exact": true,
+  "checkpoint_sha256": "b018e587e4207a54d11c6d88fc6118c6cce7f2670ea5d5c7e5d8d84a9cd22838",
+  "data_loader_workers": 2,
+  "dataset": "MP",
+  "drop_last": false,
+  "effective_token_count": 54.04389830600745,
+  "epochs": 300,
+  "graph_valid_mae": 0.03594274300040348,
+  "mean_abs_residual": 0.007221354353744824,
+  "mean_max_attention": 0.0849376227227431,
+  "median_max_attention": 0.08202016353607178,
+  "model_name": "ours",
+  "padding_attention_max": 0.0,
+  "parameter_count": 2800739,
+  "pin_memory": false,
+  "property": "BulkModuli",
+  "protocol_sha256": "1c0de7770307b627f62cf48e28cd65816b801b11574153f29af71667151fcb5f",
+  "seed": 42,
+  "special_token_attention_max": 0.0,
+  "status": "valid_complete",
+  "task": "MP-BulkModuli",
+  "test_forward_count": 0,
+  "token_cache_sha256": "0663a554cd7601a38b088486ab866dd0e0258d117754eb69ff7234937b89b6a3",
+  "torch_multiprocessing_sharing_strategy": "file_system",
+  "train_size": 4664,
+  "training_autocast_dtype": "bfloat16",
+  "training_time_seconds": 1718.8164215236902,
+  "unit": "log10(GPa)",
+  "valid_mae": 0.0349640228736053,
+  "valid_size": 583
+}

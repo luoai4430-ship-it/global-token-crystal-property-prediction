@@ -1,0 +1,11 @@
+Task,Our train/valid/test,Published benchmark train/valid/test,Same sample IDs?,Directly comparable?,Source
+JARVIS-FormationEnergy,44578/5572/5573,44578/5572/5572,No - different total and test count,No - split mismatch and Validation vs Test,"Matformer Appendix A.3; CrysMMNet Sec. 4.2.1; local dataset_split_provenance.csv"
+JARVIS-Bandgap_OPT,44578/5572/5573,44578/5572/5572,No - different total and test count,No - split mismatch and Validation vs Test,"Matformer Appendix A.3; CrysMMNet Sec. 4.2.1; local dataset_split_provenance.csv"
+JARVIS-Bandgap_MBJ,14537/1817/1818,14537/1817/1817,No - different total and test count,No - split mismatch and Validation vs Test,"Matformer Appendix A.3; CrysMMNet Sec. 4.2.1; local dataset_split_provenance.csv"
+JARVIS-TotalEnergy,44578/5572/5573,44578/5572/5572,No - different total and test count,No - split mismatch and Validation vs Test,"Matformer Appendix A.3; CrysMMNet Sec. 4.2.1; local dataset_split_provenance.csv"
+JARVIS-BulkModulusKv,15744/1968/1968,80/10/10 on 19680 property-labelled samples,Unverified - published sample-ID lists unavailable,No - ID equality unverified and Validation vs Test,"CrysMMNet Sec. 4.2.1/Table 1; local dataset_split_provenance.csv"
+JARVIS-ShearModulusGv,15744/1968/1968,80/10/10 on 19680 property-labelled samples,Unverified - published sample-ID lists unavailable,No - ID equality unverified and Validation vs Test,"CrysMMNet Sec. 4.2.1/Table 1; local dataset_split_provenance.csv"
+MP-FormationEnergy,60000/5000/516,60000/5000/4239,No - different test set size,No - split mismatch and Validation vs Test,"Matformer Appendix A.3; CrysMMNet Sec. 4.2.2; local dataset_split_provenance.csv"
+MP-Bandgap,60000/5000/516,60000/5000/4239,No - different test set size,No - split mismatch and Validation vs Test,"Matformer Appendix A.3; CrysMMNet Sec. 4.2.2; local dataset_split_provenance.csv"
+MP-BulkModuli,4664/583/583,4664/393/393,No - different validation and test sizes,No - split mismatch and Validation vs Test,"Matformer Appendix A.3; CrysMMNet Sec. 4.2.2; local dataset_split_provenance.csv"
+MP-ShearModuli,4664/583/583,4664/392/393,No - different validation and test sizes,No - split mismatch and Validation vs Test,"Matformer Appendix A.3 (one negative validation sample removed); local dataset_split_provenance.csv"

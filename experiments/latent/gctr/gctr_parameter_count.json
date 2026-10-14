@@ -1,0 +1,11 @@
+{
+  "p3_added_params_vs_b1": 33280,
+  "p3_added_params_vs_b1_pct": 1.1544900574400432,
+  "parameter_counts": {
+    "B1_NaiveConcat": 2882658,
+    "P3_GCTR": 2915938
+  },
+  "protocol_sha256": "ad0eb26ebe3ec10f94c8b275163587975ee6b1bea797ae75fd9d6904d6f89cf3",
+  "test_forward_count": 0,
+  "under_5_percent": true
+}

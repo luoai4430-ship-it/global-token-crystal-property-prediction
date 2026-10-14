@@ -1,0 +1,18 @@
+{
+  "decision": "WEAK_PVIN_10TASK_SIGNAL",
+  "family_macro_gains_vs_p0_pct": {
+    "electronic": 0.48526845778490796,
+    "energetic": -0.25144822987955096,
+    "mechanical": 1.9880018946715206
+  },
+  "full_better_zero_all_count": 10,
+  "full_better_zero_u_gt_count": 9,
+  "jarvis_macro_gain_vs_p0_pct": 1.0009987686437496,
+  "macro_gain_vs_p0_pct": 0.8653468262402141,
+  "max_individual_degradation_pct": 1.5502723854608282,
+  "mean_zero_all_minus_full_mae": 0.03129441904832102,
+  "mp_macro_gain_vs_p0_pct": 0.6618689126349137,
+  "parameter_increase_pct": 4.624175632912503,
+  "test_forward_count": 0,
+  "wins_vs_p0": 6
+}

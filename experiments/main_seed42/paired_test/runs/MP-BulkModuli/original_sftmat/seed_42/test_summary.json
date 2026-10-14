@@ -1,0 +1,21 @@
+{
+  "best_valid_epoch": 274,
+  "checkpoint": "/root/frozen_sftmat_token_residual_seed42_20260811/runs/MP-BulkModuli/original_sftmat/seed_42/best_valid.pt",
+  "checkpoint_sha256": "dac15b5f63992be5a46457e3659d7b79d75f962a78397cbd0674e320f6befd5e",
+  "input": "exact-source regenerated MatBERT token cache",
+  "model_name": "original_sftmat",
+  "seed": 42,
+  "selected_by": "Valid only",
+  "status": "test_complete",
+  "task": "MP-BulkModuli",
+  "test_forward_count": 1,
+  "test_mae": 0.03688270242095607,
+  "test_size": 583,
+  "test_used_for_selection": false,
+  "token_cache_exact_source_manifest": true,
+  "token_cache_sha256_expected": "0663a554cd7601a38b088486ab866dd0e0258d117754eb69ff7234937b89b6a3",
+  "token_cache_sha256_regenerated": "23a4dd3ae30d0d0fe9ec817980b5a07fa70d7d57f92e0371193f873c75b39459",
+  "valid_mae_replayed": 0.037826818626495416,
+  "valid_mae_saved": 0.037894987937312184,
+  "valid_replay_tolerance": 0.001
+}

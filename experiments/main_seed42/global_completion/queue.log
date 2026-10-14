@@ -1,0 +1,35 @@
+Traceback (most recent call last):
+  File "/root/run_e1_missing_original_queue.py", line 82, in <module>
+    main()
+  File "/root/run_e1_missing_original_queue.py", line 68, in main
+    raise RuntimeError(f"{task} exited with {code}")
+RuntimeError: Jarvis-Bandgap_OPT exited with 1
+Traceback (most recent call last):
+  File "/root/run_e1_missing_original_queue.py", line 82, in <module>
+    main()
+  File "/root/run_e1_missing_original_queue.py", line 54, in main
+    scratch, token_cache = cache_queue.prepare_task(task, "valid_only")
+  File "/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_queue.py", line 253, in prepare_task
+    run_checked(
+  File "/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_queue.py", line 228, in run_checked
+    raise RuntimeError(f"command failed ({result.returncode}); see {log_path}")
+RuntimeError: command failed (1); see /root/e1_missing_original_seed42_20260822/logs/cache/Jarvis-FormationEnergy_valid_only_preflight.log
+Traceback (most recent call last):
+  File "/root/run_e1_missing_original_queue.py", line 68, in main
+    raise RuntimeError(f"{task} exited with {code}")
+RuntimeError: Jarvis-FormationEnergy exited with 1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/run_e1_missing_original_queue.py", line 82, in <module>
+    main()
+  File "/root/run_e1_missing_original_queue.py", line 76, in main
+    write_state(status="FAILED", phase="failed", completed_runs=completed, active=[],
+  File "/root/run_e1_missing_original_queue.py", line 40, in write_state
+    tmp.write_text(json.dumps(state, indent=2) + "\n")
+  File "/root/autodl-tmp/micromamba/envs/sftmat/lib/python3.10/pathlib.py", line 1154, in write_text
+    with self.open(mode='w', encoding=encoding, errors=errors, newline=newline) as f:
+  File "/root/autodl-tmp/micromamba/envs/sftmat/lib/python3.10/pathlib.py", line 1119, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+OSError: [Errno 28] No space left on device: '/root/e1_missing_original_seed42_20260822/queue_state.tmp'

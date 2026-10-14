@@ -1,0 +1,123 @@
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_benchmark.py preflight --task Jarvis-TotalEnergy --token_cache /dev/shm/pvin_stage_e2_seed42_20260909/Jarvis-TotalEnergy/token_cache --scratch /dev/shm/pvin_stage_e2_seed42_20260909/Jarvis-TotalEnergy --output_root /root/pvin_stage_e2_seed42_20260909 --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+Graph construction workers: 8
+Building graphs (parallel)...
+Processing...
+Merging results from workers...
+
+Time consumption for constructing graph data: 252.5501425266266s
+dataset split: total=55723, train=44578, valid=5572, test=5573
+train range:(-10.500269889831543,3.3935000896453857)
+valid range:(-10.327210426330566,2.532370090484619)
+test range:(-10.498250007629395,2.5189900398254395)
+mean:-3.214447259902954
+std:2.1312344074249268
+processing train data:   0%|          | 0/44578 [00:00<?, ?it/s]processing train data:   2%|▏         | 685/44578 [00:00<00:06, 6579.59it/s]processing train data:   3%|▎         | 1343/44578 [00:00<00:06, 6186.80it/s]processing train data:   4%|▍         | 1963/44578 [00:00<00:07, 5870.08it/s]processing train data:   6%|▌         | 2552/44578 [00:00<00:09, 4464.01it/s]processing train data:   7%|▋         | 3034/44578 [00:00<00:09, 4502.48it/s]processing train data:   8%|▊         | 3508/44578 [00:00<00:09, 4523.20it/s]processing train data:   9%|▉         | 3977/44578 [00:00<00:11, 3676.21it/s]processing train data:  10%|█         | 4519/44578 [00:01<00:09, 4111.26it/s]processing train data:  11%|█         | 4981/44578 [00:01<00:09, 4244.41it/s]processing train data:  12%|█▏        | 5431/44578 [00:01<00:09, 4285.47it/s]processing train data:  13%|█▎        | 5984/44578 [00:01<00:08, 4632.38it/s]processing train data:  14%|█▍        | 6463/44578 [00:01<00:08, 4601.93it/s]processing train data:  16%|█▌        | 6935/44578 [00:01<00:08, 4577.12it/s]processing train data:  17%|█▋        | 7401/44578 [00:01<00:08, 4572.38it/s]processing train data:  18%|█▊        | 7864/44578 [00:01<00:08, 4550.65it/s]processing train data:  19%|█▉        | 8373/44578 [00:01<00:07, 4707.04it/s]processing train data:  20%|█▉        | 8863/44578 [00:01<00:07, 4763.62it/s]processing train data:  21%|██        | 9342/44578 [00:02<00:09, 3817.39it/s]processing train data:  22%|██▏       | 9887/44578 [00:02<00:08, 4229.09it/s]processing train data:  23%|██▎       | 10340/44578 [00:02<00:08, 4248.93it/s]processing train data:  24%|██▍       | 10786/44578 [00:02<00:07, 4288.57it/s]processing train data:  26%|██▌       | 11378/44578 [00:02<00:06, 4743.25it/s]processing train data:  27%|██▋       | 11867/44578 [00:02<00:06, 4736.73it/s]processing train data:  28%|██▊       | 12359/44578 [00:02<00:06, 4788.90it/s]processing train data:  29%|██▉       | 12845/44578 [00:02<00:06, 4799.82it/s]processing train data:  30%|██▉       | 13330/44578 [00:03<00:08, 3843.33it/s]processing train data:  31%|███       | 13854/44578 [00:03<00:07, 4193.06it/s]processing train data:  32%|███▏      | 14304/44578 [00:03<00:07, 4228.20it/s]processing train data:  33%|███▎      | 14833/44578 [00:03<00:06, 4515.66it/s]processing train data:  34%|███▍      | 15303/44578 [00:03<00:06, 4559.34it/s]processing train data:  35%|███▌      | 15772/44578 [00:03<00:06, 4546.45it/s]processing train data:  36%|███▋      | 16236/44578 [00:03<00:06, 4541.16it/s]processing train data:  37%|███▋      | 16697/44578 [00:03<00:06, 4553.91it/s]processing train data:  39%|███▊      | 17226/44578 [00:03<00:05, 4768.77it/s]processing train data:  40%|███▉      | 17707/44578 [00:03<00:05, 4723.94it/s]processing train data:  41%|████      | 18183/44578 [00:04<00:05, 4693.47it/s]processing train data:  42%|████▏     | 18655/44578 [00:04<00:06, 3780.27it/s]processing train data:  43%|████▎     | 19135/44578 [00:04<00:06, 4037.10it/s]processing train data:  44%|████▍     | 19565/44578 [00:04<00:06, 4078.27it/s]processing train data:  45%|████▌     | 20222/44578 [00:04<00:05, 4758.19it/s]processing train data:  46%|████▋     | 20718/44578 [00:04<00:05, 4767.18it/s]processing train data:  48%|████▊     | 21209/44578 [00:04<00:04, 4728.60it/s]processing train data:  49%|████▉     | 21773/44578 [00:04<00:04, 4988.28it/s]processing train data:  50%|████▉     | 22280/44578 [00:04<00:04, 4999.64it/s]processing train data:  51%|█████     | 22786/44578 [00:05<00:05, 3995.34it/s]processing train data:  52%|█████▏    | 23333/44578 [00:05<00:04, 4362.83it/s]processing train data:  53%|█████▎    | 23832/44578 [00:05<00:04, 4526.98it/s]processing train data:  55%|█████▍    | 24310/44578 [00:05<00:04, 4539.43it/s]processing train data:  56%|█████▌    | 24851/44578 [00:05<00:04, 4780.93it/s]processing train data:  57%|█████▋    | 25390/44578 [00:05<00:03, 4953.33it/s]processing train data:  58%|█████▊    | 25897/44578 [00:05<00:03, 4897.02it/s]processing train data:  60%|█████▉    | 26552/44578 [00:05<00:03, 5373.41it/s]processing train data:  61%|██████    | 27097/44578 [00:06<00:04, 4278.54it/s]processing train data:  62%|██████▏   | 27565/44578 [00:06<00:03, 4330.23it/s]processing train data:  63%|██████▎   | 28027/44578 [00:06<00:03, 4352.20it/s]processing train data:  64%|██████▍   | 28483/44578 [00:06<00:03, 4367.87it/s]processing train data:  65%|██████▍   | 28936/44578 [00:06<00:03, 4411.91it/s]processing train data:  66%|██████▌   | 29388/44578 [00:06<00:03, 4390.00it/s]processing train data:  67%|██████▋   | 29943/44578 [00:06<00:03, 4719.79it/s]processing train data:  68%|██████▊   | 30458/44578 [00:06<00:03, 3945.09it/s]processing train data:  69%|██████▉   | 30978/44578 [00:06<00:03, 4260.98it/s]processing train data:  71%|███████   | 31515/44578 [00:07<00:02, 4553.79it/s]processing train data:  72%|███████▏  | 31992/44578 [00:07<00:02, 4572.02it/s]processing train data:  73%|███████▎  | 32465/44578 [00:07<00:02, 4557.39it/s]processing train data:  74%|███████▍  | 33042/44578 [00:07<00:02, 4900.12it/s]processing train data:  75%|███████▌  | 33542/44578 [00:07<00:02, 4912.60it/s]processing train data:  76%|███████▋  | 34040/44578 [00:07<00:02, 4855.99it/s]processing train data:  77%|███████▋  | 34531/44578 [00:07<00:02, 4803.94it/s]processing train data:  79%|███████▊  | 35015/44578 [00:07<00:02, 3898.77it/s]processing train data:  79%|███████▉  | 35434/44578 [00:07<00:02, 3958.53it/s]processing train data:  80%|████████  | 35852/44578 [00:08<00:02, 4010.45it/s]processing train data:  81%|████████▏ | 36269/44578 [00:08<00:02, 4031.26it/s]processing train data:  82%|████████▏ | 36684/44578 [00:08<00:01, 4042.55it/s]processing train data:  83%|████████▎ | 37097/44578 [00:08<00:01, 4061.50it/s]processing train data:  84%|████████▍ | 37543/44578 [00:08<00:01, 4176.42it/s]processing train data:  85%|████████▌ | 38111/44578 [00:08<00:01, 4614.75it/s]processing train data:  87%|████████▋ | 38788/44578 [00:08<00:01, 5248.84it/s]processing train data:  88%|████████▊ | 39392/44578 [00:08<00:00, 5482.60it/s]processing train data:  90%|████████▉ | 39944/44578 [00:08<00:00, 5447.59it/s]processing train data:  91%|█████████ | 40492/44578 [00:08<00:00, 5435.33it/s]processing train data:  92%|█████████▏| 41038/44578 [00:09<00:00, 5398.36it/s]processing train data:  94%|█████████▎| 41683/44578 [00:09<00:00, 5708.83it/s]processing train data:  95%|█████████▍| 42256/44578 [00:09<00:00, 5658.26it/s]processing train data:  96%|█████████▌| 42823/44578 [00:09<00:00, 5647.21it/s]processing train data:  97%|█████████▋| 43389/44578 [00:09<00:00, 4527.36it/s]processing train data:  98%|█████████▊| 43890/44578 [00:09<00:00, 4649.39it/s]processing train data: 100%|█████████▉| 44383/44578 [00:09<00:00, 4711.87it/s]processing train data: 100%|██████████| 44578/44578 [00:09<00:00, 4588.55it/s]
+Done!
+Processing...
+processing valid data:   0%|          | 0/5572 [00:00<?, ?it/s]processing valid data:  12%|█▏        | 685/5572 [00:00<00:01, 3869.03it/s]processing valid data:  19%|█▉        | 1072/5572 [00:00<00:01, 3859.34it/s]processing valid data:  26%|██▌       | 1458/5572 [00:00<00:01, 3801.66it/s]processing valid data:  33%|███▎      | 1838/5572 [00:00<00:01, 3728.34it/s]processing valid data:  41%|████      | 2293/5572 [00:00<00:00, 4000.50it/s]processing valid data:  49%|████▉     | 2729/5572 [00:00<00:00, 4115.32it/s]processing valid data:  57%|█████▋    | 3174/5572 [00:00<00:00, 4220.34it/s]processing valid data:  65%|██████▍   | 3598/5572 [00:00<00:00, 4138.59it/s]processing valid data:  72%|███████▏  | 4033/5572 [00:00<00:00, 4202.34it/s]processing valid data:  80%|████████  | 4470/5572 [00:01<00:00, 4252.82it/s]processing valid data:  88%|████████▊ | 4897/5572 [00:01<00:00, 3342.83it/s]processing valid data:  94%|█████████▍| 5262/5572 [00:01<00:00, 3399.75it/s]processing valid data: 100%|██████████| 5572/5572 [00:01<00:00, 3768.60it/s]
+Done!
+Processing...
+processing test data:   0%|          | 0/5573 [00:00<?, ?it/s]processing test data:  16%|█▌        | 873/5573 [00:00<00:00, 5222.90it/s]processing test data:  25%|██▌       | 1396/5573 [00:00<00:00, 4963.73it/s]processing test data:  34%|███▍      | 1888/5573 [00:00<00:00, 4850.04it/s]processing test data:  43%|████▎     | 2369/5573 [00:00<00:00, 3713.84it/s]processing test data:  50%|████▉     | 2771/5573 [00:00<00:00, 3798.33it/s]processing test data:  57%|█████▋    | 3167/5573 [00:00<00:00, 3811.75it/s]processing test data:  64%|██████▍   | 3560/5573 [00:00<00:00, 3807.53it/s]processing test data:  71%|███████   | 3949/5573 [00:00<00:00, 3824.77it/s]processing test data:  78%|███████▊  | 4342/5573 [00:01<00:00, 3855.12it/s]processing test data:  86%|████████▌ | 4783/5573 [00:01<00:00, 4017.68it/s]processing test data:  93%|█████████▎| 5189/5573 [00:01<00:00, 4030.09it/s]processing test data: 100%|██████████| 5573/5573 [00:01<00:00, 4048.50it/s]
+Done!
+{
+  "aliases": {
+    "aliases": [
+      {
+        "path": "/root/autodl-tmp/TextResidualSHFMat/Dataset/processed/Jarvis-TotalEnergy-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-train-CGCNN.pt",
+        "source": "existing_plain"
+      },
+      {
+        "path": "/root/autodl-tmp/TextResidualSHFMat/Dataset/processed/Jarvis-TotalEnergy-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-valid-CGCNN.pt",
+        "source": "existing_plain"
+      },
+      {
+        "path": "/root/autodl-tmp/TextResidualSHFMat/Dataset/processed/Jarvis-TotalEnergy-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-test-CGCNN.pt",
+        "source": "existing_plain"
+      }
+    ],
+    "retargeted": null,
+    "task": "Jarvis-TotalEnergy"
+  },
+  "data_loader_workers": 2,
+  "dataset": "JARVIS",
+  "drop_last": false,
+  "graph_target_mean": -3.214447259902954,
+  "graph_target_std": 2.1312344074249268,
+  "graph_total": 55723,
+  "model_checks": {
+    "ours": {
+      "autocast_dtype": "bfloat16",
+      "effective_token_count_min": 124.56969451904297,
+      "k_norm_after_max_deviation": 1.1920928955078125e-07,
+      "padding_attention_max": 0.0,
+      "parameter_count": 2800739,
+      "prediction_finite": true,
+      "prediction_shape": [
+        4
+      ],
+      "q_norm_after_max_deviation": 0.0,
+      "special_token_attention_max": 0.0,
+      "temperature": 0.5
+    }
+  },
+  "pin_memory": false,
+  "property": "TotalEnergy",
+  "protocol": {
+    "bandgap_nonnegative_clipping": true,
+    "batch_size": 32,
+    "checkpoint_selection": "best Valid MAE only",
+    "data_loader_workers": 2,
+    "drop_last": false,
+    "epochs": 300,
+    "eval_batch_size": 64,
+    "lr": 0.001,
+    "matbert_max_length": 128,
+    "max_lr": 0.001,
+    "models": [
+      "ours"
+    ],
+    "optimizer": "AdamW",
+    "original_loss": "MAE(property,target)",
+    "ours_loss": "MAE(final,target)+0.2*MAE(graph,target)",
+    "ours_temperature": 0.5,
+    "pin_memory": false,
+    "prefetch_factor": 1,
+    "scheduler": "OneCycleLR",
+    "seeds": [
+      42
+    ],
+    "tasks": [
+      "Jarvis-Bandgap_MBJ",
+      "Jarvis-Bandgap_OPT",
+      "Jarvis-FormationEnergy",
+      "Jarvis-TotalEnergy",
+      "Jarvis-BulkModulusKv",
+      "Jarvis-ShearModulusGv",
+      "MP-Bandgap",
+      "MP-FormationEnergy",
+      "MP-BulkModuli",
+      "MP-ShearModuli"
+    ],
+    "torch_multiprocessing_sharing_strategy": "file_system",
+    "training_dtype": "bfloat16",
+    "weight_decay": 0.0001
+  },
+  "protocol_sha256": "1c0de7770307b627f62cf48e28cd65816b801b11574153f29af71667151fcb5f",
+  "split_sizes": {
+    "test": 5573,
+    "train": 44578,
+    "valid": 5572
+  },
+  "status": "passed",
+  "task": "Jarvis-TotalEnergy",
+  "token_cache_rows": 55723,
+  "token_cache_sha256": "74c804c038fc081aafba6f47ef2d9f91a6ee8ba295f55d18ebf1695ea47120a5",
+  "token_cache_shape": [
+    55723,
+    128,
+    768
+  ],
+  "torch_multiprocessing_sharing_strategy": "file_system"
+}

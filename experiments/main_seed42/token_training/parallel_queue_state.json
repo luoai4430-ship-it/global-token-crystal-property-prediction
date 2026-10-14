@@ -1,0 +1,22 @@
+{
+  "active": [],
+  "completed_test": 0,
+  "completed_valid": 0,
+  "current_task": "MP-ShearModuli",
+  "expected_test": 10,
+  "expected_valid": 10,
+  "failed": [
+    {
+      "error": "valid failed for MP-ShearModuli with exit 1; see /root/final_10task_ours_seed42_20260810_tau05/logs/MP-ShearModuli_ours_seed42_valid.log",
+      "error_type": "RuntimeError",
+      "failed_at_unix": 1786348455.2497275,
+      "traceback": "Traceback (most recent call last):\n  File \"/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_ours_seed42_queue.py\", line 212, in main\n    execute_wave(index, wave, \"valid\")\n  File \"/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_ours_seed42_queue.py\", line 177, in execute_wave\n    raise RuntimeError(\nRuntimeError: valid failed for MP-ShearModuli with exit 1; see /root/final_10task_ours_seed42_20260810_tau05/logs/MP-ShearModuli_ours_seed42_valid.log\n"
+    }
+  ],
+  "phase": "recovery_preparing",
+  "scope": "Ours only, ten tasks, seed 42; Original SFTMAT frozen",
+  "started_at_unix": 1786345761.1300216,
+  "status": "FAILED",
+  "updated_at_unix": 1786349957.3927958,
+  "wave": 1
+}

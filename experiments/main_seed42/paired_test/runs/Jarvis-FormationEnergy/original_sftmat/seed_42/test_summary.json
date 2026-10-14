@@ -1,0 +1,21 @@
+{
+  "best_valid_epoch": 299,
+  "checkpoint": "/root/autodl-tmp/e1_missing_original_seed42_20260822/runs/Jarvis-FormationEnergy/original_sftmat/seed_42/best_valid.pt",
+  "checkpoint_sha256": "590551d3c0264c6d41e43ec7b715beced084effc2fe88fed9eed56a6d10048fd",
+  "input": "exact-source regenerated MatBERT token cache",
+  "model_name": "original_sftmat",
+  "seed": 42,
+  "selected_by": "Valid only",
+  "status": "test_complete",
+  "task": "Jarvis-FormationEnergy",
+  "test_forward_count": 1,
+  "test_mae": 0.028963685217524866,
+  "test_size": 5573,
+  "test_used_for_selection": false,
+  "token_cache_exact_source_manifest": true,
+  "token_cache_sha256_expected": "ad6d565e1270c8ec8dc5a8068249195b2307de7570fc1cf493b1d5438e288d26",
+  "token_cache_sha256_regenerated": "ad6d565e1270c8ec8dc5a8068249195b2307de7570fc1cf493b1d5438e288d26",
+  "valid_mae_replayed": 0.028895426169840106,
+  "valid_mae_saved": 0.028965817260297184,
+  "valid_replay_tolerance": 0.001
+}

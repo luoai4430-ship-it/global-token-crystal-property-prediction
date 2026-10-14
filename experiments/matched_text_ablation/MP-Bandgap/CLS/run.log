@@ -1,0 +1,58 @@
+MP-Bandgap CLS epoch=1/300 valid_mae=0.62752824 best=0.62752824
+MP-Bandgap CLS epoch=10/300 valid_mae=0.38005980 best=0.38005980
+MP-Bandgap CLS epoch=20/300 valid_mae=0.34302557 best=0.34302557
+MP-Bandgap CLS epoch=30/300 valid_mae=0.36393606 best=0.31304815
+MP-Bandgap CLS epoch=40/300 valid_mae=0.30852983 best=0.30852983
+MP-Bandgap CLS epoch=50/300 valid_mae=0.28560037 best=0.28560037
+MP-Bandgap CLS epoch=60/300 valid_mae=0.30889807 best=0.28560037
+MP-Bandgap CLS epoch=70/300 valid_mae=0.29641722 best=0.27973739
+MP-Bandgap CLS epoch=80/300 valid_mae=0.28300642 best=0.26686663
+MP-Bandgap CLS epoch=90/300 valid_mae=0.27805073 best=0.26231909
+MP-Bandgap CLS epoch=100/300 valid_mae=0.25361793 best=0.25361793
+MP-Bandgap CLS epoch=110/300 valid_mae=0.25905619 best=0.25159860
+MP-Bandgap CLS epoch=120/300 valid_mae=0.24467539 best=0.24272160
+MP-Bandgap CLS epoch=130/300 valid_mae=0.24422283 best=0.23947312
+MP-Bandgap CLS epoch=140/300 valid_mae=0.23830561 best=0.23830561
+MP-Bandgap CLS epoch=150/300 valid_mae=0.23245304 best=0.23245304
+MP-Bandgap CLS epoch=160/300 valid_mae=0.24530601 best=0.23073662
+MP-Bandgap CLS epoch=170/300 valid_mae=0.23334744 best=0.23073662
+MP-Bandgap CLS epoch=180/300 valid_mae=0.23443978 best=0.22708140
+MP-Bandgap CLS epoch=190/300 valid_mae=0.22629140 best=0.22398226
+MP-Bandgap CLS epoch=200/300 valid_mae=0.22355381 best=0.22230292
+MP-Bandgap CLS epoch=210/300 valid_mae=0.22254306 best=0.22097108
+MP-Bandgap CLS epoch=220/300 valid_mae=0.22195220 best=0.21932253
+MP-Bandgap CLS epoch=230/300 valid_mae=0.22126770 best=0.21869070
+MP-Bandgap CLS epoch=240/300 valid_mae=0.21986865 best=0.21821372
+MP-Bandgap CLS epoch=250/300 valid_mae=0.21943971 best=0.21717972
+MP-Bandgap CLS epoch=260/300 valid_mae=0.21923294 best=0.21717972
+MP-Bandgap CLS epoch=270/300 valid_mae=0.21894919 best=0.21717972
+MP-Bandgap CLS epoch=280/300 valid_mae=0.21883500 best=0.21717972
+MP-Bandgap CLS epoch=290/300 valid_mae=0.21779951 best=0.21717972
+MP-Bandgap CLS epoch=300/300 valid_mae=0.21847920 best=0.21717972
+{
+  "task": "MP-Bandgap",
+  "dataset": "MP",
+  "property_family": "Electronic",
+  "variant": "CLS",
+  "seed": 42,
+  "best_epoch": 245,
+  "best_valid_mae": 0.21717971924630988,
+  "final_valid_mae": 0.21847920453188202,
+  "mean": 1.3502678866666666,
+  "std": 1.6265326250106609,
+  "trainable_params": 2636514,
+  "checkpoint_path": "/root/autodl-tmp/TextResidualSHFMat/matched_ablation_runs/MP-Bandgap/CLS/best_valid.pt",
+  "test_forward_count": 0,
+  "runtime_sec": 29338.81854248047,
+  "train_samples": 60000,
+  "valid_samples": 5000,
+  "mean_eligible_token_count": 124.4382,
+  "median_eligible_token_count": 126.0,
+  "attention_entropy_mean": null,
+  "attention_entropy_median": null,
+  "attention_effective_token_count_mean": null,
+  "attention_effective_token_count_median": null,
+  "attention_mean_max": null,
+  "zero_text_fallback_count": 0,
+  "zero_text_fallback_ids": []
+}

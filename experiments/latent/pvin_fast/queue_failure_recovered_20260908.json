@@ -1,0 +1,9 @@
+{
+  "completed_training_runs": 4,
+  "error": "AssertionError('best-state validation MAE changed')",
+  "failed_at_unix": 1788854989.7893927,
+  "phase": "failed",
+  "status": "FAILED",
+  "test_forward_count": 0,
+  "traceback": "Traceback (most recent call last):\n  File \"/root/run_pvin_fast_queue.py\", line 896, in main\n    train_one(task, variant, token_cache)\n  File \"/root/run_pvin_fast_queue.py\", line 533, in train_one\n    raise AssertionError(\"best-state validation MAE changed\")\nAssertionError: best-state validation MAE changed\n"
+}

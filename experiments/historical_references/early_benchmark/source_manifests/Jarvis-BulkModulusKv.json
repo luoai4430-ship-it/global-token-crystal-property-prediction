@@ -1,0 +1,27 @@
+{
+  "complete_sha256": "3b701fe51689de7dd49970e466fc2bd024c991b88fdf4438530bd387ed3d3e6b",
+  "complete_unique_coverage": true,
+  "description_generator": "original source plus deterministic CIF fallback only for missing rows",
+  "dropped_source_count": 0,
+  "expected_samples": 19680,
+  "generated_missing_count": 11,
+  "generated_missing_ids": [
+    "4999",
+    "9999",
+    "13252",
+    "14305",
+    "14701",
+    "14702",
+    "14722",
+    "14723",
+    "14725",
+    "14726",
+    "14999"
+  ],
+  "id_column": "Id",
+  "source_csv": "/root/autodl-tmp/dataset1/dataset/jarvis/bulk_modulus_kv/description.csv",
+  "source_samples": 19669,
+  "source_sha256": "476fa7ee36161657ceabef4e992675449f90ca0dac14d14b13eaf5980bde3087",
+  "task": "Jarvis-BulkModulusKv",
+  "text_column": "Description"
+}

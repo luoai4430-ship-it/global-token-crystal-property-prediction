@@ -47,6 +47,7 @@ implementation; see [the code review](docs/PAPER_V24_CODE_AUDIT.md).
 | `data/manifests/` | Source-snapshot references and formal processed split sizes |
 | `results/` | Published main results and validation diagnostics |
 | `metadata/` | Registries and server/local source comparison |
+| `experiments/` | Available raw run logs, histories, configurations, saved predictions, freeze/recovery records, and source hashes; see its evidence index |
 | `software/` | Environment specifications and recorded package versions |
 | `docs/` | Model/data cards, reproducibility notes, and code review |
 
@@ -272,6 +273,12 @@ wins over Global and 9/10 wins over both constituents per run. Exact replay
 needs the historical checkpoint/cache snapshots as well as these sources.
 
 ## Validation-only studies
+
+The [experiment evidence index](experiments/README.md) links the imported
+server records and verified local server-audit backups to the final paper.
+It distinguishes completed evidence, incomplete attempts, and superseded
+baseline comparisons. Run records are real files rather than external
+directory symlinks; checkpoints and large graph/token caches are excluded.
 
 The matched CLS/mean/cosine ablation and interaction studies have their own
 task coverage and budgets. Their results are in `results/diagnostics/`;

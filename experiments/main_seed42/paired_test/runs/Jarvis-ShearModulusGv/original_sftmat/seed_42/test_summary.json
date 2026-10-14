@@ -1,0 +1,21 @@
+{
+  "best_valid_epoch": 221,
+  "checkpoint": "/root/autodl-tmp/e1_missing_original_seed42_20260822/runs/Jarvis-ShearModulusGv/original_sftmat/seed_42/best_valid.pt",
+  "checkpoint_sha256": "86796feb12abe04aa9654831b0f6762040b2a8b71dec6ee36a0146af301bba31",
+  "input": "exact-source regenerated MatBERT token cache",
+  "model_name": "original_sftmat",
+  "seed": 42,
+  "selected_by": "Valid only",
+  "status": "test_complete",
+  "task": "Jarvis-ShearModulusGv",
+  "test_forward_count": 1,
+  "test_mae": 8.944808572288451,
+  "test_size": 1968,
+  "test_used_for_selection": false,
+  "token_cache_exact_source_manifest": true,
+  "token_cache_sha256_expected": "85f6c76085c0266256f0dae617c29f9a8d469f80cfa7e5fa288f154f4b2c939a",
+  "token_cache_sha256_regenerated": "85f6c76085c0266256f0dae617c29f9a8d469f80cfa7e5fa288f154f4b2c939a",
+  "valid_mae_replayed": 8.683717216902632,
+  "valid_mae_saved": 8.686197187842392,
+  "valid_replay_tolerance": 0.08686197187842393
+}

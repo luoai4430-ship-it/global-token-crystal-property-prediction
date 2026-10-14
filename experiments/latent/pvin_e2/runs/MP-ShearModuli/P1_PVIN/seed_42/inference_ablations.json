@@ -1,0 +1,10 @@
+{
+  "ablations": {
+    "full": 0.0711912021015357,
+    "zero_all_interactions": 0.07670486954841156,
+    "zero_u_ct": 0.07206982282177253,
+    "zero_u_gc": 0.07198718726941693,
+    "zero_u_gt": 0.07259101585499418
+  },
+  "test_forward_count": 0
+}

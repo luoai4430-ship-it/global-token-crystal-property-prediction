@@ -1,0 +1,28 @@
+{
+  "active": [],
+  "completed_at_unix": 1788899930.381232,
+  "completed_training_runs": 16,
+  "current_task": "MP-BulkModuli",
+  "current_variant": "P1_PVIN",
+  "expected_training_runs": 16,
+  "failed": [],
+  "max_training_processes": 1,
+  "phase": "complete",
+  "seed": 42,
+  "started_at_unix": 1788846488.2032616,
+  "status": "COMPLETED",
+  "tasks": [
+    "Jarvis-Bandgap_MBJ",
+    "Jarvis-BulkModulusKv",
+    "MP-Bandgap",
+    "MP-BulkModuli"
+  ],
+  "test_forward_count": 0,
+  "updated_at_unix": 1788899930.3816094,
+  "variants": [
+    "B0_TokenOnly",
+    "B1_NaiveConcat",
+    "P0_AuxConcat",
+    "P1_PVIN"
+  ]
+}

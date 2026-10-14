@@ -1,0 +1,58 @@
+MP-ShearModuli CLS epoch=1/300 valid_mae=0.15640713 best=0.15640713
+MP-ShearModuli CLS epoch=10/300 valid_mae=0.10473377 best=0.10473377
+MP-ShearModuli CLS epoch=20/300 valid_mae=0.09790103 best=0.09666789
+MP-ShearModuli CLS epoch=30/300 valid_mae=0.09603409 best=0.09127551
+MP-ShearModuli CLS epoch=40/300 valid_mae=0.08983966 best=0.08763768
+MP-ShearModuli CLS epoch=50/300 valid_mae=0.08809507 best=0.08763768
+MP-ShearModuli CLS epoch=60/300 valid_mae=0.08842526 best=0.07889114
+MP-ShearModuli CLS epoch=70/300 valid_mae=0.08954848 best=0.07889114
+MP-ShearModuli CLS epoch=80/300 valid_mae=0.08976279 best=0.07889114
+MP-ShearModuli CLS epoch=90/300 valid_mae=0.08218802 best=0.07889114
+MP-ShearModuli CLS epoch=100/300 valid_mae=0.07720472 best=0.07617396
+MP-ShearModuli CLS epoch=110/300 valid_mae=0.07736026 best=0.07617396
+MP-ShearModuli CLS epoch=120/300 valid_mae=0.07785105 best=0.07526092
+MP-ShearModuli CLS epoch=130/300 valid_mae=0.07436373 best=0.07399723
+MP-ShearModuli CLS epoch=140/300 valid_mae=0.07420225 best=0.07399723
+MP-ShearModuli CLS epoch=150/300 valid_mae=0.07336696 best=0.07336696
+MP-ShearModuli CLS epoch=160/300 valid_mae=0.07252327 best=0.07252327
+MP-ShearModuli CLS epoch=170/300 valid_mae=0.07416990 best=0.07176781
+MP-ShearModuli CLS epoch=180/300 valid_mae=0.07045579 best=0.07045579
+MP-ShearModuli CLS epoch=190/300 valid_mae=0.07111394 best=0.07045579
+MP-ShearModuli CLS epoch=200/300 valid_mae=0.07169077 best=0.07011272
+MP-ShearModuli CLS epoch=210/300 valid_mae=0.07179695 best=0.07011272
+MP-ShearModuli CLS epoch=220/300 valid_mae=0.07132846 best=0.06998707
+MP-ShearModuli CLS epoch=230/300 valid_mae=0.07141037 best=0.06998707
+MP-ShearModuli CLS epoch=240/300 valid_mae=0.07122098 best=0.06998707
+MP-ShearModuli CLS epoch=250/300 valid_mae=0.07049855 best=0.06998707
+MP-ShearModuli CLS epoch=260/300 valid_mae=0.07056623 best=0.06941153
+MP-ShearModuli CLS epoch=270/300 valid_mae=0.07072004 best=0.06941153
+MP-ShearModuli CLS epoch=280/300 valid_mae=0.07034537 best=0.06941153
+MP-ShearModuli CLS epoch=290/300 valid_mae=0.07031391 best=0.06941153
+MP-ShearModuli CLS epoch=300/300 valid_mae=0.07011109 best=0.06941153
+{
+  "task": "MP-ShearModuli",
+  "dataset": "MP",
+  "property_family": "Mechanical",
+  "variant": "CLS",
+  "seed": 42,
+  "best_epoch": 257,
+  "best_valid_mae": 0.06941152516889758,
+  "final_valid_mae": 0.07011108964501729,
+  "mean": 1.6156670881204251,
+  "std": 0.36739313734078166,
+  "trainable_params": 2653154,
+  "checkpoint_path": "/root/autodl-tmp/TextResidualSHFMat/matched_ablation_runs/MP-ShearModuli/CLS/best_valid.pt",
+  "test_forward_count": 0,
+  "runtime_sec": 1181.377794265747,
+  "train_samples": 4659,
+  "valid_samples": 582,
+  "mean_eligible_token_count": 120.73539518900344,
+  "median_eligible_token_count": 126.0,
+  "attention_entropy_mean": null,
+  "attention_entropy_median": null,
+  "attention_effective_token_count_mean": null,
+  "attention_effective_token_count_median": null,
+  "attention_mean_max": null,
+  "zero_text_fallback_count": 0,
+  "zero_text_fallback_ids": []
+}

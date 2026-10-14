@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-14",
+  "profile": "server_scripts",
+  "training_runs_started": 0,
+  "test_evaluations_started": 0,
+  "roots": [
+    {
+      "destination": "matched_text_ablation/source/matched_text_ablation_runner.py",
+      "source_root": "/root/autodl-tmp/TextResidualSHFMat/matched_text_ablation_runner.py",
+      "exists": true,
+      "exported_files": 1
+    },
+    {
+      "destination": "matched_text_ablation/source/prepare_matched_inputs.py",
+      "source_root": "/root/autodl-tmp/TextResidualSHFMat/prepare_matched_inputs.py",
+      "exists": true,
+      "exported_files": 1
+    },
+    {
+      "destination": "matched_text_ablation/source/matched_ablation_queue.sh",
+      "source_root": "/root/autodl-tmp/TextResidualSHFMat/matched_ablation_queue.sh",
+      "exists": true,
+      "exported_files": 1
+    },
+    {
+      "destination": "matched_text_ablation/queue.log",
+      "source_root": "/root/matched_ablation_queue.log",
+      "exists": true,
+      "exported_files": 1
+    },
+    {
+      "destination": "matched_text_ablation/queue_launcher.log",
+      "source_root": "/root/matched_ablation_queue_launcher.log",
+      "exists": true,
+      "exported_files": 1
+    },
+    {
+      "destination": "matched_text_ablation/recovery.log",
+      "source_root": "/root/matched_ablation_recovery.log",
+      "exists": true,
+      "exported_files": 1
+    },
+    {
+      "destination": "matched_text_ablation/source/matched_ablation_recovery.sh",
+      "source_root": "/root/matched_ablation_recovery.sh",
+      "exists": true,
+      "exported_files": 1
+    }
+  ],
+  "files": [
+    {
+      "path": "experiments/matched_text_ablation/source/matched_text_ablation_runner.py",
+      "source": "/root/autodl-tmp/TextResidualSHFMat/matched_text_ablation_runner.py",
+      "bytes": 15091,
+      "sha256": "d1832b65e3989ec0ff728ef1fcc708896e248669872a6b021e2b25f01d882f54"
+    },
+    {
+      "path": "experiments/matched_text_ablation/source/prepare_matched_inputs.py",
+      "source": "/root/autodl-tmp/TextResidualSHFMat/prepare_matched_inputs.py",
+      "bytes": 6071,
+      "sha256": "de9bd87c4e8e5b7ecb8206ea7af497a0566255cad3a56676e3969d06a467a7d4"
+    },
+    {
+      "path": "experiments/matched_text_ablation/source/matched_ablation_queue.sh",
+      "source": "/root/autodl-tmp/TextResidualSHFMat/matched_ablation_queue.sh",
+      "bytes": 3127,
+      "sha256": "f0572cf9ec7aba24aa386f7f2d85ef4c5020447a71f03a1f218cfdfb12b1d0e7"
+    },
+    {
+      "path": "experiments/matched_text_ablation/queue.log",
+      "source": "/root/matched_ablation_queue.log",
+      "bytes": 73997,
+      "sha256": "0bd3ffba51e46cde574a69d106553fab9e63d5169683e6b420c10287e01bf91b"
+    },
+    {
+      "path": "experiments/matched_text_ablation/queue_launcher.log",
+      "source": "/root/matched_ablation_queue_launcher.log",
+      "bytes": 32537,
+      "sha256": "a036d413e2e21497a9a5365640b8e181cc8009ad9d183a99e4be52d21dc4aa1c"
+    },
+    {
+      "path": "experiments/matched_text_ablation/recovery.log",
+      "source": "/root/matched_ablation_recovery.log",
+      "bytes": 552,
+      "sha256": "1d94f304e9604b98882bdf2ef0006fc77d8279312a030baa8334f8e37d6eb2a3"
+    },
+    {
+      "path": "experiments/matched_text_ablation/source/matched_ablation_recovery.sh",
+      "source": "/root/matched_ablation_recovery.sh",
+      "bytes": 2213,
+      "sha256": "ce58bd99d0986b4f2864da32d1ab0277044450b5dc094af2627317682b1a3cb4"
+    }
+  ],
+  "excluded": []
+}

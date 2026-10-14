@@ -1,0 +1,7 @@
+skip completed Jarvis-Bandgap_MBJ
+skip completed Jarvis-FormationEnergy
+skip completed Jarvis-BulkModulusKv
+launch MP-Bandgap
+launch MP-FormationEnergy
+launch MP-ShearModuli
+a child process failed

@@ -1,0 +1,9 @@
+QUEUE_START 2026-09-16T12:15:03+08:00
+CACHE_READY mp_shear 2026-09-16T12:15:18+08:00
+START MP-ShearModuli CLS pid=81607 2026-09-16T12:15:18+08:00
+START MP-ShearModuli MaskedMean pid=81611 2026-09-16T12:15:18+08:00
+DONE_BATCH MP-ShearModuli offset=0 2026-09-16T12:35:05+08:00
+START MP-ShearModuli CosineAttention pid=83742 2026-09-16T12:35:05+08:00
+DONE_BATCH MP-ShearModuli offset=2 2026-09-16T12:54:59+08:00
+DONE_GROUP MP-ShearModuli 2026-09-16T12:54:59+08:00
+/root/matched_ablation_recovery.sh: line 68: unexpected EOF while looking for matching `"'

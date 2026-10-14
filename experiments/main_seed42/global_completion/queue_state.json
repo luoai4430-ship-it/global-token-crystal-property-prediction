@@ -1,0 +1,26 @@
+{
+  "status": "COMPLETE",
+  "seed": 42,
+  "tasks": [
+    "Jarvis-Bandgap_OPT",
+    "Jarvis-FormationEnergy",
+    "Jarvis-ShearModulusGv",
+    "MP-ShearModuli"
+  ],
+  "expected_runs": 4,
+  "completed_runs": 4,
+  "failed": [
+    {
+      "error": "RuntimeError('command failed (1); see /root/e1_missing_original_seed42_20260822/logs/cache/Jarvis-FormationEnergy_valid_only_preflight.log')",
+      "traceback": "Traceback (most recent call last):\n  File \"/root/run_e1_missing_original_queue.py\", line 54, in main\n    scratch, token_cache = cache_queue.prepare_task(task, \"valid_only\")\n  File \"/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_queue.py\", line 253, in prepare_task\n    run_checked(\n  File \"/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_queue.py\", line 228, in run_checked\n    raise RuntimeError(f\"command failed ({result.returncode}); see {log_path}\")\nRuntimeError: command failed (1); see /root/e1_missing_original_seed42_20260822/logs/cache/Jarvis-FormationEnergy_valid_only_preflight.log\n"
+    }
+  ],
+  "test_runs": 0,
+  "test_forward_count": 0,
+  "started_at_unix": 1787380320.8788288,
+  "phase": "complete",
+  "current_task": null,
+  "active": [],
+  "updated_at_unix": 1787461465.3647325,
+  "finished_at_unix": 1787461465.3646004
+}

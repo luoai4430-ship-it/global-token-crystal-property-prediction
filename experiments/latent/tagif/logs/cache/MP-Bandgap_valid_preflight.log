@@ -1,0 +1,145 @@
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_tagif_fast_screen.py preflight --task MP-Bandgap --token_cache /dev/shm/tagif_fast_screen_seed42_20260902/MP-Bandgap/token_cache --scratch /dev/shm/tagif_fast_screen_seed42_20260902/MP-Bandgap --output_root /root/tagif_fast_screen_seed42_20260902 --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda
+dataset split: total=65516, train=60000, valid=5000, test=516
+train range:(0.0,17.891399383544922)
+valid range:(0.0,8.311300277709961)
+test range:(0.0,7.539400100708008)
+mean:1.350268006324768
+std:1.6265326738357544
+{
+  "aliases": {
+    "aliases": [
+      {
+        "path": "/root/autodl-tmp/TextResidualSHFMat/Dataset/processed/MP-Bandgap-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-train-CGCNN.pt",
+        "source": "existing_plain"
+      },
+      {
+        "path": "/root/autodl-tmp/TextResidualSHFMat/Dataset/processed/MP-Bandgap-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-valid-CGCNN.pt",
+        "source": "existing_plain"
+      },
+      {
+        "path": "/root/autodl-tmp/TextResidualSHFMat/Dataset/processed/MP-Bandgap-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-test-CGCNN.pt",
+        "source": "existing_plain"
+      }
+    ],
+    "retargeted": null,
+    "task": "MP-Bandgap"
+  },
+  "model_checks": {
+    "B0_TokenOnly": {
+      "effective_token_count_min": 124.71399688720703,
+      "forbidden_modules_absent": true,
+      "hc_perp_ht_max_abs_cosine": null,
+      "padding_attention_max": 0.0,
+      "parameter_count": 2767586,
+      "prediction_shape": [
+        4
+      ],
+      "single_prediction_head": true,
+      "single_sftgnn": true,
+      "special_token_attention_max": 0.0,
+      "temperature": 0.5
+    },
+    "B1_NaiveConcat": {
+      "effective_token_count_min": 124.70912170410156,
+      "forbidden_modules_absent": true,
+      "hc_perp_ht_max_abs_cosine": null,
+      "padding_attention_max": 0.0,
+      "parameter_count": 2882658,
+      "prediction_shape": [
+        4
+      ],
+      "single_prediction_head": true,
+      "single_sftgnn": true,
+      "special_token_attention_max": 0.0,
+      "temperature": 0.5
+    },
+    "P1_TAGIF": {
+      "effective_token_count_min": 124.70531463623047,
+      "forbidden_modules_absent": true,
+      "hc_perp_ht_max_abs_cosine": 1.4901161193847656e-08,
+      "padding_attention_max": 0.0,
+      "parameter_count": 2891362,
+      "prediction_shape": [
+        4
+      ],
+      "single_prediction_head": true,
+      "single_sftgnn": true,
+      "special_token_attention_max": 0.0,
+      "temperature": 0.5
+    }
+  },
+  "p1_added_params_vs_b0_pct": 4.4723452134820745,
+  "protocol": {
+    "bandgap_nonnegative_clipping": true,
+    "batch_size": 32,
+    "checkpoint_selection": "minimum validation MAE only",
+    "early_stopping_patience": 15,
+    "epochs_max": 80,
+    "eval_batch_size": 64,
+    "forbidden": [
+      "dual-model prediction ensemble",
+      "prediction averaging",
+      "router",
+      "sample-wise alpha",
+      "property-specific gate",
+      "dataset-specific gate",
+      "tau search",
+      "loss-weight search",
+      "orthogonality loss",
+      "test evaluation"
+    ],
+    "interaction_rank": 64,
+    "learning_rate": 0.001,
+    "loss": "single final-head raw-unit MAE",
+    "max_learning_rate": 0.001,
+    "mechanism_thresholds": {
+      "branch_gradient_norm_min": 1e-08,
+      "hc_perp_ht_max_abs_cosine_max": 0.001,
+      "innovation_ratio_mean_min": 0.05,
+      "interaction_ratio_mean_min": 0.001
+    },
+    "optimizer": "AdamW",
+    "scheduler": "OneCycleLR",
+    "seed": 42,
+    "semantic_control_selection_use": false,
+    "semantic_controls": [
+      "correct_cls",
+      "shuffled_cls",
+      "zero_cls"
+    ],
+    "split_seed": 123,
+    "stage": "TAGIF_fast_screen",
+    "target_normalization": "task train-only mean/std from graph cache",
+    "tasks": [
+      "Jarvis-Bandgap_MBJ",
+      "MP-Bandgap"
+    ],
+    "temperature": 0.5,
+    "test_forward_count": 0,
+    "training_dtype": "bfloat16",
+    "variants": [
+      "B0_TokenOnly",
+      "B1_NaiveConcat",
+      "P1_TAGIF"
+    ],
+    "weight_decay": 0.0001
+  },
+  "protocol_sha256": "797ab7a78766df6b6280ad1432054736641577eb14a7f01f149f658d2a701294",
+  "shared_initialization_equal": true,
+  "split_sizes": {
+    "train": 60000,
+    "valid": 5000
+  },
+  "status": "passed",
+  "target_mean": 1.350268006324768,
+  "target_std": 1.6265326738357544,
+  "task": "MP-Bandgap",
+  "test_forward_count": 0,
+  "token_cache_rows": 65516,
+  "token_cache_sha256": "ee701e2c5c105c14feed7af9dfc7a5e2a6dbf11f473fd84b6364c64fb9048fc3",
+  "token_cache_shape": [
+    65516,
+    128,
+    768
+  ]
+}

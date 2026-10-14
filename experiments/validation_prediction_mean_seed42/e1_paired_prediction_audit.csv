@@ -1,0 +1,11 @@
+﻿task,dataset,seed,original_file_exists,truetoken_file_exists,original_n,truetoken_n,same_n,same_sample_id_order,same_targets,original_duplicate_ids,truetoken_duplicate_ids,missing_prediction_count,nonfinite_prediction_count,paired_ok,status
+Jarvis-Bandgap_MBJ,JARVIS,42,True,True,1817,1817,True,True,True,0,0,0,0,True,PAIRED_OK
+Jarvis-Bandgap_OPT,JARVIS,42,True,True,5572,5572,True,True,True,0,0,0,0,True,PAIRED_OK
+Jarvis-FormationEnergy,JARVIS,42,True,True,5572,5572,True,True,True,0,0,0,0,True,PAIRED_OK
+Jarvis-TotalEnergy,JARVIS,42,True,True,5572,5572,True,True,True,0,0,0,0,True,PAIRED_OK
+Jarvis-BulkModulusKv,JARVIS,42,True,True,1968,1968,True,True,True,0,0,0,0,True,PAIRED_OK
+Jarvis-ShearModulusGv,JARVIS,42,True,True,1968,1968,True,True,True,0,0,0,0,True,PAIRED_OK
+MP-Bandgap,MP,42,True,True,5000,5000,True,True,True,0,0,0,0,True,PAIRED_OK
+MP-FormationEnergy,MP,42,True,True,5000,5000,True,True,True,0,0,0,0,True,PAIRED_OK
+MP-BulkModuli,MP,42,True,True,583,583,True,True,True,0,0,0,0,True,PAIRED_OK
+MP-ShearModuli,MP,42,True,True,583,583,True,True,True,0,0,0,0,True,PAIRED_OK

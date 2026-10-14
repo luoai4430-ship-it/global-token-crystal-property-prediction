@@ -1,0 +1,1 @@
+Failed attempt preserved: both Jarvis-Bandgap_MBJ seed42 runs stopped after epoch 214 because the PyTorch pin-memory IPC thread exited (received 0 items of ancdata). No formal summary, checkpoint, or Test output was produced. The replacement formal run restarts from epoch 0 with workers=0 and pin_memory=False for both models; all scientific hyperparameters remain unchanged.

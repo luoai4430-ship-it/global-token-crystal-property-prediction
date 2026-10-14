@@ -1,0 +1,21 @@
+{
+  "best_valid_epoch": 221,
+  "checkpoint": "/root/autodl-tmp/e1_missing_original_seed42_20260822/runs/Jarvis-Bandgap_OPT/original_sftmat/seed_42/best_valid.pt",
+  "checkpoint_sha256": "5f417a5abd863746918782c0d6aac71b392ad9c1908499e7035b67c6135fa296",
+  "input": "exact-source regenerated MatBERT token cache",
+  "model_name": "original_sftmat",
+  "seed": 42,
+  "selected_by": "Valid only",
+  "status": "test_complete",
+  "task": "Jarvis-Bandgap_OPT",
+  "test_forward_count": 1,
+  "test_mae": 0.12213748611647501,
+  "test_size": 5573,
+  "test_used_for_selection": false,
+  "token_cache_exact_source_manifest": true,
+  "token_cache_sha256_expected": "ebbed3aaa94fd2bfba0327cf3976f1d44ce1b3255d27e738e863565c5dd76be6",
+  "token_cache_sha256_regenerated": "ebbed3aaa94fd2bfba0327cf3976f1d44ce1b3255d27e738e863565c5dd76be6",
+  "valid_mae_replayed": 0.12439481990528209,
+  "valid_mae_saved": 0.1255375017216115,
+  "valid_replay_tolerance": 0.001255375017216115
+}

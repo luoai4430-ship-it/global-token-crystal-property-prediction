@@ -1,0 +1,37 @@
+{
+  "macro": {
+    "JARVIS": {
+      "dual_wins_vs_both": 5,
+      "dual_wins_vs_global": 6,
+      "macro_dual_gain_vs_global_percent": 5.6977773526639615,
+      "macro_dual_gain_vs_token_percent": 3.73956573402887,
+      "macro_token_gain_vs_global_percent": 1.9328011321455314,
+      "task_count": 6
+    },
+    "MP": {
+      "dual_wins_vs_both": 4,
+      "dual_wins_vs_global": 4,
+      "macro_dual_gain_vs_global_percent": 6.2047785563740785,
+      "macro_dual_gain_vs_token_percent": 2.3760171335548677,
+      "macro_token_gain_vs_global_percent": 3.89363363748155,
+      "task_count": 4
+    },
+    "all": {
+      "dual_wins_vs_both": 9,
+      "dual_wins_vs_global": 10,
+      "macro_dual_gain_vs_global_percent": 5.900577834148008,
+      "macro_dual_gain_vs_token_percent": 3.194146293839269,
+      "macro_token_gain_vs_global_percent": 2.717134134279939,
+      "task_count": 10
+    }
+  },
+  "seed": 43,
+  "selected_by": "validation MAE only",
+  "status": "SEED43_TEST_COMPLETE",
+  "test_forward_count": 20,
+  "test_used_for_training_or_selection": false,
+  "weights": {
+    "global": 0.5,
+    "token": 0.5
+  }
+}

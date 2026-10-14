@@ -1,0 +1,15 @@
+{
+  "best_valid_epoch": 279,
+  "checkpoint_sha256": "e46c4834d6f5af41218e48528f92d0706ca494a80a94cb32dfe1539e0d79c708",
+  "model_name": "ours",
+  "protocol_sha256": "adae888170a616d63ca455803e3c186d270cb62ae5bbd3ed70b55835dc8c674d",
+  "seed": 43,
+  "selected_by": "Valid only",
+  "status": "test_complete",
+  "task": "Jarvis-FormationEnergy",
+  "test_forward_count": 1,
+  "test_mae": 0.028965951948047818,
+  "test_size": 5573,
+  "token_cache_sha256": "ad6d565e1270c8ec8dc5a8068249195b2307de7570fc1cf493b1d5438e288d26",
+  "valid_mae": 0.029251425035634833
+}

@@ -1,0 +1,22 @@
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_seed43_benchmark.py test --task Jarvis-Bandgap_MBJ --model_name ours --seed 43 --token_cache /dev/shm/dualview_seed43_20260830/Jarvis-Bandgap_MBJ/token_cache --output_root /root/dualview_seed43_20260830 --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda --num_workers 2
+dataset split: total=18172, train=14537, valid=1817, test=1818
+train range:(0.0,27.500999450683594)
+valid range:(0.0,23.900999069213867)
+test range:(0.0,14.498000144958496)
+mean:1.4889696836471558
+std:2.3161327838897705
+{
+  "best_valid_epoch": 174,
+  "checkpoint_sha256": "2ed88f2942406e3e1930f2cccc4247b82cc083f34c5fa662467f9edef22c29ce",
+  "model_name": "ours",
+  "protocol_sha256": "adae888170a616d63ca455803e3c186d270cb62ae5bbd3ed70b55835dc8c674d",
+  "seed": 43,
+  "selected_by": "Valid only",
+  "status": "test_complete",
+  "task": "Jarvis-Bandgap_MBJ",
+  "test_forward_count": 1,
+  "test_mae": 0.2739949499157527,
+  "test_size": 1818,
+  "token_cache_sha256": "0caf4b99a950f281a2632fb36d1939bf311e88ea8c4934a951f4d1d0fc5270a6",
+  "valid_mae": 0.24789867246288746
+}

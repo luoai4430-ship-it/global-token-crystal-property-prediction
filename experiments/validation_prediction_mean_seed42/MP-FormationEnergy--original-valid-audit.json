@@ -1,0 +1,14 @@
+{
+  "task": "MP-FormationEnergy",
+  "seed": 42,
+  "split": "Valid",
+  "sample_count": 5000,
+  "sample_id_order_match": true,
+  "duplicate_ids": 0,
+  "finite_predictions": true,
+  "valid_mae": 0.020459890377521515,
+  "test_forward_count": 0,
+  "training_runs": 0,
+  "checkpoint": "/root/g1_geometric_residual_seed42_20260812/baselines/MP-FormationEnergy/original_sftmat/seed_42/best_valid.pt",
+  "valid_graph": "/root/autodl-tmp/TextResidualSHFMat/Dataset/processed/MP-Bandgap-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-valid-CGCNN-multimodal-MatBert_embeddings.pt"
+}

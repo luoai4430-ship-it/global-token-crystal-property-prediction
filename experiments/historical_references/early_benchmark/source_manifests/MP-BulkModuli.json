@@ -1,0 +1,22 @@
+{
+  "complete_sha256": "ffb29a3a7694a630f304dd8ebcf3b6347cf0fb99c81ae80b4a2080decc2b5e31",
+  "complete_unique_coverage": true,
+  "description_generator": "original source plus deterministic CIF fallback only for missing rows",
+  "dropped_source_count": 0,
+  "expected_samples": 5830,
+  "generated_missing_count": 6,
+  "generated_missing_ids": [
+    "1999",
+    "2689",
+    "2999",
+    "3999",
+    "4999",
+    "5765"
+  ],
+  "id_column": "Id",
+  "source_csv": "/root/autodl-tmp/dataset1/dataset/mp_2018_small/bulk/description.csv",
+  "source_samples": 5824,
+  "source_sha256": "9ad562cc3b69d0386aa499e6709c9f9a480f5a51184701c20da87ed07f7e8e25",
+  "task": "MP-BulkModuli",
+  "text_column": "Description"
+}

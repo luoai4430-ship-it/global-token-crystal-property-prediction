@@ -1,0 +1,22 @@
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_seed43_benchmark.py test --task MP-Bandgap --model_name original_sftmat --seed 43 --token_cache /dev/shm/dualview_seed43_20260830/MP-Bandgap/token_cache --output_root /root/dualview_seed43_20260830 --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda --num_workers 2
+dataset split: total=65516, train=60000, valid=5000, test=516
+train range:(0.0,17.891399383544922)
+valid range:(0.0,8.311300277709961)
+test range:(0.0,7.539400100708008)
+mean:1.350268006324768
+std:1.6265326738357544
+{
+  "best_valid_epoch": 220,
+  "checkpoint_sha256": "9427e4f511b71279bcebb9ca38e8579a1748caaaae9e11574ea397b267012e00",
+  "model_name": "original_sftmat",
+  "protocol_sha256": "adae888170a616d63ca455803e3c186d270cb62ae5bbd3ed70b55835dc8c674d",
+  "seed": 43,
+  "selected_by": "Valid only",
+  "status": "test_complete",
+  "task": "MP-Bandgap",
+  "test_forward_count": 1,
+  "test_mae": 0.2092501955438954,
+  "test_size": 516,
+  "token_cache_sha256": "ee701e2c5c105c14feed7af9dfc7a5e2a6dbf11f473fd84b6364c64fb9048fc3",
+  "valid_mae": 0.2134970676422119
+}

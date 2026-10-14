@@ -1,0 +1,83 @@
+{
+  "active": [],
+  "completed_test": 0,
+  "completed_test_runs": 20,
+  "completed_valid": 18,
+  "completed_valid_runs": 20,
+  "current_model": null,
+  "current_task": null,
+  "expected_test_runs": 20,
+  "expected_valid_runs": 20,
+  "failed": [],
+  "finished_at_unix": 1788249259.6603038,
+  "models": [
+    "original_sftmat",
+    "ours"
+  ],
+  "parallel_strategy": "Global and TrueToken for one task",
+  "parallelism": 2,
+  "phase": "complete",
+  "prior_failures": [
+    {
+      "error": "Jarvis-Bandgap_MBJ/original_sftmat/valid exited with 1; see /root/dualview_seed43_20260830/logs/Jarvis-Bandgap_MBJ_original_sftmat_seed43_valid.log",
+      "error_type": "RuntimeError",
+      "failed_at_unix": 1788076237.5905306,
+      "traceback": "Traceback (most recent call last):\n  File \"/root/run_seed43_dualview_queue_parallel.py\", line 285, in main\n    run_phase(\"valid\")\n  File \"/root/run_seed43_dualview_queue_parallel.py\", line 271, in run_phase\n    execute_pair(task, token_cache, phase)\n  File \"/root/run_seed43_dualview_queue_parallel.py\", line 238, in execute_pair\n    raise RuntimeError(\nRuntimeError: Jarvis-Bandgap_MBJ/original_sftmat/valid exited with 1; see /root/dualview_seed43_20260830/logs/Jarvis-Bandgap_MBJ_original_sftmat_seed43_valid.log\n"
+    },
+    {
+      "error": "command failed (1); see /root/dualview_seed43_20260830/logs/cache/Jarvis-FormationEnergy_valid_preflight.log",
+      "error_type": "RuntimeError",
+      "failed_at_unix": 1788126658.2837918,
+      "traceback": "Traceback (most recent call last):\n  File \"/root/run_seed43_dualview_queue_parallel.py\", line 285, in main\n    run_phase(\"valid\")\n  File \"/root/run_seed43_dualview_queue_parallel.py\", line 269, in run_phase\n    scratch, token_cache = prepare(task, phase)\n  File \"/root/run_seed43_dualview_queue_parallel.py\", line 253, in prepare\n    return cache_common.prepare_task(task, phase)\n  File \"/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_queue.py\", line 253, in prepare_task\n    run_checked(\n  File \"/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_queue.py\", line 228, in run_checked\n    raise RuntimeError(f\"command failed ({result.returncode}); see {log_path}\")\nRuntimeError: command failed (1); see /root/dualview_seed43_20260830/logs/cache/Jarvis-FormationEnergy_valid_preflight.log\n"
+    },
+    {
+      "error": "MP-Bandgap/ours/valid exited with 1; see /root/dualview_seed43_20260830/logs/MP-Bandgap_ours_seed43_valid.log",
+      "error_type": "RuntimeError",
+      "failed_at_unix": 1788205654.3646982,
+      "traceback": "Traceback (most recent call last):\n  File \"/root/run_seed43_dualview_queue_parallel.py\", line 285, in main\n    run_phase(\"valid\")\n  File \"/root/run_seed43_dualview_queue_parallel.py\", line 271, in run_phase\n    execute_pair(task, token_cache, phase)\n  File \"/root/run_seed43_dualview_queue_parallel.py\", line 238, in execute_pair\n    raise RuntimeError(\nRuntimeError: MP-Bandgap/ours/valid exited with 1; see /root/dualview_seed43_20260830/logs/MP-Bandgap_ours_seed43_valid.log\n"
+    }
+  ],
+  "recovery": {
+    "cause_assessment": "previous-host CUDA/driver loss; no OOM or thermal evidence",
+    "cwd_cache_fix": {
+      "cuda_probe": {
+        "device": "NVIDIA GeForce RTX 4080 SUPER",
+        "finite": true
+      },
+      "incident": "/root/dualview_seed43_20260830/incidents/jarvis_formation_preflight_cwd_cache_failure.json",
+      "prepared_at_unix": 1788127167.846302,
+      "queue_launch_cwd": "/root/autodl-tmp/TextResidualSHFMat",
+      "verified_corrupt_cache_removed": "/root/Dataset/raw/Jarvis-FormationEnergy-cutoff4.0-maxNeibNum16-spheHarmL4-CIF_CSV-rawData.pt"
+    },
+    "driver_version": "580.142",
+    "dual_cuda_stress_exit_codes": [
+      0,
+      0
+    ],
+    "dual_cuda_stress_peak_memory_mib": 1942,
+    "dual_cuda_stress_peak_temperature_c": 66,
+    "dual_cuda_stress_seconds": 60,
+    "new_gpu_uuid": "GPU-fffde00b-ba8a-cca7-042a-13630621d3d2",
+    "resume_policy": "rerun only missing pair from fresh initialization; preserve four completed summaries",
+    "started_at_utc": "2026-08-30T09:05:50Z"
+  },
+  "recovery_ready_at_unix": 1788212034.0063396,
+  "seed": 43,
+  "started_at_unix": 1788067102.5611296,
+  "status": "COMPLETE",
+  "tasks": [
+    "MP-BulkModuli",
+    "MP-ShearModuli",
+    "Jarvis-Bandgap_MBJ",
+    "Jarvis-BulkModulusKv",
+    "Jarvis-ShearModulusGv",
+    "Jarvis-Bandgap_OPT",
+    "Jarvis-FormationEnergy",
+    "Jarvis-TotalEnergy",
+    "MP-Bandgap",
+    "MP-FormationEnergy"
+  ],
+  "test_forward_count": 20,
+  "updated_at_unix": 1788249259.668126,
+  "valid_selection_frozen": true
+}

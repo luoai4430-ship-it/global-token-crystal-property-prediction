@@ -1,0 +1,11 @@
+{
+  "mapping_kind": "seeded cyclic derangement",
+  "mapping_sha256": "8e408f75afb126b9d54802c923b0852d38c7eb60d9cffc208e9a8d06807ecd7a",
+  "normal_better_than_shuffled": true,
+  "normal_better_than_zero": true,
+  "normal_mae": 0.28542868580605607,
+  "query_cls_shuffled_mae": 0.2921830333716015,
+  "query_cls_zero_mae": 0.2860282917369114,
+  "selection_use": false,
+  "test_forward_count": 0
+}

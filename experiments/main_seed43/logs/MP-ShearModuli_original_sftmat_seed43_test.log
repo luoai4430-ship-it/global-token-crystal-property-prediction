@@ -1,0 +1,22 @@
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_seed43_benchmark.py test --task MP-ShearModuli --model_name original_sftmat --seed 43 --token_cache /dev/shm/dualview_seed43_20260830/MP-ShearModuli/token_cache --output_root /root/dualview_seed43_20260830 --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda --num_workers 2
+dataset split: total=5830, train=4664, valid=583, test=583
+train range:(0.3010300099849701,2.7201592922210693)
+valid range:(0.4771212637424469,2.717670440673828)
+test range:(0.3010300099849701,2.5403294563293457)
+mean:1.6166967153549194
+std:0.36755993962287903
+{
+  "best_valid_epoch": 164,
+  "checkpoint_sha256": "2b5377d593cac7b4ae520daae1cf8dbfb4428440bb9b60518955437d0adc987b",
+  "model_name": "original_sftmat",
+  "protocol_sha256": "adae888170a616d63ca455803e3c186d270cb62ae5bbd3ed70b55835dc8c674d",
+  "seed": 43,
+  "selected_by": "Valid only",
+  "status": "test_complete",
+  "task": "MP-ShearModuli",
+  "test_forward_count": 1,
+  "test_mae": 0.07175613962765623,
+  "test_size": 583,
+  "token_cache_sha256": "23a4dd3ae30d0d0fe9ec817980b5a07fa70d7d57f92e0371193f873c75b39459",
+  "valid_mae": 0.06710007076197995
+}

@@ -1,0 +1,17 @@
+{
+  "active": [],
+  "completed_test": 10,
+  "completed_valid": 10,
+  "current_task": "Jarvis-ShearModulusGv",
+  "expected_test": 10,
+  "expected_valid": 10,
+  "failed": [],
+  "finished_at_unix": 1786402491.366624,
+  "phase": "complete",
+  "scope": "Ours only, ten tasks, seed 42, RTX 4090 D; Original SFTMAT frozen",
+  "started_at_unix": 1786350163.587742,
+  "status": "NO_SFTMAT_IMPROVEMENT",
+  "updated_at_unix": 1786402491.36674,
+  "valid_selection_frozen": true,
+  "wave": 3
+}

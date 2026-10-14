@@ -1,0 +1,160 @@
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_tagif_fast_screen.py preflight --task Jarvis-Bandgap_MBJ --token_cache /dev/shm/tagif_fast_screen_seed42_20260902/Jarvis-Bandgap_MBJ/token_cache --scratch /dev/shm/tagif_fast_screen_seed42_20260902/Jarvis-Bandgap_MBJ --output_root /root/tagif_fast_screen_seed42_20260902 --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda
+dataset split: total=18172, train=14537, valid=1817, test=1818
+train range:(0.0,27.500999450683594)
+valid range:(0.0,23.900999069213867)
+test range:(0.0,14.498000144958496)
+mean:1.4889696836471558
+std:2.3161327838897705
+Traceback (most recent call last):
+  File "/root/autodl-tmp/TextResidualSHFMat/scripts/run_tagif_fast_screen.py", line 1233, in <module>
+    main()
+  File "/root/autodl-tmp/TextResidualSHFMat/scripts/run_tagif_fast_screen.py", line 1223, in main
+    preflight(args)
+  File "/root/autodl-tmp/TextResidualSHFMat/scripts/run_tagif_fast_screen.py", line 868, in preflight
+    raise AssertionError(f"forbidden module names: {forbidden_names}")
+AssertionError: forbidden module names: ['sftgnn.layers.0.gate', 'sftgnn.layers.0.gate.0', 'sftgnn.layers.0.gate.1', 'sftgnn.layers.0.gate.2', 'sftgnn.layers.0.gate.3', 'sftgnn.layers.1.gate', 'sftgnn.layers.1.gate.0', 'sftgnn.layers.1.gate.1', 'sftgnn.layers.1.gate.2', 'sftgnn.layers.1.gate.3', 'sftgnn.layers.2.gate', 'sftgnn.layers.2.gate.0', 'sftgnn.layers.2.gate.1', 'sftgnn.layers.2.gate.2', 'sftgnn.layers.2.gate.3', 'sftgnn.layers.3.gate', 'sftgnn.layers.3.gate.0', 'sftgnn.layers.3.gate.1', 'sftgnn.layers.3.gate.2', 'sftgnn.layers.3.gate.3', 'sftgnn.layers.4.gate', 'sftgnn.layers.4.gate.0', 'sftgnn.layers.4.gate.1', 'sftgnn.layers.4.gate.2', 'sftgnn.layers.4.gate.3']
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_tagif_fast_screen.py preflight --task Jarvis-Bandgap_MBJ --token_cache /dev/shm/tagif_fast_screen_seed42_20260902/Jarvis-Bandgap_MBJ/token_cache --scratch /dev/shm/tagif_fast_screen_seed42_20260902/Jarvis-Bandgap_MBJ --output_root /root/tagif_fast_screen_seed42_20260902 --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda
+dataset split: total=18172, train=14537, valid=1817, test=1818
+train range:(0.0,27.500999450683594)
+valid range:(0.0,23.900999069213867)
+test range:(0.0,14.498000144958496)
+mean:1.4889696836471558
+std:2.3161327838897705
+{
+  "aliases": {
+    "aliases": [
+      {
+        "path": "/root/autodl-tmp/TextResidualSHFMat/Dataset/processed/Jarvis-Bandgap_MBJ-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-train-CGCNN.pt",
+        "source": "existing_plain"
+      },
+      {
+        "path": "/root/autodl-tmp/TextResidualSHFMat/Dataset/processed/Jarvis-Bandgap_MBJ-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-valid-CGCNN.pt",
+        "source": "existing_plain"
+      },
+      {
+        "path": "/root/autodl-tmp/TextResidualSHFMat/Dataset/processed/Jarvis-Bandgap_MBJ-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-test-CGCNN.pt",
+        "source": "existing_plain"
+      }
+    ],
+    "retargeted": null,
+    "task": "Jarvis-Bandgap_MBJ"
+  },
+  "model_checks": {
+    "B0_TokenOnly": {
+      "effective_token_count_min": 114.93997955322266,
+      "forbidden_modules_absent": true,
+      "hc_perp_ht_max_abs_cosine": null,
+      "padding_attention_max": 0.0,
+      "parameter_count": 2767586,
+      "prediction_shape": [
+        4
+      ],
+      "single_prediction_head": true,
+      "single_sftgnn": true,
+      "special_token_attention_max": 0.0,
+      "temperature": 0.5
+    },
+    "B1_NaiveConcat": {
+      "effective_token_count_min": 114.94682312011719,
+      "forbidden_modules_absent": true,
+      "hc_perp_ht_max_abs_cosine": null,
+      "padding_attention_max": 0.0,
+      "parameter_count": 2882658,
+      "prediction_shape": [
+        4
+      ],
+      "single_prediction_head": true,
+      "single_sftgnn": true,
+      "special_token_attention_max": 0.0,
+      "temperature": 0.5
+    },
+    "P1_TAGIF": {
+      "effective_token_count_min": 114.94902038574219,
+      "forbidden_modules_absent": true,
+      "hc_perp_ht_max_abs_cosine": 1.4901161193847656e-08,
+      "padding_attention_max": 0.0,
+      "parameter_count": 2891362,
+      "prediction_shape": [
+        4
+      ],
+      "single_prediction_head": true,
+      "single_sftgnn": true,
+      "special_token_attention_max": 0.0,
+      "temperature": 0.5
+    }
+  },
+  "p1_added_params_vs_b0_pct": 4.4723452134820745,
+  "protocol": {
+    "bandgap_nonnegative_clipping": true,
+    "batch_size": 32,
+    "checkpoint_selection": "minimum validation MAE only",
+    "early_stopping_patience": 15,
+    "epochs_max": 80,
+    "eval_batch_size": 64,
+    "forbidden": [
+      "dual-model prediction ensemble",
+      "prediction averaging",
+      "router",
+      "sample-wise alpha",
+      "property-specific gate",
+      "dataset-specific gate",
+      "tau search",
+      "loss-weight search",
+      "orthogonality loss",
+      "test evaluation"
+    ],
+    "interaction_rank": 64,
+    "learning_rate": 0.001,
+    "loss": "single final-head raw-unit MAE",
+    "max_learning_rate": 0.001,
+    "mechanism_thresholds": {
+      "branch_gradient_norm_min": 1e-08,
+      "hc_perp_ht_max_abs_cosine_max": 0.001,
+      "innovation_ratio_mean_min": 0.05,
+      "interaction_ratio_mean_min": 0.001
+    },
+    "optimizer": "AdamW",
+    "scheduler": "OneCycleLR",
+    "seed": 42,
+    "semantic_control_selection_use": false,
+    "semantic_controls": [
+      "correct_cls",
+      "shuffled_cls",
+      "zero_cls"
+    ],
+    "split_seed": 123,
+    "stage": "TAGIF_fast_screen",
+    "target_normalization": "task train-only mean/std from graph cache",
+    "tasks": [
+      "Jarvis-Bandgap_MBJ",
+      "MP-Bandgap"
+    ],
+    "temperature": 0.5,
+    "test_forward_count": 0,
+    "training_dtype": "bfloat16",
+    "variants": [
+      "B0_TokenOnly",
+      "B1_NaiveConcat",
+      "P1_TAGIF"
+    ],
+    "weight_decay": 0.0001
+  },
+  "protocol_sha256": "797ab7a78766df6b6280ad1432054736641577eb14a7f01f149f658d2a701294",
+  "shared_initialization_equal": true,
+  "split_sizes": {
+    "train": 14537,
+    "valid": 1817
+  },
+  "status": "passed",
+  "target_mean": 1.4889696836471558,
+  "target_std": 2.3161327838897705,
+  "task": "Jarvis-Bandgap_MBJ",
+  "test_forward_count": 0,
+  "token_cache_rows": 18172,
+  "token_cache_sha256": "0caf4b99a950f281a2632fb36d1939bf311e88ea8c4934a951f4d1d0fc5270a6",
+  "token_cache_shape": [
+    18172,
+    128,
+    768
+  ]
+}

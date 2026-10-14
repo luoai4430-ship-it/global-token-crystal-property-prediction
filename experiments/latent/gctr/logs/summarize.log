@@ -1,0 +1,15 @@
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+{
+  "decision": "NO_GCTR_GAIN",
+  "film_active": true,
+  "film_semantic_both_tasks": false,
+  "film_semantic_macro_signal": true,
+  "gradients_active": true,
+  "macro_gain_vs_b1_pct": 0.5388964648406658,
+  "parameter_gate": true,
+  "test_forward_count": 0,
+  "token_changed": true,
+  "wins_vs_b1": 1
+}
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_gctr_fast_screen.py summarize --output_root /root/gctr_fast_screen_seed42_20260906

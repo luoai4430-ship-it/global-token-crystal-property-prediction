@@ -1,0 +1,58 @@
+MP-FormationEnergy CosineAttention epoch=1/300 valid_mae=0.17174207 best=0.17174207
+MP-FormationEnergy CosineAttention epoch=10/300 valid_mae=0.07468831 best=0.07435687
+MP-FormationEnergy CosineAttention epoch=20/300 valid_mae=0.05746340 best=0.05746340
+MP-FormationEnergy CosineAttention epoch=30/300 valid_mae=0.05473938 best=0.05473938
+MP-FormationEnergy CosineAttention epoch=40/300 valid_mae=0.04723903 best=0.04688024
+MP-FormationEnergy CosineAttention epoch=50/300 valid_mae=0.04884761 best=0.04084613
+MP-FormationEnergy CosineAttention epoch=60/300 valid_mae=0.04861878 best=0.03961929
+MP-FormationEnergy CosineAttention epoch=70/300 valid_mae=0.04120828 best=0.03745821
+MP-FormationEnergy CosineAttention epoch=80/300 valid_mae=0.03966885 best=0.03671281
+MP-FormationEnergy CosineAttention epoch=90/300 valid_mae=0.03566118 best=0.03382994
+MP-FormationEnergy CosineAttention epoch=100/300 valid_mae=0.03305686 best=0.03305686
+MP-FormationEnergy CosineAttention epoch=110/300 valid_mae=0.03201594 best=0.03201594
+MP-FormationEnergy CosineAttention epoch=120/300 valid_mae=0.03057414 best=0.03057414
+MP-FormationEnergy CosineAttention epoch=130/300 valid_mae=0.02862088 best=0.02862088
+MP-FormationEnergy CosineAttention epoch=140/300 valid_mae=0.02896195 best=0.02817710
+MP-FormationEnergy CosineAttention epoch=150/300 valid_mae=0.02805386 best=0.02750546
+MP-FormationEnergy CosineAttention epoch=160/300 valid_mae=0.02477508 best=0.02477508
+MP-FormationEnergy CosineAttention epoch=170/300 valid_mae=0.02614299 best=0.02477508
+MP-FormationEnergy CosineAttention epoch=180/300 valid_mae=0.02549137 best=0.02444177
+MP-FormationEnergy CosineAttention epoch=190/300 valid_mae=0.02483321 best=0.02382669
+MP-FormationEnergy CosineAttention epoch=200/300 valid_mae=0.02447185 best=0.02319361
+MP-FormationEnergy CosineAttention epoch=210/300 valid_mae=0.02251047 best=0.02238881
+MP-FormationEnergy CosineAttention epoch=220/300 valid_mae=0.02233199 best=0.02205641
+MP-FormationEnergy CosineAttention epoch=230/300 valid_mae=0.02139001 best=0.02139001
+MP-FormationEnergy CosineAttention epoch=240/300 valid_mae=0.02179347 best=0.02139001
+MP-FormationEnergy CosineAttention epoch=250/300 valid_mae=0.02104600 best=0.02081594
+MP-FormationEnergy CosineAttention epoch=260/300 valid_mae=0.02087950 best=0.02081594
+MP-FormationEnergy CosineAttention epoch=270/300 valid_mae=0.02078260 best=0.02071434
+MP-FormationEnergy CosineAttention epoch=280/300 valid_mae=0.02089679 best=0.02054050
+MP-FormationEnergy CosineAttention epoch=290/300 valid_mae=0.02070083 best=0.02051071
+MP-FormationEnergy CosineAttention epoch=300/300 valid_mae=0.02042182 best=0.02042182
+{
+  "task": "MP-FormationEnergy",
+  "dataset": "MP",
+  "property_family": "Energetic",
+  "variant": "CosineAttention",
+  "seed": 42,
+  "best_epoch": 300,
+  "best_valid_mae": 0.020421823489362275,
+  "final_valid_mae": 0.020421823489362275,
+  "mean": -1.6532750963404999,
+  "std": 1.0720249835312508,
+  "trainable_params": 2751458,
+  "checkpoint_path": "/root/autodl-tmp/TextResidualSHFMat/matched_ablation_runs/MP-FormationEnergy/CosineAttention/best_valid.pt",
+  "test_forward_count": 0,
+  "runtime_sec": 23621.58766245842,
+  "train_samples": 60000,
+  "valid_samples": 5000,
+  "mean_eligible_token_count": 124.4382,
+  "median_eligible_token_count": 126.0,
+  "attention_entropy_mean": 4.4392911989688875,
+  "attention_entropy_median": 4.4623377323150635,
+  "attention_effective_token_count_mean": 86.57450848972027,
+  "attention_effective_token_count_median": 86.6899304580315,
+  "attention_mean_max": null,
+  "zero_text_fallback_count": 0,
+  "zero_text_fallback_ids": []
+}

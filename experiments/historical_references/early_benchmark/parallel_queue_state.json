@@ -1,0 +1,13 @@
+{
+  "active": [],
+  "completed_test": 0,
+  "completed_valid": 0,
+  "current_task": "Jarvis-TotalEnergy",
+  "expected_test": 100,
+  "expected_valid": 100,
+  "failed": [],
+  "phase": "valid_preparing",
+  "started_at_unix": 1786342085.7870874,
+  "status": "RUNNING",
+  "updated_at_unix": 1789299271.7770267
+}

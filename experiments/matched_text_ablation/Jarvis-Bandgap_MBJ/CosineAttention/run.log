@@ -1,0 +1,58 @@
+Jarvis-Bandgap_MBJ CosineAttention epoch=1/300 valid_mae=0.73818054 best=0.73818054
+Jarvis-Bandgap_MBJ CosineAttention epoch=10/300 valid_mae=0.47669870 best=0.47587581
+Jarvis-Bandgap_MBJ CosineAttention epoch=20/300 valid_mae=0.44257441 best=0.41963099
+Jarvis-Bandgap_MBJ CosineAttention epoch=30/300 valid_mae=0.44889869 best=0.39642967
+Jarvis-Bandgap_MBJ CosineAttention epoch=40/300 valid_mae=0.37973788 best=0.36527476
+Jarvis-Bandgap_MBJ CosineAttention epoch=50/300 valid_mae=0.34931700 best=0.34931700
+Jarvis-Bandgap_MBJ CosineAttention epoch=60/300 valid_mae=0.37605268 best=0.34367393
+Jarvis-Bandgap_MBJ CosineAttention epoch=70/300 valid_mae=0.35414285 best=0.32347933
+Jarvis-Bandgap_MBJ CosineAttention epoch=80/300 valid_mae=0.36135888 best=0.32258827
+Jarvis-Bandgap_MBJ CosineAttention epoch=90/300 valid_mae=0.31689659 best=0.30611162
+Jarvis-Bandgap_MBJ CosineAttention epoch=100/300 valid_mae=0.29600919 best=0.29600919
+Jarvis-Bandgap_MBJ CosineAttention epoch=110/300 valid_mae=0.29222099 best=0.29222099
+Jarvis-Bandgap_MBJ CosineAttention epoch=120/300 valid_mae=0.37692979 best=0.29222099
+Jarvis-Bandgap_MBJ CosineAttention epoch=130/300 valid_mae=0.30196792 best=0.28711253
+Jarvis-Bandgap_MBJ CosineAttention epoch=140/300 valid_mae=0.27472263 best=0.27130643
+Jarvis-Bandgap_MBJ CosineAttention epoch=150/300 valid_mae=0.34063830 best=0.27130643
+Jarvis-Bandgap_MBJ CosineAttention epoch=160/300 valid_mae=0.35278403 best=0.27130643
+Jarvis-Bandgap_MBJ CosineAttention epoch=170/300 valid_mae=0.32921251 best=0.27130643
+Jarvis-Bandgap_MBJ CosineAttention epoch=180/300 valid_mae=0.36541774 best=0.27130643
+Jarvis-Bandgap_MBJ CosineAttention epoch=190/300 valid_mae=0.29456140 best=0.26694531
+Jarvis-Bandgap_MBJ CosineAttention epoch=200/300 valid_mae=0.26810726 best=0.26037130
+Jarvis-Bandgap_MBJ CosineAttention epoch=210/300 valid_mae=0.33383858 best=0.26037130
+Jarvis-Bandgap_MBJ CosineAttention epoch=220/300 valid_mae=0.47196692 best=0.26037130
+Jarvis-Bandgap_MBJ CosineAttention epoch=230/300 valid_mae=0.33181737 best=0.26037130
+Jarvis-Bandgap_MBJ CosineAttention epoch=240/300 valid_mae=0.30622536 best=0.26037130
+Jarvis-Bandgap_MBJ CosineAttention epoch=250/300 valid_mae=0.34128577 best=0.26037130
+Jarvis-Bandgap_MBJ CosineAttention epoch=260/300 valid_mae=0.28459274 best=0.26037130
+Jarvis-Bandgap_MBJ CosineAttention epoch=270/300 valid_mae=0.28545260 best=0.26037130
+Jarvis-Bandgap_MBJ CosineAttention epoch=280/300 valid_mae=0.27310716 best=0.26037130
+Jarvis-Bandgap_MBJ CosineAttention epoch=290/300 valid_mae=0.26773640 best=0.26037130
+Jarvis-Bandgap_MBJ CosineAttention epoch=300/300 valid_mae=0.28481518 best=0.26037130
+{
+  "task": "Jarvis-Bandgap_MBJ",
+  "dataset": "JARVIS",
+  "property_family": "Electronic",
+  "variant": "CosineAttention",
+  "seed": 42,
+  "best_epoch": 191,
+  "best_valid_mae": 0.2603713000784551,
+  "final_valid_mae": 0.28481517869558165,
+  "mean": 1.4889696636169774,
+  "std": 2.3161328992268473,
+  "trainable_params": 2751458,
+  "checkpoint_path": "/root/autodl-tmp/TextResidualSHFMat/matched_ablation_runs/Jarvis-Bandgap_MBJ/CosineAttention/best_valid.pt",
+  "test_forward_count": 0,
+  "runtime_sec": 3695.328996896744,
+  "train_samples": 14537,
+  "valid_samples": 1817,
+  "mean_eligible_token_count": 121.43973582828839,
+  "median_eligible_token_count": 126.0,
+  "attention_entropy_mean": 4.3277406873582285,
+  "attention_entropy_median": 4.467963218688965,
+  "attention_effective_token_count_mean": 80.31307184199584,
+  "attention_effective_token_count_median": 87.17897754838239,
+  "attention_mean_max": null,
+  "zero_text_fallback_count": 0,
+  "zero_text_fallback_ids": []
+}

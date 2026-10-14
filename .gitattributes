@@ -1,0 +1,2 @@
+# Preserve the original bytes of imported experiment evidence and its hashes.
+experiments/** -text

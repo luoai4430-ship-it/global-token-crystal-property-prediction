@@ -1,0 +1,14 @@
+{
+  "task": "Jarvis-TotalEnergy",
+  "seed": 42,
+  "split": "Valid",
+  "sample_count": 5572,
+  "sample_id_order_match": true,
+  "duplicate_ids": 0,
+  "finite_predictions": true,
+  "valid_mae": 0.030614494828123544,
+  "test_forward_count": 0,
+  "training_runs": 0,
+  "checkpoint": "/root/g1_geometric_residual_seed42_20260812/baselines/Jarvis-TotalEnergy/original_sftmat/seed_42/best_valid.pt",
+  "valid_graph": "/root/autodl-tmp/TextResidualSHFMat/Dataset/processed/Jarvis-TotalEnergy-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-valid-CGCNN-multimodal-MatBert_embeddings.pt"
+}

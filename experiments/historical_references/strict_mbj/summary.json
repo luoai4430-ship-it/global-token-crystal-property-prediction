@@ -1,0 +1,236 @@
+{
+  "run_root": "/home/ubuntu/Documents/pyf/SHFMat-strict-paper/experiments/strict_mbj_multiseed_20260711",
+  "valid_completed_runs": 18,
+  "expected_runs": 18,
+  "runs": [
+    {
+      "model": "graphonly",
+      "seed": 42,
+      "selected_epoch": 278,
+      "valid_mae": 0.24017113,
+      "test_mae": 0.28602178,
+      "log_path": "/home/ubuntu/Documents/pyf/SHFMat-strict-paper/experiments/strict_mbj_multiseed_20260711/graphonly/seed42/train.log"
+    },
+    {
+      "model": "concat",
+      "seed": 42,
+      "selected_epoch": 282,
+      "valid_mae": 0.2515216,
+      "test_mae": 0.25798455,
+      "log_path": "/home/ubuntu/Documents/pyf/SHFMat-strict-paper/experiments/strict_mbj_multiseed_20260711/concat/seed42/train.log"
+    },
+    {
+      "model": "textresidual",
+      "seed": 42,
+      "selected_epoch": 223,
+      "valid_mae": 0.23383976,
+      "test_mae": 0.26339429,
+      "log_path": "/home/ubuntu/Documents/pyf/SHFMat-strict-paper/experiments/strict_mbj_multiseed_20260711/textresidual/seed42/train.log"
+    },
+    {
+      "model": "graphonly",
+      "seed": 2026,
+      "selected_epoch": 279,
+      "valid_mae": 0.24200993,
+      "test_mae": 0.25488392,
+      "log_path": "/home/ubuntu/Documents/pyf/SHFMat-strict-paper/experiments/strict_mbj_multiseed_20260711/graphonly/seed2026/train.log"
+    },
+    {
+      "model": "concat",
+      "seed": 2026,
+      "selected_epoch": 239,
+      "valid_mae": 0.23879282,
+      "test_mae": 0.26106083,
+      "log_path": "/home/ubuntu/Documents/pyf/SHFMat-strict-paper/experiments/strict_mbj_multiseed_20260711/concat/seed2026/train.log"
+    },
+    {
+      "model": "textresidual",
+      "seed": 2026,
+      "selected_epoch": 248,
+      "valid_mae": 0.23100464,
+      "test_mae": 0.25650892,
+      "log_path": "/home/ubuntu/Documents/pyf/SHFMat-strict-paper/experiments/strict_mbj_multiseed_20260711/textresidual/seed2026/train.log"
+    },
+    {
+      "model": "graphonly",
+      "seed": 0,
+      "selected_epoch": 292,
+      "valid_mae": 0.23596784,
+      "test_mae": 0.26554702,
+      "log_path": "/home/ubuntu/Documents/pyf/SHFMat-strict-paper/experiments/strict_mbj_multiseed_20260711/graphonly/seed0/train.log"
+    },
+    {
+      "model": "concat",
+      "seed": 0,
+      "selected_epoch": 193,
+      "valid_mae": 0.24886683,
+      "test_mae": 0.27337984,
+      "log_path": "/home/ubuntu/Documents/pyf/SHFMat-strict-paper/experiments/strict_mbj_multiseed_20260711/concat/seed0/train.log"
+    },
+    {
+      "model": "textresidual",
+      "seed": 0,
+      "selected_epoch": 272,
+      "valid_mae": 0.23717863,
+      "test_mae": 0.25201767,
+      "log_path": "/home/ubuntu/Documents/pyf/SHFMat-strict-paper/experiments/strict_mbj_multiseed_20260711/textresidual/seed0/train.log"
+    },
+    {
+      "model": "graphonly",
+      "seed": 7,
+      "selected_epoch": 262,
+      "valid_mae": 0.24865121,
+      "test_mae": 0.27537306,
+      "log_path": "/home/ubuntu/Documents/pyf/SHFMat-strict-paper/experiments/strict_mbj_multiseed_20260711/graphonly/seed7/train.log"
+    },
+    {
+      "model": "concat",
+      "seed": 7,
+      "selected_epoch": 230,
+      "valid_mae": 0.24697157,
+      "test_mae": 0.26083221,
+      "log_path": "/home/ubuntu/Documents/pyf/SHFMat-strict-paper/experiments/strict_mbj_multiseed_20260711/concat/seed7/train.log"
+    },
+    {
+      "model": "textresidual",
+      "seed": 7,
+      "selected_epoch": 272,
+      "valid_mae": 0.23617979,
+      "test_mae": 0.24640942,
+      "log_path": "/home/ubuntu/Documents/pyf/SHFMat-strict-paper/experiments/strict_mbj_multiseed_20260711/textresidual/seed7/train.log"
+    },
+    {
+      "model": "graphonly",
+      "seed": 1234,
+      "selected_epoch": 231,
+      "valid_mae": 0.2472672,
+      "test_mae": 0.27280266,
+      "log_path": "/home/ubuntu/Documents/pyf/SHFMat-strict-paper/experiments/strict_mbj_multiseed_20260711/graphonly/seed1234/train.log"
+    },
+    {
+      "model": "concat",
+      "seed": 1234,
+      "selected_epoch": 278,
+      "valid_mae": 0.25349164,
+      "test_mae": 0.26796894,
+      "log_path": "/home/ubuntu/Documents/pyf/SHFMat-strict-paper/experiments/strict_mbj_multiseed_20260711/concat/seed1234/train.log"
+    },
+    {
+      "model": "textresidual",
+      "seed": 1234,
+      "selected_epoch": 267,
+      "valid_mae": 0.23670681,
+      "test_mae": 0.25100139,
+      "log_path": "/home/ubuntu/Documents/pyf/SHFMat-strict-paper/experiments/strict_mbj_multiseed_20260711/textresidual/seed1234/train.log"
+    },
+    {
+      "model": "graphonly",
+      "seed": 2025,
+      "selected_epoch": 241,
+      "valid_mae": 0.24736358,
+      "test_mae": 0.28093014,
+      "log_path": "/home/ubuntu/Documents/pyf/SHFMat-strict-paper/experiments/strict_mbj_multiseed_20260711/graphonly/seed2025/train.log"
+    },
+    {
+      "model": "concat",
+      "seed": 2025,
+      "selected_epoch": 234,
+      "valid_mae": 0.24317249,
+      "test_mae": 0.2600862,
+      "log_path": "/home/ubuntu/Documents/pyf/SHFMat-strict-paper/experiments/strict_mbj_multiseed_20260711/concat/seed2025/train.log"
+    },
+    {
+      "model": "textresidual",
+      "seed": 2025,
+      "selected_epoch": 226,
+      "valid_mae": 0.23708947,
+      "test_mae": 0.24300654,
+      "log_path": "/home/ubuntu/Documents/pyf/SHFMat-strict-paper/experiments/strict_mbj_multiseed_20260711/textresidual/seed2025/train.log"
+    }
+  ],
+  "model_summaries": [
+    {
+      "model": "graphonly",
+      "n": 6,
+      "mean_test_mae": 0.27259309666666665,
+      "sample_sd": 0.011143339491713726,
+      "min_test_mae": 0.25488392,
+      "max_test_mae": 0.28602178
+    },
+    {
+      "model": "concat",
+      "n": 6,
+      "mean_test_mae": 0.263552095,
+      "sample_sd": 0.005877197507835682,
+      "min_test_mae": 0.25798455,
+      "max_test_mae": 0.27337984
+    },
+    {
+      "model": "textresidual",
+      "n": 6,
+      "mean_test_mae": 0.25205637166666667,
+      "sample_sd": 0.007256384488857834,
+      "min_test_mae": 0.24300654,
+      "max_test_mae": 0.26339429
+    }
+  ],
+  "paired_summaries": [
+    {
+      "comparison": "concat-graphonly",
+      "direction": "negative favors first model",
+      "n": 6,
+      "matched_seeds": [
+        42,
+        2026,
+        0,
+        7,
+        1234,
+        2025
+      ],
+      "mean_paired_difference": -0.009041001666666668,
+      "sample_sd_difference": 0.014590587980186982,
+      "ci95_low": -0.02435288470011285,
+      "ci95_high": 0.0062708813667795155,
+      "exact_sign_flip_p": 0.21875,
+      "improved_seeds": 4
+    },
+    {
+      "comparison": "textresidual-graphonly",
+      "direction": "negative favors first model",
+      "n": 6,
+      "matched_seeds": [
+        42,
+        2026,
+        0,
+        7,
+        1234,
+        2025
+      ],
+      "mean_paired_difference": -0.020536725000000006,
+      "sample_sd_difference": 0.013561209757181324,
+      "ci95_low": -0.034768341839291256,
+      "ci95_high": -0.006305108160708759,
+      "exact_sign_flip_p": 0.0625,
+      "improved_seeds": 5
+    },
+    {
+      "comparison": "textresidual-concat",
+      "direction": "negative favors first model",
+      "n": 6,
+      "matched_seeds": [
+        42,
+        2026,
+        0,
+        7,
+        1234,
+        2025
+      ],
+      "mean_paired_difference": -0.011495723333333338,
+      "sample_sd_difference": 0.010010464114990191,
+      "ci95_low": -0.02200106114750386,
+      "ci95_high": -0.0009903855191628185,
+      "exact_sign_flip_p": 0.09375,
+      "improved_seeds": 5
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+task,control,valid_mae,selected_checkpoint_unchanged,graph_unchanged,prediction_head_cls_correct,zero_control_definition,test_forward_count
+Jarvis-Bandgap_MBJ,normal,0.2854846867481036,True,True,True,qc=0; q=normalize(qg); prediction_head_cls=correct,0
+Jarvis-Bandgap_MBJ,query_cls_shuffled,0.2923264202995489,True,True,True,qc=0; q=normalize(qg); prediction_head_cls=correct,0
+Jarvis-Bandgap_MBJ,query_cls_zero,0.2884736744728991,True,True,True,qc=0; q=normalize(qg); prediction_head_cls=correct,0
+MP-Bandgap,normal,0.217992835521698,True,True,True,qc=0; q=normalize(qg); prediction_head_cls=correct,0
+MP-Bandgap,query_cls_shuffled,0.22224867734909057,True,True,True,qc=0; q=normalize(qg); prediction_head_cls=correct,0
+MP-Bandgap,query_cls_zero,0.22039928193092345,True,True,True,qc=0; q=normalize(qg); prediction_head_cls=correct,0

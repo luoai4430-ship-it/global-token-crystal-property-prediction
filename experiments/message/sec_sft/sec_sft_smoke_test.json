@@ -1,0 +1,180 @@
+{
+  "K_shape": [
+    420,
+    128,
+    64
+  ],
+  "Q_shape": [
+    420,
+    64
+  ],
+  "attention_shape": [
+    420,
+    128
+  ],
+  "delta_b_shape": [
+    420,
+    128
+  ],
+  "gradient_audit_note": "Wq/Wk/Wv are expected to be zero on the first backward because W_sem is zero-initialized; smoke-only one-step audit confirms semantic q/k/v gradients after W_sem activation.",
+  "gradient_norms": {
+    "SFTConv": 2.692256212234497,
+    "W_sem": 0.008896990679204464,
+    "Wk": 0.00015610724221915007,
+    "Wq": 0.0001188597670989111,
+    "Wv": 0.0007816054858267307
+  },
+  "hc_shape": [
+    2,
+    64
+  ],
+  "hg_shape": [
+    2,
+    128
+  ],
+  "initial_zero_init_gradient_norms": {
+    "SFTConv": 9.312590599060059,
+    "W_sem": 0.008817407302558422,
+    "Wk": 0.0,
+    "Wq": 0.0,
+    "Wv": 0.0
+  },
+  "loss_finite": true,
+  "matbert_frozen_gradient": null,
+  "message_shape": [
+    420,
+    128
+  ],
+  "prediction_shape": [
+    2
+  ],
+  "semantic_context_shape": [
+    420,
+    64
+  ],
+  "status": "passed",
+  "task": "Jarvis-Bandgap_MBJ",
+  "test_forward_count": 0,
+  "top_tokens": [
+    {
+      "edge_index": 0,
+      "top_probs": [
+        0.013785536400973797,
+        0.012975632213056087,
+        0.012381434440612793,
+        0.011883875355124474,
+        0.011883875355124474
+      ],
+      "top_token_indices": [
+        77,
+        25,
+        15,
+        72,
+        104
+      ],
+      "top_token_strings": [
+        ")",
+        ")",
+        "1",
+        "lengths",
+        "lengths"
+      ]
+    },
+    {
+      "edge_index": 1,
+      "top_probs": [
+        0.016179587692022324,
+        0.014112088829278946,
+        0.013518552295863628,
+        0.012332845479249954,
+        0.012260794639587402
+      ],
+      "top_token_indices": [
+        35,
+        85,
+        123,
+        84,
+        34
+      ],
+      "top_token_strings": [
+        "eight",
+        "four",
+        "to",
+        "to",
+        "to"
+      ]
+    },
+    {
+      "edge_index": 2,
+      "top_probs": [
+        0.01379859633743763,
+        0.013064248487353325,
+        0.012465993873775005,
+        0.012106076814234257,
+        0.011988428421318531
+      ],
+      "top_token_indices": [
+        77,
+        25,
+        15,
+        72,
+        104
+      ],
+      "top_token_strings": [
+        ")",
+        ")",
+        "1",
+        "lengths",
+        "lengths"
+      ]
+    },
+    {
+      "edge_index": 3,
+      "top_probs": [
+        0.01629774086177349,
+        0.014215142466127872,
+        0.01345862541347742,
+        0.012254218570888042,
+        0.012182626873254776
+      ],
+      "top_token_indices": [
+        35,
+        85,
+        123,
+        84,
+        34
+      ],
+      "top_token_strings": [
+        "eight",
+        "four",
+        "to",
+        "to",
+        "to"
+      ]
+    },
+    {
+      "edge_index": 4,
+      "top_probs": [
+        0.013716592453420162,
+        0.012961269356310368,
+        0.012367730028927326,
+        0.012104850262403488,
+        0.012034131214022636
+      ],
+      "top_token_indices": [
+        77,
+        25,
+        15,
+        72,
+        104
+      ],
+      "top_token_strings": [
+        ")",
+        ")",
+        "1",
+        "lengths",
+        "lengths"
+      ]
+    }
+  ]
+}

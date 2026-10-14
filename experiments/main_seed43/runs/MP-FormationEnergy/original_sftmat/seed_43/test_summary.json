@@ -1,0 +1,15 @@
+{
+  "best_valid_epoch": 276,
+  "checkpoint_sha256": "1d54a8235f1ff1207514ac5eafed1f36bf4aae5f84d3e3ed72f2f108395fb469",
+  "model_name": "original_sftmat",
+  "protocol_sha256": "adae888170a616d63ca455803e3c186d270cb62ae5bbd3ed70b55835dc8c674d",
+  "seed": 43,
+  "selected_by": "Valid only",
+  "status": "test_complete",
+  "task": "MP-FormationEnergy",
+  "test_forward_count": 1,
+  "test_mae": 0.024935507959173632,
+  "test_size": 516,
+  "token_cache_sha256": "ee701e2c5c105c14feed7af9dfc7a5e2a6dbf11f473fd84b6364c64fb9048fc3",
+  "valid_mae": 0.020583225536346436
+}

@@ -1,0 +1,15 @@
+{
+  "best_valid_epoch": 282,
+  "checkpoint_sha256": "c4c8775f115809793245a2517a796c77acad360cb215d9da1946182e0329c1cd",
+  "model_name": "ours",
+  "protocol_sha256": "1c0de7770307b627f62cf48e28cd65816b801b11574153f29af71667151fcb5f",
+  "seed": 42,
+  "selected_by": "Valid only",
+  "status": "test_complete",
+  "task": "Jarvis-ShearModulusGv",
+  "test_forward_count": 1,
+  "test_mae": 8.637927869471108,
+  "test_size": 1968,
+  "token_cache_sha256": "beb013e08b44d3db7719164bcf91fb0c0df62ef59455878b8345435fdacd6539",
+  "valid_mae": 8.622445936125468
+}

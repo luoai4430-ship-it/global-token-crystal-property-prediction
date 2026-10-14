@@ -1,0 +1,15 @@
+{
+  "best_valid_epoch": 221,
+  "checkpoint_sha256": "86796feb12abe04aa9654831b0f6762040b2a8b71dec6ee36a0146af301bba31",
+  "epochs": 300,
+  "mean": 37.37079620361328,
+  "model_name": "original_sftmat",
+  "seed": 42,
+  "status": "valid_complete",
+  "std": 39.461280822753906,
+  "task": "Jarvis-ShearModulusGv",
+  "test_forward_count": 0,
+  "token_cache_sha256": "85f6c76085c0266256f0dae617c29f9a8d469f80cfa7e5fa288f154f4b2c939a",
+  "training_time_seconds": 7015.9132663486525,
+  "valid_mae": 8.686197187842392
+}

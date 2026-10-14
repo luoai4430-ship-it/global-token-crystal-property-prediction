@@ -1,0 +1,58 @@
+Jarvis-FormationEnergy CLS epoch=1/300 valid_mae=0.20678119 best=0.20678119
+Jarvis-FormationEnergy CLS epoch=10/300 valid_mae=0.10084208 best=0.10084208
+Jarvis-FormationEnergy CLS epoch=20/300 valid_mae=0.08362353 best=0.08125601
+Jarvis-FormationEnergy CLS epoch=30/300 valid_mae=0.07647005 best=0.06744996
+Jarvis-FormationEnergy CLS epoch=40/300 valid_mae=0.07862501 best=0.06073463
+Jarvis-FormationEnergy CLS epoch=50/300 valid_mae=0.06201055 best=0.05565744
+Jarvis-FormationEnergy CLS epoch=60/300 valid_mae=0.05433418 best=0.05425732
+Jarvis-FormationEnergy CLS epoch=70/300 valid_mae=0.05825050 best=0.05120846
+Jarvis-FormationEnergy CLS epoch=80/300 valid_mae=0.05439034 best=0.04975585
+Jarvis-FormationEnergy CLS epoch=90/300 valid_mae=0.04677457 best=0.04677457
+Jarvis-FormationEnergy CLS epoch=100/300 valid_mae=0.04419423 best=0.04419423
+Jarvis-FormationEnergy CLS epoch=110/300 valid_mae=0.04709693 best=0.04368677
+Jarvis-FormationEnergy CLS epoch=120/300 valid_mae=0.04177957 best=0.04104706
+Jarvis-FormationEnergy CLS epoch=130/300 valid_mae=0.04151045 best=0.04104706
+Jarvis-FormationEnergy CLS epoch=140/300 valid_mae=0.03902619 best=0.03881541
+Jarvis-FormationEnergy CLS epoch=150/300 valid_mae=0.03843155 best=0.03769195
+Jarvis-FormationEnergy CLS epoch=160/300 valid_mae=0.03673650 best=0.03673650
+Jarvis-FormationEnergy CLS epoch=170/300 valid_mae=0.03528010 best=0.03528010
+Jarvis-FormationEnergy CLS epoch=180/300 valid_mae=0.03518141 best=0.03420298
+Jarvis-FormationEnergy CLS epoch=190/300 valid_mae=0.03518924 best=0.03352947
+Jarvis-FormationEnergy CLS epoch=200/300 valid_mae=0.03350159 best=0.03304246
+Jarvis-FormationEnergy CLS epoch=210/300 valid_mae=0.03233579 best=0.03211962
+Jarvis-FormationEnergy CLS epoch=220/300 valid_mae=0.03217558 best=0.03136523
+Jarvis-FormationEnergy CLS epoch=230/300 valid_mae=0.03111308 best=0.03109401
+Jarvis-FormationEnergy CLS epoch=240/300 valid_mae=0.02999800 best=0.02999800
+Jarvis-FormationEnergy CLS epoch=250/300 valid_mae=0.03016990 best=0.02984875
+Jarvis-FormationEnergy CLS epoch=260/300 valid_mae=0.02943415 best=0.02943415
+Jarvis-FormationEnergy CLS epoch=270/300 valid_mae=0.02954187 best=0.02941773
+Jarvis-FormationEnergy CLS epoch=280/300 valid_mae=0.02947606 best=0.02924614
+Jarvis-FormationEnergy CLS epoch=290/300 valid_mae=0.02927298 best=0.02920578
+Jarvis-FormationEnergy CLS epoch=300/300 valid_mae=0.02920833 best=0.02918855
+{
+  "task": "Jarvis-FormationEnergy",
+  "dataset": "JARVIS",
+  "property_family": "Energetic",
+  "variant": "CLS",
+  "seed": 42,
+  "best_epoch": 296,
+  "best_valid_mae": 0.029188552301981953,
+  "final_valid_mae": 0.029208332888034993,
+  "mean": -0.8317226277536003,
+  "std": 1.0806602652341355,
+  "trainable_params": 2636514,
+  "checkpoint_path": "/root/autodl-tmp/TextResidualSHFMat/matched_ablation_runs/Jarvis-FormationEnergy/CLS/best_valid.pt",
+  "test_forward_count": 0,
+  "runtime_sec": 11450.789856910706,
+  "train_samples": 44578,
+  "valid_samples": 5572,
+  "mean_eligible_token_count": 122.4294687724336,
+  "median_eligible_token_count": 126.0,
+  "attention_entropy_mean": null,
+  "attention_entropy_median": null,
+  "attention_effective_token_count_mean": null,
+  "attention_effective_token_count_median": null,
+  "attention_mean_max": null,
+  "zero_text_fallback_count": 0,
+  "zero_text_fallback_ids": []
+}

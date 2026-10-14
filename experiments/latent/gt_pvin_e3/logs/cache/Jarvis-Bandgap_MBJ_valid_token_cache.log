@@ -1,0 +1,58 @@
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/cache_matbert_token_features.py --input /dev/shm/gt_pvin_stage_e3_seed42_20260910/Jarvis-Bandgap_MBJ/description_complete.csv --output_dir /dev/shm/gt_pvin_stage_e3_seed42_20260910/Jarvis-Bandgap_MBJ/token_cache --model_name /root/autodl-tmp/matbert-base-cased --id_column Id --text_column Description --max_length 128 --batch_size 64 --device cuda --progress_every 1024 --overwrite
+cached 1024/18172 token sequences
+cached 2048/18172 token sequences
+cached 3072/18172 token sequences
+cached 4096/18172 token sequences
+cached 5120/18172 token sequences
+cached 6144/18172 token sequences
+cached 7168/18172 token sequences
+cached 8192/18172 token sequences
+cached 9216/18172 token sequences
+cached 10240/18172 token sequences
+cached 11264/18172 token sequences
+cached 12288/18172 token sequences
+cached 13312/18172 token sequences
+cached 14336/18172 token sequences
+cached 15360/18172 token sequences
+cached 16384/18172 token sequences
+cached 17408/18172 token sequences
+cached 18172/18172 token sequences
+{
+  "attention_mask_dtype": "uint8",
+  "cache_sha256": "0caf4b99a950f281a2632fb36d1939bf311e88ea8c4934a951f4d1d0fc5270a6",
+  "completed_rows": 18172,
+  "feature_dtype": "float16",
+  "feature_shape": [
+    18172,
+    128,
+    768
+  ],
+  "forbidden_global_pooling_used": false,
+  "format": "dense_memmap_v1",
+  "hidden_dim": 768,
+  "hidden_size": 768,
+  "id_column": "Id",
+  "input_ids_dtype": "int32",
+  "input_ids_shape": [
+    18172,
+    128
+  ],
+  "mask_shape": [
+    18172,
+    128
+  ],
+  "max_length": 128,
+  "model_checkpoint": "/root/autodl-tmp/matbert-base-cased",
+  "model_name": "/root/autodl-tmp/matbert-base-cased",
+  "num_samples": 18172,
+  "padding": "max_length",
+  "source_csv": "/dev/shm/gt_pvin_stage_e3_seed42_20260910/Jarvis-Bandgap_MBJ/description_complete.csv",
+  "source_sha256": "3b87e15c21fe996c69c8b320fae288129c2493f48e7c1bb7accf94b27e9120e9",
+  "special_tokens_excluded": false,
+  "status": "complete",
+  "text_column": "Description",
+  "tokenizer_class": "BertTokenizerFast",
+  "tokenizer_version": "4.38.2",
+  "truncation": true,
+  "uses_last_hidden_state": true
+}

@@ -1,0 +1,10 @@
+{
+  "active": [],
+  "active_task": "Jarvis-BulkModulusKv",
+  "current_task": "MP-Bandgap",
+  "phase": "preparing",
+  "status": "RUNNING",
+  "test_forward_count": 0,
+  "test_loader_call_count": 0,
+  "updated_at_unix": 1789215211.7513778
+}

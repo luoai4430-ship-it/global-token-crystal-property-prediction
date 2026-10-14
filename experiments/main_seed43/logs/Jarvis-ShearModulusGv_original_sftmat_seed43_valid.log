@@ -1,0 +1,346 @@
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_seed43_benchmark.py train --task Jarvis-ShearModulusGv --model_name original_sftmat --seed 43 --token_cache /dev/shm/dualview_seed43_20260830/Jarvis-ShearModulusGv/token_cache --output_dir /root/dualview_seed43_20260830/runs/Jarvis-ShearModulusGv/original_sftmat/seed_43 --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda --num_workers 2 --epochs 300 --batch_size 32
+dataset split: total=19680, train=15744, valid=1968, test=1968
+train range:(-24.959999084472656,529.2999877929688)
+valid range:(-24.739999771118164,529.2999877929688)
+test range:(-24.540000915527344,266.6000061035156)
+mean:37.37079620361328
+std:39.461280822753906
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=1/300 loss=17.85514244 valid_mae=15.42094096 best=15.42094096 best_epoch=1
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=2/300 loss=14.95276839 valid_mae=13.92336174 best=13.92336174 best_epoch=2
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=3/300 loss=14.26878167 valid_mae=13.44561228 best=13.44561228 best_epoch=3
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=4/300 loss=13.86430377 valid_mae=13.35537124 best=13.35537124 best_epoch=4
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=5/300 loss=13.50858200 valid_mae=12.90458626 best=12.90458626 best_epoch=5
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=6/300 loss=13.16268648 valid_mae=12.93400425 best=12.90458626 best_epoch=5
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=7/300 loss=12.88004199 valid_mae=12.65641816 best=12.65641816 best_epoch=7
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=8/300 loss=12.77288143 valid_mae=12.60070567 best=12.60070567 best_epoch=8
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=9/300 loss=12.39818507 valid_mae=12.49501469 best=12.49501469 best_epoch=9
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=10/300 loss=12.32030044 valid_mae=12.65109935 best=12.49501469 best_epoch=9
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=11/300 loss=12.22620249 valid_mae=12.74086810 best=12.49501469 best_epoch=9
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=12/300 loss=12.04861986 valid_mae=12.61017311 best=12.49501469 best_epoch=9
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=13/300 loss=11.81239503 valid_mae=13.34941954 best=12.49501469 best_epoch=9
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=14/300 loss=11.83740700 valid_mae=12.71374059 best=12.49501469 best_epoch=9
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=15/300 loss=11.76615848 valid_mae=11.97399874 best=11.97399874 best_epoch=15
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=16/300 loss=11.51764520 valid_mae=12.50481514 best=11.97399874 best_epoch=15
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=17/300 loss=11.40409320 valid_mae=12.17479928 best=11.97399874 best_epoch=15
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=18/300 loss=11.35256642 valid_mae=11.93578979 best=11.93578979 best_epoch=18
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=19/300 loss=11.09698695 valid_mae=12.26410461 best=11.93578979 best_epoch=18
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=20/300 loss=11.22764205 valid_mae=12.24870783 best=11.93578979 best_epoch=18
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=21/300 loss=11.14244893 valid_mae=11.67297092 best=11.67297092 best_epoch=21
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=22/300 loss=11.02466253 valid_mae=12.25948394 best=11.67297092 best_epoch=21
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=23/300 loss=10.82423712 valid_mae=11.79976521 best=11.67297092 best_epoch=21
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=24/300 loss=10.92557392 valid_mae=11.73874089 best=11.67297092 best_epoch=21
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=25/300 loss=10.66175032 valid_mae=11.72485671 best=11.67297092 best_epoch=21
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=26/300 loss=10.65924719 valid_mae=11.54631706 best=11.54631706 best_epoch=26
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=27/300 loss=10.54743149 valid_mae=12.23716804 best=11.54631706 best_epoch=26
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=28/300 loss=10.48404033 valid_mae=11.88696004 best=11.54631706 best_epoch=26
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=29/300 loss=10.30175739 valid_mae=11.55635772 best=11.54631706 best_epoch=26
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=30/300 loss=10.14766107 valid_mae=12.04604823 best=11.54631706 best_epoch=26
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=31/300 loss=10.23735237 valid_mae=11.68357158 best=11.54631706 best_epoch=26
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=32/300 loss=9.97921488 valid_mae=11.47368383 best=11.47368383 best_epoch=32
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=33/300 loss=9.92514708 valid_mae=11.07388717 best=11.07388717 best_epoch=33
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=34/300 loss=9.86978725 valid_mae=11.87559974 best=11.07388717 best_epoch=33
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=35/300 loss=9.87570648 valid_mae=11.06787190 best=11.06787190 best_epoch=35
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=36/300 loss=9.76391160 valid_mae=12.18815467 best=11.06787190 best_epoch=35
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=37/300 loss=9.59511951 valid_mae=10.96380651 best=10.96380651 best_epoch=37
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=38/300 loss=9.46343612 valid_mae=10.91538843 best=10.91538843 best_epoch=38
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=39/300 loss=9.55493122 valid_mae=11.44670918 best=10.91538843 best_epoch=38
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=40/300 loss=9.52207870 valid_mae=11.17145489 best=10.91538843 best_epoch=38
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=41/300 loss=9.42643179 valid_mae=11.60014287 best=10.91538843 best_epoch=38
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=42/300 loss=9.33133253 valid_mae=10.87778884 best=10.87778884 best_epoch=42
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=43/300 loss=9.22582448 valid_mae=10.28595513 best=10.28595513 best_epoch=43
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=44/300 loss=8.89218587 valid_mae=10.88435277 best=10.28595513 best_epoch=43
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=45/300 loss=8.87992957 valid_mae=10.64480023 best=10.28595513 best_epoch=43
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=46/300 loss=8.82512358 valid_mae=10.93192753 best=10.28595513 best_epoch=43
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=47/300 loss=8.85265678 valid_mae=11.28291783 best=10.28595513 best_epoch=43
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=48/300 loss=8.78231882 valid_mae=11.33679226 best=10.28595513 best_epoch=43
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=49/300 loss=8.57134353 valid_mae=10.42461104 best=10.28595513 best_epoch=43
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=50/300 loss=8.48342603 valid_mae=10.64950330 best=10.28595513 best_epoch=43
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=51/300 loss=8.47553527 valid_mae=11.21720765 best=10.28595513 best_epoch=43
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=52/300 loss=8.35382660 valid_mae=10.17847996 best=10.17847996 best_epoch=52
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=53/300 loss=8.17048770 valid_mae=10.88227974 best=10.17847996 best_epoch=52
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=54/300 loss=8.14704688 valid_mae=10.71376743 best=10.17847996 best_epoch=52
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=55/300 loss=7.98127315 valid_mae=10.48497840 best=10.17847996 best_epoch=52
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=56/300 loss=7.92199387 valid_mae=10.91491829 best=10.17847996 best_epoch=52
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=57/300 loss=7.77405462 valid_mae=10.17536977 best=10.17536977 best_epoch=57
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=58/300 loss=7.79151173 valid_mae=10.41564087 best=10.17536977 best_epoch=57
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=59/300 loss=7.58573703 valid_mae=10.34545100 best=10.17536977 best_epoch=57
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=60/300 loss=7.54796531 valid_mae=10.35106209 best=10.17536977 best_epoch=57
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=61/300 loss=7.53419246 valid_mae=10.32744499 best=10.17536977 best_epoch=57
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=62/300 loss=7.35413611 valid_mae=10.21129053 best=10.17536977 best_epoch=57
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=63/300 loss=7.33242900 valid_mae=10.90082642 best=10.17536977 best_epoch=57
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=64/300 loss=7.16040269 valid_mae=10.53567562 best=10.17536977 best_epoch=57
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=65/300 loss=7.20690467 valid_mae=10.10527099 best=10.10527099 best_epoch=65
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=66/300 loss=7.13060622 valid_mae=10.40195135 best=10.10527099 best_epoch=65
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=67/300 loss=6.91858337 valid_mae=10.06943580 best=10.06943580 best_epoch=67
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=68/300 loss=6.82920514 valid_mae=10.31849638 best=10.06943580 best_epoch=67
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=69/300 loss=6.68545487 valid_mae=10.35801087 best=10.06943580 best_epoch=67
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=70/300 loss=6.77551817 valid_mae=10.33089770 best=10.06943580 best_epoch=67
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=71/300 loss=6.63280907 valid_mae=10.08698257 best=10.06943580 best_epoch=67
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=72/300 loss=6.50423844 valid_mae=10.29653245 best=10.06943580 best_epoch=67
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=73/300 loss=6.46209881 valid_mae=10.09236770 best=10.06943580 best_epoch=67
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=74/300 loss=6.46405344 valid_mae=9.99361077 best=9.99361077 best_epoch=74
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=75/300 loss=6.18792319 valid_mae=10.08140677 best=9.99361077 best_epoch=74
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=76/300 loss=6.23549914 valid_mae=9.96340204 best=9.96340204 best_epoch=76
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=77/300 loss=6.19179704 valid_mae=10.02043910 best=9.96340204 best_epoch=76
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=78/300 loss=6.09903013 valid_mae=9.96464701 best=9.96340204 best_epoch=76
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=79/300 loss=6.01536543 valid_mae=9.99961715 best=9.96340204 best_epoch=76
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=80/300 loss=5.93312390 valid_mae=9.89131692 best=9.89131692 best_epoch=80
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=81/300 loss=5.86184654 valid_mae=10.31566696 best=9.89131692 best_epoch=80
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=82/300 loss=5.78920714 valid_mae=10.16882327 best=9.89131692 best_epoch=80
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=83/300 loss=5.68384663 valid_mae=10.44726967 best=9.89131692 best_epoch=80
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=84/300 loss=5.71389771 valid_mae=10.11891391 best=9.89131692 best_epoch=80
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=85/300 loss=5.61677032 valid_mae=10.20579426 best=9.89131692 best_epoch=80
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=86/300 loss=5.49122665 valid_mae=9.91986414 best=9.89131692 best_epoch=80
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=87/300 loss=5.51043088 valid_mae=9.75461526 best=9.75461526 best_epoch=87
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=88/300 loss=5.37430241 valid_mae=9.91087087 best=9.75461526 best_epoch=87
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=89/300 loss=5.20792537 valid_mae=9.79421685 best=9.75461526 best_epoch=87
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=90/300 loss=5.24918044 valid_mae=10.04062856 best=9.75461526 best_epoch=87
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=91/300 loss=5.11960732 valid_mae=9.74231445 best=9.74231445 best_epoch=91
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=92/300 loss=5.15221594 valid_mae=10.04893874 best=9.74231445 best_epoch=91
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=93/300 loss=5.02645105 valid_mae=9.91707881 best=9.74231445 best_epoch=91
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=94/300 loss=4.96794430 valid_mae=9.76865134 best=9.74231445 best_epoch=91
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=95/300 loss=4.98150838 valid_mae=11.01423371 best=9.74231445 best_epoch=91
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=96/300 loss=4.83494748 valid_mae=9.60564058 best=9.60564058 best_epoch=96
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=97/300 loss=4.79623324 valid_mae=9.54110794 best=9.54110794 best_epoch=97
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=98/300 loss=4.72826764 valid_mae=9.64483349 best=9.54110794 best_epoch=97
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=99/300 loss=4.73092896 valid_mae=9.85734353 best=9.54110794 best_epoch=97
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=100/300 loss=4.65467996 valid_mae=9.29047343 best=9.29047343 best_epoch=100
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=101/300 loss=4.60444256 valid_mae=10.09464997 best=9.29047343 best_epoch=100
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=102/300 loss=4.46442858 valid_mae=9.70624350 best=9.29047343 best_epoch=100
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=103/300 loss=4.47273099 valid_mae=10.07882152 best=9.29047343 best_epoch=100
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=104/300 loss=4.42729104 valid_mae=9.87624734 best=9.29047343 best_epoch=100
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=105/300 loss=4.40173059 valid_mae=9.77682656 best=9.29047343 best_epoch=100
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=106/300 loss=4.29491252 valid_mae=9.74733826 best=9.29047343 best_epoch=100
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=107/300 loss=4.30762290 valid_mae=9.60828432 best=9.29047343 best_epoch=100
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=108/300 loss=4.21137520 valid_mae=9.35281423 best=9.29047343 best_epoch=100
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=109/300 loss=4.16601484 valid_mae=9.65436849 best=9.29047343 best_epoch=100
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=110/300 loss=4.28015593 valid_mae=9.80466533 best=9.29047343 best_epoch=100
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=111/300 loss=4.22173881 valid_mae=9.92143042 best=9.29047343 best_epoch=100
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=112/300 loss=4.06716560 valid_mae=9.69703676 best=9.29047343 best_epoch=100
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=113/300 loss=4.04345339 valid_mae=9.29838697 best=9.29047343 best_epoch=100
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=114/300 loss=3.93226830 valid_mae=9.67628727 best=9.29047343 best_epoch=100
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=115/300 loss=3.95514646 valid_mae=9.52397185 best=9.29047343 best_epoch=100
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=116/300 loss=3.91303512 valid_mae=9.48766220 best=9.29047343 best_epoch=100
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=117/300 loss=3.88372379 valid_mae=9.84638737 best=9.29047343 best_epoch=100
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=118/300 loss=3.81820475 valid_mae=9.70340251 best=9.29047343 best_epoch=100
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=119/300 loss=3.86103075 valid_mae=9.26796667 best=9.26796667 best_epoch=119
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=120/300 loss=3.78713486 valid_mae=9.51821484 best=9.26796667 best_epoch=119
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=121/300 loss=3.69722981 valid_mae=9.60970040 best=9.26796667 best_epoch=119
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=122/300 loss=3.66964185 valid_mae=9.62907959 best=9.26796667 best_epoch=119
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=123/300 loss=3.67493459 valid_mae=9.74423089 best=9.26796667 best_epoch=119
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=124/300 loss=3.58643583 valid_mae=9.36822152 best=9.26796667 best_epoch=119
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=125/300 loss=3.58566705 valid_mae=9.50385892 best=9.26796667 best_epoch=119
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=126/300 loss=3.52189533 valid_mae=9.81785777 best=9.26796667 best_epoch=119
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=127/300 loss=3.52403182 valid_mae=9.46939510 best=9.26796667 best_epoch=119
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=128/300 loss=3.46579495 valid_mae=9.40145412 best=9.26796667 best_epoch=119
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=129/300 loss=3.40339333 valid_mae=9.21354508 best=9.21354508 best_epoch=129
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=130/300 loss=3.42183868 valid_mae=9.10698776 best=9.10698776 best_epoch=130
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=131/300 loss=3.35914101 valid_mae=9.39289510 best=9.10698776 best_epoch=130
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=132/300 loss=3.27425590 valid_mae=9.10872901 best=9.10698776 best_epoch=130
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=133/300 loss=3.29682346 valid_mae=9.32310204 best=9.10698776 best_epoch=130
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=134/300 loss=3.31366577 valid_mae=9.27364994 best=9.10698776 best_epoch=130
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=135/300 loss=3.20598621 valid_mae=9.30115380 best=9.10698776 best_epoch=130
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=136/300 loss=3.18995560 valid_mae=9.73453205 best=9.10698776 best_epoch=130
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=137/300 loss=3.24005412 valid_mae=9.36259943 best=9.10698776 best_epoch=130
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=138/300 loss=3.15421371 valid_mae=9.36979809 best=9.10698776 best_epoch=130
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=139/300 loss=3.11474999 valid_mae=9.07877600 best=9.07877600 best_epoch=139
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=140/300 loss=3.06949582 valid_mae=9.12739169 best=9.07877600 best_epoch=139
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=141/300 loss=3.09624682 valid_mae=9.49263940 best=9.07877600 best_epoch=139
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=142/300 loss=3.12305482 valid_mae=9.28870762 best=9.07877600 best_epoch=139
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=143/300 loss=3.07570711 valid_mae=9.27998357 best=9.07877600 best_epoch=139
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=144/300 loss=2.92646670 valid_mae=9.17639929 best=9.07877600 best_epoch=139
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=145/300 loss=2.92444504 valid_mae=9.21884053 best=9.07877600 best_epoch=139
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=146/300 loss=2.90155010 valid_mae=9.31493610 best=9.07877600 best_epoch=139
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=147/300 loss=2.86432576 valid_mae=9.16283110 best=9.07877600 best_epoch=139
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=148/300 loss=2.86500383 valid_mae=9.28295148 best=9.07877600 best_epoch=139
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=149/300 loss=2.88130442 valid_mae=9.29859382 best=9.07877600 best_epoch=139
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=150/300 loss=2.82090509 valid_mae=9.37171305 best=9.07877600 best_epoch=139
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=151/300 loss=2.78637670 valid_mae=9.23928174 best=9.07877600 best_epoch=139
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=152/300 loss=2.76358329 valid_mae=9.41043282 best=9.07877600 best_epoch=139
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=153/300 loss=2.69632038 valid_mae=9.17420164 best=9.07877600 best_epoch=139
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=154/300 loss=2.70711204 valid_mae=9.23718884 best=9.07877600 best_epoch=139
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=155/300 loss=2.65113811 valid_mae=9.23303396 best=9.07877600 best_epoch=139
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=156/300 loss=2.61701410 valid_mae=9.25869315 best=9.07877600 best_epoch=139
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=157/300 loss=2.59768804 valid_mae=9.07440246 best=9.07440246 best_epoch=157
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=158/300 loss=2.58845918 valid_mae=9.02936599 best=9.02936599 best_epoch=158
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=159/300 loss=2.58397298 valid_mae=9.15054723 best=9.02936599 best_epoch=158
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=160/300 loss=2.52429430 valid_mae=9.24061184 best=9.02936599 best_epoch=158
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=161/300 loss=2.57084013 valid_mae=9.01538069 best=9.01538069 best_epoch=161
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=162/300 loss=2.48691578 valid_mae=9.13604395 best=9.01538069 best_epoch=161
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=163/300 loss=2.44160108 valid_mae=9.22713657 best=9.01538069 best_epoch=161
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=164/300 loss=2.42145541 valid_mae=9.18223220 best=9.01538069 best_epoch=161
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=165/300 loss=2.43867476 valid_mae=9.08835178 best=9.01538069 best_epoch=161
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=166/300 loss=2.38285014 valid_mae=9.17305218 best=9.01538069 best_epoch=161
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=167/300 loss=2.35197743 valid_mae=9.07877562 best=9.01538069 best_epoch=161
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=168/300 loss=2.30536998 valid_mae=8.98139569 best=8.98139569 best_epoch=168
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=169/300 loss=2.29660206 valid_mae=9.04840710 best=8.98139569 best_epoch=168
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=170/300 loss=2.29030842 valid_mae=8.90445349 best=8.90445349 best_epoch=170
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=171/300 loss=2.21192080 valid_mae=8.90206971 best=8.90206971 best_epoch=171
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=172/300 loss=2.21167172 valid_mae=8.89640864 best=8.89640864 best_epoch=172
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=173/300 loss=2.19939785 valid_mae=8.95558988 best=8.89640864 best_epoch=172
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=174/300 loss=2.15498423 valid_mae=8.95889543 best=8.89640864 best_epoch=172
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=175/300 loss=2.16192435 valid_mae=8.97906553 best=8.89640864 best_epoch=172
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=176/300 loss=2.11835826 valid_mae=8.87012854 best=8.87012854 best_epoch=176
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=177/300 loss=2.08775576 valid_mae=9.17997312 best=8.87012854 best_epoch=176
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=178/300 loss=2.10241900 valid_mae=9.03257795 best=8.87012854 best_epoch=176
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=179/300 loss=2.03560449 valid_mae=8.95457420 best=8.87012854 best_epoch=176
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=180/300 loss=2.01320456 valid_mae=9.03160238 best=8.87012854 best_epoch=176
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=181/300 loss=2.00517303 valid_mae=9.04513813 best=8.87012854 best_epoch=176
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=182/300 loss=2.00425115 valid_mae=9.01682634 best=8.87012854 best_epoch=176
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=183/300 loss=1.96221580 valid_mae=8.88666979 best=8.87012854 best_epoch=176
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=184/300 loss=1.94779916 valid_mae=8.86282887 best=8.86282887 best_epoch=184
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=185/300 loss=1.91853984 valid_mae=8.94632898 best=8.86282887 best_epoch=184
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=186/300 loss=1.90011254 valid_mae=9.12669207 best=8.86282887 best_epoch=184
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=187/300 loss=1.90504594 valid_mae=9.00376266 best=8.86282887 best_epoch=184
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=188/300 loss=1.85537995 valid_mae=8.92993395 best=8.86282887 best_epoch=184
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=189/300 loss=1.81519513 valid_mae=8.97734230 best=8.86282887 best_epoch=184
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=190/300 loss=1.79678390 valid_mae=8.99559576 best=8.86282887 best_epoch=184
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=191/300 loss=1.76740938 valid_mae=8.76260340 best=8.76260340 best_epoch=191
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=192/300 loss=1.76694274 valid_mae=8.92497030 best=8.76260340 best_epoch=191
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=193/300 loss=1.75017841 valid_mae=9.00162168 best=8.76260340 best_epoch=191
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=194/300 loss=1.75116465 valid_mae=8.87186486 best=8.76260340 best_epoch=191
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=195/300 loss=1.69264692 valid_mae=8.79873105 best=8.76260340 best_epoch=191
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=196/300 loss=1.68082800 valid_mae=8.91177239 best=8.76260340 best_epoch=191
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=197/300 loss=1.66427077 valid_mae=8.72403210 best=8.72403210 best_epoch=197
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=198/300 loss=1.62840952 valid_mae=8.79529406 best=8.72403210 best_epoch=197
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=199/300 loss=1.62754492 valid_mae=8.74073560 best=8.72403210 best_epoch=197
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=200/300 loss=1.60892717 valid_mae=8.81610773 best=8.72403210 best_epoch=197
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=201/300 loss=1.57861170 valid_mae=8.96088245 best=8.72403210 best_epoch=197
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=202/300 loss=1.57679216 valid_mae=8.83132679 best=8.72403210 best_epoch=197
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=203/300 loss=1.55539338 valid_mae=8.76582091 best=8.72403210 best_epoch=197
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=204/300 loss=1.53067365 valid_mae=8.88077125 best=8.72403210 best_epoch=197
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=205/300 loss=1.47787643 valid_mae=8.80391157 best=8.72403210 best_epoch=197
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=206/300 loss=1.48803636 valid_mae=8.67059998 best=8.67059998 best_epoch=206
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=207/300 loss=1.46848689 valid_mae=8.73982797 best=8.67059998 best_epoch=206
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=208/300 loss=1.44244616 valid_mae=8.90166004 best=8.67059998 best_epoch=206
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=209/300 loss=1.41602634 valid_mae=8.75589893 best=8.67059998 best_epoch=206
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=210/300 loss=1.39258124 valid_mae=8.87480883 best=8.67059998 best_epoch=206
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=211/300 loss=1.41330134 valid_mae=8.90925448 best=8.67059998 best_epoch=206
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=212/300 loss=1.36847482 valid_mae=8.86159046 best=8.67059998 best_epoch=206
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=213/300 loss=1.35302510 valid_mae=8.77070415 best=8.67059998 best_epoch=206
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=214/300 loss=1.34028060 valid_mae=8.74774846 best=8.67059998 best_epoch=206
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=215/300 loss=1.31209619 valid_mae=8.76656754 best=8.67059998 best_epoch=206
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=216/300 loss=1.31126828 valid_mae=8.71205541 best=8.67059998 best_epoch=206
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=217/300 loss=1.28535025 valid_mae=8.67136423 best=8.67059998 best_epoch=206
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=218/300 loss=1.29590304 valid_mae=8.73919251 best=8.67059998 best_epoch=206
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=219/300 loss=1.27511609 valid_mae=8.71659761 best=8.67059998 best_epoch=206
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=220/300 loss=1.25338766 valid_mae=8.71376369 best=8.67059998 best_epoch=206
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=221/300 loss=1.22345388 valid_mae=8.68441317 best=8.67059998 best_epoch=206
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=222/300 loss=1.21040000 valid_mae=8.73385257 best=8.67059998 best_epoch=206
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=223/300 loss=1.20846191 valid_mae=8.71136896 best=8.67059998 best_epoch=206
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=224/300 loss=1.18212851 valid_mae=8.74843807 best=8.67059998 best_epoch=206
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=225/300 loss=1.15241188 valid_mae=8.62517335 best=8.62517335 best_epoch=225
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=226/300 loss=1.15898108 valid_mae=8.77028783 best=8.62517335 best_epoch=225
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=227/300 loss=1.12862664 valid_mae=8.75994112 best=8.62517335 best_epoch=225
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=228/300 loss=1.10986882 valid_mae=8.76931231 best=8.62517335 best_epoch=225
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=229/300 loss=1.12726360 valid_mae=8.79160427 best=8.62517335 best_epoch=225
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=230/300 loss=1.08822474 valid_mae=8.73295472 best=8.62517335 best_epoch=225
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=231/300 loss=1.08171490 valid_mae=8.76041397 best=8.62517335 best_epoch=225
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=232/300 loss=1.06723525 valid_mae=8.65000981 best=8.62517335 best_epoch=225
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=233/300 loss=1.04393974 valid_mae=8.71152434 best=8.62517335 best_epoch=225
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=234/300 loss=1.03851996 valid_mae=8.71563756 best=8.62517335 best_epoch=225
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=235/300 loss=1.02219976 valid_mae=8.72288467 best=8.62517335 best_epoch=225
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=236/300 loss=1.00570482 valid_mae=8.67974027 best=8.62517335 best_epoch=225
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=237/300 loss=1.00711423 valid_mae=8.66777963 best=8.62517335 best_epoch=225
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=238/300 loss=0.98647459 valid_mae=8.69047836 best=8.62517335 best_epoch=225
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=239/300 loss=0.98583657 valid_mae=8.74065011 best=8.62517335 best_epoch=225
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=240/300 loss=0.95741391 valid_mae=8.76727726 best=8.62517335 best_epoch=225
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=241/300 loss=0.96946683 valid_mae=8.68823248 best=8.62517335 best_epoch=225
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=242/300 loss=0.94814425 valid_mae=8.73040395 best=8.62517335 best_epoch=225
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=243/300 loss=0.92254057 valid_mae=8.71893594 best=8.62517335 best_epoch=225
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=244/300 loss=0.93181089 valid_mae=8.70540864 best=8.62517335 best_epoch=225
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=245/300 loss=0.91077018 valid_mae=8.67286905 best=8.62517335 best_epoch=225
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=246/300 loss=0.90608285 valid_mae=8.68841916 best=8.62517335 best_epoch=225
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=247/300 loss=0.89047350 valid_mae=8.73176044 best=8.62517335 best_epoch=225
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=248/300 loss=0.88988924 valid_mae=8.69611607 best=8.62517335 best_epoch=225
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=249/300 loss=0.87281738 valid_mae=8.66125800 best=8.62517335 best_epoch=225
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=250/300 loss=0.87247306 valid_mae=8.64599233 best=8.62517335 best_epoch=225
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=251/300 loss=0.84954539 valid_mae=8.69743343 best=8.62517335 best_epoch=225
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=252/300 loss=0.85242486 valid_mae=8.64511743 best=8.62517335 best_epoch=225
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=253/300 loss=0.84112210 valid_mae=8.63272118 best=8.62517335 best_epoch=225
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=254/300 loss=0.81882372 valid_mae=8.61853617 best=8.61853617 best_epoch=254
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=255/300 loss=0.82044128 valid_mae=8.65414778 best=8.61853617 best_epoch=254
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=256/300 loss=0.82033845 valid_mae=8.65184875 best=8.61853617 best_epoch=254
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=257/300 loss=0.79228287 valid_mae=8.64293075 best=8.61853617 best_epoch=254
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=258/300 loss=0.79728606 valid_mae=8.65671907 best=8.61853617 best_epoch=254
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=259/300 loss=0.78578139 valid_mae=8.66862171 best=8.61853617 best_epoch=254
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=260/300 loss=0.78959980 valid_mae=8.63612888 best=8.61853617 best_epoch=254
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=261/300 loss=0.77725639 valid_mae=8.67570524 best=8.61853617 best_epoch=254
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=262/300 loss=0.77781173 valid_mae=8.66583989 best=8.61853617 best_epoch=254
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=263/300 loss=0.75537570 valid_mae=8.66124561 best=8.61853617 best_epoch=254
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=264/300 loss=0.76098712 valid_mae=8.66572938 best=8.61853617 best_epoch=254
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=265/300 loss=0.74412527 valid_mae=8.65948145 best=8.61853617 best_epoch=254
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=266/300 loss=0.73763277 valid_mae=8.65811596 best=8.61853617 best_epoch=254
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=267/300 loss=0.74393406 valid_mae=8.67831985 best=8.61853617 best_epoch=254
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=268/300 loss=0.72823647 valid_mae=8.66524741 best=8.61853617 best_epoch=254
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=269/300 loss=0.72421357 valid_mae=8.66090398 best=8.61853617 best_epoch=254
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=270/300 loss=0.71989261 valid_mae=8.65639254 best=8.61853617 best_epoch=254
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=271/300 loss=0.71199140 valid_mae=8.66817468 best=8.61853617 best_epoch=254
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=272/300 loss=0.70101848 valid_mae=8.63563593 best=8.61853617 best_epoch=254
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=273/300 loss=0.70304770 valid_mae=8.67278121 best=8.61853617 best_epoch=254
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=274/300 loss=0.70982864 valid_mae=8.61743798 best=8.61743798 best_epoch=274
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=275/300 loss=0.70722348 valid_mae=8.65059299 best=8.61743798 best_epoch=274
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=276/300 loss=0.70053208 valid_mae=8.65011925 best=8.61743798 best_epoch=274
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=277/300 loss=0.68417347 valid_mae=8.64719454 best=8.61743798 best_epoch=274
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=278/300 loss=0.68710697 valid_mae=8.66293047 best=8.61743798 best_epoch=274
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=279/300 loss=0.68962653 valid_mae=8.65829716 best=8.61743798 best_epoch=274
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=280/300 loss=0.68111656 valid_mae=8.65178820 best=8.61743798 best_epoch=274
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=281/300 loss=0.67771920 valid_mae=8.65057466 best=8.61743798 best_epoch=274
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=282/300 loss=0.67107506 valid_mae=8.64290344 best=8.61743798 best_epoch=274
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=283/300 loss=0.66546154 valid_mae=8.64757299 best=8.61743798 best_epoch=274
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=284/300 loss=0.66727386 valid_mae=8.65068211 best=8.61743798 best_epoch=274
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=285/300 loss=0.65554922 valid_mae=8.63069717 best=8.61743798 best_epoch=274
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=286/300 loss=0.66494392 valid_mae=8.67726918 best=8.61743798 best_epoch=274
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=287/300 loss=0.66234196 valid_mae=8.64149793 best=8.61743798 best_epoch=274
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=288/300 loss=0.65888331 valid_mae=8.65346423 best=8.61743798 best_epoch=274
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=289/300 loss=0.65666346 valid_mae=8.66578443 best=8.61743798 best_epoch=274
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=290/300 loss=0.66267325 valid_mae=8.65233410 best=8.61743798 best_epoch=274
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=291/300 loss=0.66176561 valid_mae=8.65142233 best=8.61743798 best_epoch=274
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=292/300 loss=0.65607669 valid_mae=8.66751376 best=8.61743798 best_epoch=274
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=293/300 loss=0.65845589 valid_mae=8.64768985 best=8.61743798 best_epoch=274
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=294/300 loss=0.64898406 valid_mae=8.62781272 best=8.61743798 best_epoch=274
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=295/300 loss=0.66128103 valid_mae=8.64441397 best=8.61743798 best_epoch=274
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=296/300 loss=0.65420804 valid_mae=8.63330684 best=8.61743798 best_epoch=274
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=297/300 loss=0.65515241 valid_mae=8.62997229 best=8.61743798 best_epoch=274
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=298/300 loss=0.65899204 valid_mae=8.65566812 best=8.61743798 best_epoch=274
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=299/300 loss=0.65565648 valid_mae=8.62435685 best=8.61743798 best_epoch=274
+[Jarvis-ShearModulusGv:original_sftmat:seed43] epoch=300/300 loss=0.65678484 valid_mae=8.65287899 best=8.61743798 best_epoch=274
+{
+  "attention_entropy": NaN,
+  "bandgap_nonnegative_clipping": false,
+  "best_valid_epoch": 274,
+  "checkpoint_reload_atol": 0.03125,
+  "checkpoint_reload_max_abs": 0.001953125,
+  "checkpoint_reload_passed": true,
+  "checkpoint_reload_rtol": 0.03125,
+  "checkpoint_reload_state_exact": true,
+  "checkpoint_sha256": "2b7bd345372b05d6c2a86297470cc41cb584e2338ac5538e01bec20a5c2a2c0e",
+  "data_loader_workers": 2,
+  "dataset": "JARVIS",
+  "drop_last": false,
+  "effective_token_count": NaN,
+  "epochs": 300,
+  "graph_valid_mae": NaN,
+  "mean_abs_residual": NaN,
+  "mean_max_attention": NaN,
+  "median_max_attention": NaN,
+  "model_name": "original_sftmat",
+  "padding_attention_max": NaN,
+  "parameter_count": 2661154,
+  "pin_memory": false,
+  "property": "ShearModulusGv",
+  "protocol_sha256": "adae888170a616d63ca455803e3c186d270cb62ae5bbd3ed70b55835dc8c674d",
+  "seed": 43,
+  "special_token_attention_max": NaN,
+  "status": "valid_complete",
+  "task": "Jarvis-ShearModulusGv",
+  "test_forward_count": 0,
+  "token_cache_sha256": "85f6c76085c0266256f0dae617c29f9a8d469f80cfa7e5fa288f154f4b2c939a",
+  "torch_multiprocessing_sharing_strategy": "file_system",
+  "train_size": 15744,
+  "training_autocast_dtype": "bfloat16",
+  "training_time_seconds": 6944.860411450267,
+  "unit": "GPa",
+  "valid_mae": 8.620151984982375,
+  "valid_size": 1968
+}

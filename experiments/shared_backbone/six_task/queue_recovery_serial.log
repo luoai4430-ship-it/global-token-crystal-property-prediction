@@ -1,0 +1,5 @@
+launch Jarvis-Bandgap_MBJ
+launch Jarvis-FormationEnergy
+launch Jarvis-BulkModulusKv
+launch MP-Bandgap
+a child process failed

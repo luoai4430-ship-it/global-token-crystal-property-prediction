@@ -1,0 +1,129 @@
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_gcta_fast_screen.py preflight --task MP-Bandgap --token_cache /dev/shm/gcta_fast_screen_seed42_20260902/MP-Bandgap/token_cache --scratch /dev/shm/gcta_fast_screen_seed42_20260902/MP-Bandgap --output_root /root/gcta_fast_screen_seed42_20260902 --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+dataset split: total=65516, train=60000, valid=5000, test=516
+train range:(0.0,17.891399383544922)
+valid range:(0.0,8.311300277709961)
+test range:(0.0,7.539400100708008)
+mean:1.350268006324768
+std:1.6265326738357544
+{
+  "aliases": {
+    "aliases": [
+      {
+        "path": "/root/autodl-tmp/TextResidualSHFMat/Dataset/processed/MP-Bandgap-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-train-CGCNN.pt",
+        "source": "existing_plain"
+      },
+      {
+        "path": "/root/autodl-tmp/TextResidualSHFMat/Dataset/processed/MP-Bandgap-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-valid-CGCNN.pt",
+        "source": "existing_plain"
+      },
+      {
+        "path": "/root/autodl-tmp/TextResidualSHFMat/Dataset/processed/MP-Bandgap-cutoff4.0-maxNeibNum16-spheHarmL4-splitSeed123-CIF_CSV-test-CGCNN.pt",
+        "source": "existing_plain"
+      }
+    ],
+    "retargeted": null,
+    "task": "MP-Bandgap"
+  },
+  "model_checks": {
+    "B1_NaiveConcat": {
+      "effective_token_count_min": 124.70734405517578,
+      "forbidden_modules_absent": true,
+      "padding_attention_max": 0.0,
+      "parameter_count": 2882658,
+      "prediction_shape": [
+        4
+      ],
+      "single_prediction_head": true,
+      "single_sftgnn": true,
+      "special_token_attention_max": 0.0,
+      "temperature": 0.5,
+      "wqc_zero_initialized": false
+    },
+    "P2_GCTA": {
+      "effective_token_count_min": 124.71328735351562,
+      "forbidden_modules_absent": true,
+      "padding_attention_max": 0.0,
+      "parameter_count": 2899042,
+      "prediction_shape": [
+        4
+      ],
+      "single_prediction_head": true,
+      "single_sftgnn": true,
+      "special_token_attention_max": 0.0,
+      "temperature": 0.5,
+      "wqc_zero_initialized": true
+    }
+  },
+  "p2_added_params_vs_b1_pct": 0.5683643359704827,
+  "protocol": {
+    "bandgap_nonnegative_clipping": true,
+    "batch_size": 32,
+    "checkpoint_selection": "minimum validation MAE only",
+    "early_stopping_patience": 20,
+    "epochs_max": 100,
+    "eval_batch_size": 64,
+    "forbidden": [
+      "dual-model prediction ensemble",
+      "prediction averaging",
+      "router",
+      "sample-wise alpha",
+      "property-specific gate",
+      "dataset-specific gate",
+      "tau search",
+      "loss-weight search",
+      "TAGIF tuning",
+      "test evaluation"
+    ],
+    "learning_rate": 0.001,
+    "loss": "single final-head raw-unit MAE",
+    "max_learning_rate": 0.001,
+    "mechanism_thresholds": {
+      "mean_attention_l1_vs_b1_min": 0.0001,
+      "wqc_gradient_norm_min": 1e-08
+    },
+    "optimizer": "AdamW",
+    "query_control_selection_use": false,
+    "query_controls": [
+      "normal",
+      "query_cls_shuffled",
+      "query_cls_zero"
+    ],
+    "scheduler": "OneCycleLR",
+    "seed": 42,
+    "split_seed": 123,
+    "stage": "GCTA_fast_screen",
+    "target_normalization": "task train-only mean/std from graph cache",
+    "tasks": [
+      "Jarvis-Bandgap_MBJ",
+      "MP-Bandgap"
+    ],
+    "temperature": 0.5,
+    "test_forward_count": 0,
+    "training_dtype": "bfloat16",
+    "variants": [
+      "B1_NaiveConcat",
+      "P2_GCTA"
+    ],
+    "weight_decay": 0.0001
+  },
+  "protocol_sha256": "919c84390774abec61ac52edabac1eb581f72bb05e9d21d02e93e03f3434be98",
+  "shared_initialization_equal": true,
+  "split_sizes": {
+    "train": 60000,
+    "valid": 5000
+  },
+  "status": "passed",
+  "target_mean": 1.350268006324768,
+  "target_std": 1.6265326738357544,
+  "task": "MP-Bandgap",
+  "test_forward_count": 0,
+  "token_cache_rows": 65516,
+  "token_cache_sha256": "ee701e2c5c105c14feed7af9dfc7a5e2a6dbf11f473fd84b6364c64fb9048fc3",
+  "token_cache_shape": [
+    65516,
+    128,
+    768
+  ]
+}

@@ -1,0 +1,58 @@
+MP-FormationEnergy MaskedMean epoch=1/300 valid_mae=0.12999279 best=0.12999279
+MP-FormationEnergy MaskedMean epoch=10/300 valid_mae=0.07929501 best=0.07613561
+MP-FormationEnergy MaskedMean epoch=20/300 valid_mae=0.06058668 best=0.05888230
+MP-FormationEnergy MaskedMean epoch=30/300 valid_mae=0.05254146 best=0.04971222
+MP-FormationEnergy MaskedMean epoch=40/300 valid_mae=0.04654343 best=0.04340332
+MP-FormationEnergy MaskedMean epoch=50/300 valid_mae=0.04202936 best=0.04090083
+MP-FormationEnergy MaskedMean epoch=60/300 valid_mae=0.04085407 best=0.03906883
+MP-FormationEnergy MaskedMean epoch=70/300 valid_mae=0.04120202 best=0.03778936
+MP-FormationEnergy MaskedMean epoch=80/300 valid_mae=0.03742619 best=0.03556653
+MP-FormationEnergy MaskedMean epoch=90/300 valid_mae=0.03513007 best=0.03443072
+MP-FormationEnergy MaskedMean epoch=100/300 valid_mae=0.03556919 best=0.03298517
+MP-FormationEnergy MaskedMean epoch=110/300 valid_mae=0.03210273 best=0.03101748
+MP-FormationEnergy MaskedMean epoch=120/300 valid_mae=0.03093300 best=0.03088393
+MP-FormationEnergy MaskedMean epoch=130/300 valid_mae=0.03264280 best=0.02875139
+MP-FormationEnergy MaskedMean epoch=140/300 valid_mae=0.03153738 best=0.02834321
+MP-FormationEnergy MaskedMean epoch=150/300 valid_mae=0.02743417 best=0.02699993
+MP-FormationEnergy MaskedMean epoch=160/300 valid_mae=0.02619340 best=0.02619340
+MP-FormationEnergy MaskedMean epoch=170/300 valid_mae=0.02583566 best=0.02560835
+MP-FormationEnergy MaskedMean epoch=180/300 valid_mae=0.02564508 best=0.02461359
+MP-FormationEnergy MaskedMean epoch=190/300 valid_mae=0.02368160 best=0.02368160
+MP-FormationEnergy MaskedMean epoch=200/300 valid_mae=0.02250396 best=0.02250396
+MP-FormationEnergy MaskedMean epoch=210/300 valid_mae=0.02249131 best=0.02249131
+MP-FormationEnergy MaskedMean epoch=220/300 valid_mae=0.02193683 best=0.02166108
+MP-FormationEnergy MaskedMean epoch=230/300 valid_mae=0.02126517 best=0.02126517
+MP-FormationEnergy MaskedMean epoch=240/300 valid_mae=0.02134990 best=0.02077543
+MP-FormationEnergy MaskedMean epoch=250/300 valid_mae=0.02166208 best=0.02058291
+MP-FormationEnergy MaskedMean epoch=260/300 valid_mae=0.02019860 best=0.02019860
+MP-FormationEnergy MaskedMean epoch=270/300 valid_mae=0.02076358 best=0.02012834
+MP-FormationEnergy MaskedMean epoch=280/300 valid_mae=0.02024189 best=0.02007321
+MP-FormationEnergy MaskedMean epoch=290/300 valid_mae=0.02016187 best=0.01990442
+MP-FormationEnergy MaskedMean epoch=300/300 valid_mae=0.02006738 best=0.01990442
+{
+  "task": "MP-FormationEnergy",
+  "dataset": "MP",
+  "property_family": "Energetic",
+  "variant": "MaskedMean",
+  "seed": 42,
+  "best_epoch": 284,
+  "best_valid_mae": 0.019904416171142116,
+  "final_valid_mae": 0.020067378765294124,
+  "mean": -1.6532750963404999,
+  "std": 1.0720249835312508,
+  "trainable_params": 2636514,
+  "checkpoint_path": "/root/autodl-tmp/TextResidualSHFMat/matched_ablation_runs/MP-FormationEnergy/MaskedMean/best_valid.pt",
+  "test_forward_count": 0,
+  "runtime_sec": 23099.7012925148,
+  "train_samples": 60000,
+  "valid_samples": 5000,
+  "mean_eligible_token_count": 124.4382,
+  "median_eligible_token_count": 126.0,
+  "attention_entropy_mean": null,
+  "attention_entropy_median": null,
+  "attention_effective_token_count_mean": null,
+  "attention_effective_token_count_median": null,
+  "attention_mean_max": null,
+  "zero_text_fallback_count": 0,
+  "zero_text_fallback_ids": []
+}

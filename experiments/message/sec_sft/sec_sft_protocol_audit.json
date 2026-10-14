@@ -1,0 +1,8 @@
+{
+  "scope": "SEC-SFT seed42 validation-only 10-task continuation",
+  "new_training_runs": 10,
+  "test_forward_count_total": 0,
+  "test_loader_call_count_total": 0,
+  "completed_tasks": 10,
+  "label": "MODERATE_SEC_SFT_SIGNAL"
+}

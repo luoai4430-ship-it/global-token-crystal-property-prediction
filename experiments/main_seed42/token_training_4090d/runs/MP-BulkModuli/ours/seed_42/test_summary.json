@@ -1,0 +1,15 @@
+{
+  "best_valid_epoch": 218,
+  "checkpoint_sha256": "b018e587e4207a54d11c6d88fc6118c6cce7f2670ea5d5c7e5d8d84a9cd22838",
+  "model_name": "ours",
+  "protocol_sha256": "1c0de7770307b627f62cf48e28cd65816b801b11574153f29af71667151fcb5f",
+  "seed": 42,
+  "selected_by": "Valid only",
+  "status": "test_complete",
+  "task": "MP-BulkModuli",
+  "test_forward_count": 1,
+  "test_mae": 0.03587196028661973,
+  "test_size": 583,
+  "token_cache_sha256": "0663a554cd7601a38b088486ab866dd0e0258d117754eb69ff7234937b89b6a3",
+  "valid_mae": 0.0349640228736053
+}

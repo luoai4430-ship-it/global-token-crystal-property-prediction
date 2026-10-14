@@ -1,0 +1,15 @@
+{
+  "best_valid_epoch": 225,
+  "checkpoint_sha256": "68e41b7d47b3afc1ee73c745ae41d8c87b2b05f2c1a0c58d4f4941c4a13019bf",
+  "model_name": "original_sftmat",
+  "protocol_sha256": "adae888170a616d63ca455803e3c186d270cb62ae5bbd3ed70b55835dc8c674d",
+  "seed": 43,
+  "selected_by": "Valid only",
+  "status": "test_complete",
+  "task": "Jarvis-BulkModulusKv",
+  "test_forward_count": 1,
+  "test_mae": 9.506418491766706,
+  "test_size": 1968,
+  "token_cache_sha256": "e3899bff12e8aabbd7d8f13535268f6d502ed84a68fe4d8714a75e47a88764a1",
+  "valid_mae": 9.013061740534093
+}

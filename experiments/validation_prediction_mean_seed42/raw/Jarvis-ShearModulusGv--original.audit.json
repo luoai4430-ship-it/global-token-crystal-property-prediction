@@ -1,0 +1,15 @@
+{
+  "task": "Jarvis-ShearModulusGv",
+  "seed": 42,
+  "split": "Valid",
+  "sample_count": 1968,
+  "sample_id_order_match": true,
+  "duplicate_ids": 0,
+  "finite_predictions": true,
+  "valid_mae": 8.685750709316595,
+  "summary_valid_mae": 8.686197187842392,
+  "mae_match_tolerance_1e4": false,
+  "token_cache_sha256": "85f6c76085c0266256f0dae617c29f9a8d469f80cfa7e5fa288f154f4b2c939a",
+  "test_forward_count": 0,
+  "training_runs": 0
+}

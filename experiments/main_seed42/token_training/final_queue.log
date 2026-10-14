@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_ours_seed42_queue.py", line 260, in <module>
+    main()
+  File "/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_ours_seed42_queue.py", line 212, in main
+    execute_wave(index, wave, "valid")
+  File "/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_ours_seed42_queue.py", line 177, in execute_wave
+    raise RuntimeError(
+RuntimeError: valid failed for MP-ShearModuli with exit 1; see /root/final_10task_ours_seed42_20260810_tau05/logs/MP-ShearModuli_ours_seed42_valid.log

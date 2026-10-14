@@ -1,0 +1,22 @@
+{
+  "complete_sha256": "d03f49140cfc320583328acbe47c60e94ff17c5cf3a739d476cbbe75687f32b6",
+  "complete_unique_coverage": true,
+  "description_generator": "original source plus deterministic CIF fallback only for missing rows",
+  "dropped_source_count": 0,
+  "expected_samples": 5830,
+  "generated_missing_count": 6,
+  "generated_missing_ids": [
+    "1999",
+    "2689",
+    "2999",
+    "3999",
+    "4999",
+    "5765"
+  ],
+  "id_column": "Id",
+  "source_csv": "/root/autodl-tmp/dataset1/dataset/mp_2018_small/shear/description.csv",
+  "source_samples": 5824,
+  "source_sha256": "56fa0efb16c54d78a9b794586f60c75ec10f3e5df6c7b56ecd173a9908f7d2f5",
+  "task": "MP-ShearModuli",
+  "text_column": "Description"
+}

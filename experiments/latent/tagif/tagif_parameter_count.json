@@ -1,0 +1,12 @@
+{
+  "p1_added_params_vs_b0": 123776,
+  "p1_added_params_vs_b0_pct": 4.4723452134820745,
+  "parameter_counts": {
+    "B0_TokenOnly": 2767586,
+    "B1_NaiveConcat": 2882658,
+    "P1_TAGIF": 2891362
+  },
+  "protocol_sha256": "797ab7a78766df6b6280ad1432054736641577eb14a7f01f149f658d2a701294",
+  "test_forward_count": 0,
+  "under_10_percent": true
+}

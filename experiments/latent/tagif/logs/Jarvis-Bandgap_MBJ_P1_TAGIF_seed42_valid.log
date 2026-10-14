@@ -1,0 +1,155 @@
+COMMAND /root/autodl-tmp/micromamba/envs/sftmat/bin/python /root/autodl-tmp/TextResidualSHFMat/scripts/run_tagif_fast_screen.py train --task Jarvis-Bandgap_MBJ --variant P1_TAGIF --seed 42 --token_cache /dev/shm/tagif_fast_screen_seed42_20260902/Jarvis-Bandgap_MBJ/token_cache --output_dir /root/tagif_fast_screen_seed42_20260902/runs/Jarvis-Bandgap_MBJ/P1_TAGIF/seed_42 --model_checkpoint /root/autodl-tmp/matbert-base-cased --device cuda --num_workers 2 --epochs 80 --patience 15
+dataset split: total=18172, train=14537, valid=1817, test=1818
+train range:(0.0,27.500999450683594)
+valid range:(0.0,23.900999069213867)
+test range:(0.0,14.498000144958496)
+mean:1.4889696836471558
+std:2.3161327838897705
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=1/80 loss=0.85839806 valid_mae=0.68282848 best=0.68282848 best_epoch=1 stale=0/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=2/80 loss=0.68514960 valid_mae=0.57929099 best=0.57929099 best_epoch=2 stale=0/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=3/80 loss=0.60448774 valid_mae=0.59632960 best=0.57929099 best_epoch=2 stale=1/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=4/80 loss=0.56835855 valid_mae=0.52889916 best=0.52889916 best_epoch=4 stale=0/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=5/80 loss=0.55428304 valid_mae=0.48495443 best=0.48495443 best_epoch=5 stale=0/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=6/80 loss=0.52349002 valid_mae=0.52760689 best=0.48495443 best_epoch=5 stale=1/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=7/80 loss=0.50619675 valid_mae=0.49265640 best=0.48495443 best_epoch=5 stale=2/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=8/80 loss=0.49357267 valid_mae=0.46722232 best=0.46722232 best_epoch=8 stale=0/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=9/80 loss=0.49711428 valid_mae=0.45833875 best=0.45833875 best_epoch=9 stale=0/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=10/80 loss=0.48666776 valid_mae=0.45920710 best=0.45833875 best_epoch=9 stale=1/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=11/80 loss=0.47190987 valid_mae=0.48067412 best=0.45833875 best_epoch=9 stale=2/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=12/80 loss=0.46888833 valid_mae=0.52578112 best=0.45833875 best_epoch=9 stale=3/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=13/80 loss=0.47120782 valid_mae=0.48185504 best=0.45833875 best_epoch=9 stale=4/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=14/80 loss=0.45549321 valid_mae=0.49392800 best=0.45833875 best_epoch=9 stale=5/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=15/80 loss=0.46048328 valid_mae=0.44747410 best=0.44747410 best_epoch=15 stale=0/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=16/80 loss=0.45898513 valid_mae=0.46122891 best=0.44747410 best_epoch=15 stale=1/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=17/80 loss=0.44046538 valid_mae=0.45969502 best=0.44747410 best_epoch=15 stale=2/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=18/80 loss=0.42941540 valid_mae=0.49746065 best=0.44747410 best_epoch=15 stale=3/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=19/80 loss=0.42715122 valid_mae=0.44592926 best=0.44592926 best_epoch=19 stale=0/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=20/80 loss=0.41568088 valid_mae=0.42723147 best=0.42723147 best_epoch=20 stale=0/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=21/80 loss=0.40777379 valid_mae=0.46736121 best=0.42723147 best_epoch=20 stale=1/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=22/80 loss=0.40453103 valid_mae=0.43258339 best=0.42723147 best_epoch=20 stale=2/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=23/80 loss=0.39388883 valid_mae=0.46851901 best=0.42723147 best_epoch=20 stale=3/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=24/80 loss=0.38604225 valid_mae=0.44846516 best=0.42723147 best_epoch=20 stale=4/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=25/80 loss=0.36725488 valid_mae=0.42146939 best=0.42146939 best_epoch=25 stale=0/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=26/80 loss=0.37168283 valid_mae=0.41347275 best=0.41347275 best_epoch=26 stale=0/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=27/80 loss=0.35527800 valid_mae=0.47040811 best=0.41347275 best_epoch=26 stale=1/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=28/80 loss=0.34105311 valid_mae=0.41836819 best=0.41347275 best_epoch=26 stale=2/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=29/80 loss=0.33845817 valid_mae=0.40681606 best=0.40681606 best_epoch=29 stale=0/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=30/80 loss=0.32585474 valid_mae=0.40193511 best=0.40193511 best_epoch=30 stale=0/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=31/80 loss=0.31757592 valid_mae=0.39561897 best=0.39561897 best_epoch=31 stale=0/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=32/80 loss=0.31257755 valid_mae=0.43814138 best=0.39561897 best_epoch=31 stale=1/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=33/80 loss=0.30495245 valid_mae=0.38146407 best=0.38146407 best_epoch=33 stale=0/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=34/80 loss=0.30259064 valid_mae=0.40157709 best=0.38146407 best_epoch=33 stale=1/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=35/80 loss=0.28983429 valid_mae=0.38732090 best=0.38146407 best_epoch=33 stale=2/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=36/80 loss=0.28698784 valid_mae=0.38814159 best=0.38146407 best_epoch=33 stale=3/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=37/80 loss=0.27277329 valid_mae=0.37455833 best=0.37455833 best_epoch=37 stale=0/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=38/80 loss=0.27279735 valid_mae=0.36749094 best=0.36749094 best_epoch=38 stale=0/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=39/80 loss=0.25859159 valid_mae=0.36303705 best=0.36303705 best_epoch=39 stale=0/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=40/80 loss=0.26126352 valid_mae=0.36678887 best=0.36303705 best_epoch=39 stale=1/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=41/80 loss=0.24959954 valid_mae=0.36596221 best=0.36303705 best_epoch=39 stale=2/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=42/80 loss=0.24110790 valid_mae=0.36595629 best=0.36303705 best_epoch=39 stale=3/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=43/80 loss=0.22903500 valid_mae=0.35014726 best=0.35014726 best_epoch=43 stale=0/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=44/80 loss=0.23105200 valid_mae=0.36172977 best=0.35014726 best_epoch=43 stale=1/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=45/80 loss=0.21839423 valid_mae=0.35454723 best=0.35014726 best_epoch=43 stale=2/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=46/80 loss=0.21736328 valid_mae=0.34990249 best=0.34990249 best_epoch=46 stale=0/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=47/80 loss=0.20465040 valid_mae=0.32770925 best=0.32770925 best_epoch=47 stale=0/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=48/80 loss=0.19669906 valid_mae=0.33859135 best=0.32770925 best_epoch=47 stale=1/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=49/80 loss=0.18975082 valid_mae=0.33395393 best=0.32770925 best_epoch=47 stale=2/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=50/80 loss=0.18899191 valid_mae=0.32123567 best=0.32123567 best_epoch=50 stale=0/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=51/80 loss=0.17944680 valid_mae=0.32207035 best=0.32123567 best_epoch=50 stale=1/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=52/80 loss=0.17209594 valid_mae=0.32941240 best=0.32123567 best_epoch=50 stale=2/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=53/80 loss=0.16921364 valid_mae=0.33632024 best=0.32123567 best_epoch=50 stale=3/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=54/80 loss=0.16459814 valid_mae=0.32169334 best=0.32123567 best_epoch=50 stale=4/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=55/80 loss=0.15767634 valid_mae=0.32040362 best=0.32040362 best_epoch=55 stale=0/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=56/80 loss=0.15128977 valid_mae=0.32224674 best=0.32040362 best_epoch=55 stale=1/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=57/80 loss=0.14641649 valid_mae=0.32519319 best=0.32040362 best_epoch=55 stale=2/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=58/80 loss=0.14228338 valid_mae=0.31302011 best=0.31302011 best_epoch=58 stale=0/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=59/80 loss=0.13786780 valid_mae=0.31233001 best=0.31233001 best_epoch=59 stale=0/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=60/80 loss=0.13253969 valid_mae=0.32117829 best=0.31233001 best_epoch=59 stale=1/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=61/80 loss=0.12822400 valid_mae=0.30370151 best=0.30370151 best_epoch=61 stale=0/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=62/80 loss=0.12412921 valid_mae=0.30873498 best=0.30370151 best_epoch=61 stale=1/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=63/80 loss=0.11941166 valid_mae=0.31102903 best=0.30370151 best_epoch=61 stale=2/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=64/80 loss=0.11443627 valid_mae=0.31064244 best=0.30370151 best_epoch=61 stale=3/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=65/80 loss=0.11166958 valid_mae=0.30421219 best=0.30370151 best_epoch=61 stale=4/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=66/80 loss=0.10732577 valid_mae=0.30414916 best=0.30370151 best_epoch=61 stale=5/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=67/80 loss=0.10280770 valid_mae=0.30343938 best=0.30343938 best_epoch=67 stale=0/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=68/80 loss=0.10015994 valid_mae=0.30342872 best=0.30342872 best_epoch=68 stale=0/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=69/80 loss=0.09728812 valid_mae=0.30263322 best=0.30263322 best_epoch=69 stale=0/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=70/80 loss=0.09326645 valid_mae=0.30245649 best=0.30245649 best_epoch=70 stale=0/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=71/80 loss=0.09152388 valid_mae=0.30072666 best=0.30072666 best_epoch=71 stale=0/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=72/80 loss=0.08849214 valid_mae=0.30026537 best=0.30026537 best_epoch=72 stale=0/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=73/80 loss=0.08742849 valid_mae=0.30041399 best=0.30026537 best_epoch=72 stale=1/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=74/80 loss=0.08580022 valid_mae=0.30081003 best=0.30026537 best_epoch=72 stale=2/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=75/80 loss=0.08453649 valid_mae=0.30080348 best=0.30026537 best_epoch=72 stale=3/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=76/80 loss=0.08294797 valid_mae=0.30004056 best=0.30004056 best_epoch=76 stale=0/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=77/80 loss=0.08181215 valid_mae=0.29875321 best=0.29875321 best_epoch=77 stale=0/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=78/80 loss=0.08214488 valid_mae=0.29947114 best=0.29875321 best_epoch=77 stale=1/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=79/80 loss=0.08130781 valid_mae=0.29996749 best=0.29875321 best_epoch=77 stale=2/15
+[Jarvis-Bandgap_MBJ:P1_TAGIF:seed42] epoch=80/80 loss=0.08152778 valid_mae=0.29942740 best=0.29875321 best_epoch=77 stale=3/15
+{
+  "attention_entropy_mean": 3.92051945680042,
+  "best_valid_epoch": 77,
+  "checkpoint_reload_state_exact": true,
+  "checkpoint_reselection": 0,
+  "checkpoint_sha256": "8251218ba878cbf8f3932a83de4dfadb87aa5623b92d572a3e613aa4f03de207",
+  "cos_hc_ht_mean": 0.011802141547605937,
+  "cos_hc_ht_median": 0.021521633490920067,
+  "cos_hc_ht_std": 0.14414271117915298,
+  "cos_hc_perp_ht_max_abs": 8.195638656616211e-08,
+  "cos_hc_perp_ht_mean": 7.121388564151791e-10,
+  "data_loader_workers": 2,
+  "dataset": "JARVIS",
+  "drop_last": false,
+  "early_stopped": false,
+  "effective_token_count_mean": 51.45044856997853,
+  "gradient_definition": "L2 norm of full-validation raw-MAE gradient",
+  "gradient_norm_W1": 0.060270513453135756,
+  "gradient_norm_W2": 0.02699975947718175,
+  "gradient_norm_Wc": 0.024026256671667138,
+  "gradient_norm_Wo": 0.03122969615987405,
+  "innovation_ratio_mean": 0.9893409701973511,
+  "innovation_ratio_median": 0.9952693581581116,
+  "innovation_ratio_std": 0.01697155987072331,
+  "interaction_rank": 64,
+  "interaction_ratio_mean": 0.43225766733559395,
+  "interaction_ratio_median": 0.3929045796394348,
+  "interaction_ratio_std": 0.19925202237112016,
+  "loss_weight_search": 0,
+  "max_epochs": 80,
+  "mean_max_attention": 0.10588532923446557,
+  "median_max_attention": 0.101884625852108,
+  "padding_attention_max": 0.0,
+  "parameter_count": 2891362,
+  "patience": 15,
+  "property": "Bandgap_MBJ",
+  "protocol_sha256": "797ab7a78766df6b6280ad1432054736641577eb14a7f01f149f658d2a701294",
+  "seed": 42,
+  "semantic_controls": {
+    "correct_better_than_shuffled": true,
+    "correct_better_than_zero": true,
+    "correct_cls_mae": 0.29873089693244764,
+    "mapping_kind": "seeded cyclic derangement",
+    "mapping_sha256": "8e408f75afb126b9d54802c923b0852d38c7eb60d9cffc208e9a8d06807ecd7a",
+    "selection_use": false,
+    "shuffled_cls_mae": 0.41742436755930384,
+    "test_forward_count": 0,
+    "zero_cls_mae": 0.3637562540775482
+  },
+  "special_token_attention_max": 0.0,
+  "status": "valid_complete",
+  "stopped_epoch": 80,
+  "target_mean": 1.4889696836471558,
+  "target_std": 2.3161327838897705,
+  "task": "Jarvis-Bandgap_MBJ",
+  "tau_search": 0,
+  "temperature": 0.5,
+  "test_forward_count": 0,
+  "token_cache_sha256": "0caf4b99a950f281a2632fb36d1939bf311e88ea8c4934a951f4d1d0fc5270a6",
+  "train_size": 14537,
+  "training_autocast_dtype": "bfloat16",
+  "training_runs": 1,
+  "training_time_seconds": 1927.196376082953,
+  "unit": "eV",
+  "valid_mae": 0.29873089693244764,
+  "valid_size": 1817,
+  "variant": "P1_TAGIF"
+}

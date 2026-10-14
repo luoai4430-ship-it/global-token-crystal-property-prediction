@@ -1,0 +1,20 @@
+{
+  "recorded_at_unix": 1788127167.6551843,
+  "failure": {
+    "error": "command failed (1); see /root/dualview_seed43_20260830/logs/cache/Jarvis-FormationEnergy_valid_preflight.log",
+    "error_type": "RuntimeError",
+    "failed_at_unix": 1788126658.2837918,
+    "traceback": "Traceback (most recent call last):\n  File \"/root/run_seed43_dualview_queue_parallel.py\", line 285, in main\n    run_phase(\"valid\")\n  File \"/root/run_seed43_dualview_queue_parallel.py\", line 269, in run_phase\n    scratch, token_cache = prepare(task, phase)\n  File \"/root/run_seed43_dualview_queue_parallel.py\", line 253, in prepare\n    return cache_common.prepare_task(task, phase)\n  File \"/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_queue.py\", line 253, in prepare_task\n    run_checked(\n  File \"/root/autodl-tmp/TextResidualSHFMat/scripts/run_final_10task_queue.py\", line 228, in run_checked\n    raise RuntimeError(f\"command failed ({result.returncode}); see {log_path}\")\nRuntimeError: command failed (1); see /root/dualview_seed43_20260830/logs/cache/Jarvis-FormationEnergy_valid_preflight.log\n"
+  },
+  "diagnosis": "The queue was launched with /root as cwd, while the data loader uses cwd-relative Dataset paths. A pre-existing truncated /root raw graph cache was therefore read instead of the project cache aliases.",
+  "corrupt_cache": "/root/Dataset/raw/Jarvis-FormationEnergy-cutoff4.0-maxNeibNum16-spheHarmL4-CIF_CSV-rawData.pt",
+  "corrupt_cache_size": 1645216376,
+  "corrupt_cache_load_error": "RuntimeError: PytorchStreamReader failed reading zip archive: failed finding central directory",
+  "correction": "Remove only the verified corrupt cache and relaunch the unchanged queue from /root/autodl-tmp/TextResidualSHFMat.",
+  "cuda_probe": {
+    "device": "NVIDIA GeForce RTX 4080 SUPER",
+    "finite": true
+  },
+  "completed_validation_summaries_preserved": 12,
+  "test_forward_count": 0
+}
