@@ -34,25 +34,6 @@ Early `results/main_test/final_10task_*` files are historical comparisons
 against older frozen references; they must not replace the final paired
 Global/Token comparison. Their original values have not been rewritten.
 
-## Source and coverage limits
-
-Server records come from `connect.westb.seetacloud.com:36397` and the exact
-directories recorded in `manifests/server_export.json`. The current restored
-container does not contain `/root/dualview_seed43_20260830`. Seed43 and the
-TAGIF/GCTA/GCTR records therefore come from the previously saved server-audit
-backups, as recorded in `manifests/local_export.json`; they are not described
-as a new download from that container.
-
-This is an export of available records, not a claim that every original
-epoch log or checkpoint from every historical baseline survived. The source
-benchmark report itself records absent older frozen-baseline raw logs. No
-missing epoch history has been reconstructed or fabricated.
-
-Model weights, token/graph caches, transfer archives, PID files and binary
-objects are excluded. Each exclusion is listed in the export manifest.
-No `.pt` checkpoint is uploaded by this evidence export. Some historical
-JSON/CSV files contain original checkpoint paths/hashes; those references
-are provenance, not publicly downloadable weights.
 
 ## Baseline and incomplete-run warnings
 
