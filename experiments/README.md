@@ -35,29 +35,6 @@ against older frozen references; they must not replace the final paired
 Global/Token comparison. Their original values have not been rewritten.
 
 
-## Baseline and incomplete-run warnings
-
-The raw SBDVF report originally used `0.02388391` for MP-FormationEnergy,
-producing a reported gain of 16.659% and macro of 4.222%. That reference is
-not the matched validation baseline used in the final paper. The final
-manuscript uses validation MAE `0.0204598904` (displayed as `0.020460`),
-gain 2.712% and balanced-subset macro 1.898%. Preserve the raw record as
-history, but use the final paper and `paper_analysis/numerical_provenance_audit.csv`
-for the corrected evaluation scope; do not compare a Test baseline with
-validation predictions.
-
-Residual SEC MP-Bandgap and explicitly stopped/recovery runs are process
-records only, not completed formal evidence. Test results and validation
-diagnostics remain separate. The matched text ablation has
-`test_forward_count=0` in all 18 summaries.
-
-Recomputing the matched normalized macros from full-precision summaries
-gives 0.9979018570 (MaskedMean) and 1.0290914520 (CosineAttention).
-The manuscript values derived from rounded MAEs are 0.9979018957 and
-1.0290914366, respectively; both round to the same displayed values
-0.9979 and 1.0291. Neither the raw records nor the manuscript values
-were changed during this export.
-
 ## Verify the export
 
 From the repository root:
